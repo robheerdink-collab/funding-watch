@@ -1,0 +1,2292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funding Watch - Division of Pharmacoepidemiology & Clinical Pharmacology</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        .uu-yellow { color: #FFCD00; }
+        .uu-yellow-bg { background-color: #FFCD00; }
+        .uu-dark { color: #1D1D1B; background-color: #1D1D1B; }
+        .deadline-red { color: #DC2626; }
+        .deadline-orange { color: #F97316; }
+        .deadline-green { color: #16A34A; }
+        .badge-open { background-color: #10B981; color: white; }
+        .badge-upcoming { background-color: #3B82F6; color: white; }
+        .badge-continuous { background-color: #8B5CF6; color: white; }
+        .badge-closed { background-color: #6B7280; color: white; }
+        .card-hover { transition: box-shadow 0.3s ease, transform 0.2s ease; }
+        .card-hover:hover { box-shadow: 0 10px 25px rgba(0,0,0,0.1); transform: translateY(-2px); }
+        .expand-icon { transition: transform 0.3s ease; }
+        .expand-icon.expanded { transform: rotate(180deg); }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const fundingData = [
+          {
+            id: 1,
+            funder: "ZonMw",
+            funderCategory: "Dutch National",
+            name: "Open Competition 2026",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 200000,
+            budgetMax: 800000,
+            currency: "EUR",
+            deadline: "2026-04-02",
+            deadlineType: "Pre-proposal",
+            phaseType: "2-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["pharmacoepidemiology", "drug safety", "HTA", "clinical pharmacology", "pharmaceutical policy"],
+            description: "Open competition for potentially groundbreaking research in all scientific disciplines with a question or problem in the area of fundamental biomedical research, healthcare and innovation. Max €800,000 for 4-5 years.",
+            url: "https://www.zonmw.nl/en/subsidy/zonmw-open-competition-2026",
+            dateAdded: "2026-02-17"
+          },
+          {
+            id: 2,
+            funder: "ZonMw",
+            funderCategory: "Dutch National",
+            name: "GGG – Goed Gebruik Geneesmiddelen (Good Use of Medicines) 2026",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 100000,
+            budgetMax: 500000,
+            currency: "EUR",
+            deadline: "2026-09-01",
+            deadlineType: "Expected",
+            phaseType: "2-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Collaboration with patient representatives, healthcare professionals and/or insurers required",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["drug safety", "pharmacoepidemiology", "rational use of medicines", "medication adherence", "pharmacovigilance"],
+            description: "Programme focused on improving the good use of medicines. Emphasis on dissemination and implementation of results in professional guidelines. Collaboration with stakeholders like patient representatives, healthcare professionals, and insurers is key.",
+            url: "https://www.zonmw.nl/en/research-and-results/good-use-of-medicines",
+            dateAdded: "2026-01-15"
+          },
+          {
+            id: 3,
+            funder: "ZonMw",
+            funderCategory: "Dutch National",
+            name: "Drug Repurposing Programme",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 100000,
+            budgetMax: 400000,
+            currency: "EUR",
+            deadline: "2026-01-07",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Periodic",
+            status: "Closed",
+            relevanceTags: ["drug repurposing", "clinical trials", "medicines"],
+            description: "Funding for research into repurposing existing medicines for new therapeutic indications.",
+            url: "https://www.zonmw.nl/en/subsidies",
+            dateAdded: "2025-10-01"
+          },
+          {
+            id: 4,
+            funder: "NWO",
+            funderCategory: "Dutch National",
+            name: "Veni – Science Domain 2026",
+            type: "Personal Fellowship",
+            careerStage: ["Postdoc", "Early Career"],
+            budgetMin: 320000,
+            budgetMax: 320000,
+            currency: "EUR",
+            deadline: "2026-09-01",
+            deadlineType: "Expected pre-proposal",
+            phaseType: "2-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["pharmacoepidemiology", "clinical pharmacology", "any discipline"],
+            description: "For researchers who obtained their PhD max 3 years ago. €320,000 for 3 years to develop research ideas. Highly competitive. Science domain application.",
+            url: "https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 5,
+            funder: "NWO",
+            funderCategory: "Dutch National",
+            name: "Vidi – Science Domain 2026",
+            type: "Personal Fellowship",
+            careerStage: ["Mid Career"],
+            budgetMin: 850000,
+            budgetMax: 850000,
+            currency: "EUR",
+            deadline: "2026-10-01",
+            deadlineType: "Expected",
+            phaseType: "2-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["pharmacoepidemiology", "clinical pharmacology", "any discipline"],
+            description: "For experienced researchers who obtained their PhD max 8 years ago. €850,000 for 5 years to develop innovative research lines and set up a research group.",
+            url: "https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 6,
+            funder: "NWO",
+            funderCategory: "Dutch National",
+            name: "Vici – Science Domain 2026",
+            type: "Personal Fellowship",
+            careerStage: ["Senior/PI"],
+            budgetMin: 1500000,
+            budgetMax: 1500000,
+            currency: "EUR",
+            deadline: "2026-03-31",
+            deadlineType: "Pre-proposal",
+            phaseType: "2-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Closed",
+            relevanceTags: ["pharmacoepidemiology", "clinical pharmacology", "any discipline"],
+            description: "For senior researchers who have demonstrated the ability to develop innovative research. €1.5M for 5 years to build a research group. PhD obtained max 15 years ago.",
+            url: "https://www.nwo.nl/en/calls/nwo-talent-programme-vici-science-2026",
+            dateAdded: "2026-01-06"
+          },
+          {
+            id: 7,
+            funder: "NWO",
+            funderCategory: "Dutch National",
+            name: "KIC Demand-driven Research by Consortia – XL",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 2000000,
+            budgetMax: 5000000,
+            currency: "EUR",
+            deadline: "2026-11-12",
+            deadlineType: "Full proposal",
+            phaseType: "2-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Consortium required: knowledge institutions + societal/industry partners (co-funding needed)",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["real-world evidence", "health systems", "pharmaceutical policy", "HTA"],
+            description: "Large-scale consortia addressing societal challenges. Pre-proposals were due 10 March 2026. Full proposals due 12 November 2026. Co-funding from societal/industry partners required.",
+            url: "https://www.nwo.nl/en/researchprogrammes/knowledge-and-innovation-covenant",
+            dateAdded: "2025-12-01"
+          },
+          {
+            id: 8,
+            funder: "NWO",
+            funderCategory: "Dutch National",
+            name: "KIC Demand-driven Research by Consortia – S 2026",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 750000,
+            budgetMax: 2000000,
+            currency: "EUR",
+            deadline: "2026-09-22",
+            deadlineType: "Proposal",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Consortium required: knowledge institutions + societal/industry partners",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["real-world evidence", "health systems", "pharmaceutical policy"],
+            description: "Smaller-scale KIC consortia for demand-driven research addressing societal challenges. Single-phase application.",
+            url: "https://www.nwo.nl/en/researchprogrammes/knowledge-and-innovation-covenant",
+            dateAdded: "2026-01-15"
+          },
+          {
+            id: 9,
+            funder: "NWO",
+            funderCategory: "Dutch National",
+            name: "Open Research Competition (ORC)",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 200000,
+            budgetMax: 750000,
+            currency: "EUR",
+            deadline: "2026-06-01",
+            deadlineType: "Expected",
+            phaseType: "2-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["pharmacoepidemiology", "clinical pharmacology", "any discipline"],
+            description: "Open competition for excellent research proposals across all scientific disciplines. Funding for research projects of 1-5 years.",
+            url: "https://www.nwo.nl/en/calls",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 10,
+            funder: "KWF (Dutch Cancer Society)",
+            funderCategory: "Private/Foundation",
+            name: "Exploration Call 2026-3",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career", "Early Career"],
+            budgetMin: 100000,
+            budgetMax: 500000,
+            currency: "EUR",
+            deadline: "2026-09-01",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "3x per year",
+            status: "Upcoming",
+            relevanceTags: ["oncology", "cancer", "drug safety", "pharmacoepidemiology"],
+            description: "Fundamental research on underlying biological and psychosocial mechanisms of cancer onset, growth, spread and impact. Relevant for pharmacoepi research on anticancer drugs.",
+            url: "https://www.kwf.nl/en/forresearchers/funding/exploration",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 11,
+            funder: "KWF (Dutch Cancer Society)",
+            funderCategory: "Private/Foundation",
+            name: "Development Call 2026-2",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 200000,
+            budgetMax: 750000,
+            currency: "EUR",
+            deadline: "2026-06-01",
+            deadlineType: "Expected",
+            phaseType: "2-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "2x per year",
+            status: "Upcoming",
+            relevanceTags: ["oncology", "cancer", "clinical trials", "drug development"],
+            description: "Translational and clinical research projects. First Development call with a pre-proposal phase. Focus on projects moving towards clinical application.",
+            url: "https://www.kwf.nl/en/forresearchers/funding/development",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 12,
+            funder: "KWF (Dutch Cancer Society)",
+            funderCategory: "Private/Foundation",
+            name: "Young Investigator Grant (YIG) 2026",
+            type: "Personal Fellowship",
+            careerStage: ["Early Career", "Postdoc"],
+            budgetMin: 400000,
+            budgetMax: 600000,
+            currency: "EUR",
+            deadline: "2026-10-01",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["oncology", "cancer", "pharmacoepidemiology"],
+            description: "Dedicated annual call for promising young researchers ensuring continuity of high-quality cancer research in the Netherlands. New dedicated format from 2025 onwards.",
+            url: "https://www.kwf.nl/en/forresearchers/funding/young-investigator-grant",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 13,
+            funder: "KWF (Dutch Cancer Society)",
+            funderCategory: "Private/Foundation",
+            name: "PIPELINE Call 2026 – Academic Drug Development",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 500000,
+            budgetMax: 2000000,
+            currency: "EUR",
+            deadline: "2026-06-01",
+            deadlineType: "Expected",
+            phaseType: "Unknown",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "New programme",
+            status: "Upcoming",
+            relevanceTags: ["oncology", "drug development", "clinical trials", "academic drug development"],
+            description: "New programme focusing on advancing clinical development of new cancer drugs derived from academic research. Launching spring 2026.",
+            url: "https://www.kwf.nl/en/forresearchers/funding",
+            dateAdded: "2026-03-01"
+          },
+          {
+            id: 14,
+            funder: "KWF (Dutch Cancer Society)",
+            funderCategory: "Private/Foundation",
+            name: "Biomarker Validation Call 2026",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 200000,
+            budgetMax: 500000,
+            currency: "EUR",
+            deadline: "2026-07-01",
+            deadlineType: "Expected",
+            phaseType: "Unknown",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Collaborative, multidisciplinary studies required",
+            recurring: "Periodic",
+            status: "Upcoming",
+            relevanceTags: ["oncology", "biomarkers", "precision medicine", "clinical validation"],
+            description: "Clinical validation of already known biomarkers through collaborative, multidisciplinary studies with special attention to clinical translation.",
+            url: "https://www.kwf.nl/en/forresearchers/funding/biomarkers2026",
+            dateAdded: "2026-03-01"
+          },
+          {
+            id: 15,
+            funder: "Dutch Heart Foundation (Hartstichting)",
+            funderCategory: "Private/Foundation",
+            name: "Dekker Postdoc Grant 2026",
+            type: "Personal Fellowship",
+            careerStage: ["Postdoc"],
+            budgetMin: 200000,
+            budgetMax: 350000,
+            currency: "EUR",
+            deadline: "2026-05-01",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["cardiovascular", "drug safety", "pharmacoepidemiology"],
+            description: "3 postdoc positions available. Personnel costs + expenses for 2-3 years. PhD obtained after Jan 1, 2023. Must be employed at a Dutch knowledge institution. Max 2 applications lifetime.",
+            url: "https://www.hartstichting.nl/onderzoek/subsidie-aanvragen",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 16,
+            funder: "Dutch Heart Foundation (Hartstichting)",
+            funderCategory: "Private/Foundation",
+            name: "International Cardiovascular Research Partnership Awards",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 500000,
+            budgetMax: 2400000,
+            currency: "EUR",
+            deadline: "2026-09-01",
+            deadlineType: "Expected",
+            phaseType: "Unknown",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "International consortium required",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["cardiovascular", "international collaboration"],
+            description: "International joint funding programme. Projects up to 4 years with total budget up to €2.4 million. International consortium required.",
+            url: "https://www.hartstichting.nl",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 17,
+            funder: "Nierstichting (Dutch Kidney Foundation)",
+            funderCategory: "Private/Foundation",
+            name: "Kolff+ Programme 2026 – Call 2",
+            type: "Project Grant",
+            careerStage: ["PhD", "Postdoc", "Early Career", "Mid Career", "Senior/PI"],
+            budgetMin: 1000,
+            budgetMax: 585000,
+            currency: "EUR",
+            deadline: "2026-04-14",
+            deadlineType: "Pre-proposal",
+            phaseType: "2-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "2x per year",
+            status: "Open",
+            relevanceTags: ["renal", "drug safety", "pharmacoepidemiology"],
+            description: "Multiple grant types: Student Researcher (€1k-7.5k), Creativity (€55k-125k), Junior/Senior Talent, Success Accelerator (€265k-585k). Pre-proposals open Mar 23 - Apr 14, 2026. Full proposals Jun-Aug 2026.",
+            url: "https://nierstichting.nl/onderzoekers/grants-aanvragen/kolff-programma-2026",
+            dateAdded: "2026-03-23"
+          },
+          {
+            id: 18,
+            funder: "Diabetes Fonds",
+            funderCategory: "Private/Foundation",
+            name: "Diabetes Fonds Junior Fellowship 2026",
+            type: "Personal Fellowship",
+            careerStage: ["Early Career", "Postdoc"],
+            budgetMin: 250000,
+            budgetMax: 300000,
+            currency: "EUR",
+            deadline: "2026-06-01",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["diabetes", "drug safety", "pharmacoepidemiology", "medication adherence"],
+            description: "Up to 2 fellowships of max €300,000 each for 4 years. Open to researchers across all disciplines including biomedical sciences, psychology, technology. Affiliation with Dutch university/medical centre required.",
+            url: "https://www.diabetesfonds.nl/onderzoek/informatie-voor-onderzoekers/diabetes-fonds-fellowships",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 19,
+            funder: "KNAW",
+            funderCategory: "Dutch National",
+            name: "Van Walree Fund 2026",
+            type: "Travel/Mobility",
+            careerStage: ["PhD", "Postdoc", "Early Career"],
+            budgetMin: 1000,
+            budgetMax: 10000,
+            currency: "EUR",
+            deadline: "2026-06-15",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["international collaboration", "knowledge exchange", "medical sciences"],
+            description: "Up to €10,000 for early career researchers in medical, biomedical, or health sciences. Supports sustainable and innovative initiatives for international knowledge sharing.",
+            url: "https://www.knaw.nl/en/funds-and-prizes",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 20,
+            funder: "KNAW",
+            funderCategory: "Dutch National",
+            name: "Trailblazers Fund 2026",
+            type: "Personal Fellowship",
+            careerStage: ["PhD", "Postdoc", "Early Career"],
+            budgetMin: 5000,
+            budgetMax: 10000,
+            currency: "EUR",
+            deadline: "2026-05-01",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["career development", "first-generation academics"],
+            description: "For early-career first-generation academics. €5,000 (PhD) or €10,000 (postdoc/assistant professor) for professional development and network building.",
+            url: "https://www.knaw.nl/en/awards/funds",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 21,
+            funder: "European Commission – Horizon Europe",
+            funderCategory: "European",
+            name: "Cluster 1 Health – HORIZON-HLTH-2026 (various topics)",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 3000000,
+            budgetMax: 10000000,
+            currency: "EUR",
+            deadline: "2026-04-16",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "International consortium required (min. 3 independent entities from 3 different EU/associated countries)",
+            recurring: "Annual (Work Programme cycle)",
+            status: "Open",
+            relevanceTags: ["real-world evidence", "drug safety", "health systems", "regulatory science", "HTA", "personalised medicine"],
+            description: "17 call topics under 6 Destinations. Includes topics on regulatory science (IND-03), health systems, prevention, and disease. Deadline 16 April 2026. ~68 projects expected to be funded.",
+            url: "https://hadea.ec.europa.eu/news/2026-horizon-europe-health-calls-proposals-2026-02-12_en",
+            dateAdded: "2026-02-12"
+          },
+          {
+            id: 22,
+            funder: "European Commission – Horizon Europe",
+            funderCategory: "European",
+            name: "HORIZON-HLTH-2027 Adverse Drug Reactions – Personalised Approaches",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 8000000,
+            budgetMax: 10000000,
+            currency: "EUR",
+            deadline: "2027-04-15",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "International consortium required (min. 3 entities, 3 countries)",
+            recurring: "Work Programme cycle",
+            status: "Upcoming",
+            relevanceTags: ["adverse drug reactions", "pharmacovigilance", "personalised medicine", "polypharmacy", "drug safety"],
+            description: "HORIZON-HLTH-2027-01-CARE-02: Personalised approaches to reduce risks from ADRs due to multiple medications. ~€8-10M per project, up to 4 projects. Highly relevant for PECP.",
+            url: "https://ec.europa.eu/info/funding-tenders/opportunities/portal/",
+            dateAdded: "2026-02-01"
+          },
+          {
+            id: 23,
+            funder: "European Research Council (ERC)",
+            funderCategory: "European",
+            name: "ERC Starting Grant 2027",
+            type: "Personal Fellowship",
+            careerStage: ["Early Career"],
+            budgetMin: 1500000,
+            budgetMax: 1500000,
+            currency: "EUR",
+            deadline: "2026-10-15",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["any discipline", "frontier research", "pharmacoepidemiology", "clinical pharmacology"],
+            description: "For researchers 2-7 years post-PhD. Up to €1.5M for 5 years. Bottom-up: any research topic. Part II limited to 7 pages. Researchers outside Europe can get +€2M relocation budget.",
+            url: "https://erc.europa.eu/apply-grant/starting-grant",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 24,
+            funder: "European Research Council (ERC)",
+            funderCategory: "European",
+            name: "ERC Consolidator Grant 2026",
+            type: "Personal Fellowship",
+            careerStage: ["Mid Career"],
+            budgetMin: 2000000,
+            budgetMax: 2000000,
+            currency: "EUR",
+            deadline: "2026-01-13",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Closed",
+            relevanceTags: ["any discipline", "frontier research", "pharmacoepidemiology", "clinical pharmacology"],
+            description: "For researchers 7-12 years post-PhD. Up to €2M for 5 years. Closed for 2026, next round expected late 2026.",
+            url: "https://erc.europa.eu/apply-grant/consolidator-grant",
+            dateAdded: "2025-07-01"
+          },
+          {
+            id: 25,
+            funder: "European Research Council (ERC)",
+            funderCategory: "European",
+            name: "ERC Advanced Grant 2026",
+            type: "Personal Fellowship",
+            careerStage: ["Senior/PI"],
+            budgetMin: 2500000,
+            budgetMax: 2500000,
+            currency: "EUR",
+            deadline: "2026-08-27",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["any discipline", "frontier research", "pharmacoepidemiology", "clinical pharmacology"],
+            description: "For established research leaders with significant track record. Up to €2.5M for 5 years. Bottom-up: any research topic.",
+            url: "https://erc.europa.eu/apply-grant/advanced-grant",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 26,
+            funder: "European Commission – MSCA",
+            funderCategory: "European",
+            name: "MSCA Postdoctoral Fellowships 2026",
+            type: "Personal Fellowship",
+            careerStage: ["Postdoc", "Early Career"],
+            budgetMin: 180000,
+            budgetMax: 270000,
+            currency: "EUR",
+            deadline: "2026-09-09",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["any discipline", "international mobility", "pharmacoepidemiology", "clinical pharmacology"],
+            description: "Individual postdoctoral fellowships (European or Global). 24-36 months. Must hold PhD, ≤8 years post-PhD experience. Mobility rule: must not have lived in host country >12 months in last 3 years. Opens 9 April 2026. Budget: €399M.",
+            url: "https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions/msca-postdoctoral-fellowships_en",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 27,
+            funder: "Innovative Health Initiative (IHI)",
+            funderCategory: "European",
+            name: "IHI Call 12 – Applicant-Driven Call",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 5000000,
+            budgetMax: 20000000,
+            currency: "EUR",
+            deadline: "2026-04-21",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Public-private consortium required; must include industry partners (pharma, medtech, biotech, digital health)",
+            recurring: "Periodic",
+            status: "Open",
+            relevanceTags: ["real-world evidence", "drug development", "health technology", "regulatory science", "digital health"],
+            description: "€163M applicant-driven call. Proposals must address unmet public health needs through large-scale, cross-sector, public-private partnerships. Aligned with IHI's 5 specific objectives.",
+            url: "https://www.ihi.europa.eu/",
+            dateAdded: "2026-01-15"
+          },
+          {
+            id: 28,
+            funder: "Health~Holland (TKI LSH)",
+            funderCategory: "Dutch National",
+            name: "Science for Industry Call 2026",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 200000,
+            budgetMax: 1000000,
+            currency: "EUR",
+            deadline: "2026-09-04",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Consortium: min. 1 Dutch company (main applicant) + 1 Dutch research organisation",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["life sciences", "pharmaceutical innovation", "public-private partnership"],
+            description: "At least €5M in PPP subsidy for innovative collaborations between companies and research organizations. Translating scientific knowledge into industrial innovation.",
+            url: "https://www.health-holland.com/funding-opportunities/science-industry-call-2026",
+            dateAdded: "2026-03-12"
+          },
+          {
+            id: 29,
+            funder: "Health~Holland (TKI LSH)",
+            funderCategory: "Dutch National",
+            name: "SME Call 2026",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 100000,
+            budgetMax: 500000,
+            currency: "EUR",
+            deadline: "2026-06-01",
+            deadlineType: "Expected round 1",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Public-private partnership with SME required",
+            recurring: "Multiple rounds per year",
+            status: "Upcoming",
+            relevanceTags: ["life sciences", "innovation", "public-private partnership"],
+            description: "~€12M in PPP subsidy for public-private partnerships focused on innovative industrial research within Life Sciences & Health. SME must be involved.",
+            url: "https://www.health-holland.com/funding-opportunities/mkb-call",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 30,
+            funder: "Wellcome Trust",
+            funderCategory: "International",
+            name: "Early-Career Awards",
+            type: "Personal Fellowship",
+            careerStage: ["Early Career", "Postdoc"],
+            budgetMin: 200000,
+            budgetMax: 400000,
+            currency: "GBP",
+            deadline: "2026-02-17",
+            deadlineType: "Final (2026 round closed)",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Closed",
+            relevanceTags: ["health research", "any discipline", "pharmacoepidemiology"],
+            description: "For early-career researchers developing their research identity. Salary + up to £400,000 research expenses. 2026 round closed 17 Feb 2026. Next round expected Feb 2027.",
+            url: "https://wellcome.org/research-funding/schemes",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 31,
+            funder: "Wellcome Trust",
+            funderCategory: "International",
+            name: "Career Development Awards",
+            type: "Personal Fellowship",
+            careerStage: ["Mid Career"],
+            budgetMin: 400000,
+            budgetMax: 800000,
+            currency: "GBP",
+            deadline: "2026-03-26",
+            deadlineType: "Final (2026 round closed)",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Closed",
+            relevanceTags: ["health research", "any discipline", "pharmacoepidemiology"],
+            description: "For mid-career researchers establishing independent programmes. Up to 8 years funding for leadership development and team building. 2026 round closed 26 Mar 2026. Next round expected early 2027.",
+            url: "https://wellcome.org/research-funding/schemes",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 32,
+            funder: "WHO",
+            funderCategory: "International",
+            name: "WHO Consultancy & Research Contracts",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 10000,
+            budgetMax: 200000,
+            currency: "USD",
+            deadline: "2026-12-31",
+            deadlineType: "Rolling",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Continuous",
+            status: "Open",
+            relevanceTags: ["access to medicines", "pharmaceutical policy", "essential medicines", "global health"],
+            description: "WHO regularly commissions research on access to medicines, pharmaceutical policy, essential medicines lists, and regulatory systems. The division already has WHO CC status. Check WHO procurement portal.",
+            url: "https://www.who.int/about/accountability/procurement",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 33,
+            funder: "EMA (European Medicines Agency)",
+            funderCategory: "European",
+            name: "EMA Framework Contracts & Tenders",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 50000,
+            budgetMax: 1000000,
+            currency: "EUR",
+            deadline: "2026-12-31",
+            deadlineType: "Rolling/Periodic",
+            phaseType: "Varies",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Continuous",
+            status: "Open",
+            relevanceTags: ["regulatory science", "real-world evidence", "pharmacovigilance", "drug safety", "big data"],
+            description: "EMA publishes tenders and framework contracts for research support. The division already has a framework contract with EMA. Monitor EMA procurement and the EU Tenders portal (TED).",
+            url: "https://www.ema.europa.eu/en/about-us/procurement",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 34,
+            funder: "Longfonds (Dutch Lung Foundation)",
+            funderCategory: "Private/Foundation",
+            name: "Research Grants 2026",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career", "Early Career"],
+            budgetMin: 50000,
+            budgetMax: 350000,
+            currency: "EUR",
+            deadline: "2026-06-01",
+            deadlineType: "Expected",
+            phaseType: "Unknown",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["respiratory", "drug safety", "medication adherence", "COPD", "asthma"],
+            description: "Research grants for lung disease research. Relevant for pharmacoepi studies on respiratory medications, adherence, and drug safety in COPD/asthma patients.",
+            url: "https://www.longfonds.nl/onderzoek",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 35,
+            funder: "Hersenstichting (Dutch Brain Foundation)",
+            funderCategory: "Private/Foundation",
+            name: "Research Fellowship 2026",
+            type: "Personal Fellowship",
+            careerStage: ["Postdoc", "Early Career"],
+            budgetMin: 100000,
+            budgetMax: 300000,
+            currency: "EUR",
+            deadline: "2026-05-01",
+            deadlineType: "Expected",
+            phaseType: "Unknown",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["neurology", "drug safety", "antipsychotics", "antidepressants", "opioids"],
+            description: "Research on brain disorders. Relevant for pharmacoepi research on psychotropic medications, opioids, antiepileptics, etc.",
+            url: "https://www.hersenstichting.nl/onderzoek",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 36,
+            funder: "ISPE (International Society for Pharmacoepidemiology)",
+            funderCategory: "International",
+            name: "ISPE Research Grants & Awards",
+            type: "Project Grant",
+            careerStage: ["PhD", "Postdoc", "Early Career", "Mid Career"],
+            budgetMin: 5000,
+            budgetMax: 40000,
+            currency: "USD",
+            deadline: "2026-12-31",
+            deadlineType: "Various",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["pharmacoepidemiology", "drug safety", "real-world evidence"],
+            description: "Various awards and grants including the Distinguished Researcher Award, student awards, and research funding. Directly in the core discipline of the division.",
+            url: "https://www.pharmacoepi.org/awards-grants/",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 37,
+            funder: "FIP (International Pharmaceutical Federation)",
+            funderCategory: "International",
+            name: "FIP Research & Education Grants",
+            type: "Project Grant",
+            careerStage: ["Any"],
+            budgetMin: 5000,
+            budgetMax: 20000,
+            currency: "EUR",
+            deadline: "2026-12-31",
+            deadlineType: "Various",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["pharmacy practice", "pharmaceutical policy", "access to medicines", "education"],
+            description: "FIP offers various grants for pharmacy practice and education research. The division has MoU with FIP. Monitor FIP website for specific calls.",
+            url: "https://www.fip.org/grants",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 38,
+            funder: "European Commission – MSCA",
+            funderCategory: "European",
+            name: "MSCA Doctoral Networks 2026",
+            type: "PhD Position",
+            careerStage: ["PhD"],
+            budgetMin: 2000000,
+            budgetMax: 4000000,
+            currency: "EUR",
+            deadline: "2026-11-24",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Network of min. 3 organisations from 3 different countries required",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["PhD training", "international mobility", "pharmacoepidemiology", "clinical pharmacology"],
+            description: "Funding for innovative doctoral training networks. Supports 3-year PhD positions with international mobility. The division already runs the EU2P programme which is an MSCA-type network.",
+            url: "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/doctoral-networks",
+            dateAdded: "2026-01-01"
+          },
+          {
+            id: 39,
+            funder: "Erasmus+ Programme",
+            funderCategory: "European",
+            name: "Erasmus+ Capacity Building in Higher Education 2026",
+            type: "Network/Consortium",
+            careerStage: ["Any"],
+            budgetMin: 200000,
+            budgetMax: 1000000,
+            currency: "EUR",
+            deadline: "2026-02-20",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "International consortium with partners from eligible countries required",
+            recurring: "Annual",
+            status: "Closed",
+            relevanceTags: ["education", "capacity building", "pharmacy education", "international collaboration"],
+            description: "Support for modernisation of higher education systems in partner countries. Relevant for pharmaceutical education and training capacity building. Division has EU2P programme experience.",
+            url: "https://erasmus-plus.ec.europa.eu/",
+            dateAdded: "2025-11-01"
+          },
+          {
+            id: 40,
+            funder: "Bill & Melinda Gates Foundation",
+            funderCategory: "International",
+            name: "Grand Challenges – Global Health",
+            type: "Project Grant",
+            careerStage: ["Any"],
+            budgetMin: 100000,
+            budgetMax: 2000000,
+            currency: "USD",
+            deadline: "2026-12-31",
+            deadlineType: "Rolling/Periodic",
+            phaseType: "Varies",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Continuous",
+            status: "Open",
+            relevanceTags: ["global health", "access to medicines", "LMIC", "essential medicines"],
+            description: "Various calls for innovative solutions to global health challenges. Relevant for division's work on access to medicines in LMICs and global pharmaceutical policy.",
+            url: "https://gcgh.grandchallenges.org/",
+            dateAdded: "2026-01-01"
+          },
+          // --- NEW ENTRIES ---
+          {
+            id: 41,
+            funder: "NWO",
+            funderCategory: "Dutch National",
+            name: "NWA-ORC 2026 – Research along Routes by Consortia",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 1000000,
+            budgetMax: 4000000,
+            currency: "EUR",
+            deadline: "2026-10-06",
+            deadlineType: "Full proposal",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Inter- and transdisciplinary consortium required, including societal (public/private) partners and optionally citizens",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["pharmaceutical policy", "drug utilisation", "pharmacy practice", "HTA", "sustainable healthcare", "AI in health"],
+            description: "National Science Agenda (NWA) flagship call addressing 'wicked problems' via broad interdisciplinary consortia. Research must address one or more of the 140 NWA cluster questions. Deadline 6 October 2026. Collaborative workshops to form consortia organised Feb–Mar 2026.",
+            url: "https://www.nwo.nl/en/calls/dutch-research-agenda-research-along-routes-by-consortia-2026",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 42,
+            funder: "NWO",
+            funderCategory: "Dutch National",
+            name: "TDCC – Thematic Digital Competence Centre (Life Sciences & Health) 2026",
+            type: "Infrastructure",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 200000,
+            budgetMax: 800000,
+            currency: "EUR",
+            deadline: "2026-06-01",
+            deadlineType: "Expected (community process)",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Must be endorsed through the TDCC-LSH community process before applying to NWO",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["data science", "AI in pharmacy", "digital health", "research infrastructure", "real-world data"],
+            description: "€800,000 available for LSH domain (one third of total €2.4M). Supports digitalisation ambitions: data, software, and computing infrastructure for life sciences and health research. Info & pitch sessions hosted April 2026. Must apply through TDCC-LSH community process first.",
+            url: "https://www.nwo.nl/en/calls/thematic-digital-competence-centres-2026",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 43,
+            funder: "NWO",
+            funderCategory: "Dutch National",
+            name: "BrainHealth Call 2026-1 – Biological, Social & Environmental Factors",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 100000,
+            budgetMax: 400000,
+            currency: "EUR",
+            deadline: "2026-06-30",
+            deadlineType: "Full proposal",
+            phaseType: "2-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Multinational, collaborative and interdisciplinary research required",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["neurology", "brain health", "antipsychotics", "antidepressants", "opioids", "pharmacoepidemiology"],
+            description: "NWO + Brain Foundation Netherlands. €2M total, max €400,000 per project. Pre-proposals closed Mar 10. Full proposals due 30 June 2026. Combines holistic approach to brain health with in-depth biological understanding.",
+            url: "https://www.nwo.nl/en/calls/brainhealth-call-2026-1-biological-social-and-environmental-factors-in-brain-health",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 44,
+            funder: "NWO",
+            funderCategory: "Dutch National",
+            name: "Open Mind 2026",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career", "Early Career"],
+            budgetMin: 50000,
+            budgetMax: 200000,
+            currency: "EUR",
+            deadline: "2026-09-01",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["any discipline", "exploratory research", "pharmacoepidemiology"],
+            description: "NWO Open Mind funds daring, exploratory ideas at the frontiers of scientific disciplines. Open to all domains. Good fit for methodologically innovative pharmacoepi or pharmaceutical policy proposals.",
+            url: "https://www.nwo.nl/en/calls/open-mind-2026",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 45,
+            funder: "European Commission – EU4Health",
+            funderCategory: "European",
+            name: "EU4Health 2026 Action Grants – Medicines Pricing & Access Tracker",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 1000000,
+            budgetMax: 5000000,
+            currency: "EUR",
+            deadline: "2026-01-06",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Eligible entities from EU member states or associated countries",
+            recurring: "Annual (work programme)",
+            status: "Closed",
+            relevanceTags: ["pharmaceutical policy", "access to medicines", "HTA", "drug pricing", "reimbursement"],
+            description: "EU4Health 2026 work programme included a call to develop a medicine pricing, reimbursement and access tracker across EU member states. Total budget €56.8M across all topics. Closed January 2026; monitor for next annual cycle.",
+            url: "https://hadea.ec.europa.eu/programmes/eu4health_en",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 46,
+            funder: "European Commission – Horizon Europe",
+            funderCategory: "European",
+            name: "HORIZON-HLTH-2027 AI for Predictive Biomarkers in Chronic Diseases",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 6000000,
+            budgetMax: 8000000,
+            currency: "EUR",
+            deadline: "2027-04-01",
+            deadlineType: "Expected (2-stage)",
+            phaseType: "2-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "International consortium, min. 3 entities from 3 EU/associated countries",
+            recurring: "Work programme cycle",
+            status: "Upcoming",
+            relevanceTags: ["AI in pharmacy", "data science", "biomarkers", "precision medicine", "chronic disease", "real-world evidence"],
+            description: "HORIZON-HLTH-2027-02-TOOL-01: Development of predictive biomarkers using AI methodologies for chronic non-communicable diseases. Up to 6 projects at €6-8M each. Highly relevant for division's AI/data science and pharmacoepi work.",
+            url: "https://hadea.ec.europa.eu/news/horizon-europe-work-programme-2026-2027-2025-12-12_en",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 47,
+            funder: "European Commission – Horizon Europe",
+            funderCategory: "European",
+            name: "Horizon Europe – Climate Change & Health / Sustainable Healthcare Systems",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 4000000,
+            budgetMax: 8000000,
+            currency: "EUR",
+            deadline: "2026-04-16",
+            deadlineType: "Final (part of HLTH-2026-01)",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "International consortium required (min. 3 entities, 3 countries)",
+            recurring: "Work programme cycle",
+            status: "Open",
+            relevanceTags: ["sustainable pharmacy", "planetary health", "climate change", "green healthcare", "environmental health"],
+            description: "Cluster 1 Health 2026: 'Living and working in a health-promoting environment' destination includes topics on climate change impacts on health and climate-resilient, carbon-neutral healthcare systems. Directly relevant for sustainable pharmacy research. Deadline 16 April 2026.",
+            url: "https://hadea.ec.europa.eu/news/2026-horizon-europe-health-calls-proposals-2026-02-12_en",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 48,
+            funder: "European Commission – Horizon Europe",
+            funderCategory: "European",
+            name: "Horizon Europe – GenAI4EU: Generative AI for Biomedical Research",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 15000000,
+            budgetMax: 17000000,
+            currency: "EUR",
+            deadline: "2026-09-01",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Consortium required; must link to AI Factories / data infrastructure",
+            recurring: "Periodic",
+            status: "Upcoming",
+            relevanceTags: ["AI in pharmacy", "data science", "generative AI", "predictive medicine", "personalised medicine", "real-world data"],
+            description: "EU funding of €15-17M per project to leverage multimodal data and generative AI in biomedical research, advancing predictive and personalised medicine. Links to EU AI Factories and health data infrastructure (EHDS). Highly relevant for data-science-in-pharmacy research.",
+            url: "https://digital-strategy.ec.europa.eu/en/policies/genai4eu",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 49,
+            funder: "EDCTP3 / Global Health",
+            funderCategory: "European",
+            name: "Global Health EDCTP3 – Joint Calls 2026",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 3000000,
+            budgetMax: 8000000,
+            currency: "EUR",
+            deadline: "2026-12-31",
+            deadlineType: "Various (rolling calls)",
+            phaseType: "Varies",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Consortium with African partners required",
+            recurring: "Multiple calls per year",
+            status: "Open",
+            relevanceTags: ["global health", "access to medicines", "LMIC", "clinical trials", "pharmacovigilance", "regulatory science"],
+            description: "EDCTP3 funds clinical research on infectious diseases and health challenges in sub-Saharan Africa. Highly relevant for division's work on access to medicines, regulatory science, and pharmacovigilance in LMICs. 36 proposals selected for €215M in 2026.",
+            url: "https://www.global-health-edctp3.europa.eu/",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 50,
+            funder: "EUP OHAMR (European Partnership on One Health AMR)",
+            funderCategory: "European",
+            name: "JTC 2026 – New Treatments to Tackle AMR",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 500000,
+            budgetMax: 2000000,
+            currency: "EUR",
+            deadline: "2026-06-17",
+            deadlineType: "Full proposal",
+            phaseType: "2-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Multinational consortium (min. 3 countries, min. 2 EU) using One Health approach",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["antimicrobial resistance", "antibiotic stewardship", "drug utilisation", "pharmacoepidemiology", "One Health"],
+            description: "€31M+ budget. Pre-proposals closed Feb 2. Full proposals due 17 June 2026. Three topics: (1) new combination treatments, (2) tools to improve adherence to treatment protocols, (3) impact of veterinary/agricultural antimicrobial use on AMR. Highly relevant for pharmacoepi/drug utilisation research.",
+            url: "https://ohamr.eu/",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 51,
+            funder: "CARB-X",
+            funderCategory: "International",
+            name: "CARB-X 2026 Funding Call – Antibacterial Research",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 500000,
+            budgetMax: 3500000,
+            currency: "USD",
+            deadline: "2026-09-01",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["antimicrobial resistance", "drug development", "antibiotic stewardship"],
+            description: "CARB-X is a global non-profit partnership accelerating antibacterial R&D to address AMR. New chemistry-focused theme announced for 2026 call. Relevant for division's work on antibiotic use and AMR pharmacoepidemiology.",
+            url: "https://carb-x.org/",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 52,
+            funder: "ERA4Health / ECRIN",
+            funderCategory: "European",
+            name: "ERA4Health JTC – Trials4Health: Multinational Clinical Trials",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 1000000,
+            budgetMax: 3000000,
+            currency: "EUR",
+            deadline: "2026-09-01",
+            deadlineType: "Expected",
+            phaseType: "2-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Multinational consortium across min. 2 ECRIN member/observer countries",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["clinical trials", "cardiovascular", "autoimmune", "metabolic disease", "real-world evidence"],
+            description: "ERA4Health and ECRIN pre-announced JTC for 'Multi-country Investigator Initiated Clinical Trials in Cardiovascular, Autoimmune and Metabolic diseases'. ECRIN provides trial support services. Must involve ≥2 ECRIN member countries.",
+            url: "https://ecrin.org/funding-multinational-clinical-trials",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 53,
+            funder: "ZonMw",
+            funderCategory: "Dutch National",
+            name: "Efficiency Studies Programme",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 150000,
+            budgetMax: 600000,
+            currency: "EUR",
+            deadline: "2026-09-01",
+            deadlineType: "Expected",
+            phaseType: "2-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Stakeholder involvement (healthcare professionals, patients, insurers) required",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["HTA", "cost-effectiveness", "healthcare efficiency", "pharmaceutical policy", "reimbursement"],
+            description: "ZonMw programme generating evidence on effectiveness and costs of interventions to support decision-making on introducing or abolishing interventions in Dutch healthcare. Key for HTA-oriented research. Focus on affordable, high-quality healthcare.",
+            url: "https://www.zonmw.nl/en/research-and-results/efficiency-studies",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 54,
+            funder: "FIP Foundation",
+            funderCategory: "International",
+            name: "FIP Hospital Pharmacy Section (HPS) Research Grant 2026",
+            type: "Project Grant",
+            careerStage: ["Mid Career", "Early Career"],
+            budgetMin: 3000,
+            budgetMax: 3000,
+            currency: "EUR",
+            deadline: "2026-05-01",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["pharmacy practice", "hospital pharmacy", "patient safety", "antimicrobial stewardship"],
+            description: "Open 1 March – 1 May 2026. For FIP HPS members. Research implementing revised Basel Statements, with priority for patient safety, antimicrobial stewardship, or competency development. Small grant (€3,000) but important for pharmacy practice network visibility.",
+            url: "https://www.fipfoundation.org/fip-hospital-pharmacy-section-hps-grants/",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 55,
+            funder: "FIP Foundation",
+            funderCategory: "International",
+            name: "FIP ECPG Innovation Research Grant 2026",
+            type: "Project Grant",
+            careerStage: ["Early Career", "Postdoc"],
+            budgetMin: 5000,
+            budgetMax: 15000,
+            currency: "EUR",
+            deadline: "2026-09-01",
+            deadlineType: "Expected (Q2 2026 opening)",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["pharmacy practice", "pharmaceutical sciences", "drug utilisation", "early career"],
+            description: "FIP Early Career Professional Group and FIP Foundation Innovation Research Grant. Specifically for early career pharmacists and pharmaceutical scientists. Launch expected Q2 2026. Good for early-career researchers in pharmacy practice and drug utilisation.",
+            url: "https://www.fip.org/grants-and-scholarships-for-ecpg-members",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 56,
+            funder: "Pharmacy Research UK (PRUK)",
+            funderCategory: "International",
+            name: "PhD Studentship Scheme 2026",
+            type: "PhD Position",
+            careerStage: ["PhD"],
+            budgetMin: 50000,
+            budgetMax: 99000,
+            currency: "GBP",
+            deadline: "2026-03-25",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Closed",
+            relevanceTags: ["pharmacy practice", "drug utilisation", "medication safety", "pharmacy education"],
+            description: "UK-based funding for registered pharmacy professionals (pharmacists/pharmacy technicians) to pursue full- or part-time PhD, up to £99,000. ~40% success rate. Deadline was 25 March 2026 for current round; monitor for next cycle.",
+            url: "https://pharmacyresearchuk.org/for-researchers/personal-awards-2/",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 57,
+            funder: "PhRMA Foundation",
+            funderCategory: "International",
+            name: "PhRMA Foundation Grants & Fellowships",
+            type: "Personal Fellowship",
+            careerStage: ["PhD", "Postdoc", "Early Career"],
+            budgetMin: 20000,
+            budgetMax: 100000,
+            currency: "USD",
+            deadline: "2026-09-01",
+            deadlineType: "Various",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["pharmacoepidemiology", "clinical pharmacology", "drug utilisation", "translational research"],
+            description: "Competitive, peer-reviewed grants and fellowships for promising researchers in pharmaceutical sciences including pharmacoepidemiology, translational research, clinical pharmacology. Supports PhD students, postdocs, and faculty. US affiliation generally required but international applicants sometimes eligible.",
+            url: "https://www.phrmafoundation.org/grants-fellowships/",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 58,
+            funder: "NWO",
+            funderCategory: "Dutch National",
+            name: "Veni – ZonMw Health Research Domain 2025/2026",
+            type: "Personal Fellowship",
+            careerStage: ["Postdoc", "Early Career"],
+            budgetMin: 320000,
+            budgetMax: 320000,
+            currency: "EUR",
+            deadline: "2026-01-27",
+            deadlineType: "Full proposal",
+            phaseType: "2-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Closed",
+            relevanceTags: ["pharmacoepidemiology", "clinical pharmacology", "drug safety", "health research"],
+            description: "NWO Talent Programme Veni for the ZonMw Health Research domain. Pre-proposals due September 2025; full proposals due 27 January 2026. PhD obtained ≤3 years ago. Max €320,000. Monitor for the 2026/2027 round.",
+            url: "https://www.nwo.nl/en/calls/nwo-talent-programme-veni-health-research-and-development-zonmw-2025",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 59,
+            funder: "NWO",
+            funderCategory: "Dutch National",
+            name: "Vidi – ZonMw Health Research Domain 2025",
+            type: "Personal Fellowship",
+            careerStage: ["Mid Career"],
+            budgetMin: 850000,
+            budgetMax: 850000,
+            currency: "EUR",
+            deadline: "2026-03-01",
+            deadlineType: "Expected full proposal",
+            phaseType: "2-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Closed",
+            relevanceTags: ["pharmacoepidemiology", "clinical pharmacology", "drug safety", "health research"],
+            description: "NWO Vidi via ZonMw Health Research domain. PhD obtained ≤8 years ago. Max €850,000. Separate domain from NWO Science. Monitor for 2026 round announcement. Both Science and ZonMw domain rounds exist.",
+            url: "https://www.nwo.nl/en/calls/nwo-talent-programme-vidi-health-research-and-development-zonmw-2025",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 60,
+            funder: "ZIN / Zorginstituut Nederland",
+            funderCategory: "Dutch National",
+            name: "ZIN Research Commissions & Collaboration",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 50000,
+            budgetMax: 300000,
+            currency: "EUR",
+            deadline: "2026-12-31",
+            deadlineType: "Rolling",
+            phaseType: "Varies",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Continuous",
+            status: "Open",
+            relevanceTags: ["HTA", "pharmaceutical policy", "reimbursement", "cost-effectiveness", "medication assessment"],
+            description: "ZIN (Dutch Healthcare Institute) commissions research to support its HTA and reimbursement decisions. The division already has a relationship with ZIN. Monitor their procurement and research calls for HTA, cost-effectiveness, and formulary research.",
+            url: "https://www.zorginstituutnederland.nl/over-ons/samenwerking",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 61,
+            funder: "MEB / Medicines Evaluation Board",
+            funderCategory: "Dutch National",
+            name: "MEB Research Commissions",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 30000,
+            budgetMax: 250000,
+            currency: "EUR",
+            deadline: "2026-12-31",
+            deadlineType: "Rolling",
+            phaseType: "Varies",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Continuous",
+            status: "Open",
+            relevanceTags: ["regulatory science", "drug approval", "pharmacovigilance", "real-world evidence", "pharmaceutical policy"],
+            description: "The Dutch Medicines Evaluation Board (CBG/MEB) occasionally commissions research related to regulatory science, pharmacovigilance, post-market surveillance, and real-world evidence. Division already has MEB relationship. Monitor Dutch government tender portal (TenderNed).",
+            url: "https://www.cbg-meb.nl/",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 62,
+            funder: "Novo Nordisk Foundation",
+            funderCategory: "International",
+            name: "Novo Nordisk Foundation – Health Research Grants",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career", "Early Career"],
+            budgetMin: 200000,
+            budgetMax: 2000000,
+            currency: "DKK",
+            deadline: "2026-09-01",
+            deadlineType: "Various (multiple call types)",
+            phaseType: "Varies",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Multiple calls per year",
+            status: "Open",
+            relevanceTags: ["diabetes", "cardiometabolic disease", "global health", "AMR", "pharmacoepidemiology", "drug utilisation"],
+            description: "One of Europe's largest private research foundations. Multiple grant schemes including Challenge Programme, Collaboration Grants, and Distinguished Investigator Awards. Strong focus on cardiometabolic, diabetes, rare disease, and AMR research. Also funded the $60M AMR initiative with Gates/Wellcome.",
+            url: "https://novonordiskfonden.dk/en/grants/",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 63,
+            funder: "European Commission – Horizon Europe",
+            funderCategory: "European",
+            name: "Horizon Europe – Green Pharmaceutical Manufacturing",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 5000000,
+            budgetMax: 8000000,
+            currency: "EUR",
+            deadline: "2026-09-01",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Consortium with industry and academic partners",
+            recurring: "Work programme cycle",
+            status: "Upcoming",
+            relevanceTags: ["sustainable pharmacy", "planetary health", "green manufacturing", "pharmaceutical industry", "environmental impact"],
+            description: "Horizon Europe funds green pharmaceutical manufacturing research: environmentally friendly practices throughout the product lifecycle, reducing CO2/waste/pollution. 5 projects funded with €35M in previous round. Relevant for sustainable pharmacy research within division.",
+            url: "https://research-and-innovation.ec.europa.eu/research-area/health/environment-climate-and-health_en",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 64,
+            funder: "Reumafonds (Dutch Arthritis Foundation)",
+            funderCategory: "Private/Foundation",
+            name: "Reumafonds Research Grants 2026",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career", "Early Career"],
+            budgetMin: 50000,
+            budgetMax: 400000,
+            currency: "EUR",
+            deadline: "2026-06-01",
+            deadlineType: "Expected",
+            phaseType: "Unknown",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["rheumatology", "drug safety", "pharmacoepidemiology", "DMARDs", "biologicals", "medication adherence"],
+            description: "Dutch Arthritis Foundation funds research on rheumatic diseases. Highly relevant for pharmacoepi research on DMARDs, biologicals, drug safety in autoimmune conditions, and medication adherence in rheumatology patients.",
+            url: "https://www.reumafonds.nl/onderzoek",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 65,
+            funder: "Alzheimer Nederland",
+            funderCategory: "Private/Foundation",
+            name: "Alzheimer Nederland Research Fund 2026",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 50000,
+            budgetMax: 300000,
+            currency: "EUR",
+            deadline: "2026-01-30",
+            deadlineType: "LOI (closed)",
+            phaseType: "2-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Closed",
+            relevanceTags: ["dementia", "neurology", "drug utilisation", "pharmacoepidemiology", "antipsychotics", "polypharmacy"],
+            description: "Research funding for Alzheimer's and dementia research. 2026 LOI deadline was 30 Jan 2026. Impuls Grant Round 1 closed 30 Mar 2026. Relevant for pharmacoepi research on psychotropic drug use in dementia patients, polypharmacy in elderly, and medication safety.",
+            url: "https://www.alzheimer-nederland.nl/onderzoek",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 66,
+            funder: "ZonMw",
+            funderCategory: "Dutch National",
+            name: "Off Road 2026 – High-Risk High-Reward Research",
+            type: "Project Grant",
+            careerStage: ["Early Career", "Postdoc"],
+            budgetMin: 50000,
+            budgetMax: 100000,
+            currency: "EUR",
+            deadline: "2026-03-24",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Closed",
+            relevanceTags: ["exploratory research", "pharmacoepidemiology", "clinical pharmacology", "any discipline"],
+            description: "For creative researchers 2-6 years post-PhD. Max €100,000 for 12-18 months. High-risk, high-reward, out-of-the-box research ideas. Total budget €2.6M (incl. €600k for New Approach Methodologies). 2026 round closed 24 March; monitor for 2027 round.",
+            url: "https://www.zonmw.nl/en/subsidy/off-road-2026",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 67,
+            funder: "Wellcome Trust",
+            funderCategory: "International",
+            name: "Climate Impacts Awards 2026",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 1500000,
+            budgetMax: 2500000,
+            currency: "GBP",
+            deadline: "2026-04-08",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Transdisciplinary team (1 lead + up to 7 co-applicants) including community and policy actors",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["planetary health", "climate change", "sustainable pharmacy", "environmental health", "global health"],
+            description: "URGENT: Deadline 8 April 2026 15:00 BST. £2.5M for collaborative projects making climate change health impacts visible. Must engage key stakeholders to amplify impactful narratives and accelerate climate action. Relevant for sustainable pharmacy and planetary health research.",
+            url: "https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 68,
+            funder: "ERA4Health",
+            funderCategory: "European",
+            name: "ERA4Health PREVENT-OO – Overweight & Obesity Prevention",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 500000,
+            budgetMax: 2000000,
+            currency: "EUR",
+            deadline: "2026-06-01",
+            deadlineType: "Expected full proposal",
+            phaseType: "2-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Multinational consortium across ERA4Health partner countries",
+            recurring: "Periodic",
+            status: "Open",
+            relevanceTags: ["obesity", "prevention", "pharmacoepidemiology", "drug utilisation", "metabolic disease", "medication safety"],
+            description: "ERA4Health JTC8: Understanding and preventing overweight and obesity – mechanisms of onset/progression, neglected determinants, novel strategies for critical life transitions. ~€19M total budget. Relevant for pharmacoepi research on anti-obesity medications and metabolic drug safety.",
+            url: "https://era4health.eu/calls/docs/ERA4Health_CallText_JTC8.pdf",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 69,
+            funder: "Novo Nordisk Foundation",
+            funderCategory: "International",
+            name: "NERD Programme 2026 – New Exploratory Research and Discovery",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 5000000,
+            budgetMax: 16000000,
+            currency: "DKK",
+            deadline: "2026-09-01",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["data science", "AI in pharmacy", "computational methods", "pharmacoepidemiology"],
+            description: "DKK 160M total budget. Up to DKK 16M per project for up to 6 years. Fundamental research in natural and technical sciences including computer science. Relevant for computational pharmacoepidemiology and AI-based drug safety methods.",
+            url: "https://novonordiskfonden.dk/en/grant/new-exploratory-research-and-discovery-nerd-programme-2026/",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 70,
+            funder: "Novo Nordisk Foundation",
+            funderCategory: "International",
+            name: "Exploratory Interdisciplinary Synergy Programme 2026",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career", "Early Career"],
+            budgetMin: 2000000,
+            budgetMax: 6800000,
+            currency: "DKK",
+            deadline: "2026-09-01",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Interdisciplinary team required",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["interdisciplinary research", "biomedical sciences", "data science", "pharmacoepidemiology", "health sustainability"],
+            description: "DKK 68M annual budget. Up to DKK 6.8M per project for up to 3 years. Must align with NNF focus areas: Biomedical Sciences, Biotechnology, Natural/Technical Sciences with health or sustainability applicability. Good for cross-disciplinary pharmacoepi proposals.",
+            url: "https://novonordiskfonden.dk/en/grant/exploratory-interdisciplinary-synergy-programme-2026/",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 71,
+            funder: "BRAINS Partnership (Hersenstichting et al.)",
+            funderCategory: "Private/Foundation",
+            name: "BRAINS 2026 PPS Call – Brain Research Collaboration",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 200000,
+            budgetMax: 500000,
+            currency: "EUR",
+            deadline: "2026-06-01",
+            deadlineType: "Expected",
+            phaseType: "Unknown",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Public-private partnership required",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["neurology", "brain health", "drug safety", "antipsychotics", "antidepressants", "opioids", "pharmacoepidemiology"],
+            description: "Collaboration between Hersenstichting, Alzheimer Nederland, MS Research, ParkinsonNederland, and EpilepsieNL. PPS call for brain research. Relevant for pharmacoepi research on neurological medications, antipsychotics, antidepressants, and opioid safety.",
+            url: "https://www.hersenstichting.nl/over-ons/brains/",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 72,
+            funder: "European Commission – Horizon Europe",
+            funderCategory: "European",
+            name: "HORIZON-HLTH-2026-01-CARE-03 – Identifying Low-Value Care",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 4000000,
+            budgetMax: 6000000,
+            currency: "EUR",
+            deadline: "2026-04-16",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "International consortium required (min. 3 entities, 3 EU/associated countries)",
+            recurring: "Work programme cycle",
+            status: "Open",
+            relevanceTags: ["HTA", "cost-effectiveness", "pharmaceutical policy", "drug utilisation", "deprescribing", "polypharmacy", "real-world evidence"],
+            description: "URGENT: Deadline 16 April 2026. Topic on identifying and addressing low-value care in health/care systems. Highly relevant for division's research on deprescribing, polypharmacy, drug utilisation, and cost-effectiveness of pharmaceutical interventions.",
+            url: "https://hadea.ec.europa.eu/calls-proposals/horizon-europe-health-2026-calls-destination-ensuring-equal-access-innovative-sustainable-and-high_en",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 73,
+            funder: "European Commission – Horizon Europe",
+            funderCategory: "European",
+            name: "HORIZON-HLTH-2026-02 – Health Partnerships (September topics)",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 3000000,
+            budgetMax: 8000000,
+            currency: "EUR",
+            deadline: "2026-09-15",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "International consortium required (min. 3 entities, 3 EU/associated countries)",
+            recurring: "Work programme cycle",
+            status: "Open",
+            relevanceTags: ["health systems", "partnerships", "real-world evidence", "pharmaceutical policy", "HTA"],
+            description: "Second wave of Horizon Europe Health 2026 calls under the Partnerships in Health framework. Deadline 15 September 2026. Topics support health system partnerships and innovative healthcare solutions. Part of the €471.6M Cluster 1 Health budget.",
+            url: "https://hadea.ec.europa.eu/news/2026-horizon-europe-health-calls-proposals-2026-02-12_en",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 74,
+            funder: "KWF (Dutch Cancer Society)",
+            funderCategory: "Private/Foundation",
+            name: "Exploration Call 2026-1",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career", "Early Career"],
+            budgetMin: 100000,
+            budgetMax: 500000,
+            currency: "EUR",
+            deadline: "2026-05-01",
+            deadlineType: "Expected",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "3x per year",
+            status: "Open",
+            relevanceTags: ["oncology", "cancer", "drug safety", "pharmacoepidemiology", "pharmacovigilance"],
+            description: "First 2026 Exploration call for fundamental cancer research. Relevant for pharmacoepi research on anticancer drug safety, pharmacovigilance of oncology treatments, and cancer-related drug utilisation studies.",
+            url: "https://www.kwf.nl/en/forresearchers/funding/exploration",
+            dateAdded: "2026-04-01"
+          },
+          {
+            id: 75,
+            funder: "Health~Holland (TKI LSH)",
+            funderCategory: "Dutch National",
+            name: "PPP Allowance (Match Call) 2026",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 50000,
+            budgetMax: 500000,
+            currency: "EUR",
+            deadline: "2026-12-31",
+            deadlineType: "Rolling (until budget exhausted)",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Public-private partnership required; company must contribute in-kind",
+            recurring: "Continuous",
+            status: "Open",
+            relevanceTags: ["life sciences", "pharmaceutical innovation", "public-private partnership", "real-world evidence"],
+            description: "TKI PPP Allowance for LSH projects. Matches private in-kind contributions with public funding. Lower threshold than other Health~Holland calls. Good entry point for industry-academic pharmacoepi collaborations.",
+            url: "https://www.health-holland.com/funding-opportunities/tki-match",
+            dateAdded: "2026-04-01"
+          }
+        ];
+
+        const STATUS_COLORS = {
+          'Open': 'badge-open',
+          'Upcoming': 'badge-upcoming',
+          'Continuous': 'badge-continuous',
+          'Closed': 'badge-closed'
+        };
+
+        function getDeadlineColor(deadline, status) {
+          if (status === 'Closed') return 'deadline-gray';
+          const today = new Date('2026-04-01');
+          const deadlineDate = new Date(deadline);
+          const daysUntil = Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
+          if (daysUntil < 14) return 'deadline-red';
+          if (daysUntil < 30) return 'deadline-orange';
+          return 'deadline-green';
+        }
+
+        function formatDate(dateStr) {
+          const date = new Date(dateStr);
+          return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+        }
+
+        function daysUntilDeadline(deadline) {
+          const today = new Date('2026-04-01');
+          const deadlineDate = new Date(deadline);
+          return Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
+        }
+
+        function FundingDashboard() {
+          const [filters, setFilters] = React.useState({
+            search: '',
+            status: [],
+            funderCategory: [],
+            type: [],
+            careerStage: [],
+            deadlineRange: 'all',
+            budgetMin: 0,
+            budgetMax: 10000000
+          });
+
+          const [viewMode, setViewMode] = React.useState('card');
+          const [sortBy, setSortBy] = React.useState('deadline');
+          const [showFilters, setShowFilters] = React.useState(true);
+          const [expandedCard, setExpandedCard] = React.useState(null);
+
+          const filteredData = React.useMemo(() => {
+            let result = fundingData;
+
+            // Search filter
+            if (filters.search) {
+              const search = filters.search.toLowerCase();
+              result = result.filter(item =>
+                item.name.toLowerCase().includes(search) ||
+                item.funder.toLowerCase().includes(search) ||
+                item.description.toLowerCase().includes(search) ||
+                item.relevanceTags.some(tag => tag.toLowerCase().includes(search))
+              );
+            }
+
+            // Status filter
+            if (filters.status.length > 0) {
+              result = result.filter(item => filters.status.includes(item.status));
+            }
+
+            // Funder category filter
+            if (filters.funderCategory.length > 0) {
+              result = result.filter(item => filters.funderCategory.includes(item.funderCategory));
+            }
+
+            // Type filter
+            if (filters.type.length > 0) {
+              result = result.filter(item => filters.type.includes(item.type));
+            }
+
+            // Career stage filter
+            if (filters.careerStage.length > 0) {
+              result = result.filter(item =>
+                item.careerStage.some(stage => filters.careerStage.includes(stage))
+              );
+            }
+
+            // Deadline range filter
+            if (filters.deadlineRange !== 'all') {
+              const today = new Date('2026-04-01');
+              result = result.filter(item => {
+                const deadlineDate = new Date(item.deadline);
+                const days = Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
+                if (filters.deadlineRange === '30') return days > 0 && days <= 30;
+                if (filters.deadlineRange === '60') return days > 0 && days <= 60;
+                if (filters.deadlineRange === '90') return days > 0 && days <= 90;
+                return true;
+              });
+            }
+
+            // Budget range filter
+            result = result.filter(item =>
+              item.budgetMax >= filters.budgetMin && item.budgetMin <= filters.budgetMax
+            );
+
+            // Sorting
+            if (sortBy === 'deadline') {
+              result.sort((a, b) => new Date(a.deadline) - new Date(b.deadline));
+            } else if (sortBy === 'budget-high') {
+              result.sort((a, b) => b.budgetMax - a.budgetMax);
+            } else if (sortBy === 'funder') {
+              result.sort((a, b) => a.funder.localeCompare(b.funder));
+            } else if (sortBy === 'recent') {
+              result.sort((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded));
+            }
+
+            return result;
+          }, [filters, sortBy]);
+
+          const upcomingDeadlines = React.useMemo(() => {
+            const today = new Date('2026-04-01');
+            return fundingData
+              .filter(item => item.status !== 'Closed')
+              .map(item => ({
+                ...item,
+                daysUntil: Math.ceil((new Date(item.deadline) - today) / (1000 * 60 * 60 * 24))
+              }))
+              .filter(item => item.daysUntil > 0)
+              .sort((a, b) => a.daysUntil - b.daysUntil)
+              .slice(0, 5);
+          }, []);
+
+          const stats = {
+            total: fundingData.length,
+            open: filteredData.filter(d => d.status === 'Open').length,
+            upcoming30: filteredData.filter(d => {
+              const today = new Date('2026-04-01');
+              const daysUntil = Math.ceil((new Date(d.deadline) - today) / (1000 * 60 * 60 * 24));
+              return d.status !== 'Closed' && daysUntil > 0 && daysUntil <= 30;
+            }).length,
+            new30: fundingData.filter(d => {
+              const today = new Date('2026-04-01');
+              const addedDate = new Date(d.dateAdded);
+              return (today - addedDate) / (1000 * 60 * 60 * 24) <= 30;
+            }).length
+          };
+
+          const handleClearFilters = () => {
+            setFilters({
+              search: '',
+              status: [],
+              funderCategory: [],
+              type: [],
+              careerStage: [],
+              deadlineRange: 'all',
+              budgetMin: 0,
+              budgetMax: 10000000
+            });
+          };
+
+          const handleExportCSV = () => {
+            const headers = ['Funder', 'Name', 'Type', 'Status', 'Deadline', 'Budget (EUR)', 'Career Stage', 'URL'];
+            const rows = filteredData.map(item => [
+              item.funder,
+              item.name,
+              item.type,
+              item.status,
+              item.deadline,
+              `${item.budgetMin}-${item.budgetMax}`,
+              item.careerStage.join('; '),
+              item.url
+            ]);
+
+            const csv = [headers, ...rows].map(row =>
+              row.map(cell => `"${String(cell).replace(/"/g, '""')}"`).join(',')
+            ).join('\n');
+
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'funding-opportunities.csv';
+            a.click();
+          };
+
+          return (
+            <div className="min-h-screen bg-gray-50">
+              {/* Header */}
+              <div>
+                {/* Hero image */}
+                <div style={{position: 'relative', overflow: 'hidden', maxHeight: '220px'}}>
+                  <img
+                    src="https://www.uu.nl/sites/default/files/Pharmacoepidemiology%20and%20Clinical%20Pharmacology_Utrecht%20University.png"
+                    alt="Pharmacoepidemiology and Clinical Pharmacology"
+                    style={{width: '100%', objectFit: 'cover', objectPosition: 'center', display: 'block'}}
+                  />
+                </div>
+                {/* Yellow title bar — matches UU division style */}
+                <div className="uu-yellow-bg px-6 py-4">
+                  <div className="max-w-7xl mx-auto flex items-center justify-between flex-wrap gap-2">
+                    <div>
+                      <h1 className="text-2xl font-bold text-black tracking-tight">Pharmacoepidemiology and Clinical Pharmacology</h1>
+                      <p className="text-sm text-black opacity-75 mt-0.5">Utrecht University — Funding Watch</p>
+                    </div>
+                    <p className="text-xs text-black opacity-60">Last updated: April 1, 2026</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Quick Deadlines */}
+              {upcomingDeadlines.length > 0 && (
+                <div className="max-w-7xl mx-auto px-4 py-6 bg-blue-50 border-b border-blue-200">
+                  <h3 className="font-bold text-blue-900 mb-3">Next 5 Upcoming Deadlines</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3">
+                    {upcomingDeadlines.map(item => (
+                      <div key={item.id} className="bg-white p-3 rounded-lg border border-blue-200">
+                        <div className="text-xs font-semibold text-blue-900">{item.funder}</div>
+                        <div className="text-xs text-gray-600 mt-1 line-clamp-2">{item.name}</div>
+                        <div className={`text-sm font-bold mt-2 ${getDeadlineColor(item.deadline, item.status)}`}>
+                          {formatDate(item.deadline)}
+                        </div>
+                        <div className="text-xs text-gray-500">{item.daysUntil} days</div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Stats Bar */}
+              <div className="max-w-7xl mx-auto px-4 py-6 grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="bg-white p-4 rounded-lg shadow">
+                  <div className="text-gray-500 text-sm">Total Opportunities</div>
+                  <div className="text-3xl font-bold uu-yellow">{stats.total}</div>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow">
+                  <div className="text-gray-500 text-sm">Currently Open</div>
+                  <div className="text-3xl font-bold text-green-600">{stats.open}</div>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow">
+                  <div className="text-gray-500 text-sm">Deadline &lt;30 Days</div>
+                  <div className="text-3xl font-bold text-orange-600">{stats.upcoming30}</div>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow">
+                  <div className="text-gray-500 text-sm">Added (Last 30 Days)</div>
+                  <div className="text-3xl font-bold text-blue-600">{stats.new30}</div>
+                </div>
+              </div>
+
+              {/* Controls Bar */}
+              <div className="max-w-7xl mx-auto px-4 py-4 flex flex-wrap gap-3 items-center justify-between bg-white border-b">
+                <div className="flex gap-2">
+                  <button
+                    onClick={() => setViewMode('card')}
+                    className={`px-4 py-2 rounded font-semibold text-sm transition ${viewMode === 'card' ? 'uu-yellow-bg text-black' : 'bg-gray-200 text-gray-700'}`}
+                  >
+                    Card View
+                  </button>
+                  <button
+                    onClick={() => setViewMode('table')}
+                    className={`px-4 py-2 rounded font-semibold text-sm transition ${viewMode === 'table' ? 'uu-yellow-bg text-black' : 'bg-gray-200 text-gray-700'}`}
+                  >
+                    Table View
+                  </button>
+                </div>
+
+                <div className="flex gap-2">
+                  <select
+                    value={sortBy}
+                    onChange={(e) => setSortBy(e.target.value)}
+                    className="px-3 py-2 border border-gray-300 rounded text-sm"
+                  >
+                    <option value="deadline">Sort by Deadline</option>
+                    <option value="budget-high">Sort by Budget (High)</option>
+                    <option value="funder">Sort by Funder</option>
+                    <option value="recent">Sort by Recent</option>
+                  </select>
+                  <button
+                    onClick={handleExportCSV}
+                    className="px-4 py-2 bg-gray-700 text-white rounded text-sm hover:bg-gray-800"
+                  >
+                    Export CSV
+                  </button>
+                  <button
+                    onClick={() => setShowFilters(!showFilters)}
+                    className="px-4 py-2 bg-gray-500 text-white rounded text-sm hover:bg-gray-600"
+                  >
+                    {showFilters ? 'Hide' : 'Show'} Filters
+                  </button>
+                </div>
+              </div>
+
+              {/* Filters Panel */}
+              {showFilters && (
+                <div className="max-w-7xl mx-auto px-4 py-6 bg-gray-100">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {/* Search */}
+                    <div>
+                      <label className="block text-sm font-semibold text-gray-700 mb-2">Search</label>
+                      <input
+                        type="text"
+                        placeholder="Search by name, funder, keywords..."
+                        value={filters.search}
+                        onChange={(e) => setFilters({...filters, search: e.target.value})}
+                        className="w-full px-3 py-2 border border-gray-300 rounded"
+                      />
+                    </div>
+
+                    {/* Status */}
+                    <div>
+                      <label className="block text-sm font-semibold text-gray-700 mb-2">Status</label>
+                      <div className="space-y-1">
+                        {['Open', 'Upcoming', 'Continuous', 'Closed'].map(status => (
+                          <label key={status} className="flex items-center text-sm">
+                            <input
+                              type="checkbox"
+                              checked={filters.status.includes(status)}
+                              onChange={(e) => {
+                                if (e.target.checked) {
+                                  setFilters({...filters, status: [...filters.status, status]});
+                                } else {
+                                  setFilters({...filters, status: filters.status.filter(s => s !== status)});
+                                }
+                              }}
+                              className="mr-2"
+                            />
+                            {status}
+                          </label>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Funder Category */}
+                    <div>
+                      <label className="block text-sm font-semibold text-gray-700 mb-2">Funder Category</label>
+                      <div className="space-y-1">
+                        {['Dutch National', 'European', 'International', 'Private/Foundation'].map(cat => (
+                          <label key={cat} className="flex items-center text-sm">
+                            <input
+                              type="checkbox"
+                              checked={filters.funderCategory.includes(cat)}
+                              onChange={(e) => {
+                                if (e.target.checked) {
+                                  setFilters({...filters, funderCategory: [...filters.funderCategory, cat]});
+                                } else {
+                                  setFilters({...filters, funderCategory: filters.funderCategory.filter(c => c !== cat)});
+                                }
+                              }}
+                              className="mr-2"
+                            />
+                            {cat}
+                          </label>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Type */}
+                    <div>
+                      <label className="block text-sm font-semibold text-gray-700 mb-2">Type</label>
+                      <div className="space-y-1">
+                        {['Project Grant', 'Personal Fellowship', 'PhD Position', 'Network/Consortium', 'Travel/Mobility', 'Infrastructure'].map(type => (
+                          <label key={type} className="flex items-center text-sm">
+                            <input
+                              type="checkbox"
+                              checked={filters.type.includes(type)}
+                              onChange={(e) => {
+                                if (e.target.checked) {
+                                  setFilters({...filters, type: [...filters.type, type]});
+                                } else {
+                                  setFilters({...filters, type: filters.type.filter(t => t !== type)});
+                                }
+                              }}
+                              className="mr-2"
+                            />
+                            {type}
+                          </label>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Career Stage */}
+                    <div>
+                      <label className="block text-sm font-semibold text-gray-700 mb-2">Career Stage</label>
+                      <div className="space-y-1">
+                        {['PhD', 'Postdoc', 'Early Career', 'Mid Career', 'Senior/PI'].map(stage => (
+                          <label key={stage} className="flex items-center text-sm">
+                            <input
+                              type="checkbox"
+                              checked={filters.careerStage.includes(stage)}
+                              onChange={(e) => {
+                                if (e.target.checked) {
+                                  setFilters({...filters, careerStage: [...filters.careerStage, stage]});
+                                } else {
+                                  setFilters({...filters, careerStage: filters.careerStage.filter(s => s !== stage)});
+                                }
+                              }}
+                              className="mr-2"
+                            />
+                            {stage}
+                          </label>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Deadline Range */}
+                    <div>
+                      <label className="block text-sm font-semibold text-gray-700 mb-2">Deadline Range</label>
+                      <select
+                        value={filters.deadlineRange}
+                        onChange={(e) => setFilters({...filters, deadlineRange: e.target.value})}
+                        className="w-full px-3 py-2 border border-gray-300 rounded"
+                      >
+                        <option value="all">All deadlines</option>
+                        <option value="30">Next 30 days</option>
+                        <option value="60">Next 60 days</option>
+                        <option value="90">Next 90 days</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div className="mt-4">
+                    <button
+                      onClick={handleClearFilters}
+                      className="px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600 text-sm font-semibold"
+                    >
+                      Clear All Filters
+                    </button>
+                  </div>
+                </div>
+              )}
+
+              {/* Main Content */}
+              <div className="max-w-7xl mx-auto px-4 py-6">
+                <p className="text-gray-600 mb-4">Showing {filteredData.length} opportunities</p>
+
+                {filteredData.length === 0 ? (
+                  <div className="bg-white p-12 rounded-lg text-center">
+                    <p className="text-gray-500 text-lg">No funding opportunities match your filters.</p>
+                    <button
+                      onClick={handleClearFilters}
+                      className="mt-4 px-4 py-2 uu-yellow-bg text-black rounded font-semibold"
+                    >
+                      Clear filters
+                    </button>
+                  </div>
+                ) : viewMode === 'card' ? (
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {filteredData.map(item => (
+                      <div key={item.id} className="card-hover bg-white rounded-lg shadow p-6 border-l-4 border-gray-300">
+                        {/* Header */}
+                        <div className="flex justify-between items-start mb-3">
+                          <div>
+                            <div className="text-xs font-semibold text-gray-500">{item.funder}</div>
+                            <h3 className="font-bold text-gray-800 text-sm mt-1">{item.name}</h3>
+                          </div>
+                          <span className={`text-xs font-bold px-2 py-1 rounded ${STATUS_COLORS[item.status]}`}>
+                            {item.status}
+                          </span>
+                        </div>
+
+                        {/* Details Grid */}
+                        <div className="grid grid-cols-2 gap-3 mb-3 text-xs">
+                          <div>
+                            <span className="text-gray-500">Type:</span>
+                            <div className="font-semibold text-gray-800">{item.type}</div>
+                          </div>
+                          <div>
+                            <span className="text-gray-500">Budget:</span>
+                            <div className="font-semibold text-gray-800">€{(item.budgetMin/1000).toFixed(0)}k-{(item.budgetMax/1000).toFixed(0)}k</div>
+                          </div>
+                          <div>
+                            <span className="text-gray-500">Deadline:</span>
+                            <div className={`font-bold ${getDeadlineColor(item.deadline, item.status)}`}>
+                              {formatDate(item.deadline)}
+                            </div>
+                          </div>
+                          <div>
+                            <span className="text-gray-500">Career Stage:</span>
+                            <div className="font-semibold text-gray-800">{item.careerStage.join(', ')}</div>
+                          </div>
+                        </div>
+
+                        {/* Tags */}
+                        <div className="flex flex-wrap gap-1 mb-3">
+                          {item.relevanceTags.slice(0, 3).map((tag, idx) => (
+                            <span key={idx} className="text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded">
+                              {tag}
+                            </span>
+                          ))}
+                          {item.relevanceTags.length > 3 && (
+                            <span className="text-xs text-gray-500">+{item.relevanceTags.length - 3} more</span>
+                          )}
+                        </div>
+
+                        {/* Description */}
+                        <p className="text-xs text-gray-600 mb-3">{item.description.substring(0, 100)}...</p>
+
+                        {/* Action Button */}
+                        <div className="flex gap-2">
+                          <a
+                            href={item.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex-1 bg-blue-600 text-white px-3 py-2 rounded text-xs font-semibold hover:bg-blue-700 text-center"
+                          >
+                            View Full Call
+                          </a>
+                          <button
+                            onClick={() => setExpandedCard(expandedCard === item.id ? null : item.id)}
+                            className="bg-gray-200 text-gray-800 px-3 py-2 rounded text-xs font-semibold hover:bg-gray-300"
+                          >
+                            {expandedCard === item.id ? '−' : '+'}
+                          </button>
+                        </div>
+
+                        {/* Expanded Info */}
+                        {expandedCard === item.id && (
+                          <div className="mt-4 pt-4 border-t border-gray-200 text-xs space-y-2">
+                            <div>
+                              <span className="font-semibold text-gray-700">Full Description:</span>
+                              <p className="text-gray-600">{item.description}</p>
+                            </div>
+                            <div>
+                              <span className="font-semibold text-gray-700">Phase Type:</span>
+                              <p className="text-gray-600">{item.phaseType}</p>
+                            </div>
+                            <div>
+                              <span className="font-semibold text-gray-700">Mandatory Partners:</span>
+                              <p className="text-gray-600">{item.mandatoryPartners ? `Yes - ${item.mandatoryPartnersDesc}` : 'No'}</p>
+                            </div>
+                            <div>
+                              <span className="font-semibold text-gray-700">Recurring:</span>
+                              <p className="text-gray-600">{item.recurring}</p>
+                            </div>
+                            <div>
+                              <span className="font-semibold text-gray-700">All Tags:</span>
+                              <div className="flex flex-wrap gap-1 mt-1">
+                                {item.relevanceTags.map((tag, idx) => (
+                                  <span key={idx} className="bg-yellow-100 text-yellow-800 px-2 py-1 rounded">
+                                    {tag}
+                                  </span>
+                                ))}
+                              </div>
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="bg-white rounded-lg shadow overflow-x-auto">
+                    <table className="w-full text-sm">
+                      <thead className="uu-dark text-white">
+                        <tr>
+                          <th className="px-4 py-3 text-left">Funder</th>
+                          <th className="px-4 py-3 text-left">Name</th>
+                          <th className="px-4 py-3 text-left">Type</th>
+                          <th className="px-4 py-3 text-left">Status</th>
+                          <th className="px-4 py-3 text-left">Deadline</th>
+                          <th className="px-4 py-3 text-right">Budget (EUR)</th>
+                          <th className="px-4 py-3 text-left">Career Stage</th>
+                          <th className="px-4 py-3 text-center">Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {filteredData.map((item, idx) => (
+                          <tr key={item.id} className={idx % 2 === 0 ? 'bg-gray-50' : 'bg-white'}>
+                            <td className="px-4 py-3 font-semibold text-gray-700">{item.funder}</td>
+                            <td className="px-4 py-3 text-gray-700">{item.name}</td>
+                            <td className="px-4 py-3 text-gray-600">{item.type}</td>
+                            <td className="px-4 py-3">
+                              <span className={`text-xs font-bold px-2 py-1 rounded ${STATUS_COLORS[item.status]}`}>
+                                {item.status}
+                              </span>
+                            </td>
+                            <td className={`px-4 py-3 font-semibold ${getDeadlineColor(item.deadline, item.status)}`}>
+                              {formatDate(item.deadline)}
+                            </td>
+                            <td className="px-4 py-3 text-right">€{(item.budgetMin/1000).toFixed(0)}k-{(item.budgetMax/1000).toFixed(0)}k</td>
+                            <td className="px-4 py-3 text-gray-600 text-xs">{item.careerStage.join(', ')}</td>
+                            <td className="px-4 py-3 text-center">
+                              <a
+                                href={item.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-blue-600 hover:text-blue-800 font-semibold"
+                              >
+                                View
+                              </a>
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+              </div>
+
+              {/* Footer */}
+              <div className="uu-dark text-gray-300 py-8 mt-12">
+                <div className="max-w-7xl mx-auto px-4 text-center text-sm">
+                  <p className="mb-2">Funding Watch - Division of Pharmacoepidemiology & Clinical Pharmacology</p>
+                  <p>Utrecht University | Data Last Updated: April 1, 2026 | 75 opportunities tracked</p>
+                </div>
+              </div>
+            </div>
+          );
+        }
+
+        ReactDOM.createRoot(document.getElementById('root')).render(<FundingDashboard />);
+      </script>
+    </div>
+  </body>
+</html>
