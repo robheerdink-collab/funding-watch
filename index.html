@@ -1537,15 +1537,15 @@
             budgetMin: 5000000,
             budgetMax: 16000000,
             currency: "DKK",
-            deadline: "2026-09-01",
-            deadlineType: "Expected",
+            deadline: "2026-02-19",
+            deadlineType: "Final",
             phaseType: "1-phase",
             mandatoryPartners: false,
             mandatoryPartnersDesc: "",
             recurring: "Annual",
-            status: "Upcoming",
+            status: "Closed",
             relevanceTags: ["data science", "AI in pharmacy", "computational methods", "pharmacoepidemiology"],
-            description: "DKK 160M total budget. Up to DKK 16M per project for up to 6 years. Fundamental research in natural and technical sciences including computer science. Relevant for computational pharmacoepidemiology and AI-based drug safety methods.",
+            description: "DKK 160M total budget. Up to DKK 16M per project for up to 6 years. Fundamental research in natural and technical sciences including computer science. 2026 round closed 19 February 2026. Monitor for 2027 round. Relevant for computational pharmacoepidemiology and AI-based drug safety methods.",
             url: "https://novonordiskfonden.dk/en/grant/new-exploratory-research-and-discovery-nerd-programme-2026/",
             dateAdded: "2026-04-01"
           },
@@ -1966,6 +1966,94 @@
             description: "RECRUIT grants (DKK 22-55M for up to 7 years), RECRUIT Sabbatical grants (DKK 1M for up to 1 year), and RECRUIT Extension grants (DKK 10M for up to 5 years). For recruiting outstanding international researchers to Denmark/Nordic region. Spring 2026 call opens May. Relevant for attracting top pharmacoepi talent.",
             url: "https://novonordiskfonden.dk/en/grant/recruit-grants-for-international-recruitment-2026/",
             dateAdded: "2026-04-01"
+          },
+          {
+            id: 89,
+            funder: "NWO",
+            funderCategory: "Dutch National",
+            name: "Vidi – Science Domain 2025 (Full Proposals)",
+            type: "Personal Fellowship",
+            careerStage: ["Mid Career"],
+            budgetMin: 850000,
+            budgetMax: 850000,
+            currency: "EUR",
+            deadline: "2026-04-09",
+            deadlineType: "Full proposal",
+            phaseType: "2-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Open",
+            relevanceTags: ["pharmacoepidemiology", "clinical pharmacology", "any discipline", "life sciences"],
+            description: "URGENT: Full proposal deadline 9 April 2026 14:00 CEST. NWO Talent Programme Vidi 2025 round – Science domain (Life Sciences, Chemistry, etc.). For researchers who obtained their PhD max 8 years ago (benchmark 1 Oct 2025). €850,000 for 5 years. Pre-proposals closed Nov 2025. Assessment: 75% quality/innovation, 25% impact.",
+            url: "https://www.nwo.nl/en/calls/nwo-talent-programme-vidi-science-2025",
+            dateAdded: "2026-04-02"
+          },
+          {
+            id: 90,
+            funder: "Wellcome Trust",
+            funderCategory: "International",
+            name: "Early-Career Awards – Round 2 2026",
+            type: "Personal Fellowship",
+            careerStage: ["Early Career", "Postdoc"],
+            budgetMin: 200000,
+            budgetMax: 400000,
+            currency: "GBP",
+            deadline: "2026-07-21",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "3x per year",
+            status: "Upcoming",
+            relevanceTags: ["health research", "any discipline", "pharmacoepidemiology", "drug safety"],
+            description: "Second 2026 round of Wellcome Early-Career Awards. Deadline 21 July 2026 15:00 BST. For early-career researchers developing their research identity. Salary + up to £400,000 research expenses. Round 1 closed 17 Feb 2026.",
+            url: "https://wellcome.org/research-funding/schemes/wellcome-early-career-awards",
+            dateAdded: "2026-04-02"
+          },
+          {
+            id: 91,
+            funder: "Wellcome Trust",
+            funderCategory: "International",
+            name: "Career Development Awards – Round 2 2026",
+            type: "Personal Fellowship",
+            careerStage: ["Mid Career"],
+            budgetMin: 400000,
+            budgetMax: 800000,
+            currency: "GBP",
+            deadline: "2026-07-28",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "3x per year",
+            status: "Upcoming",
+            relevanceTags: ["health research", "any discipline", "pharmacoepidemiology", "drug safety", "research leadership"],
+            description: "Second 2026 round of Wellcome Career Development Awards. Deadline 28 July 2026 15:00 BST. For mid-career researchers establishing independent programmes. Up to 8 years funding. Annual expenditure usually below £250,000 excluding salary. Round 1 closed 26 Mar 2026.",
+            url: "https://wellcome.org/research-funding/schemes/wellcome-career-development-awards",
+            dateAdded: "2026-04-02"
+          },
+          {
+            id: 92,
+            funder: "European Research Council (ERC)",
+            funderCategory: "European",
+            name: "ERC Plus Grant 2026",
+            type: "Personal Fellowship",
+            careerStage: ["Senior/PI", "Mid Career", "Early Career"],
+            budgetMin: 7000000,
+            budgetMax: 7000000,
+            currency: "EUR",
+            deadline: "2026-09-02",
+            deadlineType: "Final",
+            phaseType: "2-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual (new scheme)",
+            status: "Upcoming",
+            relevanceTags: ["frontier research", "any discipline", "pharmacoepidemiology", "clinical pharmacology", "transformative research"],
+            description: "NEW ERC scheme for 2026. €7M for 4-7 years for researchers with transformative ideas too ambitious for traditional grants. ~30 grants across all fields, no field quotas. Opens 2 June 2026, deadline 2 September 2026. Any career stage eligible. Step 1 panels Nov 2026, results Feb 2027. Must be based in EU or planning to relocate.",
+            url: "https://erc.europa.eu/apply-grant/erc-plus-grant",
+            dateAdded: "2026-04-02"
           }
         ];
 
@@ -1978,7 +2066,7 @@
 
         function getDeadlineColor(deadline, status) {
           if (status === 'Closed') return 'deadline-gray';
-          const today = new Date('2026-04-01');
+          const today = new Date('2026-04-02');
           const deadlineDate = new Date(deadline);
           const daysUntil = Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
           if (daysUntil < 14) return 'deadline-red';
@@ -1992,7 +2080,7 @@
         }
 
         function daysUntilDeadline(deadline) {
-          const today = new Date('2026-04-01');
+          const today = new Date('2026-04-02');
           const deadlineDate = new Date(deadline);
           return Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
         }
@@ -2052,7 +2140,7 @@
 
             // Deadline range filter
             if (filters.deadlineRange !== 'all') {
-              const today = new Date('2026-04-01');
+              const today = new Date('2026-04-02');
               result = result.filter(item => {
                 const deadlineDate = new Date(item.deadline);
                 const days = Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
@@ -2083,7 +2171,7 @@
           }, [filters, sortBy]);
 
           const upcomingDeadlines = React.useMemo(() => {
-            const today = new Date('2026-04-01');
+            const today = new Date('2026-04-02');
             return fundingData
               .filter(item => item.status !== 'Closed')
               .map(item => ({
@@ -2099,12 +2187,12 @@
             total: fundingData.length,
             open: filteredData.filter(d => d.status === 'Open').length,
             upcoming30: filteredData.filter(d => {
-              const today = new Date('2026-04-01');
+              const today = new Date('2026-04-02');
               const daysUntil = Math.ceil((new Date(d.deadline) - today) / (1000 * 60 * 60 * 24));
               return d.status !== 'Closed' && daysUntil > 0 && daysUntil <= 30;
             }).length,
             new30: fundingData.filter(d => {
-              const today = new Date('2026-04-01');
+              const today = new Date('2026-04-02');
               const addedDate = new Date(d.dateAdded);
               return (today - addedDate) / (1000 * 60 * 60 * 24) <= 30;
             }).length
@@ -2167,7 +2255,7 @@
                       <h1 className="text-2xl font-bold text-black tracking-tight">Pharmacoepidemiology and Clinical Pharmacology</h1>
                       <p className="text-sm text-black opacity-75 mt-0.5">Utrecht University — Funding Watch</p>
                     </div>
-                    <p className="text-xs text-black opacity-60">Last updated: April 1, 2026 05:31</p>
+                    <p className="text-xs text-black opacity-60">Last updated: April 2, 2026 05:31</p>
                   </div>
                 </div>
               </div>
@@ -2564,7 +2652,7 @@
               <div className="uu-dark text-gray-300 py-8 mt-12">
                 <div className="max-w-7xl mx-auto px-4 text-center text-sm">
                   <p className="mb-2">Funding Watch - Division of Pharmacoepidemiology & Clinical Pharmacology</p>
-                  <p>Utrecht University | Data Last Updated: April 1, 2026 05:31 | 88 opportunities tracked</p>
+                  <p>Utrecht University | Data Last Updated: April 2, 2026 05:31 | 92 opportunities tracked</p>
                 </div>
               </div>
             </div>
