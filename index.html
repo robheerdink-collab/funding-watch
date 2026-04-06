@@ -288,9 +288,9 @@
             mandatoryPartners: false,
             mandatoryPartnersDesc: "",
             recurring: "Annual",
-            status: "Open",
+            status: "Closed",
             relevanceTags: ["oncology", "cancer", "pharmacoepidemiology"],
-            description: "URGENT: Full proposal deadline 7 April 2026. Dedicated annual call for promising young researchers (≤5 years post-PhD). Average grant ~€500,000. Separate from the regular Development Call since September 2025. Pre-proposals closed 11 Nov 2025. Invited full proposals due 7 April 2026.",
+            description: "Full proposal deadline was 7 April 2026. Dedicated annual call for promising young researchers (≤5 years post-PhD). Average grant ~€500,000. Separate from the regular Development Call since September 2025. Pre-proposals closed 11 Nov 2025. Full proposals closed 7 April 2026. Monitor for YIG 2027 round.",
             url: "https://www.kwf.nl/en/forresearchers/funding/young-investigator-grant",
             dateAdded: "2026-01-01"
           },
@@ -2362,6 +2362,72 @@
             description: "Health~Holland LWV Crossover PPS Call for projects at the intersection of Life Sciences & Health and agriculture, food, or nutrition. Supports cross-sectoral innovation aligning with the Knowledge and Innovation Agenda. Relevant for One Health approaches to drug utilisation and sustainable pharmacy.",
             url: "https://www.health-holland.com/funding-opportunities/pps-call-lwv-cross-over",
             dateAdded: "2026-04-03"
+          },
+          {
+            id: 107,
+            funder: "Dutch Heart Foundation (Hartstichting)",
+            funderCategory: "Private/Foundation",
+            name: "Consortium Call – Dutch Cardiovascular Agenda 2026",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 1000000,
+            budgetMax: 10000000,
+            currency: "EUR",
+            deadline: "2026-04-22",
+            deadlineType: "Pre-proposal",
+            phaseType: "2-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Consortium led by 2 research leaders from different organisations required",
+            recurring: "New programme",
+            status: "Open",
+            relevanceTags: ["cardiovascular", "drug safety", "pharmacoepidemiology", "polypharmacy", "real-world evidence", "consortium research"],
+            description: "URGENT: Pre-proposal deadline 22 April 2026 14:00. €10M total for new, innovative research contributing to the Dutch Cardiovascular Agenda. 18-20 pre-proposals will be selected for full application. Must address one of the 7 key challenges of the Cardiovascular Agenda. Relevant for pharmacoepi research on cardiovascular medications, polypharmacy, and drug safety in CVD patients.",
+            url: "https://professionals.hartstichting.nl/samenwerking-en-financiering/financiering/consortiumfinanciering/open-call-consortia-10-million-euros-research-dutch-cardiovascular-agenda",
+            dateAdded: "2026-04-07"
+          },
+          {
+            id: 108,
+            funder: "EU4Health / HaDEA",
+            funderCategory: "European",
+            name: "EU4Health 2026 Work Programme – Upcoming Calls",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 1000000,
+            budgetMax: 10000000,
+            currency: "EUR",
+            deadline: "2026-12-31",
+            deadlineType: "Expected (WP publication pending)",
+            phaseType: "Varies",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Eligible entities from EU member states or associated countries",
+            recurring: "Annual (work programme)",
+            status: "Upcoming",
+            relevanceTags: ["pharmaceutical policy", "access to medicines", "HTA", "drug pricing", "health systems", "digital health"],
+            description: "The EU4Health 2026 Annual Work Programme is expected to be published mid-2026, after which new calls for action grants will open. Previous WP included topics on medicine pricing/reimbursement/access tracker, cancer screening, cardiovascular health, orphan medical devices, and health data. Monitor HaDEA website for publication of new WP and call openings.",
+            url: "https://hadea.ec.europa.eu/programmes/eu4health_en",
+            dateAdded: "2026-04-07"
+          },
+          {
+            id: 109,
+            funder: "Novo Nordisk Foundation",
+            funderCategory: "International",
+            name: "Start Package Grants for Faculty Recruitment Q2 2026",
+            type: "Personal Fellowship",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 5000000,
+            budgetMax: 10000000,
+            currency: "DKK",
+            deadline: "2026-09-01",
+            deadlineType: "Expected (Q2 round)",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Quarterly",
+            status: "Upcoming",
+            relevanceTags: ["international recruitment", "research leadership", "biomedical sciences", "pharmacoepidemiology"],
+            description: "NNF Start Package Grants support Danish universities, hospitals, and research organisations to attract world-class researchers and establish independent research groups. Up to DKK 120M allocated per round. Q1 2026 round closed. Q2 2026 round expected. Relevant for recruiting pharmacoepi talent to collaborating institutions.",
+            url: "https://novonordiskfonden.dk/en/grant/start-package-grants-for-faculty-recruitment/",
+            dateAdded: "2026-04-07"
           }
         ];
 
@@ -2374,7 +2440,7 @@
 
         function getDeadlineColor(deadline, status) {
           if (status === 'Closed') return 'deadline-gray';
-          const today = new Date('2026-04-03');
+          const today = new Date('2026-04-07');
           const deadlineDate = new Date(deadline);
           const daysUntil = Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
           if (daysUntil < 14) return 'deadline-red';
@@ -2388,7 +2454,7 @@
         }
 
         function daysUntilDeadline(deadline) {
-          const today = new Date('2026-04-03');
+          const today = new Date('2026-04-07');
           const deadlineDate = new Date(deadline);
           return Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
         }
@@ -2448,7 +2514,7 @@
 
             // Deadline range filter
             if (filters.deadlineRange !== 'all') {
-              const today = new Date('2026-04-03');
+              const today = new Date('2026-04-07');
               result = result.filter(item => {
                 const deadlineDate = new Date(item.deadline);
                 const days = Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
@@ -2479,7 +2545,7 @@
           }, [filters, sortBy]);
 
           const upcomingDeadlines = React.useMemo(() => {
-            const today = new Date('2026-04-03');
+            const today = new Date('2026-04-07');
             return fundingData
               .filter(item => item.status !== 'Closed')
               .map(item => ({
@@ -2495,12 +2561,12 @@
             total: fundingData.length,
             open: filteredData.filter(d => d.status === 'Open').length,
             upcoming30: filteredData.filter(d => {
-              const today = new Date('2026-04-03');
+              const today = new Date('2026-04-07');
               const daysUntil = Math.ceil((new Date(d.deadline) - today) / (1000 * 60 * 60 * 24));
               return d.status !== 'Closed' && daysUntil > 0 && daysUntil <= 30;
             }).length,
             new30: fundingData.filter(d => {
-              const today = new Date('2026-04-03');
+              const today = new Date('2026-04-07');
               const addedDate = new Date(d.dateAdded);
               return (today - addedDate) / (1000 * 60 * 60 * 24) <= 30;
             }).length
@@ -2563,7 +2629,7 @@
                       <h1 className="text-2xl font-bold text-black tracking-tight">Pharmacoepidemiology and Clinical Pharmacology</h1>
                       <p className="text-sm text-black opacity-75 mt-0.5">Utrecht University — Funding Watch</p>
                     </div>
-                    <p className="text-xs text-black opacity-60">Last updated: April 3, 2026 09:00</p>
+                    <p className="text-xs text-black opacity-60">Last updated: April 7, 2026 08:15</p>
                   </div>
                 </div>
               </div>
@@ -2960,7 +3026,7 @@
               <div className="uu-dark text-gray-300 py-8 mt-12">
                 <div className="max-w-7xl mx-auto px-4 text-center text-sm">
                   <p className="mb-2">Funding Watch - Division of Pharmacoepidemiology & Clinical Pharmacology</p>
-                  <p>Utrecht University | Data Last Updated: April 3, 2026 09:00 | 106 opportunities tracked</p>
+                  <p>Utrecht University | Data Last Updated: April 7, 2026 08:15 | 109 opportunities tracked</p>
                 </div>
               </div>
             </div>
