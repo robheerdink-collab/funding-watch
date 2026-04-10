@@ -2669,6 +2669,72 @@
             description: "ERA-AD 2026 supports international collaborative research on Alzheimer's disease and other dementias. Alzheimer Nederland participates as a funding partner. Relevant for pharmacoepi research on dementia medications, polypharmacy in elderly, and anti-amyloid drug safety monitoring.",
             url: "https://era-ad2026.azuleon.org/",
             dateAdded: "2026-04-09"
+          },
+          {
+            id: 124,
+            funder: "Longfonds (Dutch Lung Foundation)",
+            funderCategory: "Private/Foundation",
+            name: "Longfonds Consortium Grant 2026",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 200000,
+            budgetMax: 700000,
+            currency: "EUR",
+            deadline: "2026-09-01",
+            deadlineType: "Expected (pre-proposal)",
+            phaseType: "2-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Consortium of multiple research groups required; patient involvement mandatory",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["respiratory diseases", "asthma", "COPD", "drug safety", "pharmacoepidemiology", "medication adherence"],
+            description: "€2.1M total for 3 research consortia (€700,000 each) for promising and innovative research into prevention, treatment, and cure of chronic lung diseases. Pre-proposal deadline expected Q3 2026. Patient involvement required. Relevant for pharmacoepi research on respiratory drug safety, inhaler adherence, and COPD/asthma pharmacotherapy.",
+            url: "https://research.longfonds.nl/",
+            dateAdded: "2026-04-10"
+          },
+          {
+            id: 125,
+            funder: "Health~Holland (TKI LSH)",
+            funderCategory: "Dutch National",
+            name: "PPS Call LWV Crossover 2026",
+            type: "Network/Consortium",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 100000,
+            budgetMax: 500000,
+            currency: "EUR",
+            deadline: "2026-09-01",
+            deadlineType: "Final",
+            phaseType: "1-phase",
+            mandatoryPartners: true,
+            mandatoryPartnersDesc: "Public-private partnership required; must address both LWV and Health & Care KIA goals",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["sustainable pharmacy", "planetary health", "green pharmacy", "pharmaceutical policy", "environmental health", "public-private partnership"],
+            description: "Joint PPS call across top sectors (LWV crossover to LSH). €1.5M allocated for TKI LSH. Submissions from mid-June through 1 September 2026. Projects must contribute to both Agriculture/Water/Food and Health & Care Knowledge and Innovation Agendas. Highly relevant for sustainable pharmacy, green pharmacy, and planetary health research linking environmental and pharmaceutical domains.",
+            url: "https://www.health-holland.com/funding-opportunities/pps-call-lwv-cross-over",
+            dateAdded: "2026-04-10"
+          },
+          {
+            id: 126,
+            funder: "NWO",
+            funderCategory: "Dutch National",
+            name: "Open Competition Domain Science – M 2026/2027",
+            type: "Project Grant",
+            careerStage: ["Senior/PI", "Mid Career"],
+            budgetMin: 200000,
+            budgetMax: 750000,
+            currency: "EUR",
+            deadline: "2026-08-01",
+            deadlineType: "Expected opening (continuous submission)",
+            phaseType: "1-phase",
+            mandatoryPartners: false,
+            mandatoryPartnersDesc: "",
+            recurring: "Annual",
+            status: "Upcoming",
+            relevanceTags: ["pharmacoepidemiology", "clinical pharmacology", "any discipline", "life sciences", "data science"],
+            description: "New 2026/2027 round of ENW-M Open Competition opening August 2026. The 2025/2026 round reached max proposals and is closed. Continuous submission once open. €200k-€750k per project across all Domain Science disciplines including Life Sciences. Good for pharmacoepi and clinical pharmacology research proposals.",
+            url: "https://www.nwo.nl/en/calls/open-competition-domain-science-m-2025/2026",
+            dateAdded: "2026-04-10"
           }
 
         ];
@@ -2682,7 +2748,7 @@
 
         function getDeadlineColor(deadline, status) {
           if (status === 'Closed') return 'deadline-gray';
-          const today = new Date('2026-04-09');
+          const today = new Date('2026-04-10');
           const deadlineDate = new Date(deadline);
           const daysUntil = Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
           if (daysUntil < 14) return 'deadline-red';
@@ -2696,7 +2762,7 @@
         }
 
         function daysUntilDeadline(deadline) {
-          const today = new Date('2026-04-09');
+          const today = new Date('2026-04-10');
           const deadlineDate = new Date(deadline);
           return Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
         }
@@ -2756,7 +2822,7 @@
 
             // Deadline range filter
             if (filters.deadlineRange !== 'all') {
-              const today = new Date('2026-04-09');
+              const today = new Date('2026-04-10');
               result = result.filter(item => {
                 const deadlineDate = new Date(item.deadline);
                 const days = Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
@@ -2787,7 +2853,7 @@
           }, [filters, sortBy]);
 
           const upcomingDeadlines = React.useMemo(() => {
-            const today = new Date('2026-04-09');
+            const today = new Date('2026-04-10');
             return fundingData
               .filter(item => item.status !== 'Closed')
               .map(item => ({
@@ -2803,12 +2869,12 @@
             total: fundingData.length,
             open: filteredData.filter(d => d.status === 'Open').length,
             upcoming30: filteredData.filter(d => {
-              const today = new Date('2026-04-09');
+              const today = new Date('2026-04-10');
               const daysUntil = Math.ceil((new Date(d.deadline) - today) / (1000 * 60 * 60 * 24));
               return d.status !== 'Closed' && daysUntil > 0 && daysUntil <= 30;
             }).length,
             new30: fundingData.filter(d => {
-              const today = new Date('2026-04-09');
+              const today = new Date('2026-04-10');
               const addedDate = new Date(d.dateAdded);
               return (today - addedDate) / (1000 * 60 * 60 * 24) <= 30;
             }).length
@@ -2870,7 +2936,7 @@
                       <h1 className="text-2xl font-bold text-black tracking-tight">Pharmacoepidemiology and Clinical Pharmacology</h1>
                       <p className="text-sm text-black opacity-75 mt-0.5">Utrecht University — Funding Watch</p>
                     </div>
-                    <p className="text-xs text-black opacity-60">Last updated: April 9, 2026 18:30</p>
+                    <p className="text-xs text-black opacity-60">Last updated: April 10, 2026 09:15</p>
                   </div>
                 </div>
               </div>
@@ -3267,7 +3333,7 @@
               <div className="uu-dark text-gray-300 py-8 mt-12">
                 <div className="max-w-7xl mx-auto px-4 text-center text-sm">
                   <p className="mb-2">Funding Watch - Division of Pharmacoepidemiology & Clinical Pharmacology</p>
-                  <p>Utrecht University | Data Last Updated: April 9, 2026 18:30</p>
+                  <p>Utrecht University | Data Last Updated: April 10, 2026 09:15</p>
                 </div>
               </div>
             </div>
