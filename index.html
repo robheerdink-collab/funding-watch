@@ -3349,7 +3349,7 @@
             status: "Continuous",
             relevanceTags: ["master students", "international mobility", "pharmacy education", "study trip"],
             description: "Stipend for pharmacy master's students at Groningen, Utrecht and Leiden to cover costs of an international study trip that contributes to scientific development in pharmacy. Three rounds per year: applications due before 1 February, 1 July, or 1 October. Applicant may submit only one application. Useful for UU master students planning a research stage abroad.",
-            url: "https://www.knmp.nl/beroepsontwikkeling/onderzoek/stipendiafonds",
+            url: "https://www.knmp.nl/beroepsontwikkeling/onderzoek/knmp-stipendiafonds",
             dateAdded: "2026-04-17"
           },
           {
@@ -3415,7 +3415,7 @@
             status: "Closed",
             relevanceTags: ["antibiotic stewardship", "antimicrobial resistance", "PhD dissertation", "drug safety"],
             description: "€1,000 prize for an innovative, impactful PhD dissertation on antimicrobial resistance, antimicrobial stewardship or antibiotic policy. Eligibility: defended at a Dutch university between 1 Jan 2025 and 1 Jan 2026. Submit PDF + ≤500-word motivation to secretariaat@swab.nl by 1 April 2026. Winner announced at the SWAB Symposium (25 June 2026). Next round expected early 2027.",
-            url: "https://www.knmp.nl/actueel/nieuws/proefschriften-over-antibioticabeleid-maken-kans-op-jan-prins-proefschriftprijs-2026",
+            url: "https://swab.nl/nl/article/nieuws/696/winnaar-swab-proefschriftprijs",
             dateAdded: "2026-04-17"
           },
           {
@@ -3503,7 +3503,7 @@
             status: "Upcoming",
             relevanceTags: ["master thesis", "pharmaceutical sciences", "medical sciences", "afstudeerprijs"],
             description: "Three annual KHMW Afstudeerprijzen (€3,000 / €2,000 / €1,000) awarded via the Dr. Saal van Zwanenberg Stichting for the best master research reports in pharmaceutical / medical sciences in which medicine is central. KNMP co-sponsors 4 prizes in the pharmacy / (bio)pharmaceutical sciences category. Nomination by the faculty.",
-            url: "https://khmw.nl/prijzen-blog/",
+            url: "https://khmw.nl/khmw-dr-saal-van-zwanenberg-onderzoeksprijzen/",
             dateAdded: "2026-04-17"
           },
           {
@@ -3732,16 +3732,14 @@
             return result;
           }, [filters, sortBy]);
 
-          const upcomingDeadlines = React.useMemo(() => {
-            const today = new Date('2026-04-17');
-            return fundingData
-              .filter(item => item.status !== 'Closed')
-              .map(item => ({
-                ...item,
-                daysUntil: Math.ceil((new Date(item.deadline) - today) / (1000 * 60 * 60 * 24))
-              }))
-              .filter(item => item.daysUntil > 0)
-              .sort((a, b) => a.daysUntil - b.daysUntil)
+          const recentlyAdded = React.useMemo(() => {
+            return [...fundingData]
+              .filter(item => item.dateAdded)
+              .sort((a, b) => {
+                const dateDiff = new Date(b.dateAdded) - new Date(a.dateAdded);
+                if (dateDiff !== 0) return dateDiff;
+                return b.id - a.id;
+              })
               .slice(0, 5);
           }, []);
 
@@ -3775,6 +3773,59 @@
             } else {
               setFilters({...filters, type: ['Prize/Stipend']});
               // scroll to results
+              setTimeout(() => {
+                const el = document.getElementById('results-section');
+                if (el) el.scrollIntoView({behavior: 'smooth', block: 'start'});
+              }, 50);
+            }
+          };
+
+          // Quick-filter presets — each preset defines the subset of filter fields
+          // it controls. A preset is "active" when the current filters match those
+          // values exactly (other fields are ignored). Clicking an active preset
+          // clears it; clicking an inactive preset applies it without disturbing
+          // unrelated filter fields (e.g. status stays at default).
+          const quickFilterPresets = React.useMemo(() => [
+            { id: 'prizes',   label: 'Prizes & Student/PhD Funds', icon: '🏆', fields: { type: ['Prize/Stipend'] } },
+            { id: 'dutch',    label: 'Dutch National',             icon: '🇳🇱', fields: { funderCategory: ['Dutch National'] } },
+            { id: 'european', label: 'European',                   icon: '🇪🇺', fields: { funderCategory: ['European'] } },
+            { id: 'intl',     label: 'International & Foundation', icon: '🌍', fields: { funderCategory: ['International', 'Private/Foundation'] } },
+            { id: 'small',    label: 'Small calls (<€100k)',       icon: '💰', fields: { budgetMin: 0, budgetMax: 99999 } },
+            { id: 'large',    label: 'Large calls (≥€100k)',       icon: '💎', fields: { budgetMin: 100000, budgetMax: 10000000 } },
+            { id: 'soon',     label: 'Deadline ≤ 90 days',         icon: '⏰', fields: { deadlineRange: '90' } },
+            { id: 'fellow',   label: 'Personal Fellowships',       icon: '👤', fields: { type: ['Personal Fellowship'] } },
+          ], []);
+
+          const arraysEqualAsSet = (a, b) => {
+            if (!Array.isArray(a) || !Array.isArray(b)) return false;
+            if (a.length !== b.length) return false;
+            const sa = [...a].sort();
+            const sb = [...b].sort();
+            return sa.every((v, i) => v === sb[i]);
+          };
+
+          const isPresetActive = (preset) => {
+            return Object.entries(preset.fields).every(([key, val]) => {
+              const current = filters[key];
+              if (Array.isArray(val)) return arraysEqualAsSet(current, val);
+              return current === val;
+            });
+          };
+
+          const handleApplyPreset = (preset) => {
+            const active = isPresetActive(preset);
+            if (active) {
+              // Clear the preset's fields back to their defaults
+              const reset = {};
+              Object.keys(preset.fields).forEach(key => {
+                if (key === 'budgetMin') reset.budgetMin = 0;
+                else if (key === 'budgetMax') reset.budgetMax = 10000000;
+                else if (key === 'deadlineRange') reset.deadlineRange = 'all';
+                else reset[key] = [];
+              });
+              setFilters({...filters, ...reset});
+            } else {
+              setFilters({...filters, ...preset.fields});
               setTimeout(() => {
                 const el = document.getElementById('results-section');
                 if (el) el.scrollIntoView({behavior: 'smooth', block: 'start'});
@@ -3838,87 +3889,71 @@
                       <h1 className="text-2xl font-bold text-black tracking-tight">Pharmacoepidemiology and Clinical Pharmacology</h1>
                       <p className="text-sm text-black opacity-75 mt-0.5">Utrecht University — Funding Watch</p>
                     </div>
-                    <p className="text-xs text-black opacity-60">Last updated: April 17, 2026 — Prizes & Student Funds rubric added</p>
+                    <p className="text-xs text-black opacity-60">Last updated: April 17, 2026 — Recent calls row + quick-filter shortcuts</p>
                   </div>
                 </div>
               </div>
 
-              {/* Quick Deadlines */}
-              {upcomingDeadlines.length > 0 && (
+              {/* Most Recently Added Calls */}
+              {recentlyAdded.length > 0 && (
                 <div className="max-w-7xl mx-auto px-4 py-6 bg-blue-50 border-b border-blue-200">
-                  <h3 className="font-bold text-blue-900 mb-3">Next 5 Upcoming Deadlines</h3>
+                  <h3 className="font-bold text-blue-900 mb-3">Most Recently Added Calls</h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-3">
-                    {upcomingDeadlines.map(item => (
-                      <div key={item.id} className="bg-white p-3 rounded-lg border border-blue-200">
-                        <div className="text-xs font-semibold text-blue-900">{item.funder}</div>
-                        <div className="text-xs text-gray-600 mt-1 line-clamp-2">{item.name}</div>
-                        <div className={`text-sm font-bold mt-2 ${getDeadlineColor(item.deadline, item.status)}`}>
-                          {formatDate(item.deadline)}
-                        </div>
-                        <div className="text-xs text-gray-500">{item.daysUntil} days</div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              )}
-
-              {/* Prizes & Student Funds – dedicated rubric */}
-              {prizeItems.length > 0 && (
-                <div className="max-w-7xl mx-auto px-4 py-6 bg-yellow-50 border-b border-yellow-200">
-                  <div className="flex items-center justify-between flex-wrap gap-3 mb-3">
-                    <div>
-                      <h3 className="font-bold text-yellow-900 text-lg">
-                        🏆 Prizes &amp; Student/PhD Funds
-                      </h3>
-                      <p className="text-xs text-yellow-900 opacity-80 mt-1">
-                        Thesis prizes, dissertation awards and stipends for master students and PhDs — Dutch and international.
-                      </p>
-                    </div>
-                    <button
-                      onClick={handleTogglePrizeFilter}
-                      className={`px-4 py-2 rounded text-sm font-semibold transition ${
-                        isPrizeFilterActive
-                          ? 'bg-gray-700 text-white hover:bg-gray-800'
-                          : 'uu-yellow-bg text-black hover:brightness-95'
-                      }`}
-                    >
-                      {isPrizeFilterActive
-                        ? 'Show all opportunities'
-                        : `Show only Prizes & Student Funds (${prizeItems.length})`}
-                    </button>
-                  </div>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                    {prizeItems.slice(0, 6).map(item => (
+                    {recentlyAdded.map(item => (
                       <a
                         key={item.id}
                         href={item.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="bg-white p-3 rounded-lg border border-yellow-300 hover:shadow-md transition block"
+                        className="bg-white p-3 rounded-lg border border-blue-200 hover:shadow-md transition block"
                       >
-                        <div className="text-xs font-semibold text-yellow-900">{item.funder}</div>
-                        <div className="text-xs text-gray-800 mt-1 font-bold line-clamp-2">{item.name}</div>
+                        <div className="text-xs font-semibold text-blue-900 line-clamp-1">{item.funder}</div>
+                        <div className="text-xs text-gray-800 font-bold mt-1 line-clamp-2">{item.name}</div>
                         <div className="flex justify-between items-center mt-2">
-                          <span className="text-xs text-gray-600">
-                            {item.careerStage.join(', ')}
+                          <span className={`text-xs font-bold ${getDeadlineColor(item.deadline, item.status)}`}>
+                            {item.status === 'Closed' ? 'Closed' : formatDate(item.deadline)}
                           </span>
-                          <span className="text-xs font-semibold text-gray-700">
-                            €{(item.budgetMin/1000).toFixed(1)}k–{(item.budgetMax/1000).toFixed(1)}k
-                          </span>
-                        </div>
-                        <div className={`text-xs font-bold mt-1 ${getDeadlineColor(item.deadline, item.status)}`}>
-                          {item.status === 'Closed' ? 'Closed' : formatDate(item.deadline)}
+                          <span className="text-[10px] text-gray-500 uppercase tracking-wide">added {formatDate(item.dateAdded)}</span>
                         </div>
                       </a>
                     ))}
                   </div>
-                  {prizeItems.length > 6 && (
-                    <p className="text-xs text-yellow-900 opacity-75 mt-3">
-                      +{prizeItems.length - 6} more prizes/stipends — click the button above to filter the full list.
-                    </p>
-                  )}
                 </div>
               )}
+
+              {/* Quick-filter shortcuts */}
+              <div className="max-w-7xl mx-auto px-4 py-4 border-b border-gray-200 bg-white">
+                <div className="flex items-center flex-wrap gap-2">
+                  <span className="text-xs font-semibold text-gray-600 uppercase tracking-wide mr-1">
+                    Quick filters:
+                  </span>
+                  {quickFilterPresets.map(preset => {
+                    const active = isPresetActive(preset);
+                    return (
+                      <button
+                        key={preset.id}
+                        onClick={() => handleApplyPreset(preset)}
+                        className={`px-3 py-1.5 rounded-full text-xs font-semibold border transition ${
+                          active
+                            ? 'bg-gray-800 text-white border-gray-800 hover:bg-gray-900'
+                            : 'bg-gray-50 text-gray-700 border-gray-300 hover:bg-yellow-50 hover:border-yellow-400'
+                        }`}
+                        title={active ? 'Click to clear this quick filter' : 'Click to apply this quick filter'}
+                      >
+                        <span className="mr-1">{preset.icon}</span>
+                        {preset.label}
+                      </button>
+                    );
+                  })}
+                  <button
+                    onClick={handleClearFilters}
+                    className="px-3 py-1.5 rounded-full text-xs font-semibold border border-gray-200 text-gray-500 hover:bg-gray-100 transition ml-auto"
+                    title="Clear all filters and return to default view"
+                  >
+                    Reset all
+                  </button>
+                </div>
+              </div>
 
               {/* Stats Bar */}
               <div className="max-w-7xl mx-auto px-4 py-6 grid grid-cols-2 md:grid-cols-5 gap-4">
