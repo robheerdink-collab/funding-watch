@@ -452,22 +452,22 @@
             id: 20,
             funder: "KNAW",
             funderCategory: "Dutch National",
-            name: "Trailblazers Fund 2026",
+            name: "Trailblazers Fund / Baanbrekersfonds 2027",
             type: "Personal Fellowship",
             careerStage: ["PhD", "Postdoc", "Early Career"],
             budgetMin: 5000,
             budgetMax: 10000,
             currency: "EUR",
-            deadline: "2026-04-29",
-            deadlineType: "Final",
+            deadline: "2027-04-01",
+            deadlineType: "Expected (TBC)",
             phaseType: "1-phase",
             mandatoryPartners: false,
             mandatoryPartnersDesc: "",
             recurring: "Annual",
-            status: "Closed",
+            status: "Upcoming",
             relevanceTags: ["career development", "first-generation academics"],
-            description: "2026 round closed 29 April 2026. For early-career first-generation academics. €5,000 (PhD) or €10,000 (postdoc/assistant professor) for professional development and network building. ~25% success rate. Monitor for 2027 round.",
-            url: "https://www.knaw.nl/en/funds-and-prizes/knaw-trailblazersfund-firstgenerationacademics",
+            description: "2026 round closed 29 April 2026. Next round expected spring 2027 (deadline TBC). For early-career first-generation academics. €5,000 (PhD) or €10,000 (postdoc/assistant professor) for professional development and network building. ~25% success rate.",
+            url: "https://www.knaw.nl/fondsen-en-prijzen/knaw-baanbrekersfonds-eerstegeneratiewetenschappers",
             dateAdded: "2026-01-01"
           },
           {
@@ -4156,7 +4156,7 @@
 
         function getDeadlineColor(deadline, status) {
           if (status === 'Closed') return 'deadline-gray';
-          const today = new Date('2026-05-23');
+          const today = new Date('2026-05-29');
           const deadlineDate = new Date(deadline);
           const daysUntil = Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
           if (daysUntil < 14) return 'deadline-red';
@@ -4170,7 +4170,7 @@
         }
 
         function daysUntilDeadline(deadline) {
-          const today = new Date('2026-05-23');
+          const today = new Date('2026-05-29');
           const deadlineDate = new Date(deadline);
           return Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
         }
@@ -4230,7 +4230,7 @@
 
             // Deadline range filter
             if (filters.deadlineRange !== 'all') {
-              const today = new Date('2026-05-23');
+              const today = new Date('2026-05-29');
               result = result.filter(item => {
                 const deadlineDate = new Date(item.deadline);
                 const days = Math.ceil((deadlineDate - today) / (1000 * 60 * 60 * 24));
@@ -4275,12 +4275,12 @@
             total: fundingData.length,
             open: filteredData.filter(d => d.status === 'Open').length,
             upcoming30: filteredData.filter(d => {
-              const today = new Date('2026-05-23');
+              const today = new Date('2026-05-29');
               const daysUntil = Math.ceil((new Date(d.deadline) - today) / (1000 * 60 * 60 * 24));
               return d.status !== 'Closed' && daysUntil > 0 && daysUntil <= 30;
             }).length,
             new30: fundingData.filter(d => {
-              const today = new Date('2026-05-23');
+              const today = new Date('2026-05-29');
               const addedDate = new Date(d.dateAdded);
               return (today - addedDate) / (1000 * 60 * 60 * 24) <= 30;
             }).length,
@@ -4417,7 +4417,7 @@
                       <h1 className="text-2xl font-bold text-black tracking-tight">Pharmacoepidemiology and Clinical Pharmacology</h1>
                       <p className="text-sm text-black opacity-75 mt-0.5">Utrecht University — Funding Watch</p>
                     </div>
-                    <p className="text-xs text-black opacity-60">Last updated: May 23, 2026 09:00 — 3 new entries added, 5 entries updated, 1 status change</p>
+                    <p className="text-xs text-black opacity-60">Last updated: May 29, 2026 08:00 — 4 new entries added, 6 entries updated, 1 status rolled forward</p>
                   </div>
                 </div>
               </div>
@@ -4864,7 +4864,7 @@
               <div className="uu-dark text-gray-300 py-8 mt-12">
                 <div className="max-w-7xl mx-auto px-4 text-center text-sm">
                   <p className="mb-2">Funding Watch - Division of Pharmacoepidemiology & Clinical Pharmacology</p>
-                  <p>Utrecht University | Data Last Updated: May 23, 2026 09:00 — 3 new entries added, 5 entries updated, 1 status change</p>
+                  <p>Utrecht University | Data Last Updated: May 29, 2026 08:00 — 4 new entries added, 6 entries updated, 1 status rolled forward</p>
                 </div>
               </div>
             </div>
