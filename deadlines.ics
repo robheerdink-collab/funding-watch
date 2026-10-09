@@ -7,7 +7,7 @@ X-WR-CALNAME:Funding Watch deadlines
 X-WR-TIMEZONE:Europe/Amsterdam
 BEGIN:VEVENT
 UID:funding-watch-23-20261014@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:Application deadline: ERC Starting Grant 2027
@@ -20,7 +20,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-199-20261016@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:Application deadline: EWUU i4PH Seed Call 2026 – Preventive heal
@@ -40,8 +40,66 @@ URL:https://preventivehealth.ewuu.nl/2026/06/seed-call-for-preventive-heal
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:funding-watch-204-20261020@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Pre-proposal deadline: Call for Validation of Biomarker Candidates
+  2027
+DESCRIPTION:KWF (Dutch Cancer Society). Funds multidisciplinary consortia 
+ (at least 4 parties\, private partners allowed) to clinically validate kn
+ own cancer biomarkers towards use in daily practice\, EUR 0.8-2M per proj
+ ect over 2-5 years. An (early) HTA\, biostatistics expertise\, a developm
+ ent plan and patient involvement are mandatory. Pre-proposals close 20 Oc
+ t 2026 (12:00)\; full proposals 15 Dec 2026-23 Feb 2027\, decision June 2
+ 027.\n\nhttps://www.kwf.nl/en/forresearchers/funding/validation-of-biomar
+ kers-2027
+URL:https://www.kwf.nl/en/forresearchers/funding/validation-of-biomarkers-
+ 2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-257-20261028@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Application deadline: COST Open Call OC-2026-1 – New COST Action
+ s (research networks)
+DESCRIPTION:COST Association. Bottom-up call for new COST Actions\, Europe
+ an science and technology networks that fund meetings\, short-term scient
+ ific missions\, training schools and dissemination\, not the research its
+ elf. A proposal needs at least seven COST member countries\, at least hal
+ f of them Inclusiveness Target Countries\, and at least 40% young researc
+ hers. Up to 80 Actions may be approved. The collection date is 28 October
+  2026\, 12:00 CET.\n\nhttps://www.cost.eu/uploads/2026/03/2026-1-COST_Ope
+ n_Call_Announcement.pdf
+URL:https://www.cost.eu/uploads/2026/03/2026-1-COST_Open_Call_Announcement
+ .pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-151-20261030@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Application deadline: PhRMA Foundation – Value Assessment & Heal
+ th Outcomes Research Pre- & Postdoctoral Fellowships 2027
+DESCRIPTION:PhRMA Foundation. PhRMA Foundation fellowships in value assess
+ ment and health outcomes research: postdoctoral USD 60\,000/yr and predoc
+ toral USD 30\,000/yr stipend\, for 12-24 months. The 2027 postdoctoral cy
+ cle opened 31 August 2026 and closes 30 October 2026 (noon ET)\; awards a
+ nnounced March 2027. The predoctoral page still shows the 2026 cycle (dea
+ dline was 30 Oct 2025) and says the 2027 cycle launches soon. Applicants 
+ must be at an accredited US university\, so mainly relevant for US-based 
+ collaborators.\n\nhttps://www.phrmafoundation.org/grants-fellowships/post
+ doctoral-fellowships/value-assessment-health-outcomes-research/
+URL:https://www.phrmafoundation.org/grants-fellowships/postdoctoral-fellow
+ ships/value-assessment-health-outcomes-research/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:funding-watch-201-20261101@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Application deadline: Sustainability Education Community Fund (UU)
@@ -57,92 +115,151 @@ URL:https://www.uu.nl/en/research/sustainability/sustainability-education-
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:funding-watch-10-20261103@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+UID:funding-watch-5-20261103@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
-SUMMARY:Pre-proposal deadline: Exploration Call 2026-3
-DESCRIPTION:KWF (Dutch Cancer Society). Fundamental research on underlying
-  biological and psychosocial mechanisms of cancer onset\, growth\, spread
-  and impact. Relevant for pharmacoepi research on anticancer drugs. 2026-
- 3 round: pre-proposal stage opens 1 September 2026 and closes 3 November 
- 2026 12:00\; invited full proposals open 15 February 2027.\n\nhttps://www
- .kwf.nl/en/forresearchers/funding/exploration
+SUMMARY:Pre-proposal deadline: Vidi – Science Domain 2026
+DESCRIPTION:NWO. NWO Vidi for researchers moving into leadership who obtai
+ ned their PhD within eight years before 1 October 2026 (extensions possib
+ le). Up to EUR 850\,000 for up to five years to build a research line and
+  group\; requires an embedding guarantee from a Dutch host institution. S
+ cience-domain pre-proposals are due 3 November 2026\, 14:00 CET\; invited
+  full proposals are due 6 April 2027\, 14:00 CEST.\n\nhttps://www.nwo.nl/
+ en/calls/nwo-talent-programme-vidi-science-2026
+URL:https://www.nwo.nl/en/calls/nwo-talent-programme-vidi-science-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-10-20261103@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Pre-proposal deadline: Exploration Call 2027-1
+DESCRIPTION:KWF (Dutch Cancer Society). KWF project call for basic and cre
+ dentialing research into the biological and psychosocial mechanisms behin
+ d cancer onset\, growth\, spread and impact\; relevant for mechanistic wo
+ rk on anticancer drugs. Call 2027-1 accepts pre-proposals from 1 Septembe
+ r to 3 November 2026 (12:00)\; invited full proposals run 15 February to 
+ 13 April 2027\, with interviews in June and decisions in August 2027. KWF
+  describes this as its last project-based basic-research call before swit
+ ching to research group funding from 2028.\n\nhttps://www.kwf.nl/en/forre
+ searchers/funding/exploration
 URL:https://www.kwf.nl/en/forresearchers/funding/exploration
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-98-20261103@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Full proposal deadline: International Joint Initiative 2026 – Di
  sruptive Technologies for Global Challenges
-DESCRIPTION:NWO. €3.8M NWO budget\, max €760k per project for 3 years.
-  LOI due 9 June 2026\, full proposals due 3 November 2026. Must harness d
- isruptive technologies to address Sustainable Development Goals. Requires
-  interdisciplinary approach across ≥2 of: natural sciences/engineering\
- , social sciences/humanities\, health/life sciences. Relevant for AI/data
-  science applications in drug safety and pharmacoepidemiology.\n\nhttps:/
- /www.nwo.nl/en/calls/2026-international-joint-initiative-for-research-har
- nessing-disruptive-technologies-to-address-global-challenges
+DESCRIPTION:NWO. International call (NWO with NFRF and other funders) for 
+ interdisciplinary consortia of at least three PIs funded by different par
+ ticipating agencies\, using disruptive technologies to address the SDGs. 
+ NWO funding is limited to projects on SDG 2\, 6\, 7 or 11 and is max EUR 
+ 760\,000 per project\; the NWO budget was raised to EUR 6.84M in August 2
+ 026. LOIs were due 9 June 2026\; only invited applicants can now submit f
+ ull proposals by 3 November 2026 (NFRF portal)\, with NWO's ISAAC part du
+ e 4 November 2026\, 14:00 CET.\n\nhttps://www.nwo.nl/en/calls/2026-intern
+ ational-joint-initiative-for-research-harnessing-disruptive-technologies-
+ to-address-global-challenges
 URL:https://www.nwo.nl/en/calls/2026-international-joint-initiative-for-re
  search-harnessing-disruptive-technologies-to-address-global-challenges
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:funding-watch-220-20261103@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Pre-proposal deadline: Vidi – ZonMw Health Research and Medical 
+ Sciences Domain 2026
+DESCRIPTION:NWO. 2026 Vidi round for the ZonMw Health Research and Medical
+  Sciences domain\, aimed at researchers moving into a leadership role who
+  obtained their PhD within eight years of 1 October 2026. Up to €850\,0
+ 00 for a project of up to five years. Two-stage: pre-proposals due 3 Nove
+ mber 2026 (14:00 CET)\; invited applicants submit full proposals by 6 Apr
+ il 2027 (14:00 CEST). Applications go through Mijn ZonMw and need a dean-
+ signed embedding guarantee.\n\nhttps://www.nwo.nl/en/calls/nwo-talent-pro
+ gramme-vidi-health-research-and-medical-sciences-zonmw-2026
+URL:https://www.nwo.nl/en/calls/nwo-talent-programme-vidi-health-research-
+ and-medical-sciences-zonmw-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:funding-watch-7-20261112@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Full proposal deadline: KIC Demand-driven Research by Consortia 
  – XL
-DESCRIPTION:NWO. Large-scale consortia addressing societal challenges. Pre
- -proposals were due 10 March 2026. Full proposals due 12 November 2026. C
- o-funding from societal/industry partners required.\n\nhttps://www.nwo.nl
- /en/researchprogrammes/knowledge-and-innovation-covenant
-URL:https://www.nwo.nl/en/researchprogrammes/knowledge-and-innovation-cove
- nant
+DESCRIPTION:NWO. NWO KIC call for large public-private consortia tackling 
+ societal challenges\, with NWO funding EUR 1.4M-7M per proposal (up to 70
+ % of costs) for up to six years and a EUR 14M call ceiling. At least 30% 
+ co-funding is required\, part of it private cash. The mandatory pre-propo
+ sal deadline was 10 March 2026\; full proposals are due 12 November 2026\
+ , 14:00 CET (only for those who submitted a pre-proposal).\n\nhttps://www
+ .nwo.nl/en/calls/kic-demand-driven-research-by-consortia-xl
+URL:https://www.nwo.nl/en/calls/kic-demand-driven-research-by-consortia-xl
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:funding-watch-191-20261112@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Pre-proposal deadline: Women's Cardiovascular Disease Consortium 2
- 026
-DESCRIPTION:Hartstichting (Dutch Heart Foundation). Hartstichting call to 
- form a new consortium for cardiovascular disease in women\, building on t
- he IMPRESS programme. €3M total\, ~€500k per project idea. Researcher
- s submit individual/small team project ideas\; selected ideas pitch on 12
-  November 2026. Contact joost.leenders@hartstichting.nl beforehand. Relev
- ant for pharmacoepi research on sex differences in cardiovascular drug ou
- tcomes.\n\nhttps://professionals.hartstichting.nl/actualiteiten/call-op-w
- eg-naar-een-nieuw-consortium-voor-hart-en-vaatziekten-bij-vrouwen
-URL:https://professionals.hartstichting.nl/actualiteiten/call-op-weg-naar-
- een-nieuw-consortium-voor-hart-en-vaatziekten-bij-vrouwen
+UID:funding-watch-186-20261120@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Full proposal deadline: SME Call 2027 (MKB Call)
+DESCRIPTION:Health~Holland (TKI LSH). Health~Holland call for public-priva
+ te R&D projects between SMEs and research organisations (industrial resea
+ rch\, TRL 4-6\, max 2 years). Consortia can request EUR 225\,000-450\,000
+  in PPP subsidy (research organisations max EUR 150\,000 per project)\, a
+ t least EUR 8M total for about 20 projects. The lead applicant must be a 
+ Dutch for-profit company\, and all partners must co-finance. Full applica
+ tions are due 20 November 2026\, 17:00 CET.\n\nhttps://www.health-holland
+ .com/calls/mkb-call-2027
+URL:https://www.health-holland.com/calls/mkb-call-2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-176-20261123@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Expression of interest deadline: CARB-X 2026 Funding Round 2 – A
+ ntibacterial Research (all themes)
+DESCRIPTION:CARB-X. CARB-X's second 2026 funding round accepts expressions
+  of interest from 10 to 23 November 2026 across all four 2026 themes: dir
+ ect-acting therapeutics for Gram-negative infections\, the Novel Chemistr
+ y for AMR Challenge (target-based therapeutics)\, non-vaccine prevention 
+ of neonatal sepsis\, and neonatal sepsis diagnostics. Successful applican
+ ts must cover part of the project cost. Funding amounts per award are not
+  stated on the application page.\n\nhttps://carb-x.org/apply/application-
+ process/
+URL:https://carb-x.org/apply/application-process/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-38-20261124@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Application deadline: MSCA Doctoral Networks 2026
-DESCRIPTION:European Commission – MSCA. OPEN (opened 28 May 2026). Fundi
- ng for innovative doctoral training networks. Supports 3-year PhD positio
- ns with international mobility. Deadline 24 November 2026. Budget €563M
- . The division already runs EU2P programme. New 2026-27 Work Programme in
- troduced simplifications.\n\nhttps://marie-sklodowska-curie-actions.ec.eu
- ropa.eu/actions/doctoral-networks
+DESCRIPTION:European Commission – MSCA. OPEN. MSCA Doctoral Networks cal
+ l HORIZON-MSCA-2026-DN-01 funds international doctoral training networks 
+ with 3-year PhD positions and mobility. Opened 28 May 2026\; deadline 24 
+ November 2026 (17:00 Brussels). Indicative call budget EUR 593.03M (over 
+ 130 projects expected). The division already runs the EU2P programme.\n\n
+ https://marie-sklodowska-curie-actions.ec.europa.eu/actions/doctoral-netw
+ orks
 URL:https://marie-sklodowska-curie-actions.ec.europa.eu/actions/doctoral-n
  etworks
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-200-20261127@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Application deadline: Utrechts Universiteitsfonds – Funding for 
@@ -158,73 +275,171 @@ URL:https://www.uu.nl/en/organisation/donate/apply-for-subsidies/funding-f
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:funding-watch-83-20261211@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-SUMMARY:Next cut-off deadline: Open Technology Programme (OTP) 2026
-DESCRIPTION:NWO. €25.9M budget for free\, unrestricted applied and techn
- ical-scientific research. Continuous submission 12 Jan – 11 Dec 2026. A
- ssessment: 50% scientific quality\, 50% impact. Companies and societal or
- ganisations can participate. Good fit for data-driven pharmacoepi tools\,
-  digital health tech\, and AI applications in drug safety.\n\nhttps://www
- .nwo.nl/en/calls/open-technology-programme-2026
-URL:https://www.nwo.nl/en/calls/open-technology-programme-2026
+UID:funding-watch-242-20261127@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Application deadline: Utrechts Universiteitsfonds – Student supp
+ ort (international exchange/internship)\, round 6 2026
+DESCRIPTION:Utrechts Universiteitsfonds. The Utrecht University Fund's stu
+ dent programme helps fund an international exchange or internship\, for e
+ xample a master's research internship abroad. Applicants must be a Studen
+ t Friend of the Fund (€10 a year). Named funds within the Fund may set 
+ their own criteria. About €80\,000 a year is available across all stude
+ nt grants. In 2026 there are six rounds\, and round 6 runs from 2 to 27 N
+ ovember 2026.\n\nhttps://www.uu.nl/en/organisation/donate/apply-for-subsi
+ dies/grants-for-students
+URL:https://www.uu.nl/en/organisation/donate/apply-for-subsidies/grants-fo
+ r-students
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-247-20261201@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Application deadline: Rubicon 2026-3 (postdoc research abroad)
+DESCRIPTION:NWO. Lets recent PhD graduates (PhD within 12 months before th
+ e deadline\, or a supervisor's declaration that the thesis is approved) s
+ pend 12–24 months at a research institute outside the Netherlands. It c
+ overs salary\, travel and limited research costs\; the round budget of 
+ €3\,145\,000 is shared across the four NWO domains. Applications are in
+ dividual and due 1 December 2026\, 14:00.\n\nhttps://www.zonmw.nl/en/subs
+ idy/rubicon-2026-3
+URL:https://www.zonmw.nl/en/subsidy/rubicon-2026-3
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-246-20261207@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Pre-proposal deadline: GGG – Alledaagse Aandoeningen in de huisa
+ rtsenpraktijk (Common Conditions in General Practice)
+DESCRIPTION:ZonMw. Good Use of Medicines (GGG) round for research on quest
+ ions from the NHG general-practice knowledge agenda\, aiming at more effe
+ ctive\, safer or more efficient use of medicines already registered in th
+ e Netherlands for common conditions. Total budget is €5 million with no
+  fixed cap per project\; multicentre studies may be needed. Project ideas
+  are due 7 December 2026\; invited full applications are due 31 May 2027\
+ , with a decision expected end of October 2027. The applicant must take p
+ art in UNH-Research through a university general-practice department.\n\n
+ https://www.zonmw.nl/nl/subsidie/alledaagse-aandoeningen-de-huisartsenpra
+ ktijk
+URL:https://www.zonmw.nl/nl/subsidie/alledaagse-aandoeningen-de-huisartsen
+ praktijk
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-197-20261222@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Full proposal deadline: Geneesmiddelen VIMP 2026-1 (Dissemination 
  & Implementation Impulse)
-DESCRIPTION:ZonMw. VIMP (Verspreidings- en Implementatie-impuls) within th
- e Goed Gebruik Geneesmiddelen programme. Supports dissemination and imple
- mentation of promising results or unexpected insights from completed ZonM
- w/GGG medicines research. Opened 22 June 2026\; deadline 22 December 2026
-  14:00 CET. Total round budget €250\,000\; grants typically up to ~€5
- 0\,000. Dutch-based applicants only.\n\nhttps://www.zonmw.nl/nl/subsidie/
+DESCRIPTION:ZonMw. VIMP (dissemination and implementation boost) within Zo
+ nMw's Goed Gebruik Geneesmiddelen programme\, helping finished ZonMw-fund
+ ed research on good medicine use (completed no more than three years ago)
+  get used in practice\; dissemination alone is not enough. Max EUR 50\,00
+ 0 and 18 months per project from a EUR 250\,000 budget\; open since 22 Ju
+ ne 2026\, deadline 22 December 2026\, 14:00\, though it may close earlier
+  if the budget runs out. Applicant must be a legal entity in the Netherla
+ nds\, and applications are in Dutch.\n\nhttps://www.zonmw.nl/nl/subsidie/
  geneesmiddelen-vimp-2026-1
 URL:https://www.zonmw.nl/nl/subsidie/geneesmiddelen-vimp-2026-1
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:funding-watch-158-20270212@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
-DTSTART;VALUE=DATE:20270212
-DTEND;VALUE=DATE:20270213
-SUMMARY:Application deadline: NVKFB Proefschriftprijs (clinical pharmacolo
- gy dissertation)
-DESCRIPTION:NVKFB. €1\,000 annual prize from the NVKFB board for a recen
- tly defended dissertation (at a university in the Dutch-language region) 
- describing clinical pharmacological or biopharmaceutical research of exce
- llent quality. The 2026 round closed 13 February 2026\; the next round is
-  expected mid-February 2027 (submit thesis PDF to NVKFB@radboudumc.nl). C
- ore target audience for CCT / clinical pharmacology PhDs in the division.
- \n\nhttps://nvkfb.nl/wetenschap/proefschrift-prijs/
-URL:https://nvkfb.nl/wetenschap/proefschrift-prijs/
+UID:funding-watch-154-20270101@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:Next cut-off deadline: KNMP Stipendiafonds (international study tr
+ ip grant)
+DESCRIPTION:KNMP. KNMP stipend for pharmacy students at Groningen\, Leiden
+  and Utrecht who go abroad for at least two weeks for research that is pa
+ rt of their pharmacy study\; applicant must be a candidate KNMP member an
+ d must not have started the research yet. Applications are judged three t
+ imes a year (closing dates 1 January\, 1 July and 1 October). A 'light' a
+ pplication gives EUR 300-500\; a 'heavy' application (meeting at least tw
+ o high-potential criteria) can give a higher\, unspecified amount. Each s
+ tudent may apply only once.\n\nhttps://www.knmp.nl/beroepsontwikkeling/on
+ derzoek/stipendiafonds
+URL:https://www.knmp.nl/beroepsontwikkeling/onderzoek/stipendiafonds
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:funding-watch-159-20270212@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
-DTSTART;VALUE=DATE:20270212
-DTEND;VALUE=DATE:20270213
-SUMMARY:Application deadline: NVKFB TOP-Publicatieprijs (best clinical pha
- rmacology publication)
-DESCRIPTION:NVKFB. €500 'educational grant' awarded annually by the NVKF
- B for the best Dutch- or English-language clinical pharmacological public
- ation by an NVKFB member. Awarded on the NVKFB's February cycle (alongsid
- e the Proefschriftprijs)\; next round expected mid-February 2027. Good re
- cognition for early-career researchers.\n\nhttps://nvkfb.nl/wetenschap/to
- p-publicatie/
-URL:https://nvkfb.nl/wetenschap/top-publicatie/
+UID:funding-watch-77-20270112@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Application deadline: ERC Consolidator Grant 2027
+DESCRIPTION:ERC. ERC Consolidator Grant 2027 for researchers 5-15 years af
+ ter their PhD (extensions possible for e.g. parental leave). Up to EUR 2M
+  for 5 years\, plus up to EUR 1M extra for justified costs. Bottom-up\, a
+ ny research topic. The call opened 24 September 2026 and closes 12 Januar
+ y 2027.\n\nhttps://erc.europa.eu/apply-grant/consolidator-grant
+URL:https://erc.europa.eu/apply-grant/consolidator-grant
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-183-20270126@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:Full proposal deadline: Veni – ZonMw Health Research Domain 2026
+ /2027
+DESCRIPTION:NWO. NWO Veni in the ZonMw Health Research and Development dom
+ ain: up to EUR 320\,000 for up to three years for researchers with a PhD 
+ obtained within three years before 1 January 2026 (or between 1 January a
+ nd 2 September 2026). The pre-proposal deadline was 1 September 2026 and 
+ no new applications are possible. Applicants with a positive pre-proposal
+  decision submit full proposals by 26 January 2027\, 14:00 CET.\n\nhttps:
+ //www.nwo.nl/en/calls/nwo-talent-programme-veni-health-research-and-devel
+ opment-zonmw-2026
+URL:https://www.nwo.nl/en/calls/nwo-talent-programme-veni-health-research-
+ and-development-zonmw-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-46-20270217@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:Pre-proposal deadline: HORIZON-HLTH-2027-02-TOOL-01-two-stage – 
+ AI for Predictive Biomarkers in Chronic NCDs
+DESCRIPTION:Horizon Europe. Horizon Europe two-stage RIA HORIZON-HLTH-2027
+ -02-TOOL-01-two-stage: developing predictive biomarkers of disease progre
+ ssion and treatment response with AI methods for chronic non-communicable
+  diseases. EUR 44.2M for about 6 projects of EUR 6-8M. Opens 29 October 2
+ 026\; first-stage deadline 17 February 2027\, second-stage deadline 16 Se
+ ptember 2027. Highly relevant for the division's AI/data science and phar
+ macoepi work.\n\nhttps://ec.europa.eu/info/funding-tenders/opportunities/
+ portal/screen/opportunities/topic-details/horizon-hlth-2027-02-tool-01-tw
+ o-stage
+URL:https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/
+ opportunities/topic-details/horizon-hlth-2027-02-tool-01-two-stage
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-225-20270310@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Next cut-off deadline: ERC Proof of Concept 2027 (cut-offs Mar & S
+ ep 2027)
+DESCRIPTION:ERC. Lump sum of €150\,000 over 18 months for current or rec
+ ent ERC grantees who want to test the commercial or societal potential of
+  results from their ERC project. Under ERC Work Programme 2027 the call E
+ RC-2027-PoC opens 12 November 2026 and has two cut-offs\, 10 March 2027 a
+ nd 16 September 2027 (budget €60M\, ~400 grants). The ERC calls these d
+ ates provisional.\n\nhttps://erc.europa.eu/apply-grant/proof-concept
+URL:https://erc.europa.eu/apply-grant/proof-concept
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-156-20270315@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:Application deadline: PRISMA Proefschrift Prijs 2026 (pharmacy pra
@@ -240,8 +455,25 @@ URL:https://www.knmp.nl/beroepsontwikkeling/onderzoek/prisma
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:funding-watch-248-20270330@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:Application deadline: NAM Collaboration Grant 2026 (animal-free me
+ thods knowledge transfer)
+DESCRIPTION:ZonMw. Small grants of up to €30\,000 for up to 12 months to
+  transfer animal-free methods (New Approach Methodologies such as organ-o
+ n-chip systems and organoids) between a transferring lab and a receiving 
+ lab at Dutch research organisations. Each partner must account for at lea
+ st 20% of the budget. Applications are assessed in order of arrival until
+  30 March 2027\, and the call may close early if the money runs out.\n\nh
+ ttps://www.zonmw.nl/en/subsidy/nam-collaboration-grant-2026
+URL:https://www.zonmw.nl/en/subsidy/nam-collaboration-grant-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:funding-watch-157-20270401@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:Application deadline: Jan Prins Proefschriftprijs 2026 (antibiotic
@@ -259,7 +491,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-149-20270612@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:Application deadline: ACPE 2026 Melbourne – Travel Scholarships
@@ -274,7 +506,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-19-20270615@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20270615
 DTEND;VALUE=DATE:20270616
 SUMMARY:Application deadline: Van Walree Fund 2026
@@ -288,7 +520,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-189-20270701@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20270701
 DTEND;VALUE=DATE:20270702
 SUMMARY:Nomination deadline: KNAW Early Career Award 2027
@@ -305,7 +537,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-196-20270826@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20270826
 DTEND;VALUE=DATE:20270827
 SUMMARY:Application deadline: ERC Advanced Grant 2027
@@ -320,7 +552,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-62-20270901@robheerdink-collab.github.io
-DTSTAMP:20261009T132154Z
+DTSTAMP:20261009T135014Z
 DTSTART;VALUE=DATE:20270901
 DTEND;VALUE=DATE:20270902
 SUMMARY:Application deadline: Novo Nordisk Foundation – Health Research 
@@ -332,6 +564,58 @@ DESCRIPTION:Novo Nordisk Foundation. One of Europe's largest private resea
  nded the $60M AMR initiative with Gates/Wellcome.\n\nhttps://novonordiskf
  onden.dk/en/grants/
 URL:https://novonordiskfonden.dk/en/grants/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-226-20270901@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:Application deadline: ERC Plus Grant 2027
+DESCRIPTION:ERC. Second round of the ERC Plus Grant: up to €7M per proje
+ ct for transformative\, high-ambition research\, open to PIs at any caree
+ r stage. ERC Work Programme 2027 gives ERC-2027-PLUS a provisional openin
+ g of 1 June 2027 and a deadline of 1 September 2027\, with a budget of 
+ €210M and about 30 grants.\n\nhttps://erc.europa.eu/apply-grant/erc-plu
+ s-grant
+URL:https://erc.europa.eu/apply-grant/erc-plus-grant
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-253-20270916@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+SUMMARY:Full proposal deadline: HORIZON-HLTH-2027-03-TOOL-04 – Virtual H
+ uman Twins for Clinical Decision Support in Prevention and Diagnosis
+DESCRIPTION:Horizon Europe. Research and Innovation Action to build and cl
+ inically validate multi-scale\, patient-specific Virtual Human Twin model
+ s that support prevention and diagnosis\, including health-economic or co
+ st-effectiveness evidence from real-world settings and plans for regulato
+ ry compliance (MDR/IVDR\, AI Act). Expected EU contribution is €10–12
+  million per project (about 4 projects). The single-stage call opens 3 Ju
+ ne 2027 and closes 16 September 2027.\n\nhttps://cordis.europa.eu/program
+ me/id/HORIZON_HORIZON-HLTH-2027-03-TOOL-04
+URL:https://cordis.europa.eu/programme/id/HORIZON_HORIZON-HLTH-2027-03-TOO
+ L-04
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-254-20270916@robheerdink-collab.github.io
+DTSTAMP:20261009T135014Z
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+SUMMARY:Full proposal deadline: HORIZON-HLTH-2027-03-TOOL-08 – Next Gene
+ ration of Frontier AI Models for Healthcare (CSA)
+DESCRIPTION:Horizon Europe. Coordination and Support Action (a single proj
+ ect of around €2.9 million) on preparing the next generation of frontie
+ r AI models for healthcare. The single-stage call opens 3 June 2027 and c
+ loses 16 September 2027. The detailed scope was not read\, so check the w
+ ork programme.\n\nhttps://ec.europa.eu/info/funding-tenders/opportunities
+ /docs/2021-2027/horizon/wp-call/2026-2027/wp-4-health_horizon-2026-2027_e
+ n.pdf
+URL:https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027
+ /horizon/wp-call/2026-2027/wp-4-health_horizon-2026-2027_en.pdf
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

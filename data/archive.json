@@ -1,6 +1,44 @@
 {
  "items": [
   {
+   "id": 140,
+   "name": "HORIZON-HLTH-2026-03-DISEASE-13 – European Partnership for Pandemic Preparedness (Phase 2)",
+   "funder": "Horizon Europe",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Antimicrobial resistance & One Health",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Infectious disease"
+   ],
+   "summary": "The only topic in call HORIZON-HLTH-2026-03 is a COFUND amendment for phase 2 of the European Partnership for Pandemic Preparedness (EUR 63M, one grant, 50% funding rate). It can only be submitted by the coordinator of the existing 'Be Ready Now' partnership consortium, so it is not an open call for research groups; opportunities may arise later via the partnership's own calls (third-party funding up to EUR 3M). Opens 10 February 2027, deadline 13 April 2027.",
+   "budget": {
+    "min": 63000000,
+    "max": 63000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": "2027-02-10",
+   "deadline": "2027-04-13",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Only the coordinator of the existing HORIZON-HLTH-2024-DISEASE-12-01 'Be Ready Now' partnership consortium may submit (grant amendment)",
+   "recurrence": "Work programme cycle",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2026-03-disease-13",
+   "added": "2026-04-14",
+   "lastVerified": "2026-10-09"
+  },
+  {
    "id": 175,
    "name": "IHI Call 13 – AI Toxicology, Age-Related Diseases, Healthcare Incubator",
    "funder": "Innovative Health Initiative (IHI)",
@@ -1767,6 +1805,42 @@
    "url": "https://erdera.org/news/erdera-pre-announces-2026-call-for-proposals-on-resolving-unsolved-rare-diseases/",
    "added": "2026-04-09",
    "lastVerified": null
+  },
+  {
+   "id": 83,
+   "name": "Open Technology Programme (OTP) 2026",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Data science & AI",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "NWO Open Technology Programme 2026 (EUR 25.9M; max EUR 950k, or EUR 1.05M with large investments, up to 6 years) for applied technical-scientific research. The round hit its application cap on 29 June 2026 and closed on 4 July 2026 once the reserve list was full. Watch for an OTP 2027 round.",
+   "budget": {
+    "min": 150000,
+    "max": 750000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-07-04",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Next cut-off",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/open-technology-programme-2026",
+   "added": "2026-04-01",
+   "lastVerified": "2026-10-09"
   },
   {
    "id": 133,
@@ -4010,6 +4084,81 @@
    "url": "https://hadea.ec.europa.eu/programmes/eu4health_en",
    "added": "2026-04-01",
    "lastVerified": null
+  },
+  {
+   "id": 191,
+   "name": "Women's Cardiovascular Disease Consortium 2026",
+   "funder": "Hartstichting (Dutch Heart Foundation)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug safety & pharmacovigilance"
+   ],
+   "diseaseAreas": [
+    "Cardiovascular",
+    "Women's health"
+   ],
+   "summary": "Hartstichting call (published 9 September 2025) for project ideas to form a new consortium on cardiovascular disease in women, building on IMPRESS; EUR 3M in total, about EUR 500k per idea. Project ideas were due 21 October 2025 and selected ideas pitched on 12 November 2025. This round is over.",
+   "budget": {
+    "min": 500000,
+    "max": 3000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2025-10-21",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Expression of interest",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "One-off",
+   "url": "https://professionals.hartstichting.nl/actualiteiten/call-op-weg-naar-een-nieuw-consortium-voor-hart-en-vaatziekten-bij-vrouwen",
+   "added": "2026-05-31",
+   "lastVerified": "2026-10-09"
+  },
+  {
+   "id": 192,
+   "name": "Registry-Based Cardiovascular Research (Heart4Data) 2026",
+   "funder": "Hartstichting / ZonMw",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Infrastructure",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug utilisation & appropriate use"
+   ],
+   "diseaseAreas": [
+    "Cardiovascular"
+   ],
+   "summary": "Hartstichting and ZonMw (Goed Gebruik Geneesmiddelen) call to form a consortium for registry-based and randomised research on heart failure treatment within the DCVA infrastructure. The deadline was 18 May 2021 and the page says the call can no longer be answered. Kept for reference only.",
+   "budget": {
+    "min": 500000,
+    "max": 2600000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2021-05-18",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "Varies",
+   "partnersRequired": true,
+   "partnersNote": "Consortium within Heart4Data / DCVA framework required",
+   "recurrence": "New programme",
+   "url": "https://professionals.hartstichting.nl/samenwerking-en-financiering/financiering/consortiumfinanciering/call-voor-registratie-gebaseerd-onderzoek",
+   "added": "2026-05-31",
+   "lastVerified": "2026-10-09"
   }
  ]
 }
