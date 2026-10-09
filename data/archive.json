@@ -1,0 +1,4015 @@
+{
+ "items": [
+  {
+   "id": 175,
+   "name": "IHI Call 13 – AI Toxicology, Age-Related Diseases, Healthcare Incubator",
+   "funder": "Innovative Health Initiative (IHI)",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Data science & AI",
+    "Drug safety & pharmacovigilance",
+    "Regulatory science"
+   ],
+   "diseaseAreas": [
+    "Neurology & dementia"
+   ],
+   "summary": "IHI Call 13 launched 2 July 2026 (€163M applicant-driven, two-stage). Three topics: (1) AI foundation toxicology model and framework to support waiving a second species in drug safety studies — highly relevant for pharmacoepidemiology and regulatory science; (2) decoding the immuno-science of age-related immune-mediated diseases; (3) a network to boost the next wave of European healthcare innovations. Stage 1 (short proposals) closes 8 October 2026 17:00 Brussels; stage 2 closes 21 April 2027.",
+   "budget": {
+    "min": 5000000,
+    "max": 20000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-10-08",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Public-private consortium required; must include industry partners (pharma, medtech, biotech, digital health)",
+   "recurrence": "Periodic",
+   "url": "https://www.ihi.europa.eu/ihi-call-13",
+   "added": "2026-04-28",
+   "lastVerified": null
+  },
+  {
+   "id": 41,
+   "name": "NWA-ORC 2026 – Research along Routes by Consortia",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmaceutical policy & access",
+    "Drug utilisation & appropriate use",
+    "Pharmacy practice & clinical pharmacy",
+    "HTA & health economics",
+    "Sustainable pharmacy & planetary health",
+    "Data science & AI"
+   ],
+   "diseaseAreas": [],
+   "summary": "National Science Agenda (NWA) flagship call addressing 'wicked problems' via broad interdisciplinary consortia. €87M budget divided over 12 themes (€7.25M per theme). Research must address NWA cluster questions. Deadline 6 October 2026 14:00 CEST. Collaborative workshops organised Feb–Mar 2026 (participation required).",
+   "budget": {
+    "min": 1000000,
+    "max": 4000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-10-06",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Inter- and transdisciplinary consortium required, including societal (public/private) partners and optionally citizens",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/dutch-research-agenda-research-along-routes-by-consortia-2026",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 12,
+   "name": "Young Investigator Grant (YIG) Call 2027",
+   "funder": "KWF (Dutch Cancer Society)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Oncology"
+   ],
+   "summary": "Dedicated annual call for promising early-career cancer researchers ensuring continuity of high-quality oncology research in the Netherlands. 2027 cycle: pre-proposals opened 28 July 2026, pre-proposal deadline 6 October 2026 (12:00), full proposal deadline 1 April 2027. Now open.",
+   "budget": {
+    "min": 400000,
+    "max": 600000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-10-06",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.kwf.nl/en/forresearchers/funding/young-investigator-grant-yig-call-2027",
+   "added": "2026-01-01",
+   "lastVerified": null
+  },
+  {
+   "id": 184,
+   "name": "NNF Clinical Emerging Investigator 2026",
+   "funder": "Novo Nordisk Foundation",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Early career",
+    "Mid career"
+   ],
+   "themes": [
+    "Clinical trials & drug development",
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug safety & pharmacovigilance"
+   ],
+   "diseaseAreas": [],
+   "summary": "Up to DKK 12.5M per grant for medical research with relevance to patients and human health. Supports clinical investigators building independent research profiles. Application deadline expected October 2026. Open to Nordic-based researchers.",
+   "budget": {
+    "min": 5000000,
+    "max": 12500000,
+    "currency": "DKK"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-10-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://novonordiskfonden.dk/en/grant/clinical-emerging-investigator/",
+   "added": "2026-05-18",
+   "lastVerified": null
+  },
+  {
+   "id": 174,
+   "name": "Prix Galien MedTech Innovation Award 2026",
+   "funder": "Prix Galien Nederland",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Prize / stipend",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Implementation & health services",
+    "Data science & AI"
+   ],
+   "diseaseAreas": [],
+   "summary": "Prix Galien MedTech Innovation Award, introduced in 2018, rewards demonstrably valuable innovations in care for patients, caregivers, and healthcare providers. Complements the Research Award (ID 163) and Pharmaceutical/Biological Awards. Registration for 2026 is closed, but monitor for 2027 cycle. Relevant for digital health and AI-in-pharmacy innovations from the division.",
+   "budget": {
+    "min": 5000,
+    "max": 5000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-30",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Registration",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.prixgalien.nl/",
+   "added": "2026-04-20",
+   "lastVerified": null
+  },
+  {
+   "id": 163,
+   "name": "Prix Galien Research Award Nederland",
+   "funder": "Prix Galien Nederland",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Prize / stipend",
+   "careerStages": [
+    "Postdoc",
+    "Early career",
+    "Mid career"
+   ],
+   "themes": [
+    "Clinical pharmacology & therapeutics",
+    "Clinical trials & drug development"
+   ],
+   "diseaseAreas": [],
+   "summary": "Prix Galien Research Award (formerly Galenusprijs) – ~€6,000 for a researcher under 40 who has conducted groundbreaking clinical, experimental or applied pharmacology research exceeding doctoral-level work. Awarded annually in the Netherlands since 1992. A flagship Dutch pharmacology prize.",
+   "budget": {
+    "min": 6000,
+    "max": 6000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-30",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.prixgalien.nl/research-award/reglement/",
+   "added": "2026-04-17",
+   "lastVerified": null
+  },
+  {
+   "id": 161,
+   "name": "Dr. Saal van Zwanenberg Afstudeerprijs (pharmaceutical master thesis)",
+   "funder": "KHMW",
+   "scope": "National",
+   "funderType": "Society / association",
+   "type": "Prize / stipend",
+   "careerStages": [
+    "Master"
+   ],
+   "themes": [
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "Three annual KHMW Afstudeerprijzen (€3,000 / €2,000 / €1,000) awarded via the Dr. Saal van Zwanenberg Stichting for the best master research reports in pharmaceutical / medical sciences in which medicine is central. KNMP co-sponsors 4 prizes in the pharmacy / (bio)pharmaceutical sciences category. Nomination by the faculty.",
+   "budget": {
+    "min": 1000,
+    "max": 3000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-30",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "Nomination by the university",
+   "recurrence": "Annual",
+   "url": "https://khmw.nl/khmw-dr-saal-van-zwanenberg-onderzoeksprijzen/",
+   "added": "2026-04-17",
+   "lastVerified": null
+  },
+  {
+   "id": 152,
+   "name": "Leopold Meijler Prijs (best student thesis – drug safety)",
+   "funder": "Lareb – Leopold Meijler Fonds",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Prize / stipend",
+   "careerStages": [
+    "Master",
+    "PhD"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance"
+   ],
+   "diseaseAreas": [],
+   "summary": "Annual Leopold Meijler Prize for a student in Medicine, Pharmacy or Health Sciences at a Dutch university, for the best master thesis / publication on medication safety and adverse drug reactions. Prize consists of a cash amount and an artwork. The fund continues the activities of the Nederlands Bijwerkingenfonds (ceased April 2024) and also supports financing of PhD dissertations on medication safety. Most recent winner (2025): Jia Wen Liang (Groningen). Relevant for pharmacoepidemiology / pharmacovigilance supervisors.",
+   "budget": {
+    "min": 1500,
+    "max": 2500,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-30",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.lareb.nl/pages/leopold-meijler-fonds",
+   "added": "2026-04-17",
+   "lastVerified": null
+  },
+  {
+   "id": 188,
+   "name": "GCRFF Multinational Clinical Trials Initiative",
+   "funder": "Hartstichting / GCRFF",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Clinical trials & drug development",
+    "Drug safety & pharmacovigilance",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Cardiovascular"
+   ],
+   "summary": "Global Cardiovascular Research Funders Forum (GCRFF) Multinational Clinical Trials Initiative. Collaboration of 12 major international cardiovascular research funders in 10 countries. Scientists submit an Expression of Interest (EOI); the initiative coordinates matching of national funders. Next EOI deadline 25 September 2026 10:00 CET. Hartstichting represents the Netherlands. Relevant for large-scale multinational cardiovascular pharmacoepidemiology trials.",
+   "budget": {
+    "min": 500000,
+    "max": 3000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-25",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Expression of interest",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Multinational consortium across GCRFF partner countries (NL, UK, DE, FR, US, CA, AU, and others)",
+   "recurrence": "Continuous",
+   "url": "https://professionals.hartstichting.nl/samenwerking-en-financiering/financiering/internationale-financiering/gcrff-multinational-clinical-trials-initiative",
+   "added": "2026-05-28",
+   "lastVerified": null
+  },
+  {
+   "id": 84,
+   "name": "Wellcome Discovery Awards 2026 – Round 2",
+   "funder": "Wellcome",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug safety & pharmacovigilance"
+   ],
+   "diseaseAreas": [],
+   "summary": "Long-term flexible funding for established researchers pursuing bold, creative research. Average award ~£3.5M for up to 8 years. Round 2 opens 21 April 2026, deadline 22 September 2026 — the FINAL fixed-deadline round. Round 1 closed 31 March 2026. Co-applicants accepted. NOTE: from 23 September 2026 the scheme reopens as 'always open' with rolling applications and no deadlines. IMPORTANT eligibility change — from 29 October 2026 Wellcome will only accept LEAD applicants based at eligible organisations in the UK and in LMICs in Africa, South Asia and South-East Asia; Netherlands-based researchers can then participate only as co-applicants, so a NL-led Discovery Award must be submitted by the 22 Sept 2026 deadline. This is the final fixed-deadline round (22 Sep 2026); from 23 September 2026 the Discovery Awards scheme becomes always-open with no deadlines (see the separate always-open entry). From 29 Oct 2026 only lead applicants at eligible organisations in the UK and LMICs in Africa, South & South-East Asia are eligible.",
+   "budget": {
+    "min": 1500000,
+    "max": 5000000,
+    "currency": "GBP"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-22",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Several rounds per year",
+   "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 28,
+   "name": "Science for Industry Call 2026",
+   "funder": "Health~Holland (TKI LSH)",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Clinical trials & drug development",
+    "Valorisation & public-private"
+   ],
+   "diseaseAreas": [],
+   "summary": "At least €5M in PPP subsidy for innovative collaborations between companies and research organizations. Translating scientific knowledge into industrial innovation. Opened 13 March 2026. Pre-application deadline 14 July 2026, full application deadline 22 September 2026, results December 2026. Budget €500k-€1.2M per project.",
+   "budget": {
+    "min": 500000,
+    "max": 1200000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-22",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Consortium: min. 1 Dutch company (main applicant) + 1 Dutch research organisation",
+   "recurrence": "Annual",
+   "url": "https://www.health-holland.com/funding-opportunities/science-industry-call-2026",
+   "added": "2026-03-12",
+   "lastVerified": null
+  },
+  {
+   "id": 8,
+   "name": "KIC Demand-driven Research by Consortia – S 2026",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Pharmaceutical policy & access"
+   ],
+   "diseaseAreas": [],
+   "summary": "Smaller-scale KIC consortia for demand-driven research addressing societal challenges. Single-phase application.",
+   "budget": {
+    "min": 750000,
+    "max": 2000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-22",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Consortium required: knowledge institutions + societal/industry partners",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/researchprogrammes/knowledge-and-innovation-covenant",
+   "added": "2026-01-15",
+   "lastVerified": null
+  },
+  {
+   "id": 193,
+   "name": "Wellcome Prize for Mental Health Science 2026",
+   "funder": "Wellcome / Springer Nature",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Prize / stipend",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Drug utilisation & appropriate use",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Mental health",
+    "Neurology & dementia"
+   ],
+   "summary": "World's largest prize for mental health science. Open to research teams and SMEs worldwide. Accelerates innovation in mental health interventions for anxiety, depression, and psychosis. Deadline 18 September 2026. Shortlisted teams announced April 2027, winner June 2027. Relevant for pharmacoepi research on psychotropic medication outcomes and safety.",
+   "budget": {
+    "min": null,
+    "max": 5000000,
+    "currency": "GBP"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-18",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://wellcome.org/insights/articles/wellcome-launches-worlds-largest-global-prize-mental-health-science",
+   "added": "2026-05-31",
+   "lastVerified": null
+  },
+  {
+   "id": 85,
+   "name": "ERC Proof of Concept 2026 – 2nd Cut-off",
+   "funder": "ERC",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Clinical trials & drug development",
+    "Valorisation & public-private"
+   ],
+   "diseaseAreas": [],
+   "summary": "€150,000 lump sum for 18 months. For current/recent ERC grantees (grant ended <12 months ago) to explore commercial or societal potential of ERC-funded research. 2nd cut-off 17 September 2026. ~400 grants from €60M total budget. First cut-off (17 March) already passed.",
+   "budget": {
+    "min": 150000,
+    "max": 150000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-17",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Cut-off",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Several rounds per year",
+   "url": "https://erc.europa.eu/apply-grant/proof-concept",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 179,
+   "name": "Infectious Disease Control 2025-2030 – Two New Calls (May 2026)",
+   "funder": "ZonMw",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Antimicrobial resistance & One Health",
+    "Drug safety & pharmacovigilance",
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug utilisation & appropriate use"
+   ],
+   "diseaseAreas": [
+    "Infectious disease"
+   ],
+   "summary": "Two new calls confirmed open in May 2026 under ZonMw Infectious Disease Control 2025-2030 programme. Total budget €5.5M. Large projects up to €500,000 (48 months) and smaller projects up to €150,000 (18 months). Relevant for pharmacoepi research on antimicrobials and antibiotic stewardship. Merges with and replaces ID 167 which was pre-announced.",
+   "budget": {
+    "min": 150000,
+    "max": 500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-15",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.zonmw.nl/en/program/infectious-disease-control-2025-2030",
+   "added": "2026-05-11",
+   "lastVerified": null
+  },
+  {
+   "id": 173,
+   "name": "Mission Cancer 2026 – Pragmatic Trials for Immunotherapy & Palliative Care",
+   "funder": "Horizon Europe – Mission Cancer",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Clinical trials & drug development",
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug safety & pharmacovigilance",
+    "Implementation & health services"
+   ],
+   "diseaseAreas": [
+    "Oncology"
+   ],
+   "summary": "Mission Cancer 2026 includes 7 topics. Particularly relevant: pragmatic clinical trials to optimise immunotherapeutic interventions for refractory cancers, and earlier/more precise palliative care. Also includes virtual human twin models, microbiome for cancer prediction, and quality of life for older cancer patients. Deadline 15 September 2026. Relevant for pharmacoepi research on cancer immunotherapy outcomes and safety.",
+   "budget": {
+    "min": 5000000,
+    "max": 10000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-15",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "International consortium required (min. 3 entities, 3 EU/associated countries)",
+   "recurrence": "Work programme cycle",
+   "url": "https://hadea.ec.europa.eu/news/2026-horizon-europe-calls-support-eu-mission-cancer-2026-02-12_en",
+   "added": "2026-04-20",
+   "lastVerified": null
+  },
+  {
+   "id": 167,
+   "name": "Infectious Disease Control 2025-2030 – Round 2 (Two Calls)",
+   "funder": "ZonMw",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Antimicrobial resistance & One Health",
+    "Drug safety & pharmacovigilance",
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug utilisation & appropriate use"
+   ],
+   "diseaseAreas": [
+    "Infectious disease"
+   ],
+   "summary": "Calls now open as of May 2026. Two new calls under the ZonMw Infectious Disease Control 2025-2030 programme. €5.5M total budget. Large projects up to €500,000 (48 months) and smaller projects up to €150,000 (18 months). First round closed Sep 2025. Relevant for pharmacoepi research on antimicrobials, antibiotic stewardship, and drug safety in infectious disease treatment. See also ID 179 for updated details.",
+   "budget": {
+    "min": 150000,
+    "max": 500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-15",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.zonmw.nl/en/program/infectious-disease-control-2025-2030",
+   "added": "2026-04-18",
+   "lastVerified": null
+  },
+  {
+   "id": 128,
+   "name": "SSH Open Competition XS 2026 – Round 3",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmaceutical policy & access",
+    "HTA & health economics",
+    "Drug utilisation & appropriate use"
+   ],
+   "diseaseAreas": [],
+   "summary": "Max €50,000 for max 1 year for innovative, curiosity-driven research in Social Sciences and Humanities. Round 2 closed 7 April 2026. Round 3 deadline 15 September 2026 14:00 CEST. Relevant for pharmaceutical policy, health economics, access to medicines, and drug utilisation research with a social science angle.",
+   "budget": {
+    "min": 1000,
+    "max": 50000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-15",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Several rounds per year",
+   "url": "https://www.nwo.nl/en/calls/ssh-open-competition-xs-2026-round-2",
+   "added": "2026-04-11",
+   "lastVerified": null
+  },
+  {
+   "id": 120,
+   "name": "Mission Cancer Call 2026",
+   "funder": "Horizon Europe – Mission Cancer",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug safety & pharmacovigilance",
+    "Precision medicine & pharmacogenetics"
+   ],
+   "diseaseAreas": [
+    "Oncology"
+   ],
+   "summary": "Horizon Europe Mission Cancer 2026 call, open since 10 February 2026. Deadline 15 September 2026. Topics support the EU Mission on Cancer objectives including prevention, early detection, and innovative treatments. Relevant for pharmacoepi research on cancer drug safety and outcomes.",
+   "budget": {
+    "min": 3000000,
+    "max": 10000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-15",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "International consortium required (min. 3 entities, 3 EU/associated countries)",
+   "recurrence": "Work programme cycle",
+   "url": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/eu-missions-horizon-europe/eu-mission-cancer_en",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 116,
+   "name": "Open Competition Domain Science – XS 2026 Packet 26-3",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics"
+   ],
+   "diseaseAreas": [],
+   "summary": "Third and final packet of ENW-XS 2026. Max €50,000 for max 1 year for promising, innovative, speculative ideas. Deadline 15 September 2026, 14:00 CEST. Packet 26-2 deadline 14 April 2026.",
+   "budget": {
+    "min": 1000,
+    "max": 50000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-15",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Several rounds per year",
+   "url": "https://www.nwo.nl/en/calls/open-competition-domain-science-xs-2026",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 96,
+   "name": "Horizon Europe 2026-2027: Drug-Related Research Opportunities",
+   "funder": "EUDA / Horizon Europe",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Drug utilisation & appropriate use",
+    "Regulatory science",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Mental health"
+   ],
+   "summary": "The Horizon Europe 2026-2027 Work Programme includes new EU funding opportunities for drug-related research, including pharmacovigilance capacity development, drug safety monitoring, and regulatory science topics. Multiple calls with deadlines in April and September 2026. Check EU Funding & Tenders Portal for specific topic IDs.",
+   "budget": {
+    "min": 3000000,
+    "max": 10000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-15",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "International consortium required (min. 3 entities, 3 EU/associated countries)",
+   "recurrence": "Work programme cycle",
+   "url": "https://www.euda.europa.eu/news/2026/horizon-europe-2026-2027-new-eu-funding-opportunities-drug-related-research_en",
+   "added": "2026-04-02",
+   "lastVerified": null
+  },
+  {
+   "id": 73,
+   "name": "HORIZON-HLTH-2026-02 – Health Partnerships (September topics)",
+   "funder": "Horizon Europe",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmaceutical policy & access",
+    "Valorisation & public-private",
+    "Pharmacoepidemiology & real-world evidence",
+    "HTA & health economics"
+   ],
+   "diseaseAreas": [],
+   "summary": "Second wave of Horizon Europe Health 2026 calls under the Partnerships in Health framework. Deadline 15 September 2026. Topics support health system partnerships and innovative healthcare solutions. Part of the €471.6M Cluster 1 Health budget.",
+   "budget": {
+    "min": 3000000,
+    "max": 8000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-15",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "International consortium required (min. 3 entities, 3 EU/associated countries)",
+   "recurrence": "Work programme cycle",
+   "url": "https://hadea.ec.europa.eu/news/2026-horizon-europe-health-calls-proposals-2026-02-12_en",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 1,
+   "name": "Open Competition 2026",
+   "funder": "ZonMw",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug safety & pharmacovigilance",
+    "HTA & health economics",
+    "Clinical pharmacology & therapeutics",
+    "Pharmaceutical policy & access"
+   ],
+   "diseaseAreas": [],
+   "summary": "Open competition for groundbreaking team science in fundamental biomedical research, healthcare and innovation. Pre-proposals closed 2 April 2026. Full proposals due 15 September 2026 14:00 CEST. Max €800,000 + optional investment module (€100k-€250k) = up to €1,050,000 for 4-5 years. Pilot 'Open Competition M' for mid-career researchers announced for 2027.",
+   "budget": {
+    "min": 200000,
+    "max": 1050000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-15",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.zonmw.nl/en/subsidy/zonmw-open-competition-2026",
+   "added": "2026-02-17",
+   "lastVerified": null
+  },
+  {
+   "id": 2,
+   "name": "GGG – Goed Gebruik Geneesmiddelen (Good Use of Medicines) 2026",
+   "funder": "ZonMw",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug utilisation & appropriate use",
+    "Medication adherence & self-management"
+   ],
+   "diseaseAreas": [],
+   "summary": "GGG Open Ronde 16: support survey closed 20 May 2026. Call text expected to be published online in early July 2026, project idea deadline expected mid-September 2026. Previous GGG Traject round closed 2 Feb 2026; Open Ronde 15 closed 3 Mar 2026. Programme focused on improving the good use of medicines. Project-idea deadline (14 Sep 2026) passed. For invited applicants, intention declarations are requested Feb 2027; next GGG rounds expected in H1 2027. GGG Congress on 'De Groene Horizon voor Geneesmiddelen' planned for 2026.",
+   "budget": {
+    "min": 100000,
+    "max": 500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-14",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Collaboration with patient representatives, healthcare professionals and/or insurers required",
+   "recurrence": "Annual",
+   "url": "https://www.zonmw.nl/nl/subsidie/open-ronde-16",
+   "added": "2026-01-15",
+   "lastVerified": null
+  },
+  {
+   "id": 26,
+   "name": "MSCA Postdoctoral Fellowships 2026",
+   "funder": "European Commission – MSCA",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics"
+   ],
+   "diseaseAreas": [],
+   "summary": "OPEN (opened 9 April 2026). €399M budget, ~1,600 projects expected. Individual postdoctoral fellowships (European or Global). 24-36 months. Must hold PhD, ≤8 years post-PhD experience. Mobility rule: must not have lived in host country >12 months in last 3 years. Deadline 9 September 2026. Results expected Feb 2027, grants signed May 2027.",
+   "budget": {
+    "min": 180000,
+    "max": 270000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-09",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://rea.ec.europa.eu/funding-and-grants/horizon-europe-marie-sklodowska-curie-actions/msca-postdoctoral-fellowships_en",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 76,
+   "name": "Vici – ZonMw Health Research Domain 2026",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Drug safety & pharmacovigilance",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "NWO Talent Programme Vici via ZonMw Health Research domain. Pre-proposals closed 10 March 2026. Full proposals due 8 September 2026 14:00 CEST. PhD obtained ≤15 years ago. €1.5M for 5 years. Both Science and ZonMw domain rounds exist.",
+   "budget": {
+    "min": 1500000,
+    "max": 1500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-08",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-vici-zonmw-2026",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 6,
+   "name": "Vici – Science Domain 2026",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "For senior researchers who have demonstrated the ability to develop innovative research. €1.5M for 5 years to build a research group. PhD obtained max 15 years ago. Pre-proposals closed 10 March 2026. Full proposals due 8 September 2026.",
+   "budget": {
+    "min": 1500000,
+    "max": 1500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-08",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-vici-science-2026",
+   "added": "2026-01-06",
+   "lastVerified": null
+  },
+  {
+   "id": 71,
+   "name": "BRAINS 2026 PPS Call – Brain Research Collaboration",
+   "funder": "BRAINS Partnership (Hersenstichting et al.)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Drug utilisation & appropriate use",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Neurology & dementia",
+    "Mental health"
+   ],
+   "summary": "€1.6M total in PPP funding. Collaboration between Hersenstichting, Alzheimer Nederland, MS Research, ParkinsonNederland, and EpilepsieNL. Focus on brain-targeted delivery systems, blood-brain barrier crossing, monitoring technologies, and brain models. Pre-proposals closed 24 April 2026. Full proposal deadline 7 September 2026 12:00 CET for selected pre-proposals.",
+   "budget": {
+    "min": 200000,
+    "max": 1600000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-07",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Public-private partnership required",
+   "recurrence": "Annual",
+   "url": "https://www.hersenstichting.nl/over-ons/brains/",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 92,
+   "name": "ERC Plus Grant 2026",
+   "funder": "ERC",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics"
+   ],
+   "diseaseAreas": [],
+   "summary": "NEW ERC scheme for 2026. €7M for 4-7 years for researchers with transformative ideas too ambitious for traditional grants. ~30 grants across all fields, no field quotas. Opens no later than June 2026, deadline 2 September 2026 (to be confirmed). Any career stage eligible. PI must dedicate ≥30% working time and spend ≥50% in EU/associated country. Step 1 panels Nov 2026, results expected early 2027. Final deadline 2 September 2026 has passed.",
+   "budget": {
+    "min": 7000000,
+    "max": 7000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-02",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://erc.europa.eu/apply-grant/erc-plus-grant",
+   "added": "2026-04-02",
+   "lastVerified": null
+  },
+  {
+   "id": 145,
+   "name": "EMA DARWIN EU Tender 2026 – Real-World Evidence Network Extension",
+   "funder": "EMA",
+   "scope": "European",
+   "funderType": "Government / agency",
+   "type": "Tender / contract",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug safety & pharmacovigilance",
+    "Regulatory science",
+    "Data science & AI"
+   ],
+   "diseaseAreas": [],
+   "summary": "EMA will launch a competitive tender in H1 2026 to extend DARWIN EU (Data Analysis and Real World Interrogation Network) from 2027-2032. Since 2022, 100+ studies initiated, 32 data partners, 188M patient records across 16 countries. Highly relevant for division's real-world evidence and pharmacoepidemiology infrastructure work. Monitor EMA procurement portal.",
+   "budget": {
+    "min": 5000000,
+    "max": 30000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "Varies",
+   "partnersRequired": true,
+   "partnersNote": "Consortium with data partners across European countries required",
+   "recurrence": "One-off",
+   "url": "https://www.ema.europa.eu/en/about-us/how-we-work/data-regulation-big-data-other-sources/real-world-evidence",
+   "added": "2026-04-17",
+   "lastVerified": null
+  },
+  {
+   "id": 130,
+   "name": "EU4Health 2026 – Conference Grants (SANTE-PJ-09)",
+   "funder": "EU4Health",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmaceutical policy & access"
+   ],
+   "diseaseAreas": [],
+   "summary": "EU4Health action grants supporting not-for-profit, Union-wide high-level science-policy-society conferences on important health topics related to the Union's health priorities. Relevant for organising conferences on pharmacoepidemiology, drug safety, or pharmaceutical policy. Part of the EU4Health 2026 Work Programme. Check HaDEA portal for exact deadline when published.",
+   "budget": {
+    "min": 50000,
+    "max": 500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Work programme cycle",
+   "url": "https://hadea.ec.europa.eu/programmes/eu4health_en",
+   "added": "2026-04-11",
+   "lastVerified": null
+  },
+  {
+   "id": 125,
+   "name": "PPS Call LWV Crossover 2026",
+   "funder": "Health~Holland (TKI LSH)",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Sustainable pharmacy & planetary health",
+    "Pharmaceutical policy & access",
+    "Valorisation & public-private"
+   ],
+   "diseaseAreas": [],
+   "summary": "Joint PPS call across top sectors (LWV crossover to LSH). €1.5M allocated for TKI LSH. Submissions from mid-June through 1 September 2026. Projects must contribute to both Agriculture/Water/Food and Health & Care Knowledge and Innovation Agendas. Highly relevant for sustainable pharmacy, green pharmacy, and planetary health research linking environmental and pharmaceutical domains. Final deadline (1 September 2026) has passed.",
+   "budget": {
+    "min": 100000,
+    "max": 500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-01",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Public-private partnership required; must address both LWV and Health & Care KIA goals",
+   "recurrence": "Annual",
+   "url": "https://www.health-holland.com/funding-opportunities/pps-call-lwv-cross-over",
+   "added": "2026-04-10",
+   "lastVerified": null
+  },
+  {
+   "id": 99,
+   "name": "PharmaNL Shared Development Infrastructure 2026",
+   "funder": "ZonMw / PharmaNL",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Infrastructure",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Clinical trials & drug development",
+    "Regulatory science"
+   ],
+   "diseaseAreas": [],
+   "summary": "PharmaNL and ZonMw 'Shared Development Infrastructure' programme. Up to 50% subsidy for investments in shared pharmaceutical development infrastructure. Total programme budget €57M. 2026 is the final year of the 4-year programme. Relevant for division's translational research and pharmaceutical innovation work.",
+   "budget": {
+    "min": 500000,
+    "max": 5000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Pharmaceutical hubs, knowledge institutions and/or enterprises",
+   "recurrence": "Annual",
+   "url": "https://www.zonmw.nl/en/program/pharmanl-shared-development-infrastructure",
+   "added": "2026-04-02",
+   "lastVerified": null
+  },
+  {
+   "id": 63,
+   "name": "Horizon Europe – Green Pharmaceutical Manufacturing",
+   "funder": "Horizon Europe",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Sustainable pharmacy & planetary health",
+    "Valorisation & public-private"
+   ],
+   "diseaseAreas": [],
+   "summary": "Horizon Europe funds green pharmaceutical manufacturing research: environmentally friendly practices throughout the product lifecycle, reducing CO2/waste/pollution. 5 projects funded with €35M in previous round. Relevant for sustainable pharmacy research within division.",
+   "budget": {
+    "min": 5000000,
+    "max": 8000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Consortium with industry and academic partners",
+   "recurrence": "Work programme cycle",
+   "url": "https://research-and-innovation.ec.europa.eu/research-area/health/environment-climate-and-health_en",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 48,
+   "name": "Horizon Europe – GenAI4EU: Generative AI for Biomedical Research",
+   "funder": "Horizon Europe",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Data science & AI",
+    "Precision medicine & pharmacogenetics",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "EU funding of €15-17M per project to leverage multimodal data and generative AI in biomedical research, advancing predictive and personalised medicine. Links to EU AI Factories and health data infrastructure (EHDS). Highly relevant for data-science-in-pharmacy research.",
+   "budget": {
+    "min": 15000000,
+    "max": 17000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Consortium required; must link to AI Factories / data infrastructure",
+   "recurrence": "Periodic",
+   "url": "https://digital-strategy.ec.europa.eu/en/policies/genai4eu",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 4,
+   "name": "Veni – Science Domain 2026",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "For researchers who obtained their PhD max 3 years ago. €320,000 for 3 years to develop research ideas. Highly competitive. Science domain application. Pre-proposal deadline 1 September 2026 has passed; new applications are no longer accepted. Invited applicants submit full proposals by 26 January 2027 (14:00 CET).",
+   "budget": {
+    "min": 320000,
+    "max": 320000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-09-01",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme",
+   "added": "2026-01-01",
+   "lastVerified": null
+  },
+  {
+   "id": 112,
+   "name": "EDCTP3 2026 – Digital Innovation and AI in Integrated Healthcare",
+   "funder": "Global Health EDCTP3",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Project grant",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Data science & AI",
+    "Global health",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "EDCTP3 CSA on digital innovation and AI in integrated research and healthcare delivery. Part of EUR 147M EDCTP3 2026 package. Relevant for AI/data science applications in pharmacy and health research.",
+   "budget": {
+    "min": 1000000,
+    "max": 3000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-08-31",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "International consortium with EU and sub-Saharan Africa partners",
+   "recurrence": "Periodic",
+   "url": "https://www.global-health-edctp3.europa.eu/apply-funding/open-calls",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 111,
+   "name": "EDCTP3 2026 – Ethics, Regulatory & Pharmacovigilance Training Networks",
+   "funder": "Global Health EDCTP3",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Regulatory science",
+    "Global health",
+    "Pharmaceutical policy & access"
+   ],
+   "diseaseAreas": [],
+   "summary": "EDCTP3 Coordination and Support Action for ethics, regulatory affairs, and pharmacovigilance training and innovation networks. Part of EUR 147M EDCTP3 2026 calls. Highly relevant for pharmacovigilance capacity building.",
+   "budget": {
+    "min": 1000000,
+    "max": 3000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-08-31",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "International consortium with EU and sub-Saharan Africa partners",
+   "recurrence": "Periodic",
+   "url": "https://www.global-health-edctp3.europa.eu/apply-funding/open-calls",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 25,
+   "name": "ERC Advanced Grant 2026",
+   "funder": "ERC",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics"
+   ],
+   "diseaseAreas": [],
+   "summary": "Call opens 28 May 2026. For established research leaders with significant track record. Up to €2.5M for 5 years (plus up to €2M relocation top-up). Bottom-up: any research topic. Deadline 27 August 2026. Budget €747M, ~294 grants expected. ~11% success rate. Round closed 27 Aug 2026; next round: ERC Advanced Grant 2027 (ID 196).",
+   "budget": {
+    "min": 2500000,
+    "max": 2500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-08-27",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://erc.europa.eu/apply-grant/advanced-grant",
+   "added": "2026-01-01",
+   "lastVerified": null
+  },
+  {
+   "id": 138,
+   "name": "PhRMA Foundation – Value Assessment & Health Outcomes Research 2026",
+   "funder": "PhRMA Foundation",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "HTA & health economics",
+    "Pharmacoepidemiology & real-world evidence",
+    "Pharmaceutical policy & access",
+    "Drug utilisation & appropriate use"
+   ],
+   "diseaseAreas": [],
+   "summary": "LOI deadline 15 April 2026 12:00 ET. Full application deadline 26 August 2026. $520,000 total awarded to 9 researchers. Supports research on value assessment, health economics, and outcomes research in pharmaceutical sciences. Directly relevant for HTA and pharmaceutical policy research. US affiliation generally required.",
+   "budget": {
+    "min": 20000,
+    "max": 100000,
+    "currency": "USD"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-08-26",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.phrmafoundation.org/grants-fellowships/",
+   "added": "2026-04-14",
+   "lastVerified": null
+  },
+  {
+   "id": 57,
+   "name": "PhRMA Foundation Grants & Fellowships – Drug Discovery & Translational Medicine 2026",
+   "funder": "PhRMA Foundation",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Drug utilisation & appropriate use",
+    "Clinical trials & drug development"
+   ],
+   "diseaseAreas": [],
+   "summary": "LOI deadline 15 April 2026 12:00 ET. Full application deadline 26 August 2026. $3.7M+ awarded to 50 researchers. Award types: Predoctoral ($30K/year x2), Postdoctoral ($60K/year x2), Faculty Starter ($100K x1 year). US affiliation generally required but international applicants sometimes eligible.",
+   "budget": {
+    "min": 20000,
+    "max": 100000,
+    "currency": "USD"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-08-26",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.phrmafoundation.org/grants-fellowships/",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 194,
+   "name": "Project Grants in Clinical and Translational Medicine 2026",
+   "funder": "Novo Nordisk Foundation",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Postdoc",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Clinical pharmacology & therapeutics",
+    "Clinical trials & drug development",
+    "Precision medicine & pharmacogenetics",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "Supports high-level patient-oriented and practice-based clinical and translational research projects (1–3 years, up to DKK 4,500,000 each; ~DKK 76M total). A dedicated DKK 13.5M is reserved for projects on the interaction between infectious and cardiometabolic diseases. Deadline 19 August 2026 14:00 CET. Main applicant must be Danish-based, but the Centre for Clinical Therapeutics can join as an international collaborator. Canonical call page: search 'Clinical and Translational Medicine' in the NNF grants database (parent link provided; exact slug not confirmed).",
+   "budget": {
+    "min": null,
+    "max": 4500000,
+    "currency": "DKK"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-08-19",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "Main applicant must be at a Danish institution; researchers elsewhere (incl. Utrecht) participate as international collaborators/co-applicants",
+   "recurrence": "Annual",
+   "url": "https://novonordiskfonden.dk/en/grant/",
+   "added": "2026-08-11",
+   "lastVerified": null
+  },
+  {
+   "id": 180,
+   "name": "KNAW Van Leersum Beurs 2026 (pharmacy/neurology/radiology)",
+   "funder": "KNAW",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Travel / mobility",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Pharmacy practice & clinical pharmacy"
+   ],
+   "diseaseAreas": [
+    "Neurology & dementia"
+   ],
+   "summary": "Up to €9,000 for 1-3 month research visit abroad for PhD candidates or early-career postdocs in pharmacy, neurology or radiology at Dutch institutions. Deadline 3 August 2026 has passed — closed. DUPLICATE of ID 160, which is the canonical entry (now rolled forward to the expected 2027 cycle). Track ID 160 going forward.",
+   "budget": {
+    "min": 1800,
+    "max": 9000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-08-03",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.knaw.nl/en/funds-and-prizes/knaw-van-leersum-grant",
+   "added": "2026-05-11",
+   "lastVerified": null
+  },
+  {
+   "id": 126,
+   "name": "Open Competition Domain Science – M 2026/2027",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Open (any discipline)",
+    "Data science & AI"
+   ],
+   "diseaseAreas": [],
+   "summary": "The 2026/2027 OC-M round submission window has closed (deadline 1 August 2026 passed). €200k-€750k per project. A new OC-M round is expected to open later in 2026/2027 under continuous submission — watch the NWO calls page.",
+   "budget": {
+    "min": 200000,
+    "max": 750000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-08-01",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/open-competition-domain-science-m-2025/2026",
+   "added": "2026-04-10",
+   "lastVerified": null
+  },
+  {
+   "id": 9,
+   "name": "Open Competition Domain Science – M 2025/2026",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "Applications accepted through 31 July 2026 or until 419 proposals reached. New 2026/2027 round opens August 2026 (see ID 126).",
+   "budget": {
+    "min": 200000,
+    "max": 750000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-07-31",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Next cut-off",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls",
+   "added": "2026-01-01",
+   "lastVerified": null
+  },
+  {
+   "id": 91,
+   "name": "Career Development Awards – Round 2 2026",
+   "funder": "Wellcome",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Mid career"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug safety & pharmacovigilance"
+   ],
+   "diseaseAreas": [],
+   "summary": "Second 2026 round of Wellcome Career Development Awards. Deadline 28 July 2026 15:00 BST. For mid-career researchers establishing independent programmes. Up to 8 years funding. Annual expenditure usually below £250,000 excluding salary. Round 1 closed 26 Mar 2026. [Round 2 deadline 28 Jul 2026 has passed — closed; see the Round 3 entry for the next opportunity.]",
+   "budget": {
+    "min": 400000,
+    "max": 800000,
+    "currency": "GBP"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-07-28",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Several rounds per year",
+   "url": "https://wellcome.org/research-funding/schemes/wellcome-career-development-awards",
+   "added": "2026-04-02",
+   "lastVerified": null
+  },
+  {
+   "id": 90,
+   "name": "Early-Career Awards – Round 2 2026",
+   "funder": "Wellcome",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug safety & pharmacovigilance"
+   ],
+   "diseaseAreas": [],
+   "summary": "Second 2026 round of Wellcome Early-Career Awards. Deadline 21 July 2026 15:00 BST. For early-career researchers developing their research identity. Salary + up to £400,000 research expenses. Round 1 closed 17 Feb 2026.",
+   "budget": {
+    "min": 200000,
+    "max": 400000,
+    "currency": "GBP"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-07-21",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Several rounds per year",
+   "url": "https://wellcome.org/research-funding/schemes/wellcome-early-career-awards",
+   "added": "2026-04-02",
+   "lastVerified": null
+  },
+  {
+   "id": 122,
+   "name": "ERDERA JTC 2026 – Resolving Unsolved Rare Diseases",
+   "funder": "Horizon Europe – ERDERA",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Rare diseases & orphan drugs",
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug safety & pharmacovigilance",
+    "Clinical trials & drug development",
+    "Precision medicine & pharmacogenetics",
+    "Data science & AI"
+   ],
+   "diseaseAreas": [],
+   "summary": "CLOSED 8 July 2026. ERDERA JTC 2026: 'Resolving unsolved cases in rare genetic and non-genetic diseases'. Pre-proposals closed 12 Feb 2026. Full proposals closed 8 July 2026; next JTC expected early 2027. Focus on functional validation, multi-omics, AI-enabled annotation, systems biology/disease modelling. Relevant for pharmacoepi research on orphan drugs, ATMPs, and rare disease drug safety.",
+   "budget": {
+    "min": 500000,
+    "max": 2000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-07-08",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Consortium of 4-6 partners from at least 4 countries (academia, clinical, enterprises, patient organisations)",
+   "recurrence": "Annual",
+   "url": "https://erdera.org/news/erdera-pre-announces-2026-call-for-proposals-on-resolving-unsolved-rare-diseases/",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 133,
+   "name": "Longfonds-Swierenga Grant 2026 – Rare Lung Disease Research",
+   "funder": "Longfonds",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Rare diseases & orphan drugs",
+    "Drug safety & pharmacovigilance",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Respiratory"
+   ],
+   "summary": "Longfonds-Swierenga Grant 2026: €50,000 impulse grant for junior researchers to advance innovative ideas in rare lung disease research. Exclusively for rare pulmonary diseases (asthma/COPD excluded). Deadline 3 July 2026 12:00. Relevant for pharmacoepi research on orphan drugs for rare respiratory conditions.",
+   "budget": {
+    "min": 10000,
+    "max": 50000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-07-03",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://research.longfonds.nl/swierenga-longfonds-grant",
+   "added": "2026-04-12",
+   "lastVerified": null
+  },
+  {
+   "id": 104,
+   "name": "Alzheimer Nederland Impuls Grant 2026 – Round 2",
+   "funder": "Alzheimer Nederland",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Postdoc",
+    "Mid career"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug safety & pharmacovigilance"
+   ],
+   "diseaseAreas": [
+    "Neurology & dementia"
+   ],
+   "summary": "The Impuls Grant supports shorter-term research projects in dementia research. Three rounds per year. Eligibility: within 8 years of PhD, 2+ years research experience in the Netherlands. Up to EUR 850,000 per project. Round 1 closed 30 March 2026. Round 2 expected mid-2026.",
+   "budget": {
+    "min": 50000,
+    "max": 850000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-07-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Several rounds per year",
+   "url": "https://grants.alzheimer-nederland.nl/",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 14,
+   "name": "Biomarker Validation Call 2026",
+   "funder": "KWF (Dutch Cancer Society)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Precision medicine & pharmacogenetics",
+    "Clinical trials & drug development"
+   ],
+   "diseaseAreas": [
+    "Oncology"
+   ],
+   "summary": "Clinical validation of already known biomarkers through collaborative, multidisciplinary studies with special attention to clinical translation.",
+   "budget": {
+    "min": 200000,
+    "max": 500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-07-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "Unknown",
+   "partnersRequired": true,
+   "partnersNote": "Collaborative, multidisciplinary studies required",
+   "recurrence": "Periodic",
+   "url": "https://www.kwf.nl/en/forresearchers/funding/biomarkers2026",
+   "added": "2026-03-01",
+   "lastVerified": null
+  },
+  {
+   "id": 43,
+   "name": "BrainHealth Call 2026-1 – Biological, Social & Environmental Factors",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug utilisation & appropriate use",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Neurology & dementia",
+    "Mental health"
+   ],
+   "summary": "NWO + Brain Foundation Netherlands. €2M total, max €400,000 per project. Pre-proposals closed Mar 10. Full proposals due 30 June 2026. Combines holistic approach to brain health with in-depth biological understanding.",
+   "budget": {
+    "min": 100000,
+    "max": 400000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-30",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Multinational, collaborative and interdisciplinary research required",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/brainhealth-call-2026-1-biological-social-and-environmental-factors-in-brain-health",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 16,
+   "name": "ICRPA 2026 – International Cardiovascular Research Partnership Awards",
+   "funder": "Hartstichting (Dutch Heart Foundation)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Cardiovascular"
+   ],
+   "summary": "8th round of ICRPA. Now expanded to 5 countries (France, Germany, Netherlands, Spain, UK added in 2026). Up to €2.4M for 4 years. Co-led by at least 3 independent mid-career PIs from different countries. Call information published 2 March 2026. Partners: Hartstichting, BHF, DZHK, ANR, CNIC/CIBERCV.",
+   "budget": {
+    "min": 500000,
+    "max": 2400000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-30",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Consortium of min. 3 mid-career PIs from 3 of the 5 participating countries (France, Germany, Netherlands, Spain, UK)",
+   "recurrence": "Annual",
+   "url": "https://www.bhf.org.uk/for-professionals/information-for-researchers/what-we-fund/partnership-funding/icrpa",
+   "added": "2026-01-01",
+   "lastVerified": null
+  },
+  {
+   "id": 52,
+   "name": "ERA4Health JTC – Trials4Health: Multinational Clinical Trials",
+   "funder": "ERA4Health",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Clinical trials & drug development",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Cardiovascular",
+    "Rheumatology & immunology",
+    "Diabetes & metabolic"
+   ],
+   "summary": "ERA4Health and ECRIN pre-announced JTC for 'Multi-country Investigator Initiated Clinical Trials in Cardiovascular, Autoimmune and Metabolic diseases'. ECRIN provides trial support services. Must involve ≥2 ECRIN member countries.",
+   "budget": {
+    "min": 1000000,
+    "max": 3000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-17",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Multinational consortium across min. 2 ECRIN member/observer countries",
+   "recurrence": "Annual",
+   "url": "https://ecrin.org/funding-multinational-clinical-trials",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 50,
+   "name": "JTC 2026 – New Treatments to Tackle AMR",
+   "funder": "EUP OHAMR",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Antimicrobial resistance & One Health",
+    "Drug utilisation & appropriate use",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Infectious disease"
+   ],
+   "summary": "€31M+ budget. Pre-proposals closed Feb 2. Full proposals due 17 June 2026. Three topics: (1) new combination treatments, (2) tools to improve adherence to treatment protocols, (3) impact of veterinary/agricultural antimicrobial use on AMR. Highly relevant for pharmacoepi/drug utilisation research.",
+   "budget": {
+    "min": 500000,
+    "max": 2000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-17",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Multinational consortium (min. 3 countries, min. 2 EU) using One Health approach",
+   "recurrence": "Annual",
+   "url": "https://ohamr.eu/",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 68,
+   "name": "ERA4Health PREVENT-OO – Overweight & Obesity Prevention",
+   "funder": "ERA4Health",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Implementation & health services",
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug utilisation & appropriate use",
+    "Drug safety & pharmacovigilance"
+   ],
+   "diseaseAreas": [
+    "Diabetes & metabolic"
+   ],
+   "summary": "ERA4Health JTC8: Understanding and preventing overweight and obesity – mechanisms of onset/progression, neglected determinants, novel strategies for critical life transitions. ~€19M total budget. Pre-proposals closed 21 Jan 2026. Full proposals due 11 June 2026. Rebuttal stage Aug-Sep 2026.",
+   "budget": {
+    "min": 500000,
+    "max": 2000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-11",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Multinational consortium across ERA4Health partner countries",
+   "recurrence": "Periodic",
+   "url": "https://era4health.eu/calls/preventoo2026.php",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 137,
+   "name": "CARMEN2026 – Cardiovascular, Metabolic & Kidney Diseases",
+   "funder": "EP PerMed",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Precision medicine & pharmacogenetics",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Cardiovascular",
+    "Diabetes & metabolic",
+    "Renal"
+   ],
+   "summary": "EP PerMed JTC2026 (CARMEN2026) on personalised medicine for cardiovascular, metabolic, and kidney diseases. €38M total budget across 39 funding organisations in 28 countries. Pre-proposals closed 10 Feb 2026. Full proposals due 9 June 2026 14:00 CEST. Separate from RITC2026 (ID 78). Highly relevant for division's pharmacogenetics, precision medicine, and pharmacoepi research on cardiometabolic drugs.",
+   "budget": {
+    "min": 500000,
+    "max": 2000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-09",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Multinational consortium across 28 countries; 39 funding organisations; academic, clinical, and private sector teams",
+   "recurrence": "Annual",
+   "url": "https://www.eppermed.eu/funding-projects/calls/jtc2026/",
+   "added": "2026-04-14",
+   "lastVerified": null
+  },
+  {
+   "id": 115,
+   "name": "Open Competition Domain Science – XL 2025/2026",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Data science & AI"
+   ],
+   "diseaseAreas": [],
+   "summary": "Large-scale research projects across all Domain Science disciplines. Full proposal deadline 9 June 2026, 14:00 CEST. Pre-proposals closed October 2025. Max €3.25M for 5 years. Includes Life Sciences subdomain relevant for pharmacoepidemiology.",
+   "budget": {
+    "min": 750000,
+    "max": 3250000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-09",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/open-competition-domain-science-xl-round-2025-2026",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 86,
+   "name": "Challenge Programme 2026 – Cardiometabolic Disease Modelling",
+   "funder": "Novo Nordisk Foundation",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Precision medicine & pharmacogenetics",
+    "Data science & AI",
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug safety & pharmacovigilance"
+   ],
+   "diseaseAreas": [
+    "Cardiovascular",
+    "Diabetes & metabolic"
+   ],
+   "summary": "DKK 600M (€80M) total across 4 themes. Up to DKK 75M (€10M) per project for 6 years. Themes include 'Modelling Human Cardiometabolic Disease' (highly relevant), 'Unravelling Human Invasive Fungal Diseases', and others. First time open outside Denmark (Schengen+UK+Ireland). Stage 2 deadline 2 June 2026. Awards announced May 2026.",
+   "budget": {
+    "min": 30000000,
+    "max": 75000000,
+    "currency": "DKK"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-02",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://novonordiskfonden.dk/en/challenge-programme/challenge-programme-2026/",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 100,
+   "name": "Drug Repurposing Venture Challenge 2026",
+   "funder": "ZonMw / FAST",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Clinical trials & drug development",
+    "Valorisation & public-private",
+    "Pharmacy practice & clinical pharmacy"
+   ],
+   "diseaseAreas": [],
+   "summary": "3-month programme challenging researchers and early-stage entrepreneurs to translate drug repurposing ideas into market-ready plans. Registration open from mid-February 2026, workshops start June 2026. €20,000 prize for winning team. Participation fee €2,000 per team. Good for researchers with repurposing findings wanting to explore commercial translation.",
+   "budget": {
+    "min": null,
+    "max": 20000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Teams of 3-4 members required",
+   "recurrence": "Annual",
+   "url": "https://www.fast.nl/en/drug-repurposing-venture-challenge/",
+   "added": "2026-04-02",
+   "lastVerified": null
+  },
+  {
+   "id": 87,
+   "name": "Diabetes Fonds Senior Fellowship 2026",
+   "funder": "Diabetes Fonds",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Pharmacoepidemiology & real-world evidence",
+    "Medication adherence & self-management"
+   ],
+   "diseaseAreas": [
+    "Diabetes & metabolic",
+    "Cardiovascular"
+   ],
+   "summary": "Senior Fellowship for researchers building their own group in diabetes research. Max €350,000 for 4 years. Must be affiliated with Dutch university/medical centre/non-profit research institute. Complements the Junior Fellowship. Also a Care Innovation Grant programme available (opened Q1 2026).",
+   "budget": {
+    "min": 250000,
+    "max": 350000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.diabetesfonds.nl/onderzoek/informatie-voor-onderzoekers/diabetes-fonds-fellowships",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 79,
+   "name": "Lead4Life PPP Call 2026 – Pb-212 Cancer Therapies",
+   "funder": "KWF (Dutch Cancer Society)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Clinical trials & drug development",
+    "Valorisation & public-private"
+   ],
+   "diseaseAreas": [
+    "Oncology"
+   ],
+   "summary": "€5M funding for public-private projects on Pb-212 production and enabling technologies for cancer therapies. New KWF PPP programme supporting innovative radiopharmaceutical approaches.",
+   "budget": {
+    "min": 500000,
+    "max": 5000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "Unknown",
+   "partnersRequired": true,
+   "partnersNote": "Public-private partnership required",
+   "recurrence": "New programme",
+   "url": "https://www.kwf.nl/en/forresearchers/funding/lead4life",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 64,
+   "name": "Reumafonds Research Grants 2026",
+   "funder": "Reumafonds (Dutch Arthritis Foundation)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Medication adherence & self-management"
+   ],
+   "diseaseAreas": [
+    "Rheumatology & immunology"
+   ],
+   "summary": "Dutch Arthritis Foundation funds research on rheumatic diseases. Highly relevant for pharmacoepi research on DMARDs, biologicals, drug safety in autoimmune conditions, and medication adherence in rheumatology patients.",
+   "budget": {
+    "min": 50000,
+    "max": 400000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "Unknown",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.reumafonds.nl/onderzoek",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 42,
+   "name": "TDCC – Thematic Digital Competence Centre (Life Sciences & Health) 2026",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Infrastructure",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Data science & AI",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "€800,000 available for LSH domain (one third of total €2.4M). Supports digitalisation ambitions: data, software, and computing infrastructure for life sciences and health research. Info & pitch sessions hosted April 2026. Must apply through TDCC-LSH community process first.",
+   "budget": {
+    "min": 200000,
+    "max": 800000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Must be endorsed through the TDCC-LSH community process before applying to NWO",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/thematic-digital-competence-centres-2026",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 18,
+   "name": "Diabetes Fonds Junior Fellowship 2026",
+   "funder": "Diabetes Fonds",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Pharmacoepidemiology & real-world evidence",
+    "Medication adherence & self-management"
+   ],
+   "diseaseAreas": [
+    "Diabetes & metabolic"
+   ],
+   "summary": "Up to 2 fellowships of max €300,000 each for 4 years. Open to researchers across all disciplines including biomedical sciences, psychology, technology. Affiliation with Dutch university/medical centre required.",
+   "budget": {
+    "min": 250000,
+    "max": 300000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.diabetesfonds.nl/onderzoek/informatie-voor-onderzoekers/diabetes-fonds-fellowships",
+   "added": "2026-01-01",
+   "lastVerified": null
+  },
+  {
+   "id": 13,
+   "name": "PIPELINE Call 2026 – Academic Drug Development",
+   "funder": "KWF (Dutch Cancer Society)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Clinical trials & drug development"
+   ],
+   "diseaseAreas": [
+    "Oncology"
+   ],
+   "summary": "New programme focusing on advancing clinical development of new cancer drugs derived from academic research. Launching spring 2026.",
+   "budget": {
+    "min": 500000,
+    "max": 2000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "Unknown",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "New programme",
+   "url": "https://www.kwf.nl/en/forresearchers/funding",
+   "added": "2026-03-01",
+   "lastVerified": null
+  },
+  {
+   "id": 11,
+   "name": "Development Call 2026-2",
+   "funder": "KWF (Dutch Cancer Society)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Clinical trials & drug development"
+   ],
+   "diseaseAreas": [
+    "Oncology"
+   ],
+   "summary": "Translational and clinical research projects. First Development call with a pre-proposal phase. Focus on projects moving towards clinical application.",
+   "budget": {
+    "min": 200000,
+    "max": 750000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-06-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Several rounds per year",
+   "url": "https://www.kwf.nl/en/forresearchers/funding/development",
+   "added": "2026-01-01",
+   "lastVerified": null
+  },
+  {
+   "id": 94,
+   "name": "GGG Implementation Round 3 – Medicines Use in Practice",
+   "funder": "ZonMw",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug utilisation & appropriate use",
+    "Medication adherence & self-management",
+    "Pharmacy practice & clinical pharmacy",
+    "Implementation & health services"
+   ],
+   "diseaseAreas": [],
+   "summary": "CLOSED 15 May 2026. €1M total budget. Opened 10 March 2026. Funds implementation of proven effective pharmacotherapeutic interventions into practice. 50% own contribution/co-financing required. By invitation: 4 project ideas selected to submit full proposals. Highly relevant for pharmacy practice research.",
+   "budget": {
+    "min": 50000,
+    "max": 300000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-05-15",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Periodic",
+   "url": "https://www.zonmw.nl/nl/subsidie/goed-gebruik-geneesmiddelen-implementatie-ronde-3",
+   "added": "2026-04-02",
+   "lastVerified": null
+  },
+  {
+   "id": 118,
+   "name": "BPS-FIP Foundation Collaborative Research Grant 2026",
+   "funder": "FIP Foundation / BPS",
+   "scope": "International",
+   "funderType": "Society / association",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career"
+   ],
+   "themes": [
+    "Pharmacy practice & clinical pharmacy"
+   ],
+   "diseaseAreas": [],
+   "summary": "2026 round closed 1 May 2026. Joint grant from FIP Foundation and Board of Pharmacy Specialties (BPS). €5,000 for non-US-based investigators researching the impact of pharmacist board certification.",
+   "budget": {
+    "min": 5000,
+    "max": 5000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-05-01",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://bpsweb.org/bps-fip-foundation-research-grant/",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 74,
+   "name": "Exploration Call 2026-1",
+   "funder": "KWF (Dutch Cancer Society)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Oncology"
+   ],
+   "summary": "2026-1 round closed 1 May 2026. First 2026 Exploration call for fundamental cancer research. Relevant for pharmacoepi research on anticancer drug safety, pharmacovigilance of oncology treatments, and cancer-related drug utilisation studies. Watch for Exploration Call 2026-2.",
+   "budget": {
+    "min": 100000,
+    "max": 500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-05-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Several rounds per year",
+   "url": "https://www.kwf.nl/en/forresearchers/funding/exploration",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 54,
+   "name": "FIP Hospital Pharmacy Section (HPS) Research Grant 2026",
+   "funder": "FIP Foundation",
+   "scope": "International",
+   "funderType": "Society / association",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career"
+   ],
+   "themes": [
+    "Pharmacy practice & clinical pharmacy",
+    "Drug safety & pharmacovigilance",
+    "Drug utilisation & appropriate use"
+   ],
+   "diseaseAreas": [],
+   "summary": "2026 round closed 1 May 2026. Open 1 March – 1 May 2026. For FIP HPS members. Research implementing revised Basel Statements, with priority for patient safety, antimicrobial stewardship, or competency development. Small grant (€3,000) but important for pharmacy practice network visibility.",
+   "budget": {
+    "min": 3000,
+    "max": 3000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-05-01",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.fipfoundation.org/fip-hospital-pharmacy-section-hps-grants/",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 35,
+   "name": "Research Fellowship 2026",
+   "funder": "Hersenstichting (Dutch Brain Foundation)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Drug utilisation & appropriate use"
+   ],
+   "diseaseAreas": [
+    "Neurology & dementia",
+    "Mental health"
+   ],
+   "summary": "2026 deadline passed 1 May 2026. Research on brain disorders. Relevant for pharmacoepi research on psychotropic medications, opioids, antiepileptics, etc. Monitor for next round.",
+   "budget": {
+    "min": 100000,
+    "max": 300000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-05-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "Unknown",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.hersenstichting.nl/onderzoek",
+   "added": "2026-01-01",
+   "lastVerified": null
+  },
+  {
+   "id": 78,
+   "name": "RITC2026 – Multimodal Data Approaches for Personalised Medicine",
+   "funder": "EP PerMed",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Precision medicine & pharmacogenetics",
+    "Data science & AI"
+   ],
+   "diseaseAreas": [],
+   "summary": "CLOSED 27 April 2026. EP PerMed Research, Innovation and Technology Call on test and demonstration of multimodal data approaches for personalised medicine. Results expected autumn 2026.",
+   "budget": {
+    "min": 500000,
+    "max": 2000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-27",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Multinational consortium across EP PerMed partner countries",
+   "recurrence": "Annual",
+   "url": "https://www.eppermed.eu/funding-projects/calls/ritc2026/",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 127,
+   "name": "Consortium Call 2026 – Dutch Cardiovascular Agenda (€10M)",
+   "funder": "Hartstichting (Dutch Heart Foundation)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug utilisation & appropriate use"
+   ],
+   "diseaseAreas": [
+    "Cardiovascular"
+   ],
+   "summary": "CLOSED 22 April 2026. Pre-proposal phase complete. €10 million total for research consortia addressing the seven challenges of the Dutch Cardiovascular Agenda. Proposals co-led by two research leaders from different organisations. Full proposal phase for selected pre-proposals expected later in 2026.",
+   "budget": {
+    "min": 500000,
+    "max": 2500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-22",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Consortium with a second research leader at another organisation required",
+   "recurrence": "New programme",
+   "url": "https://professionals.hartstichting.nl/samenwerking-en-financiering/financiering/consortiumfinanciering/open-call-consortia-10-million-euros-research-dutch-cardiovascular-agenda",
+   "added": "2026-04-11",
+   "lastVerified": null
+  },
+  {
+   "id": 51,
+   "name": "CARB-X 2026 Funding Call – Antibacterial Research",
+   "funder": "CARB-X",
+   "scope": "International",
+   "funderType": "Public-private",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Antimicrobial resistance & One Health",
+    "Clinical trials & drug development",
+    "Drug utilisation & appropriate use"
+   ],
+   "diseaseAreas": [
+    "Infectious disease"
+   ],
+   "summary": "CLOSED 22 April 2026. CARB-X 2026 first funding round focused on 4 product themes: direct-acting therapeutics for gram-negative bacteria, novel chemistry scaffolds, and non-vaccine approaches for neonatal sepsis. Second call expected Q4 2026 (see ID 176).",
+   "budget": {
+    "min": 500000,
+    "max": 3500000,
+    "currency": "USD"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-22",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Expression of interest",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://carb-x.org/",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 27,
+   "name": "IHI Call 12 – Applicant-Driven Call",
+   "funder": "Innovative Health Initiative (IHI)",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical trials & drug development",
+    "Implementation & health services",
+    "Regulatory science",
+    "Data science & AI"
+   ],
+   "diseaseAreas": [],
+   "summary": "CLOSED 21 April 2026. €163M applicant-driven call with 5 topics aligned to IHI Strategic Research and Innovation Agenda. Results expected summer 2026. IHI Call 13 expected summer 2026 (see ID 175).",
+   "budget": {
+    "min": 5000000,
+    "max": 20000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-21",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Public-private consortium required; must include industry partners (pharma, medtech, biotech, digital health)",
+   "recurrence": "Periodic",
+   "url": "https://www.ihi.europa.eu/apply-funding/ihi-call-12",
+   "added": "2026-01-15",
+   "lastVerified": null
+  },
+  {
+   "id": 110,
+   "name": "HORIZON-HLTH-2026-CARE-01 – Public Procurement for Healthcare Access",
+   "funder": "Horizon Europe",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmaceutical policy & access",
+    "HTA & health economics"
+   ],
+   "diseaseAreas": [],
+   "summary": "CLOSED 16 April 2026. Public procurement of innovative solutions for improving citizens access to healthcare. Relevant for pharmaceutical policy and access to medicines research.",
+   "budget": {
+    "min": 3000000,
+    "max": 6000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-16",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Consortium required; minimum 3 entities from 3 EU/associated countries",
+   "recurrence": "One-off",
+   "url": "https://hadea.ec.europa.eu/calls-proposals/horizon-europe-health-2026-calls-destination-tackling-diseases-and-reducing-disease-burden_en",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 109,
+   "name": "HORIZON-HLTH-2026-IND-03 – Regulatory Science for Health Technologies",
+   "funder": "Horizon Europe",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Regulatory science",
+    "HTA & health economics",
+    "Pharmaceutical policy & access",
+    "Drug safety & pharmacovigilance"
+   ],
+   "diseaseAreas": [],
+   "summary": "CLOSED 16 April 2026. Regulatory science to support translational development of patient-centred health technologies. Directly relevant for drug regulatory science and pharmaceutical policy research.",
+   "budget": {
+    "min": 3000000,
+    "max": 7000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-16",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Consortium required; minimum 3 entities from 3 EU/associated countries",
+   "recurrence": "One-off",
+   "url": "https://hadea.ec.europa.eu/calls-proposals/horizon-europe-health-2026-calls-destination-tackling-diseases-and-reducing-disease-burden_en",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 108,
+   "name": "HORIZON-HLTH-2026-DISEASE-03 – Post-Infection Long-Term Conditions",
+   "funder": "Horizon Europe",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Drug safety & pharmacovigilance"
+   ],
+   "diseaseAreas": [
+    "Infectious disease"
+   ],
+   "summary": "CLOSED 16 April 2026. Advancing research on post-infection long-term conditions including Long COVID. EUR 39.3M total for 5 projects (EUR 6-8M each, 36-48 months).",
+   "budget": {
+    "min": 6000000,
+    "max": 8000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-16",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Consortium required; minimum 3 entities from 3 EU/associated countries",
+   "recurrence": "One-off",
+   "url": "https://hadea.ec.europa.eu/calls-proposals/horizon-europe-health-2026-calls-destination-tackling-diseases-and-reducing-disease-burden_en",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 103,
+   "name": "MSCA Staff Exchanges 2026",
+   "funder": "European Commission – MSCA",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics"
+   ],
+   "diseaseAreas": [],
+   "summary": "CLOSED 16 April 2026. €97.9M budget. MSCA Staff Exchanges fund short-term international and inter-sectoral exchanges of staff members involved in research and innovation. 2026–27 Work Programme introduced simplifications: same-sector secondments now allowed, removed one-third limit tied to interdisciplinarity. Monitor for 2027 call.",
+   "budget": {
+    "min": 500000,
+    "max": 1500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-16",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Minimum 3 organisations from 3 different countries required",
+   "recurrence": "Annual",
+   "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/calls/msca-staff-exchanges-2026",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 81,
+   "name": "HORIZON-HLTH-2026-04-CARE-04 – EP PerMed Top-Up",
+   "funder": "EP PerMed",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Precision medicine & pharmacogenetics",
+    "Data science & AI"
+   ],
+   "diseaseAreas": [],
+   "summary": "CLOSED 16 April 2026. Horizon Europe top-up funding for the European Partnership on Personalised Medicine. €15M budget for 2026. Supported implementation of personalised medicine strategies across Europe.",
+   "budget": {
+    "min": 5000000,
+    "max": 15000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-16",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Existing EP PerMed partnership consortium required",
+   "recurrence": "Work programme cycle",
+   "url": "https://www.eppermed.eu/funding-projects/calls/",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 72,
+   "name": "HORIZON-HLTH-2026-01-CARE-03 – Identifying Low-Value Care",
+   "funder": "Horizon Europe",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "HTA & health economics",
+    "Pharmaceutical policy & access",
+    "Drug utilisation & appropriate use",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "CLOSED 16 April 2026. Topic on identifying and addressing low-value care in health/care systems. Highly relevant for deprescribing, polypharmacy, drug utilisation, and cost-effectiveness research. Monitor for 2027 topics.",
+   "budget": {
+    "min": 4000000,
+    "max": 6000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-16",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "International consortium required (min. 3 entities, 3 EU/associated countries)",
+   "recurrence": "Work programme cycle",
+   "url": "https://hadea.ec.europa.eu/calls-proposals/horizon-europe-health-2026-calls-destination-ensuring-equal-access-innovative-sustainable-and-high_en",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 47,
+   "name": "Horizon Europe – Climate Change & Health / Sustainable Healthcare Systems",
+   "funder": "Horizon Europe",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Sustainable pharmacy & planetary health"
+   ],
+   "diseaseAreas": [],
+   "summary": "CLOSED 16 April 2026. Cluster 1 Health 2026: 'Living and working in a health-promoting environment' destination included topics on climate change impacts on health and climate-resilient, carbon-neutral healthcare systems. Monitor for 2027 Work Programme topics.",
+   "budget": {
+    "min": 4000000,
+    "max": 8000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-16",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "International consortium required (min. 3 entities, 3 countries)",
+   "recurrence": "Work programme cycle",
+   "url": "https://hadea.ec.europa.eu/news/2026-horizon-europe-health-calls-proposals-2026-02-12_en",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 21,
+   "name": "Cluster 1 Health – HORIZON-HLTH-2026 (various topics)",
+   "funder": "Horizon Europe",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug safety & pharmacovigilance",
+    "Pharmaceutical policy & access",
+    "Regulatory science",
+    "HTA & health economics",
+    "Precision medicine & pharmacogenetics"
+   ],
+   "diseaseAreas": [],
+   "summary": "CLOSED 16 April 2026. 17 call topics under 6 Destinations. Included topics on regulatory science (IND-03), health systems, prevention, and disease. ~68 projects expected to be funded. September 2026 deadline topics still open (see ID 73).",
+   "budget": {
+    "min": 3000000,
+    "max": 10000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-16",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "International consortium required (min. 3 independent entities from 3 different EU/associated countries)",
+   "recurrence": "Work programme cycle",
+   "url": "https://hadea.ec.europa.eu/news/2026-horizon-europe-health-calls-proposals-2026-02-12_en",
+   "added": "2026-02-12",
+   "lastVerified": null
+  },
+  {
+   "id": 93,
+   "name": "Open Competition Domain Science XS 2026 – Packet 26-2",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics"
+   ],
+   "diseaseAreas": [],
+   "summary": "CLOSED 14 April 2026. Max €50,000 for max 1 year. Extra €1.2M budget for 24 additional proposals from female researchers. Packet 26-3 deadline: 15 Sep 2026 (see ID 116).",
+   "budget": {
+    "min": 1000,
+    "max": 50000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-14",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Several rounds per year",
+   "url": "https://www.nwo.nl/en/calls/open-competition-domain-science-xs-2026-packet-26-1",
+   "added": "2026-04-02",
+   "lastVerified": null
+  },
+  {
+   "id": 17,
+   "name": "Kolff+ Programme 2026 – Call 2",
+   "funder": "Nierstichting (Dutch Kidney Foundation)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Renal"
+   ],
+   "summary": "Pre-proposal deadline passed 14 April 2026. Multiple grant types: Student Researcher (€1k-7.5k), Creativity (€55k-125k), Junior/Senior Talent, Success Accelerator (€265k-585k). Full proposals Jun-Aug 2026 for selected pre-proposals. Monitor for Call 3 later in 2026.",
+   "budget": {
+    "min": 1000,
+    "max": 585000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-14",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Several rounds per year",
+   "url": "https://nierstichting.nl/onderzoekers/grants-aanvragen/kolff-programma-2026",
+   "added": "2026-03-23",
+   "lastVerified": null
+  },
+  {
+   "id": 89,
+   "name": "Vidi – Science Domain 2025 (Full Proposals)",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Mid career"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "Full proposal deadline passed 9 April 2026 14:00 CEST. NWO Talent Programme Vidi 2025 round – Science domain (Life Sciences, Chemistry, etc.). PhD obtained ≤8 years ago (benchmark 1 Oct 2025). €850,000 for 5 years. Assessment: 75% quality/innovation, 25% impact. Monitor for 2026/2027 round.",
+   "budget": {
+    "min": 850000,
+    "max": 850000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-09",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-vidi-science-2025",
+   "added": "2026-04-02",
+   "lastVerified": null
+  },
+  {
+   "id": 59,
+   "name": "Vidi – ZonMw Health Research Domain 2025 (Full Proposals)",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Mid career"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Drug safety & pharmacovigilance",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "Full proposal deadline passed 9 April 2026 14:00 CEST. NWO Talent Programme Vidi 2025 round – ZonMw Health Research domain. PhD obtained ≤8 years ago (benchmark 1 Oct 2025). €850,000 for 5 years. Interviews Sep 2026, decision Oct 2026. Monitor for 2026/2027 round.",
+   "budget": {
+    "min": 850000,
+    "max": 850000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-09",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.zonmw.nl/en/subsidy/nwo-talent-programme-vidi-2025",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 67,
+   "name": "Climate Impacts Awards 2026",
+   "funder": "Wellcome",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Sustainable pharmacy & planetary health",
+    "Global health"
+   ],
+   "diseaseAreas": [],
+   "summary": "Deadline passed 8 April 2026 15:00 BST. £2.5M for collaborative projects making climate change health impacts visible. Must engage key stakeholders to amplify impactful narratives and accelerate climate action. Relevant for sustainable pharmacy and planetary health research. Monitor for next round (expected early 2027).",
+   "budget": {
+    "min": 1500000,
+    "max": 2500000,
+    "currency": "GBP"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-04-08",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Transdisciplinary team (1 lead + up to 7 co-applicants) including community and policy actors",
+   "recurrence": "Annual",
+   "url": "https://wellcome.org/research-funding/schemes/climate-impacts-awards-unlocking-urgent-climate-action-making-health-2",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 121,
+   "name": "Wellcome Discovery Awards 2026 – Round 1",
+   "funder": "Wellcome",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence",
+    "Drug safety & pharmacovigilance"
+   ],
+   "diseaseAreas": [],
+   "summary": "Round 1 closed 31 March 2026. Average award ~£3.5M for up to 8 years. Bold, creative research across STEM, health, social science & humanities. Lead applicant must be based in UK, Ireland, or LMIC. Round 2 opens 21 April 2026 (see ID 84).",
+   "budget": {
+    "min": 1500000,
+    "max": 5000000,
+    "currency": "GBP"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-03-31",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Several rounds per year",
+   "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 95,
+   "name": "SME Call 2026 – Round 1",
+   "funder": "Health~Holland (TKI LSH)",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Valorisation & public-private",
+    "Clinical trials & drug development"
+   ],
+   "diseaseAreas": [],
+   "summary": "~€12M in PPP subsidy for SME-led innovative industrial research partnerships. Min €225k, max €450k per project. Round 1 closed 31 March 2026. Results expected mid-May 2026. Monitor for Round 2 later in 2026.",
+   "budget": {
+    "min": 225000,
+    "max": 450000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-03-31",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Public-private partnership with SME required",
+   "recurrence": "Several rounds per year",
+   "url": "https://www.health-holland.com/funding-opportunities/mkb-call",
+   "added": "2026-04-02",
+   "lastVerified": null
+  },
+  {
+   "id": 34,
+   "name": "Junior Investigator Grants 2026",
+   "funder": "Longfonds",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Medication adherence & self-management"
+   ],
+   "diseaseAreas": [
+    "Respiratory"
+   ],
+   "summary": "3 Junior Investigator Grants of max €250,000 each for 3 years. For researchers ≤5 years post-PhD. One grant reserved for CPBT (animal-free translation). Pre-application deadline was 30 March 2026 12:00. Patient involvement required. Monitor for consortium and other grants later in 2026.",
+   "budget": {
+    "min": 50000,
+    "max": 250000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-03-30",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://research.longfonds.nl/subsidies/jong-talent",
+   "added": "2026-01-01",
+   "lastVerified": null
+  },
+  {
+   "id": 31,
+   "name": "Career Development Awards",
+   "funder": "Wellcome",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Mid career"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "For mid-career researchers establishing independent programmes. Up to 8 years funding for leadership development and team building. 2026 round closed 26 Mar 2026. Next round expected early 2027.",
+   "budget": {
+    "min": 400000,
+    "max": 800000,
+    "currency": "GBP"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-03-26",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://wellcome.org/research-funding/schemes",
+   "added": "2026-01-01",
+   "lastVerified": null
+  },
+  {
+   "id": 105,
+   "name": "Pharmacy Research UK Project Grants 2026",
+   "funder": "Pharmacy Research UK",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacy practice & clinical pharmacy",
+    "Medication adherence & self-management",
+    "Drug utilisation & appropriate use"
+   ],
+   "diseaseAreas": [],
+   "summary": "Pharmacy Research UK 2026 round included Project Grants (up to GBP 100,000 for 24 months), Research Training Bursaries (up to GBP 5,000), CMHP-PRUK Research Award (up to GBP 20,000 for mental health pharmacy), and BOPA-PRUK Research Award (up to GBP 10,000). Total budget GBP 300,000. Deadline passed 25 March 2026.",
+   "budget": {
+    "min": 5000,
+    "max": 100000,
+    "currency": "GBP"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-03-25",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://pharmacyresearchuk.org/for-researchers/personal-awards-2/",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 56,
+   "name": "PhD Studentship Scheme 2026",
+   "funder": "Pharmacy Research UK",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "PhD position",
+   "careerStages": [
+    "PhD"
+   ],
+   "themes": [
+    "Pharmacy practice & clinical pharmacy",
+    "Drug utilisation & appropriate use",
+    "Drug safety & pharmacovigilance",
+    "Education & training"
+   ],
+   "diseaseAreas": [],
+   "summary": "UK-based funding for registered pharmacy professionals (pharmacists/pharmacy technicians) to pursue full- or part-time PhD, up to £99,000. ~40% success rate. Deadline was 25 March 2026 for current round; monitor for next cycle.",
+   "budget": {
+    "min": 50000,
+    "max": 99000,
+    "currency": "GBP"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-03-25",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://pharmacyresearchuk.org/for-researchers/personal-awards-2/",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 66,
+   "name": "Off Road 2026 – High-Risk High-Reward Research",
+   "funder": "ZonMw",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics"
+   ],
+   "diseaseAreas": [],
+   "summary": "For creative researchers 2-6 years post-PhD. Max €100,000 for 12-18 months. High-risk, high-reward, out-of-the-box research ideas. Total budget €2.6M (incl. €600k for New Approach Methodologies). 2026 round closed 24 March; monitor for 2027 round.",
+   "budget": {
+    "min": 50000,
+    "max": 100000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-03-24",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.zonmw.nl/en/subsidy/off-road-2026",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 44,
+   "name": "Open Mind 2026",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "NWO Open Mind funds daring, exploratory ideas at the frontiers of scientific disciplines. Max 10 grants of €100,000 each for max 1 year. 2026 round closed 10 March 2026. Monitor for 2027 round.",
+   "budget": {
+    "min": 50000,
+    "max": 100000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-03-10",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/open-mind-2026",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 202,
+   "name": "Utrecht Life Sciences Early Career Seed Grants (pilot 2026)",
+   "funder": "Utrecht Life Sciences (UU / UMC Utrecht)",
+   "scope": "Local",
+   "funderType": "University (internal)",
+   "type": "Project grant",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "Pilot pump-priming grants for early-career researchers across the Utrecht Science Park to generate preliminary data for larger applications. 2026 deadline was 2 March 2026; watch for a next round.",
+   "budget": null,
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-03-02",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "New programme",
+   "url": "https://research.umcutrecht.nl/news/utrecht-life-sciences-early-career-seed-grants/",
+   "added": "2026-10-09",
+   "lastVerified": "2026-10-09"
+  },
+  {
+   "id": 39,
+   "name": "Erasmus+ Capacity Building in Higher Education 2026",
+   "funder": "Erasmus+ Programme",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Education & training",
+    "Global health"
+   ],
+   "diseaseAreas": [],
+   "summary": "Support for modernisation of higher education systems in partner countries. Relevant for pharmaceutical education and training capacity building. Division has EU2P programme experience.",
+   "budget": {
+    "min": 200000,
+    "max": 1000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-02-20",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "International consortium with partners from eligible countries required",
+   "recurrence": "Annual",
+   "url": "https://erasmus-plus.ec.europa.eu/",
+   "added": "2025-11-01",
+   "lastVerified": null
+  },
+  {
+   "id": 69,
+   "name": "NERD Programme 2026 – New Exploratory Research and Discovery",
+   "funder": "Novo Nordisk Foundation",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Data science & AI",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "DKK 160M total budget. Up to DKK 16M per project for up to 6 years. Fundamental research in natural and technical sciences including computer science. 2026 round closed 19 February 2026. Monitor for 2027 round. Relevant for computational pharmacoepidemiology and AI-based drug safety methods.",
+   "budget": {
+    "min": 5000000,
+    "max": 16000000,
+    "currency": "DKK"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-02-19",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://novonordiskfonden.dk/en/grant/new-exploratory-research-and-discovery-nerd-programme-2026/",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 30,
+   "name": "Early-Career Awards",
+   "funder": "Wellcome",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "For early-career researchers developing their research identity. Salary + up to £400,000 research expenses. 2026 round closed 17 Feb 2026. Next round expected Feb 2027.",
+   "budget": {
+    "min": 200000,
+    "max": 400000,
+    "currency": "GBP"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-02-17",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://wellcome.org/research-funding/schemes",
+   "added": "2026-01-01",
+   "lastVerified": null
+  },
+  {
+   "id": 131,
+   "name": "EULAR Research Grants 2026",
+   "funder": "EULAR",
+   "scope": "European",
+   "funderType": "Society / association",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Clinical pharmacology & therapeutics",
+    "Pharmacoepidemiology & real-world evidence",
+    "Medication adherence & self-management"
+   ],
+   "diseaseAreas": [
+    "Rheumatology & immunology"
+   ],
+   "summary": "2026 round closed 7 February 2026. EULAR also offers voucher schemes (Research Service, Grant Writing, Publication Support) and Training Grants (up to €12,600). Monitor for 2027 call. Relevant for pharmacoepi research on DMARDs, biologicals, biosimilars, and medication safety in autoimmune conditions.",
+   "budget": {
+    "min": 20000,
+    "max": 150000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-02-07",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.eular.org/eular-research-funding",
+   "added": "2026-04-11",
+   "lastVerified": null
+  },
+  {
+   "id": 65,
+   "name": "Alzheimer Nederland Research Fund 2026",
+   "funder": "Alzheimer Nederland",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug utilisation & appropriate use",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Neurology & dementia",
+    "Mental health"
+   ],
+   "summary": "Research funding for Alzheimer's and dementia research. 2026 LOI deadline was 30 Jan 2026. Impuls Grant Round 1 closed 30 Mar 2026. Relevant for pharmacoepi research on psychotropic drug use in dementia patients, polypharmacy in elderly, and medication safety.",
+   "budget": {
+    "min": 50000,
+    "max": 300000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-01-30",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.alzheimer-nederland.nl/onderzoek",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 58,
+   "name": "Veni – ZonMw Health Research Domain 2025/2026",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Drug safety & pharmacovigilance",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "NWO Talent Programme Veni for the ZonMw Health Research domain. Pre-proposals due September 2025; full proposals due 27 January 2026. PhD obtained ≤3 years ago. Max €320,000. Monitor for the 2026/2027 round.",
+   "budget": {
+    "min": 320000,
+    "max": 320000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-01-27",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-veni-health-research-and-development-zonmw-2025",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 114,
+   "name": "ERC Starting Grant 2026",
+   "funder": "ERC",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Postdoc",
+    "Mid career"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Drug safety & pharmacovigilance",
+    "HTA & health economics",
+    "Pharmaceutical policy & access"
+   ],
+   "diseaseAreas": [],
+   "summary": "ERC Starting Grants for researchers 2-7 years post-PhD. Up to EUR 1.5M for 5 years. 2026 deadline was January 13. Step 1 results expected end of April 2026, interviews June 2026.",
+   "budget": {
+    "min": 1000000,
+    "max": 1500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-01-13",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://erc.europa.eu/apply-grant/starting-grant",
+   "added": "2026-04-09",
+   "lastVerified": null
+  },
+  {
+   "id": 24,
+   "name": "ERC Consolidator Grant 2026",
+   "funder": "ERC",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Mid career"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics"
+   ],
+   "diseaseAreas": [],
+   "summary": "For researchers 7-12 years post-PhD. Up to €2M for 5 years. Closed for 2026, next round expected late 2026.",
+   "budget": {
+    "min": 2000000,
+    "max": 2000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-01-13",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://erc.europa.eu/apply-grant/consolidator-grant",
+   "added": "2025-07-01",
+   "lastVerified": null
+  },
+  {
+   "id": 82,
+   "name": "Drug Rediscovery Ronde 8",
+   "funder": "ZonMw",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Clinical trials & drug development",
+    "HTA & health economics"
+   ],
+   "diseaseAreas": [],
+   "summary": "ZonMw Drug Rediscovery programme round 8. €2.5M total budget. Two types: proof-of-concept and clinical validation studies. Repurposing existing off-patent medicines for new indications. Deadline was 7 January 2026. Monitor for future rounds.",
+   "budget": {
+    "min": 100000,
+    "max": 400000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-01-07",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Periodic",
+   "url": "https://www.zonmw.nl/nl/subsidie/drug-rediscovery-ronde-8",
+   "added": "2026-04-01",
+   "lastVerified": null
+  },
+  {
+   "id": 3,
+   "name": "Drug Repurposing Programme",
+   "funder": "ZonMw",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Clinical trials & drug development"
+   ],
+   "diseaseAreas": [],
+   "summary": "Funding for research into repurposing existing medicines for new therapeutic indications.",
+   "budget": {
+    "min": 100000,
+    "max": 400000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-01-07",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Periodic",
+   "url": "https://www.zonmw.nl/en/subsidies",
+   "added": "2025-10-01",
+   "lastVerified": null
+  },
+  {
+   "id": 45,
+   "name": "EU4Health 2026 Action Grants – Medicines Pricing & Access Tracker",
+   "funder": "EU4Health",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmaceutical policy & access",
+    "HTA & health economics"
+   ],
+   "diseaseAreas": [],
+   "summary": "EU4Health 2026 work programme included a call to develop a medicine pricing, reimbursement and access tracker across EU member states. Total budget €56.8M across all topics. Closed January 2026; monitor for next annual cycle.",
+   "budget": {
+    "min": 1000000,
+    "max": 5000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-01-06",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Eligible entities from EU member states or associated countries",
+   "recurrence": "Work programme cycle",
+   "url": "https://hadea.ec.europa.eu/programmes/eu4health_en",
+   "added": "2026-04-01",
+   "lastVerified": null
+  }
+ ]
+}

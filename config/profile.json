@@ -1,0 +1,186 @@
+{
+  "title": "Funding Watch",
+  "organisation": "Division of Pharmacoepidemiology & Clinical Pharmacology",
+  "institution": "Utrecht University",
+  "siteUrl": "https://robheerdink-collab.github.io/funding-watch/",
+  "repoUrl": "https://github.com/robheerdink-collab/funding-watch",
+  "contactEmail": "",
+  "centres": [
+    {
+      "id": "PE",
+      "name": "Pharmacoepidemiology",
+      "description": "Real-world evidence, observational methods, multi-database studies, drug safety, pharmacovigilance, drug utilisation",
+      "themes": [
+        "Pharmacoepidemiology & real-world evidence",
+        "Drug safety & pharmacovigilance",
+        "Drug utilisation & appropriate use",
+        "Medication adherence & self-management",
+        "Data science & AI"
+      ]
+    },
+    {
+      "id": "CT",
+      "name": "Clinical Therapeutics",
+      "description": "Clinical pharmacology, biomarkers, precision medicine, pharmacy practice",
+      "themes": [
+        "Clinical pharmacology & therapeutics",
+        "Precision medicine & pharmacogenetics",
+        "Pharmacy practice & clinical pharmacy",
+        "Clinical trials & drug development",
+        "Medication adherence & self-management",
+        "Implementation & health services"
+      ]
+    },
+    {
+      "id": "PPR",
+      "name": "Pharmaceutical Policy & Regulation",
+      "description": "HTA, regulatory science, access to medicines, pharmaceutical policy, WHO collaboration",
+      "themes": [
+        "HTA & health economics",
+        "Regulatory science",
+        "Pharmaceutical policy & access",
+        "Global health",
+        "Rare diseases & orphan drugs"
+      ]
+    }
+  ],
+  "vocabularies": {
+    "scope": ["Local", "Regional", "National", "European", "International"],
+    "scopeHelp": {
+      "Local": "Utrecht University, UMC Utrecht and their alliances (internal funds)",
+      "Regional": "Province of Utrecht and the Utrecht region",
+      "National": "Dutch funders and Dutch societies",
+      "European": "EU programmes and European societies",
+      "International": "Funders outside the EU framework (global)"
+    },
+    "funderType": [
+      "University (internal)",
+      "Public research funder",
+      "EU programme",
+      "Government / agency",
+      "Charity / foundation",
+      "Society / association",
+      "Public-private",
+      "Regional government"
+    ],
+    "type": [
+      "Project grant",
+      "Personal fellowship",
+      "Consortium / network",
+      "Infrastructure",
+      "Tender / contract",
+      "PhD position",
+      "Travel / mobility",
+      "Prize / stipend"
+    ],
+    "careerStages": ["Master", "PhD", "Postdoc", "Early career", "Mid career", "Senior/PI"],
+    "themes": [
+      "Pharmacoepidemiology & real-world evidence",
+      "Drug safety & pharmacovigilance",
+      "Drug utilisation & appropriate use",
+      "Medication adherence & self-management",
+      "Clinical pharmacology & therapeutics",
+      "Precision medicine & pharmacogenetics",
+      "Pharmacy practice & clinical pharmacy",
+      "Clinical trials & drug development",
+      "HTA & health economics",
+      "Regulatory science",
+      "Pharmaceutical policy & access",
+      "Global health",
+      "Antimicrobial resistance & One Health",
+      "Sustainable pharmacy & planetary health",
+      "Data science & AI",
+      "Rare diseases & orphan drugs",
+      "Implementation & health services",
+      "Education & training",
+      "Valorisation & public-private",
+      "Open (any discipline)"
+    ],
+    "diseaseAreas": [
+      "Oncology",
+      "Cardiovascular",
+      "Diabetes & metabolic",
+      "Renal",
+      "Respiratory",
+      "Neurology & dementia",
+      "Mental health",
+      "Rheumatology & immunology",
+      "Infectious disease",
+      "Women's health"
+    ],
+    "status": ["Open", "Upcoming", "Rolling", "Closed"],
+    "deadlineStage": [
+      "Application",
+      "Pre-proposal",
+      "Full proposal",
+      "Expression of interest",
+      "Nomination",
+      "Registration",
+      "Cut-off",
+      "Next cut-off",
+      "No fixed deadline"
+    ],
+    "phases": ["1-phase", "2-phase", "Varies", "Unknown"],
+    "recurrence": [
+      "Annual",
+      "Several rounds per year",
+      "Biennial",
+      "Periodic",
+      "Work programme cycle",
+      "Continuous",
+      "New programme",
+      "One-off",
+      "Unknown"
+    ],
+    "currency": ["EUR", "GBP", "USD", "DKK", "CHF", "SEK", "NOK"]
+  },
+  "sources": {
+    "Local": [
+      "Utrechts Universiteitsfonds (UU subsidy portal rounds)",
+      "UU strategic themes and focus areas: Pathways to Sustainability, Life Sciences, Dynamics of Youth, Institutions for Open Societies",
+      "Utrecht Life Sciences / UMC Utrecht internal calls",
+      "EWUU Alliance (TU/e, WUR, UU, UMCU) incl. Institute 4 Preventive Health (i4PH) — site is bot-protected; may need a browser to verify",
+      "Faculty of Science and Department of Pharmaceutical Sciences internal funds"
+    ],
+    "Regional": [
+      "Provincie Utrecht",
+      "Economic Board Utrecht",
+      "ROM Utrecht Region",
+      "Health Hub Utrecht / Utrecht Science Park",
+      "Regio Deal Utrecht"
+    ],
+    "National": [
+      "ZonMw (GGG, Efficiency Studies, Open Competition, Goed Gebruik Geneesmiddelen)",
+      "NWO (Veni/Vidi/Vici Science and ZonMw domains, KIC, ORC, NWA-ORC, Open Competition, TDCC-LSH)",
+      "KNAW (Trailblazers Fund, Early Career Award, Early Career Partnerships, Van Leersum grant)",
+      "Health~Holland (TKI LSH Science for Industry, SME call, PPP allowance)",
+      "Zorginstituut Nederland and CBG-MEB commissions",
+      "KWF, Hartstichting (incl. https://professionals.hartstichting.nl/openstaande-calls-en-events), Nierstichting, Diabetes Fonds, Longfonds, Hersenstichting, ReumaNederland, Alzheimer Nederland"
+    ],
+    "European": [
+      "Horizon Europe Cluster 1 Health (all topics), Missions",
+      "ERC (StG, CoG, AdG, SyG, PoC)",
+      "MSCA (Postdoctoral Fellowships, Doctoral Networks, Staff Exchanges)",
+      "Innovative Health Initiative (IHI)",
+      "EU4Health action grants and EMA tenders",
+      "Global Health EDCTP3, ERA4Health, EP PerMed, EUP OHAMR"
+    ],
+    "International": [
+      "Wellcome (all schemes)",
+      "Novo Nordisk Foundation",
+      "Gates Foundation, WHO",
+      "ISPE, FIP / FIP Foundation, ISPOR",
+      "CARB-X, GCRFF Multinational Clinical Trials Initiative",
+      "PhRMA Foundation, Pharmacy Research UK"
+    ],
+    "Prizes and stipends": [
+      "Lareb – Leopold Meijler Fonds",
+      "KNMP (Studentenprijs, Stipendiafonds, proefschrift-bijdrage, PRISMA, Fondsen onderzoek voor de apotheker)",
+      "SWAB Jan Prins Proefschriftprijs",
+      "NVKFB Proefschriftprijs and TOP-publicatieprijs",
+      "KHMW (Saal van Zwanenberg afstudeerprijzen, Proefschriftprijs Interdisciplinariteit)",
+      "Prix Galien (NL and international)",
+      "ISPE ICPE scholarships, EACPT/EPHAR Young Investigator Awards, FIP/IPSF/ECPG grants, ISPOR student awards, ESCP awards"
+    ]
+  }
+}

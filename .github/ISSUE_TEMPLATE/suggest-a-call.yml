@@ -1,0 +1,19 @@
+name: Suggest a call
+description: A funding call, prize or stipend that should be on Funding Watch
+title: "Suggestion: "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Link to the official call page
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything we should know?
+      description: For example why it is relevant to the division, or who is eligible.
+    validations:
+      required: false

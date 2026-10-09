@@ -1,0 +1,40 @@
+name: Check links
+
+on:
+  schedule:
+    - cron: "0 6 * * 0" # Sundays 06:00 UTC, the day after the weekly update
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check every call URL
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Many funder sites refuse bots (403/429) or sit behind bot protection; those are not reported as broken.
+          args: >-
+            --no-progress
+            --max-concurrency 4
+            --timeout 30
+            --max-retries 2
+            --accept 200..=299,403,429
+            --exclude 'ewuu\.nl'
+            data/opportunities.json
+          output: ./lychee/report.md
+          fail: false
+
+      - name: Open an issue when links are broken
+        if: steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Broken links in Funding Watch
+          content-filepath: ./lychee/report.md
+          labels: broken-link

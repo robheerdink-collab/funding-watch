@@ -1,0 +1,19 @@
+{
+ "lastBuild": "2026-10-09T13:21:54.379Z",
+ "activeCount": 90,
+ "archiveCount": 109,
+ "byStatus": {
+  "Rolling": 23,
+  "Open": 9,
+  "Upcoming": 58
+ },
+ "byScope": {
+  "National": 41,
+  "European": 19,
+  "Local": 3,
+  "International": 27
+ },
+ "maxId": 202,
+ "lastRun": "2026-10-09T15:45:00+02:00",
+ "runSummary": "Migrated to the new structure; 3 local calls added"
+}
