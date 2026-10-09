@@ -343,14 +343,50 @@
     const open = active.filter((i) => i._status !== "Closed");
     $("fact-active").textContent = open.length;
     $("fact-soon").textContent = open.filter((i) => i._days !== null && i._days >= 0 && i._days <= 30).length;
-    const ics = new URL("deadlines.ics", location.href).href;
-    $("ics-url").textContent = ics;
-    $("suggest-link").href = profile.contactEmail
-      ? `mailto:${profile.contactEmail}?subject=${encodeURIComponent("Funding Watch: suggested call")}`
-      : `${profile.repoUrl}/issues/new?template=suggest-a-call.yml`;
+    $("ics-input").value = new URL("deadlines.ics", location.href).href;
+    if (profile.repoUrl) {
+      $("changelog-link").href = `${profile.repoUrl}/tree/main/updates`;
+      $("suggest-github").href = `${profile.repoUrl}/issues/new?template=suggest-a-call.yml`;
+    }
+    if (profile.contactEmail) {
+      const mail = (subject, body) => `mailto:${profile.contactEmail}?subject=${encodeURIComponent(subject)}${body ? "&body=" + encodeURIComponent(body) : ""}`;
+      document.querySelectorAll("[data-contact]").forEach((a) => (a.href = mail("Funding Watch")));
+      document.querySelectorAll("[data-contact-email]").forEach((el) => (el.textContent = profile.contactEmail));
+      document.querySelectorAll("[data-suggest-mail]").forEach((a) => (a.href = mail("Funding Watch: suggested call",
+        "Link to the call page:\n\nWhy it is relevant (optional):\n")));
+    }
+    if (profile.contactName) document.querySelectorAll("[data-contact-name]").forEach((el) => (el.textContent = profile.contactName));
+  }
+
+  // ---------- header panels (calendar, suggest, about) ----------
+  function wirePanels() {
+    const buttons = [...document.querySelectorAll(".bar button[aria-controls]")];
+    const close = (except) => buttons.forEach((b) => {
+      if (b === except) return;
+      b.setAttribute("aria-expanded", "false");
+      $(b.getAttribute("aria-controls")).hidden = true;
+    });
+    buttons.forEach((b) => b.addEventListener("click", () => {
+      const panel = $(b.getAttribute("aria-controls"));
+      const open = b.getAttribute("aria-expanded") !== "true";
+      close(b);
+      b.setAttribute("aria-expanded", String(open));
+      panel.hidden = !open;
+    }));
+    document.addEventListener("keydown", (e) => {
+      const openBtn = buttons.find((b) => b.getAttribute("aria-expanded") === "true");
+      if (e.key === "Escape" && openBtn) { close(); openBtn.focus(); }
+    });
+    $("ics-copy").addEventListener("click", async () => {
+      const input = $("ics-input");
+      try { await navigator.clipboard.writeText(input.value); }
+      catch { input.select(); document.execCommand && document.execCommand("copy"); }
+      $("ics-done").textContent = "Link copied. Paste it in your calendar app.";
+    });
   }
 
   async function init() {
+    wirePanels();
     readHash();
     try {
       const [p, data, m] = await Promise.all([

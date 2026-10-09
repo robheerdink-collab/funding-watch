@@ -4,7 +4,8 @@
   "institution": "Utrecht University",
   "siteUrl": "https://robheerdink-collab.github.io/funding-watch/",
   "repoUrl": "https://github.com/robheerdink-collab/funding-watch",
-  "contactEmail": "",
+  "contactName": "Rob Heerdink",
+  "contactEmail": "e.r.heerdink@uu.nl",
   "centres": [
     {
       "id": "PE",
@@ -45,7 +46,13 @@
     }
   ],
   "vocabularies": {
-    "scope": ["Local", "Regional", "National", "European", "International"],
+    "scope": [
+      "Local",
+      "Regional",
+      "National",
+      "European",
+      "International"
+    ],
     "scopeHelp": {
       "Local": "Utrecht University, UMC Utrecht and their alliances (internal funds)",
       "Regional": "Province of Utrecht and the Utrecht region",
@@ -73,7 +80,14 @@
       "Travel / mobility",
       "Prize / stipend"
     ],
-    "careerStages": ["Master", "PhD", "Postdoc", "Early career", "Mid career", "Senior/PI"],
+    "careerStages": [
+      "Master",
+      "PhD",
+      "Postdoc",
+      "Early career",
+      "Mid career",
+      "Senior/PI"
+    ],
     "themes": [
       "Pharmacoepidemiology & real-world evidence",
       "Drug safety & pharmacovigilance",
@@ -108,7 +122,12 @@
       "Infectious disease",
       "Women's health"
     ],
-    "status": ["Open", "Upcoming", "Rolling", "Closed"],
+    "status": [
+      "Open",
+      "Upcoming",
+      "Rolling",
+      "Closed"
+    ],
     "deadlineStage": [
       "Application",
       "Pre-proposal",
@@ -120,7 +139,12 @@
       "Next cut-off",
       "No fixed deadline"
     ],
-    "phases": ["1-phase", "2-phase", "Varies", "Unknown"],
+    "phases": [
+      "1-phase",
+      "2-phase",
+      "Varies",
+      "Unknown"
+    ],
     "recurrence": [
       "Annual",
       "Several rounds per year",
@@ -132,7 +156,15 @@
       "One-off",
       "Unknown"
     ],
-    "currency": ["EUR", "GBP", "USD", "DKK", "CHF", "SEK", "NOK"]
+    "currency": [
+      "EUR",
+      "GBP",
+      "USD",
+      "DKK",
+      "CHF",
+      "SEK",
+      "NOK"
+    ]
   },
   "sources": {
     "Local": [

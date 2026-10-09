@@ -16,19 +16,100 @@
 <body>
   <a class="skip" href="#results">Skip to the list of calls</a>
 
-  <header class="band">
-    <div class="band__inner">
-      <div class="band__title">
-        <h1>Funding Watch</h1>
-        <p class="band__lede">Open calls, prizes and stipends for the Division of Pharmacoepidemiology &amp; Clinical Pharmacology, Utrecht University. From UU’s own funds to Horizon Europe and Wellcome.</p>
+  <header class="site">
+    <div class="site__top">
+      <a class="site__uu" href="https://www.uu.nl/en">Utrecht University</a>
+      <nav class="crumbs" aria-label="Breadcrumb">
+        <a href="https://www.uu.nl/en">UU.nl</a>
+        <span aria-hidden="true">›</span>
+        <a href="https://www.uu.nl/en/research">Research</a>
+        <span aria-hidden="true">›</span>
+        <a href="https://www.uu.nl/en/research/pharmacoepidemiology-and-clinical-pharmacology">Pharmacoepidemiology and Clinical Pharmacology</a>
+        <span aria-hidden="true">›</span>
+        <span aria-current="page">Funding Watch</span>
+      </nav>
+    </div>
+    <div class="site__name">
+      <div class="wrap"><a href="https://www.uu.nl/en/research/pharmacoepidemiology-and-clinical-pharmacology">Pharmacoepidemiology and Clinical Pharmacology</a></div>
+    </div>
+    <nav class="bar" aria-label="Funding Watch">
+      <div class="wrap bar__inner">
+        <a class="bar__home" href="https://www.uu.nl/en/research/pharmacoepidemiology-and-clinical-pharmacology" aria-label="Division website">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 3 2 11.5h3V21h5.5v-6h3v6H19v-9.5h3z" fill="currentColor"/></svg>
+        </a>
+        <a class="bar__item bar__item--current" href="#results" aria-current="page">Funding Watch</a>
+        <button type="button" class="bar__item" aria-expanded="false" aria-controls="panel-calendar">Deadline calendar</button>
+        <a class="bar__item" href="opportunities.csv" download>Download list</a>
+        <button type="button" class="bar__item" aria-expanded="false" aria-controls="panel-suggest">Suggest a call</button>
+        <button type="button" class="bar__item" aria-expanded="false" aria-controls="panel-about">About this list</button>
+        <a class="bar__item" data-contact href="mailto:e.r.heerdink@uu.nl?subject=Funding%20Watch">Contact</a>
       </div>
-      <dl class="band__facts" id="facts" aria-live="polite">
+    </nav>
+
+    <div class="panel" id="panel-calendar" hidden>
+      <div class="wrap panel__inner">
+        <div>
+          <h2>Put every confirmed deadline in your own calendar</h2>
+          <p>Subscribe once; your calendar picks up new and changed deadlines after each Saturday update. Expected dates are left out until the funder confirms them.</p>
+          <div class="copy">
+            <label class="visually-hidden" for="ics-input">Calendar link</label>
+            <input id="ics-input" type="text" readonly value="https://robheerdink-collab.github.io/funding-watch/deadlines.ics">
+            <button type="button" id="ics-copy">Copy link</button>
+          </div>
+          <p class="copy__done" id="ics-done" role="status" aria-live="polite"></p>
+        </div>
+        <dl class="howto">
+          <dt>Outlook</dt><dd>Add calendar, then Subscribe from web (classic Outlook: From Internet). Paste the link.</dd>
+          <dt>Google Calendar</dt><dd>Other calendars, the plus sign, then From URL. Paste the link.</dd>
+          <dt>Apple Calendar</dt><dd>File, then New Calendar Subscription. Paste the link.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="panel" id="panel-suggest" hidden>
+      <div class="wrap panel__inner">
+        <div>
+          <h2>Know a call, prize or stipend that is missing?</h2>
+          <p>Send the link to the call page. Suggestions are checked and added in the next Saturday update.</p>
+          <p class="panel__actions">
+            <a class="btn" data-suggest-mail href="mailto:e.r.heerdink@uu.nl?subject=Funding%20Watch%3A%20suggested%20call">Email the link</a>
+            <a class="btn btn--line" id="suggest-github" href="https://github.com/robheerdink-collab/funding-watch/issues/new?template=suggest-a-call.yml" target="_blank" rel="noopener">Suggest on GitHub</a>
+          </p>
+        </div>
+        <p class="panel__aside">Suggestions on GitHub are picked up automatically by the weekly update. You need a free GitHub account for that; email works without one.</p>
+      </div>
+    </div>
+
+    <div class="panel" id="panel-about" hidden>
+      <div class="wrap panel__inner">
+        <div>
+          <h2>How this list is kept up to date</h2>
+          <p>Every Saturday morning the list is checked against the funders’ own pages: new calls are added, deadlines, budgets and conditions corrected, and closed calls moved to the archive. Status and days left are calculated from today’s date when you open the page.</p>
+          <p>“Expected” means a new round is likely but the funder has not announced it; the date is based on the previous round. Always check the official call page before you plan an application.</p>
+        </div>
+        <ul class="panel__links">
+          <li><a id="changelog-link" href="https://github.com/robheerdink-collab/funding-watch/tree/main/updates" target="_blank" rel="noopener">What changed in each weekly update</a></li>
+          <li><a href="data/opportunities.json">Raw data (JSON)</a></li>
+          <li>Maintained by <span data-contact-name>Rob Heerdink</span>, <a data-contact href="mailto:e.r.heerdink@uu.nl?subject=Funding%20Watch"><span data-contact-email>e.r.heerdink@uu.nl</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="intro wrap">
+    <div class="intro__text">
+      <h1>Funding Watch</h1>
+      <p>Open calls, prizes and stipends for researchers in the division, from Utrecht University’s own funds to Horizon Europe and Wellcome. Each call links to the funder’s official page.</p>
+    </div>
+    <aside class="intro__side" aria-label="Status of the list">
+      <dl class="facts-row" aria-live="polite">
         <div><dt>Updated</dt><dd id="fact-updated">–</dd></div>
         <div><dt>Active calls</dt><dd id="fact-active">–</dd></div>
         <div><dt>Closing in 30 days</dt><dd id="fact-soon">–</dd></div>
       </dl>
-    </div>
-  </header>
+      <p class="intro__contact">Questions or remarks? Contact <span data-contact-name>Rob Heerdink</span>, <a data-contact href="mailto:e.r.heerdink@uu.nl?subject=Funding%20Watch"><span data-contact-email>e.r.heerdink@uu.nl</span></a></p>
+    </aside>
+  </section>
 
   <section class="runway" aria-labelledby="runway-title">
     <div class="runway__head">
@@ -77,6 +158,7 @@
           </label>
         </div>
       </div>
+      <p class="results__note">Dates marked expected are estimates until the funder announces the round. Check the call page before you plan.</p>
       <p class="active-week" id="active-week" hidden></p>
       <ol class="list" id="list"></ol>
       <p class="empty" id="empty" hidden>No calls match these filters. Clear a filter or include closed calls to see more.</p>
@@ -84,21 +166,9 @@
   </main>
 
   <footer class="foot">
-    <div class="foot__grid">
-      <section>
-        <h2>Use it elsewhere</h2>
-        <ul class="foot__links">
-          <li><a href="deadlines.ics" id="ics-link">Subscribe to confirmed deadlines</a><br><span class="muted">In Outlook: Add calendar, From internet, paste <code id="ics-url">this link</code>.</span></li>
-          <li><a href="opportunities.csv" download>Download all active calls as CSV</a></li>
-          <li><a href="#" id="suggest-link" target="_blank" rel="noopener">Suggest a call that is missing</a></li>
-        </ul>
-      </section>
-      <section>
-        <h2>How this page is kept up to date</h2>
-        <p>Every Saturday morning the list is checked against funders’ official pages: new calls are added, deadlines and budgets corrected, and closed calls moved to the archive. Status and days left are calculated from today’s date when you open the page.</p>
-        <p>Dates marked “expected” are based on the previous round and not yet announced. Always check the official call page before you plan an application.</p>
-        <p class="muted" id="foot-build"></p>
-      </section>
+    <div class="wrap foot__inner">
+      <p>Funding Watch is maintained by <span data-contact-name>Rob Heerdink</span> for the Division of Pharmacoepidemiology and Clinical Pharmacology, Utrecht University. Questions or remarks: <a data-contact href="mailto:e.r.heerdink@uu.nl?subject=Funding%20Watch"><span data-contact-email>e.r.heerdink@uu.nl</span></a>.</p>
+      <p class="muted" id="foot-build"></p>
     </div>
   </footer>
 
