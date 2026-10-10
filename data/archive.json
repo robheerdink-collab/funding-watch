@@ -3367,6 +3367,42 @@
    "lastVerified": null
   },
   {
+   "id": 134,
+   "name": "Evidence for AI in Health (EVAH) – Gates/Novo Nordisk/Wellcome",
+   "funder": "Gates/Novo Nordisk/Wellcome",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Data science & AI",
+    "Global health",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "Evidence for AI in Health (EVAH) is a USD 60M joint initiative of the Gates Foundation, Novo Nordisk Foundation and Wellcome, coordinated by J-PAL and APHRC. It funds locally led evaluations of AI clinical decision-support tools for frontline primary care in Sub-Saharan Africa, South Asia and South-East Asia. The first RFP (opened 20 Feb 2026, closed 1 Apr 2026) offered up to USD 1M (Pathway A) or USD 3M (Pathway B), and proposals had to be led by institutions in those regions. No further round is announced, and Utrecht could only join as a partner.",
+   "budget": {
+    "min": null,
+    "max": 3000000,
+    "currency": "USD"
+   },
+   "status": "Closed",
+   "opens": "2026-02-20",
+   "deadline": "2026-04-01",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "Varies",
+   "partnersRequired": true,
+   "partnersNote": "Proposals led by institutions based in Sub-Saharan Africa, South Asia or South-East Asia; need access to a deployed or deployment-ready AI decision-support tool",
+   "recurrence": "Unknown",
+   "url": "https://www.povertyactionlab.org/initiative/evidence-ai-health-evah-rfp",
+   "added": "2026-04-12",
+   "lastVerified": "2026-10-10"
+  },
+  {
    "id": 121,
    "name": "Wellcome Discovery Awards 2026 – Round 1",
    "funder": "Wellcome",
@@ -4124,6 +4160,113 @@
    "lastVerified": "2026-10-09"
   },
   {
+   "id": 80,
+   "name": "Climate and Health Award – Mitigation Solutions in LMICs",
+   "funder": "Wellcome",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Sustainable pharmacy & planetary health",
+    "Global health"
+   ],
+   "diseaseAreas": [],
+   "summary": "This was a one-off Wellcome call for LMIC-led, transdisciplinary research on climate mitigation solutions with health co-benefits, with awards of GBP 500k-2M over 2-4 years. Preliminary applications were due 18 Feb 2025 and full applications 3 Jun 2025, and Wellcome now marks the scheme as closed. The lead applicant had to be employed at an LMIC organisation, so a Utrecht-based team could only take part as coapplicants.",
+   "budget": {
+    "min": 500000,
+    "max": 2000000,
+    "currency": "GBP"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2025-06-03",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Transdisciplinary team of 2-8 applicants; lead and administering organisation must be in an LMIC; need an applicant from each country where research takes place",
+   "recurrence": "One-off",
+   "url": "https://wellcome.org/research-funding/schemes/climate-and-health-award-advancing-climate-mitigation-solutions-health-co",
+   "added": "2026-04-01",
+   "lastVerified": "2026-10-10"
+  },
+  {
+   "id": 53,
+   "name": "DoelmatigheidsOnderzoek (Efficiency Studies) 2022–2026",
+   "funder": "ZonMw",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "HTA & health economics",
+    "Pharmaceutical policy & access"
+   ],
+   "diseaseAreas": [],
+   "summary": "ZonMw programme (2022–2026, €48.7M) funding comparative effectiveness and cost studies of non-pharmaceutical interventions versus usual care; medicines were excluded. The final open round (Open Ronde 2026, max €800k per project) closed with full proposals due 4 March 2025. ZonMw states the programme is ending and no new rounds will follow; cost-effectiveness research continues under the Kaderprogramma Passende Zorg (2024–2028) line 'Doelmatigheidsonderzoek'.",
+   "budget": {
+    "min": null,
+    "max": 800000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2025-03-04",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Stakeholder involvement (healthcare professionals, patients, insurers) required",
+   "recurrence": "One-off",
+   "url": "https://www.zonmw.nl/nl/programma/doelmatigheidsonderzoek",
+   "added": "2026-04-01",
+   "lastVerified": "2026-10-10"
+  },
+  {
+   "id": 144,
+   "name": "Wellcome Open Research Fund (closed)",
+   "funder": "Wellcome",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Data science & AI",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "The Wellcome Open Research Fund supported projects to develop and test ways of making research more open, accessible and reusable. Its last full-application deadline was 21 May 2021, and the scheme page now marks it as closed with no successor named. Wellcome's current open-research support runs mainly through open access funding and research enrichment within existing grants.",
+   "budget": {
+    "min": 50000,
+    "max": 500000,
+    "currency": "GBP"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2021-05-21",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "One-off",
+   "url": "https://wellcome.org/research-funding/schemes/open-research-fund-closed",
+   "added": "2026-04-17",
+   "lastVerified": "2026-10-10"
+  },
+  {
    "id": 192,
    "name": "Registry-Based Cardiovascular Research (Heart4Data) 2026",
    "funder": "Hartstichting / ZonMw",
@@ -4159,6 +4302,43 @@
    "url": "https://professionals.hartstichting.nl/samenwerking-en-financiering/financiering/consortiumfinanciering/call-voor-registratie-gebaseerd-onderzoek",
    "added": "2026-05-31",
    "lastVerified": "2026-10-09"
+  },
+  {
+   "id": 75,
+   "name": "PPP Allowance (Match Call) 2026",
+   "funder": "Health~Holland (TKI LSH)",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Clinical trials & drug development",
+    "Valorisation & public-private",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "The standalone TKI-LSH Match Call / PPP Allowance is no longer offered by Health~Holland. The old tki-match URL now shows only the general call listing (SME Call 2027 and SME thematic track open until 20 Nov 2026; Science for Industry and Eureka Biotech 2026 closed), and none of these is a PPP Allowance or Match Call. PPP allowance money now reaches projects through specific Health~Holland calls and through charity partners (e.g. Longfonds' PPS-toeslag).",
+   "budget": {
+    "min": 50000,
+    "max": 500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": null,
+   "deadlineConfirmed": false,
+   "deadlineStage": "No fixed deadline",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Public-private partnership required; company must contribute in-kind",
+   "recurrence": "Unknown",
+   "url": "https://www.health-holland.com/funding-opportunities/tki-match",
+   "added": "2026-04-01",
+   "lastVerified": "2026-10-10"
   }
  ]
 }
