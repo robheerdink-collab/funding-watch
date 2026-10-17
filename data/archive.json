@@ -39,6 +39,152 @@
    "lastVerified": "2026-10-09"
   },
   {
+   "id": 265,
+   "name": "ReumaNederland Thematische Call 2026 – Van onderzoek naar praktijk (remission in inflammatory rheumatic diseases)",
+   "funder": "Reumafonds (Dutch Arthritis Foundation)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Postdoc",
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Implementation & health services",
+    "Precision medicine & pharmacogenetics",
+    "Clinical pharmacology & therapeutics"
+   ],
+   "diseaseAreas": [
+    "Rheumatology & immunology"
+   ],
+   "summary": "ReumaNederland FOCUS call: €1.2M total, max €400,000 per project, up to 4 years. Funds research bringing proven diagnostics, interventions and personalised (treat-to-target) treatment strategies into daily care to achieve sustained remission in inflammatory rheumatic diseases (e.g. RA); attention to affordability, scalability and implementation. Osteoarthritis excluded. Pre-proposal 16 Oct 2026 12:00 (email); full proposal by invitation 11 Mar 2027.",
+   "budget": {
+    "min": null,
+    "max": 400000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-10-16",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Periodic",
+   "url": "https://reumanederland.nl/voor-onderzoekers/subsidiemogelijkheden-formulieren-procedure/thematische-call-2026",
+   "added": "2026-10-10",
+   "lastVerified": "2026-10-10"
+  },
+  {
+   "id": 261,
+   "name": "USO Education Innovation 2027 (Utrecht Education Incentive Fund, interfaculty)",
+   "funder": "Utrecht University – Centre for Academic Teaching and Learning",
+   "scope": "Local",
+   "funderType": "University (internal)",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Education & training"
+   ],
+   "diseaseAreas": [],
+   "summary": "Cross-faculty education innovation projects up to €200,000 for max 3 years (USO range €85k–200k). 2027 themes: innovation in feedback & assessment; dialogue & debate; free category. Steps: consortium leader/member applications 16 Oct 2026; pre-proposal 24 Dec 2026 (12:00); full proposal 19 Mar 2027 with pitch 13 Apr 2027; start Sept 2027. Submitted by the dean of the coordinating faculty.",
+   "budget": {
+    "min": 85000,
+    "max": 200000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-10-16",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Registration",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Must be cross-faculty (teachers from at least two faculties)",
+   "recurrence": "Annual",
+   "url": "https://www.uu.nl/en/news/call-for-proposals-uso-education-innovation-2027",
+   "added": "2026-10-10",
+   "lastVerified": "2026-10-10"
+  },
+  {
+   "id": 199,
+   "name": "EWUU i4PH Seed Call 2026 – Preventive health transitions",
+   "funder": "EWUU Alliance – Institute 4 Preventive Health (i4PH)",
+   "scope": "Local",
+   "funderType": "University (internal)",
+   "type": "Project grant",
+   "careerStages": [
+    "Postdoc",
+    "Early career",
+    "Mid career"
+   ],
+   "themes": [
+    "Implementation & health services",
+    "Sustainable pharmacy & planetary health"
+   ],
+   "diseaseAreas": [],
+   "summary": "Seed funding from the TU/e–WUR–UU–UMCU alliance for transdisciplinary preventive-health projects that fit an i4PH research line (healthy start, healthy living environments, future of cancer, health at home) and a transition pathway (incl. 'planetary-centred'). Meant to produce a tangible next step such as a Horizon Europe or NWA application, white paper or review. Total €200k, about 4–5 projects; projects start from 1 Jan 2027 and budget must be spent before 1 Dec 2027.",
+   "budget": {
+    "min": null,
+    "max": 50000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-10-16",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "At least three co-applicants from at least three EWUU institutions (TU/e, WUR, UU, UMC Utrecht); main applicant postdoc, assistant or associate professor",
+   "recurrence": "Periodic",
+   "url": "https://preventivehealth.ewuu.nl/2026/06/seed-call-for-preventive-health-transitions-building-the-future-of-preventive-health/",
+   "added": "2026-10-09",
+   "lastVerified": "2026-10-09"
+  },
+  {
+   "id": 23,
+   "name": "ERC Starting Grant 2027",
+   "funder": "ERC",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Early career"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics"
+   ],
+   "diseaseAreas": [],
+   "summary": "For researchers post-PhD (eligibility widened to 10 years from 2027). Up to €1.5M for 5 years. Bottom-up: any research topic. Call opens July 2026, deadline 14 October 2026.",
+   "budget": {
+    "min": 1500000,
+    "max": 1500000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": "2026-07-22",
+   "deadline": "2026-10-14",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://erc.europa.eu/apply-grant/starting-grant",
+   "added": "2026-01-01",
+   "lastVerified": "2026-10-09"
+  },
+  {
    "id": 175,
    "name": "IHI Call 13 – AI Toxicology, Age-Related Diseases, Healthcare Incubator",
    "funder": "Innovative Health Initiative (IHI)",

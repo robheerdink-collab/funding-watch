@@ -1,152 +1,6 @@
 {
  "items": [
   {
-   "id": 23,
-   "name": "ERC Starting Grant 2027",
-   "funder": "ERC",
-   "scope": "European",
-   "funderType": "EU programme",
-   "type": "Personal fellowship",
-   "careerStages": [
-    "Early career"
-   ],
-   "themes": [
-    "Open (any discipline)",
-    "Pharmacoepidemiology & real-world evidence",
-    "Clinical pharmacology & therapeutics"
-   ],
-   "diseaseAreas": [],
-   "summary": "For researchers post-PhD (eligibility widened to 10 years from 2027). Up to €1.5M for 5 years. Bottom-up: any research topic. Call opens July 2026, deadline 14 October 2026.",
-   "budget": {
-    "min": 1500000,
-    "max": 1500000,
-    "currency": "EUR"
-   },
-   "status": "Open",
-   "opens": "2026-07-22",
-   "deadline": "2026-10-14",
-   "deadlineConfirmed": true,
-   "deadlineStage": "Application",
-   "phases": "1-phase",
-   "partnersRequired": false,
-   "partnersNote": "",
-   "recurrence": "Annual",
-   "url": "https://erc.europa.eu/apply-grant/starting-grant",
-   "added": "2026-01-01",
-   "lastVerified": "2026-10-09"
-  },
-  {
-   "id": 199,
-   "name": "EWUU i4PH Seed Call 2026 – Preventive health transitions",
-   "funder": "EWUU Alliance – Institute 4 Preventive Health (i4PH)",
-   "scope": "Local",
-   "funderType": "University (internal)",
-   "type": "Project grant",
-   "careerStages": [
-    "Postdoc",
-    "Early career",
-    "Mid career"
-   ],
-   "themes": [
-    "Implementation & health services",
-    "Sustainable pharmacy & planetary health"
-   ],
-   "diseaseAreas": [],
-   "summary": "Seed funding from the TU/e–WUR–UU–UMCU alliance for transdisciplinary preventive-health projects that fit an i4PH research line (healthy start, healthy living environments, future of cancer, health at home) and a transition pathway (incl. 'planetary-centred'). Meant to produce a tangible next step such as a Horizon Europe or NWA application, white paper or review. Total €200k, about 4–5 projects; projects start from 1 Jan 2027 and budget must be spent before 1 Dec 2027.",
-   "budget": {
-    "min": null,
-    "max": 50000,
-    "currency": "EUR"
-   },
-   "status": "Open",
-   "opens": null,
-   "deadline": "2026-10-16",
-   "deadlineConfirmed": true,
-   "deadlineStage": "Application",
-   "phases": "1-phase",
-   "partnersRequired": true,
-   "partnersNote": "At least three co-applicants from at least three EWUU institutions (TU/e, WUR, UU, UMC Utrecht); main applicant postdoc, assistant or associate professor",
-   "recurrence": "Periodic",
-   "url": "https://preventivehealth.ewuu.nl/2026/06/seed-call-for-preventive-health-transitions-building-the-future-of-preventive-health/",
-   "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
-  },
-  {
-   "id": 261,
-   "name": "USO Education Innovation 2027 (Utrecht Education Incentive Fund, interfaculty)",
-   "funder": "Utrecht University – Centre for Academic Teaching and Learning",
-   "scope": "Local",
-   "funderType": "University (internal)",
-   "type": "Project grant",
-   "careerStages": [
-    "Early career",
-    "Mid career",
-    "Senior/PI"
-   ],
-   "themes": [
-    "Education & training"
-   ],
-   "diseaseAreas": [],
-   "summary": "Cross-faculty education innovation projects up to €200,000 for max 3 years (USO range €85k–200k). 2027 themes: innovation in feedback & assessment; dialogue & debate; free category. Steps: consortium leader/member applications 16 Oct 2026; pre-proposal 24 Dec 2026 (12:00); full proposal 19 Mar 2027 with pitch 13 Apr 2027; start Sept 2027. Submitted by the dean of the coordinating faculty.",
-   "budget": {
-    "min": 85000,
-    "max": 200000,
-    "currency": "EUR"
-   },
-   "status": "Open",
-   "opens": null,
-   "deadline": "2026-10-16",
-   "deadlineConfirmed": true,
-   "deadlineStage": "Registration",
-   "phases": "2-phase",
-   "partnersRequired": true,
-   "partnersNote": "Must be cross-faculty (teachers from at least two faculties)",
-   "recurrence": "Annual",
-   "url": "https://www.uu.nl/en/news/call-for-proposals-uso-education-innovation-2027",
-   "added": "2026-10-10",
-   "lastVerified": "2026-10-10"
-  },
-  {
-   "id": 265,
-   "name": "ReumaNederland Thematische Call 2026 – Van onderzoek naar praktijk (remission in inflammatory rheumatic diseases)",
-   "funder": "Reumafonds (Dutch Arthritis Foundation)",
-   "scope": "National",
-   "funderType": "Charity / foundation",
-   "type": "Project grant",
-   "careerStages": [
-    "Postdoc",
-    "Early career",
-    "Mid career",
-    "Senior/PI"
-   ],
-   "themes": [
-    "Implementation & health services",
-    "Precision medicine & pharmacogenetics",
-    "Clinical pharmacology & therapeutics"
-   ],
-   "diseaseAreas": [
-    "Rheumatology & immunology"
-   ],
-   "summary": "ReumaNederland FOCUS call: €1.2M total, max €400,000 per project, up to 4 years. Funds research bringing proven diagnostics, interventions and personalised (treat-to-target) treatment strategies into daily care to achieve sustained remission in inflammatory rheumatic diseases (e.g. RA); attention to affordability, scalability and implementation. Osteoarthritis excluded. Pre-proposal 16 Oct 2026 12:00 (email); full proposal by invitation 11 Mar 2027.",
-   "budget": {
-    "min": null,
-    "max": 400000,
-    "currency": "EUR"
-   },
-   "status": "Open",
-   "opens": null,
-   "deadline": "2026-10-16",
-   "deadlineConfirmed": true,
-   "deadlineStage": "Pre-proposal",
-   "phases": "2-phase",
-   "partnersRequired": false,
-   "partnersNote": "",
-   "recurrence": "Periodic",
-   "url": "https://reumanederland.nl/voor-onderzoekers/subsidiemogelijkheden-formulieren-procedure/thematische-call-2026",
-   "added": "2026-10-10",
-   "lastVerified": "2026-10-10"
-  },
-  {
    "id": 204,
    "name": "Call for Validation of Biomarker Candidates 2027",
    "funder": "KWF (Dutch Cancer Society)",
@@ -182,7 +36,45 @@
    "recurrence": "Annual",
    "url": "https://www.kwf.nl/en/forresearchers/funding/validation-of-biomarkers-2027",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
+  },
+  {
+   "id": 290,
+   "name": "Call for Implementation of Biomarkers 2027",
+   "funder": "KWF (Dutch Cancer Society)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Senior/PI"
+   ],
+   "themes": [
+    "Implementation & health services",
+    "HTA & health economics",
+    "Precision medicine & pharmacogenetics",
+    "Valorisation & public-private"
+   ],
+   "diseaseAreas": [
+    "Oncology"
+   ],
+   "summary": "KWF funds projects that bring an already clinically validated cancer biomarker into routine Dutch practice at national scale, covering phase III studies with a clinical-grade biomarker or implementation at TRL 7-9. Applicants form a multidisciplinary consortium of at least four parties (private partners allowed) with a project manager, a biostatistician, implementation-science and HTA expertise, and structural patient involvement. Awards are EUR 1-4 million for 3-5 years. Pre-proposals close 20 October 2026 (12:00); full proposals open 15 December 2026 and close 23 February 2027.",
+   "budget": {
+    "min": 1000000,
+    "max": 4000000,
+    "currency": "EUR"
+   },
+   "status": "Open",
+   "opens": "2026-08-25",
+   "deadline": "2026-10-20",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Consortium of at least 4 participating parties; HTA, implementation-science and biostatistics expertise required; KWF-GMS registration at least 6 weeks before closing.",
+   "recurrence": "Annual",
+   "url": "https://www.kwf.nl/en/forresearchers/funding/implementation-of-biomarkers-2027",
+   "added": "2026-10-17",
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 259,
@@ -222,7 +114,7 @@
    "recurrence": "Unknown",
    "url": "https://www.uu.nl/en/research/dynamics-of-youth/research/thematic-communities/thriving-healthy-youth/funding-opportunities",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 278,
@@ -262,7 +154,7 @@
    "recurrence": "Annual",
    "url": "https://www.eular.org/health-professionals-research-grant",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 153,
@@ -296,7 +188,7 @@
    "recurrence": "Annual",
    "url": "https://www.knmp.nl/beroepsontwikkeling/onderzoek",
    "added": "2026-04-17",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 257,
@@ -332,7 +224,7 @@
    "recurrence": "Annual",
    "url": "https://www.cost.eu/uploads/2026/03/2026-1-COST_Open_Call_Announcement.pdf",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 151,
@@ -352,7 +244,7 @@
     "Drug utilisation & appropriate use"
    ],
    "diseaseAreas": [],
-   "summary": "PhRMA Foundation fellowships in value assessment and health outcomes research: postdoctoral USD 60,000/yr and predoctoral USD 30,000/yr stipend, for 12-24 months. The 2027 postdoctoral cycle opened 31 August 2026 and closes 30 October 2026 (noon ET); awards announced March 2027. The predoctoral page still shows the 2026 cycle (deadline was 30 Oct 2025) and says the 2027 cycle launches soon. Applicants must be at an accredited US university, so mainly relevant for US-based collaborators.",
+   "summary": "PhRMA Foundation fellowships in value assessment and health outcomes research: postdoctoral USD 60,000/yr and predoctoral USD 30,000/yr stipend, for 12-24 months. Both the postdoctoral and predoctoral cycles opened 31 August 2026 and close 30 October 2026 (noon ET); awards are announced March 2027, with funding starting between April and December 2027. Postdocs need a doctorate conferred on or after 1 January 2024 and at least two first-author papers. Applicants must be at an accredited US university, so this is mainly relevant for US-based collaborators.",
    "budget": {
     "min": 30000,
     "max": 60000,
@@ -369,7 +261,7 @@
    "recurrence": "Annual",
    "url": "https://www.phrmafoundation.org/grants-fellowships/postdoctoral-fellowships/value-assessment-health-outcomes-research/",
    "added": "2026-04-17",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 201,
@@ -408,7 +300,7 @@
    "recurrence": "Periodic",
    "url": "https://www.uu.nl/en/research/sustainability/sustainability-education-and-engagement/funding",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 5,
@@ -443,7 +335,7 @@
    "recurrence": "Annual",
    "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-vidi-science-2026",
    "added": "2026-01-01",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 10,
@@ -466,8 +358,8 @@
    ],
    "summary": "KWF project call for basic and credentialing research into the biological and psychosocial mechanisms behind cancer onset, growth, spread and impact; relevant for mechanistic work on anticancer drugs. Call 2027-1 accepts pre-proposals from 1 September to 3 November 2026 (12:00); invited full proposals run 15 February to 13 April 2027, with interviews in June and decisions in August 2027. KWF describes this as its last project-based basic-research call before switching to research group funding from 2028.",
    "budget": {
-    "min": 100000,
-    "max": 500000,
+    "min": null,
+    "max": null,
     "currency": "EUR"
    },
    "status": "Open",
@@ -481,7 +373,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://www.kwf.nl/en/forresearchers/funding/exploration",
    "added": "2026-01-01",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 97,
@@ -519,7 +411,7 @@
    "recurrence": "Annual",
    "url": "https://www.nwo.nl/en/calls/scientific-meetings-and-consultations-2026",
    "added": "2026-04-02",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 98,
@@ -555,7 +447,7 @@
    "recurrence": "Periodic",
    "url": "https://www.nwo.nl/en/calls/2026-international-joint-initiative-for-research-harnessing-disruptive-technologies-to-address-global-challenges",
    "added": "2026-04-02",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 220,
@@ -591,7 +483,7 @@
    "recurrence": "Annual",
    "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-vidi-health-research-and-medical-sciences-zonmw-2026",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 260,
@@ -630,7 +522,7 @@
    "recurrence": "Periodic",
    "url": "https://www.uu.nl/en/research/dynamics-of-youth/research/thematic-communities/early-childhood/funding-opportunities",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 7,
@@ -666,7 +558,7 @@
    "recurrence": "Annual",
    "url": "https://www.nwo.nl/en/calls/kic-demand-driven-research-by-consortia-xl",
    "added": "2025-12-01",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 284,
@@ -683,10 +575,10 @@
     "Drug utilisation & appropriate use"
    ],
    "diseaseAreas": [],
-   "summary": "Award for the best single-author hospital-pharmacy research abstract by an EPSA member who is an undergraduate or graduated within two years. Winner presents at the closing ceremony of the 31st EAHP Congress, Vienna, March 2027; earlier editions included free congress attendance plus EUR 500 travel/accommodation. 2026-2027 submission deadlines 'to be confirmed (2026)'; estimated from the historical mid-November abstract deadline.",
+   "summary": "Award for the best single-author hospital or clinical pharmacy research abstract by an EPSA member who is an undergraduate or graduated within the last two years; the student must be the main contributor and author. The winner presents at the closing ceremony of the 31st EAHP Congress in Vienna in March 2027. The official pages list no cash prize, and the first-ideas and final-abstract deadlines are still 'tbc' (they were to be shared at the 23 September 2026 webinar). The date shown is estimated from the historical mid-November abstract deadline.",
    "budget": {
     "min": null,
-    "max": 500,
+    "max": null,
     "currency": "EUR"
    },
    "status": "Upcoming",
@@ -700,7 +592,7 @@
    "recurrence": "Annual",
    "url": "https://eahp.eu/about-us/students/eahp-epsa-student-science-award/selection-procedure",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 272,
@@ -738,7 +630,7 @@
    "recurrence": "Annual",
    "url": "https://www.nwo.nl/en/calls/ssh-open-competition-expand-2026",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 186,
@@ -774,7 +666,7 @@
    "recurrence": "Annual",
    "url": "https://www.health-holland.com/calls/mkb-call-2027",
    "added": "2026-05-18",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 241,
@@ -812,7 +704,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://www.uu.nl/en/research/applied-data-science/research/research-grants",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 176,
@@ -833,10 +725,10 @@
    "diseaseAreas": [
     "Infectious disease"
    ],
-   "summary": "CARB-X's second 2026 funding round accepts expressions of interest from 10 to 23 November 2026 across all four 2026 themes: direct-acting therapeutics for Gram-negative infections, the Novel Chemistry for AMR Challenge (target-based therapeutics), non-vaccine prevention of neonatal sepsis, and neonatal sepsis diagnostics. Successful applicants must cover part of the project cost. Funding amounts per award are not stated on the application page.",
+   "summary": "CARB-X's 2026 Funding Round Cycle 2 (all themes) accepts expressions of interest from 10 November (10:00 ET) to 23 November 2026 (23:59 ET). The 2026 themes are direct-acting therapeutics for Gram-negative infections, the Novel Chemistry for AMR Challenge (target-based therapeutics), non-vaccine prevention of neonatal sepsis, and neonatal sepsis diagnostics. Invited applicants then submit a confidential project narrative and budget (around early February 2027) and present to the Advisory Board. Successful applicants must cost-share a percentage of the project, and the application page gives no per-award amounts.",
    "budget": {
-    "min": 500000,
-    "max": 3500000,
+    "min": null,
+    "max": null,
     "currency": "USD"
    },
    "status": "Upcoming",
@@ -850,7 +742,7 @@
    "recurrence": "Annual",
    "url": "https://carb-x.org/apply/application-process/",
    "added": "2026-04-28",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 38,
@@ -868,7 +760,7 @@
     "Clinical pharmacology & therapeutics"
    ],
    "diseaseAreas": [],
-   "summary": "OPEN. MSCA Doctoral Networks call HORIZON-MSCA-2026-DN-01 funds international doctoral training networks with 3-year PhD positions and mobility. Opened 28 May 2026; deadline 24 November 2026 (17:00 Brussels). Indicative call budget EUR 593.03M (over 130 projects expected). The division already runs the EU2P programme.",
+   "summary": "OPEN. MSCA Doctoral Networks call HORIZON-MSCA-2026-DN-01 funds international doctoral training networks with 3-year PhD positions and mobility. Opened 28 May 2026; deadline 24 November 2026 (17:00 Brussels). The call budget is now EUR 628M after extra funding was added, enough for over 130 projects and about 1,950 doctoral candidates. The division already runs the EU2P programme.",
    "budget": {
     "min": 2000000,
     "max": 4000000,
@@ -885,7 +777,7 @@
    "recurrence": "Annual",
    "url": "https://marie-sklodowska-curie-actions.ec.europa.eu/actions/doctoral-networks",
    "added": "2026-01-01",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 200,
@@ -918,7 +810,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://www.uu.nl/en/organisation/donate/apply-for-subsidies/funding-for-researchers",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 242,
@@ -989,7 +881,7 @@
    "recurrence": "Annual",
    "url": "https://www.uu.nl/en/organisation/donate/rosanna-fund-application-and-criteria",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 245,
@@ -1024,9 +916,9 @@
    "partnersRequired": false,
    "partnersNote": "Entrant must be a KNMP member",
    "recurrence": "Annual",
-   "url": "https://www.knmp.nl/sites/default/files/2025-09/reglement_zorginnovatieprijs_2026_alt.pdf",
+   "url": "https://www.knmp.nl/zorginnovatieprijs",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 266,
@@ -1099,7 +991,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://www.zonmw.nl/en/subsidy/rubicon-2026-3",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 281,
@@ -1132,7 +1024,7 @@
    "recurrence": "Annual",
    "url": "https://fulbright.nl/naar-de-vs/promovendi/fulbright-beurzen-voor-promovendi/",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 282,
@@ -1168,7 +1060,44 @@
    "recurrence": "Annual",
    "url": "https://fulbright.nl/naar-de-vs/wetenschappers/fulbright-beurzen-2/",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
+  },
+  {
+   "id": 280,
+   "name": "HTAi 2027 Annual Meeting (Brussels) – Participation Grants",
+   "funder": "HTAi (Health Technology Assessment international)",
+   "scope": "International",
+   "funderType": "Society / association",
+   "type": "Travel / mobility",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "HTA & health economics",
+    "Pharmaceutical policy & access",
+    "Regulatory science"
+   ],
+   "diseaseAreas": [],
+   "summary": "Participation grants for HTA stakeholders who would otherwise be unable to attend the HTAi Annual Meeting, to present their work or take part in the global HTA community; funded by HTAi and sometimes external sponsors. The HTAi 2027 Annual Meeting is 12–16 June 2027 in Brussels, and the participation grant application deadline is 4 December 2026. The grant amount and what it covers are not published on the grants page.",
+   "budget": {
+    "min": null,
+    "max": null,
+    "currency": "EUR"
+   },
+   "status": "Upcoming",
+   "opens": null,
+   "deadline": "2026-12-04",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://htai.org/about/awards-scholarships/htai-participation-grants/",
+   "added": "2026-10-10",
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 246,
@@ -1207,44 +1136,7 @@
    "recurrence": "Unknown",
    "url": "https://www.zonmw.nl/nl/subsidie/alledaagse-aandoeningen-de-huisartsenpraktijk",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
-  },
-  {
-   "id": 280,
-   "name": "HTAi 2027 Annual Meeting (Brussels) – Participation Grants",
-   "funder": "HTAi (Health Technology Assessment international)",
-   "scope": "International",
-   "funderType": "Society / association",
-   "type": "Travel / mobility",
-   "careerStages": [
-    "PhD",
-    "Postdoc",
-    "Early career"
-   ],
-   "themes": [
-    "HTA & health economics",
-    "Pharmaceutical policy & access",
-    "Regulatory science"
-   ],
-   "diseaseAreas": [],
-   "summary": "Participation grants for HTA stakeholders who would otherwise be unable to attend the HTAi Annual Meeting, to present work or participate. HTAi 2027 Annual Meeting: 12–16 June 2027, Brussels. Amount and 2027 deadline not yet published; deadline estimated from the previous pattern (participation grant deadline 8 Dec 2022 for the June 2023 meeting).",
-   "budget": {
-    "min": null,
-    "max": null,
-    "currency": "EUR"
-   },
-   "status": "Upcoming",
-   "opens": null,
-   "deadline": "2026-12-08",
-   "deadlineConfirmed": false,
-   "deadlineStage": "Application",
-   "phases": "1-phase",
-   "partnersRequired": false,
-   "partnersNote": "",
-   "recurrence": "Annual",
-   "url": "https://htai.org/about/awards-scholarships/htai-participation-grants/",
-   "added": "2026-10-10",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 213,
@@ -1280,7 +1172,7 @@
    "recurrence": "Annual",
    "url": "https://www.prixgalien.nl/research-award/reglement/",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 197,
@@ -1389,7 +1281,42 @@
    "recurrence": "Annual",
    "url": "https://research.longfonds.nl/grants-and-other-support/consortium-grants",
    "added": "2026-04-10",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
+  },
+  {
+   "id": 106,
+   "name": "FIP Foundation Early Career Leadership Development Scholarships (FIP 2027 Kuala Lumpur, expected)",
+   "funder": "FIP",
+   "scope": "International",
+   "funderType": "Society / association",
+   "type": "Travel / mobility",
+   "careerStages": [
+    "Early career"
+   ],
+   "themes": [
+    "Pharmacy practice & clinical pharmacy",
+    "Global health",
+    "Education & training"
+   ],
+   "diseaseAreas": [],
+   "summary": "FIP Foundation and ECPG offer six scholarships to attend the FIP World Congress and the ECPG Leadership Development Workshop. Each covers free registration, travel and accommodation, plus one year of FIP individual membership. Eligible are pharmacists, pharmacy educators and pharmaceutical scientists who graduated within the past eight years, live, work or study in a World Bank low, lower-middle or upper-middle income country, and have not had FIP Foundation funding before. The 2026 (Montreal) round closed on 7 January 2026; the 2027 congress is in Kuala Lumpur and its call has not been published.",
+   "budget": {
+    "min": null,
+    "max": null,
+    "currency": "EUR"
+   },
+   "status": "Upcoming",
+   "opens": null,
+   "deadline": "2027-01-07",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://montreal2026.fip.org/registration-fees/registration/grants-and-fellowships",
+   "added": "2026-04-09",
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 182,
@@ -1501,7 +1428,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://www.nwo.nl/en/calls/open-competition-domain-science-xs-2026",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 162,
@@ -1534,7 +1461,7 @@
    "recurrence": "Annual",
    "url": "https://khmw.nl/khmw-proefschriftprijs-interdisciplinariteit/",
    "added": "2026-04-17",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 275,
@@ -1551,28 +1478,28 @@
     "Education & training"
    ],
    "diseaseAreas": [],
-   "summary": "KNAW/De Jonge Akademie network of PhD candidates who show their research and life as a researcher via blogs/videos on the national science platform. Nomination by a KNAW or Jonge Akademie member. KNAW lists opening 15 Oct 2026; previous deadline 16 Jan 2026, so 2027 deadline estimated mid-Jan 2027.",
+   "summary": "KNAW network of about 12 new PhD candidates each year who share their research and life as a researcher through at least monthly blogs or vlogs, network meetings and science communication activities; financed by the Lira Foundation. Candidates must be in the first half of their PhD at a university in the Kingdom of the Netherlands and are nominated by a KNAW member or a member or alumnus of De Jonge Akademie (one per year), or by NEMO Kennislink. Nominations opened on 15 October 2026 and close on 15 January 2027.",
    "budget": {
     "min": null,
     "max": null,
     "currency": "EUR"
    },
-   "status": "Upcoming",
+   "status": "Open",
    "opens": "2026-10-15",
    "deadline": "2027-01-15",
-   "deadlineConfirmed": false,
+   "deadlineConfirmed": true,
    "deadlineStage": "Nomination",
    "phases": "1-phase",
    "partnersRequired": false,
    "partnersNote": "",
    "recurrence": "Annual",
-   "url": "https://www.knaw.nl/en/science-funds/apply-and-nominate",
+   "url": "https://www.knaw.nl/en/science-funds/faces-science",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 211,
-   "name": "SSH Open Competition XS (Explore) 2027 – Round 1",
+   "name": "SSH Open Competition Explore 2027 – Round 1 (formerly XS)",
    "funder": "NWO",
    "scope": "National",
    "funderType": "Public research funder",
@@ -1589,7 +1516,7 @@
     "Drug utilisation & appropriate use"
    ],
    "diseaseAreas": [],
-   "summary": "Small NWO grants (up to EUR 50k in 2026 rounds) for innovative social sciences and humanities research. NWO pre-announced three XS rounds in 2027 with deadlines expected in January, April and September, and from 2027 researchers can apply directly after their PhD; one application per calendar year across the SSH Open Competition. Exact round-1 date not confirmed; date shown is projected from 2026 round 1 (20 Jan 2026).",
+   "summary": "NWO's small SSH Open Competition grants (now called Explore, formerly XS) of up to EUR 50,000 for innovative social sciences and humanities research lasting 6 to 24 months, with a single applicant and no co-applicants; total call budget EUR 4 million. Applicants need a PhD and a paid position at an eligible research organisation, and from 2027 they can apply right after their PhD. Only one Open Competition proposal per calendar year is allowed, and applicants must not have a running XS or Explore project. Round 1 closes on 19 January 2027 at 14:00 CET, with further rounds expected in April and September 2027.",
    "budget": {
     "min": null,
     "max": 50000,
@@ -1597,16 +1524,52 @@
    },
    "status": "Upcoming",
    "opens": null,
-   "deadline": "2027-01-20",
-   "deadlineConfirmed": false,
+   "deadline": "2027-01-19",
+   "deadlineConfirmed": true,
    "deadlineStage": "Application",
    "phases": "1-phase",
    "partnersRequired": false,
    "partnersNote": "",
    "recurrence": "Several rounds per year",
-   "url": "https://www.nwo.nl/en/news/nwo-expands-access-to-the-ssh-open-competition",
+   "url": "https://www.nwo.nl/en/calls/ssh-open-competition-explore-2027-round-1",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
+  },
+  {
+   "id": 232,
+   "name": "EP PerMed Joint Transnational Call 2027 – Cell and Gene Therapy for Personalised Medicine (CGT4PM2027)",
+   "funder": "EP PerMed",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Precision medicine & pharmacogenetics",
+    "Clinical trials & drug development",
+    "Regulatory science"
+   ],
+   "diseaseAreas": [],
+   "summary": "EP PerMed has pre-announced JTC2027 on cell and gene therapy for personalised medicine (CGT4PM2027), with about EUR 33M from funders in 25 countries and 10 regions. It funds multinational consortia that develop and validate novel somatic cell, gene or combined therapies, or related biological products such as mRNA or extracellular-vesicle delivery, in any disease area; teams that include health economics, ELSA, implementation, regulatory/HTA and patient partners are encouraged. The call is expected to be published on 4 November 2026, with pre-proposals due 20 January 2027 and full proposals due 25 May 2027. The dates are indicative, and ZonMw's participation for the Netherlands is still pending.",
+   "budget": {
+    "min": null,
+    "max": null,
+    "currency": "EUR"
+   },
+   "status": "Upcoming",
+   "opens": "2026-11-04",
+   "deadline": "2027-01-20",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Multinational consortium across participating EP PerMed countries",
+   "recurrence": "Annual",
+   "url": "https://www.eppermed.eu/funding-projects/calls/jtc2027/",
+   "added": "2026-10-09",
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 283,
@@ -1719,41 +1682,44 @@
    "recurrence": "Annual",
    "url": "https://era4health.eu/calls/pre_iics4all2027.php",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
-   "id": 190,
-   "name": "KNAW Early Career Partnerships 2026",
-   "funder": "KNAW",
-   "scope": "National",
-   "funderType": "Public research funder",
-   "type": "Prize / stipend",
+   "id": 258,
+   "name": "ERDERA Networking Support Scheme (rare disease networking events)",
+   "funder": "Horizon Europe – ERDERA",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
    "careerStages": [
+    "PhD",
     "Postdoc",
-    "Early career"
+    "Early career",
+    "Mid career",
+    "Senior/PI"
    ],
    "themes": [
-    "Open (any discipline)"
+    "Rare diseases & orphan drugs"
    ],
    "diseaseAreas": [],
-   "summary": "KNAW Early Career Partnerships: EUR 10,000 to organise an interdisciplinary science meeting, for researchers 3-7 years post-PhD at a Dutch university or research institute (KNAW extension rules apply). Up to ten partnerships per year. The next round opens on 1 November 2026; the closing date is not yet published (the 2026 round closed in early February).",
+   "summary": "Funds transnational networking events on rare diseases or rare cancers, in person or hybrid, that bring together researchers, clinicians, research managers and patient organisations. It pays up to EUR 30,000 per event, including VAT and participants' travel and accommodation. Groups of 3-10 co-applicants from at least three countries apply, including at least one from an underrepresented country (e.g. Ireland, Poland, Portugal, Greece). The call is permanently open with periodic collection dates until funds run out (expected April 2029). The next cut-off is 28 Jan 2027, 12:00 CET (round NSS2027A), and its funding depends on the EC confirming ERDERA's second funding phase, expected Q1 2027.",
    "budget": {
-    "min": 10000,
-    "max": 10000,
+    "min": null,
+    "max": 30000,
     "currency": "EUR"
    },
-   "status": "Upcoming",
-   "opens": "2026-11-01",
-   "deadline": "2027-02-01",
-   "deadlineConfirmed": false,
-   "deadlineStage": "Application",
+   "status": "Rolling",
+   "opens": null,
+   "deadline": "2027-01-28",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Next cut-off",
    "phases": "1-phase",
-   "partnersRequired": false,
-   "partnersNote": "",
-   "recurrence": "Annual",
-   "url": "https://www.knaw.nl/en/funds-and-prizes/knaw-early-career-partnerships",
-   "added": "2026-05-28",
-   "lastVerified": "2026-10-09"
+   "partnersRequired": true,
+   "partnersNote": "3–10 co-applicants from at least 3 ERDERA countries, at least one from an underrepresented country.",
+   "recurrence": "Several rounds per year",
+   "url": "https://erdera.org/call/networking-support-scheme-nss/",
+   "added": "2026-10-09",
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 15,
@@ -1792,6 +1758,40 @@
    "url": "https://professionals.hartstichting.nl/samenwerking-en-financiering/financiering/dekkerbeurs-voor-onderzoekers",
    "added": "2026-01-01",
    "lastVerified": "2026-10-09"
+  },
+  {
+   "id": 190,
+   "name": "KNAW Early Career Partnerships 2026",
+   "funder": "KNAW",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Prize / stipend",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "KNAW Early Career Partnerships: EUR 10,000 to organise an interdisciplinary science meeting, for researchers 3-7 years post-PhD at a university or research institute in the Kingdom of the Netherlands (KNAW extension rules apply). Up to ten partnerships are awarded each year. The next round opens on 1 November 2026, but KNAW has not yet published a closing date. The deadline shown is an estimate: the 2026 round closed on 2 February 2026.",
+   "budget": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "EUR"
+   },
+   "status": "Upcoming",
+   "opens": "2026-11-01",
+   "deadline": "2027-02-02",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.knaw.nl/en/funds-and-prizes/knaw-early-career-partnerships",
+   "added": "2026-05-28",
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 195,
@@ -1898,7 +1898,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://novonordiskfonden.dk/en/grant/start-package-grants-for-faculty-recruitment-q4-2026/",
    "added": "2026-04-12",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 277,
@@ -1931,7 +1931,7 @@
    "recurrence": "Annual",
    "url": "https://nvfarmacologie.nl/awards/prof-van-zwieten-award/",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 279,
@@ -1972,42 +1972,6 @@
    "url": "https://www.eular.org/eular-research-funding",
    "added": "2026-10-10",
    "lastVerified": "2026-10-10"
-  },
-  {
-   "id": 232,
-   "name": "EP PerMed Joint Transnational Call 2027 (JTC2027)",
-   "funder": "EP PerMed",
-   "scope": "European",
-   "funderType": "EU programme",
-   "type": "Consortium / network",
-   "careerStages": [
-    "Mid career",
-    "Senior/PI"
-   ],
-   "themes": [
-    "Precision medicine & pharmacogenetics",
-    "Pharmacoepidemiology & real-world evidence",
-    "Data science & AI"
-   ],
-   "diseaseAreas": [],
-   "summary": "EP PerMed runs a yearly joint transnational call for multinational personalised medicine projects; the 2026 call (CARMEN2026, about EUR 38M, ZonMw participating) was published in late November 2025. No 2027 call has been announced yet. EP PerMed says it has no information on upcoming calls, so the topic, budget and dates are not known. The deadline shown is an estimate (JTC2026 pre-proposal date of 10 Feb + 1 year).",
-   "budget": {
-    "min": null,
-    "max": null,
-    "currency": "EUR"
-   },
-   "status": "Upcoming",
-   "opens": null,
-   "deadline": "2027-02-10",
-   "deadlineConfirmed": false,
-   "deadlineStage": "Pre-proposal",
-   "phases": "2-phase",
-   "partnersRequired": true,
-   "partnersNote": "Multinational consortium across participating EP PerMed countries",
-   "recurrence": "Annual",
-   "url": "https://www.eppermed.eu/funding-projects/calls/",
-   "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
   },
   {
    "id": 234,
@@ -2598,6 +2562,44 @@
    "lastVerified": "2026-10-09"
   },
   {
+   "id": 168,
+   "name": "ISPOR 2027 Conference Travel Grants (Student, Member, Patient)",
+   "funder": "ISPOR",
+   "scope": "International",
+   "funderType": "Society / association",
+   "type": "Travel / mobility",
+   "careerStages": [
+    "Master",
+    "PhD",
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "HTA & health economics",
+    "Drug utilisation & appropriate use",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "ISPOR conference travel grants (Student, Member and Patient Representative) give complimentary conference registration plus a fixed travel reimbursement under ISPOR's travel policy; no amount is published. Student grants are for active ISPOR student members who cannot hold two consecutive grants. Member grants are only for non-student members living in a World Bank low or middle income country in Africa, Asia, Central and Eastern Europe, Latin America or Oceania, employed in academia, government or non-profits, with no ISPOR grant in the past 5 years. The 2026 annual-conference cycle ran 8 Jan-3 Mar 2026 and the ISPOR Europe 2026 cycle closed 4 Sep 2026; 2027 dates are not yet published.",
+   "budget": {
+    "min": null,
+    "max": null,
+    "currency": "USD"
+   },
+   "status": "Upcoming",
+   "opens": "2027-01-08",
+   "deadline": "2027-03-03",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "ISPOR membership required; Member grant limited to LMIC residents",
+   "recurrence": "Annual",
+   "url": "https://www.ispor.org/about/awards-grants/ispor-conference-grants",
+   "added": "2026-04-18",
+   "lastVerified": "2026-10-17"
+  },
+  {
    "id": 273,
    "name": "Trombosestichting Patient-oriented Project Round 2027 (expected)",
    "funder": "Trombosestichting Nederland",
@@ -2894,40 +2896,6 @@
    "lastVerified": "2026-10-09"
   },
   {
-   "id": 156,
-   "name": "PRISMA Proefschrift Prijs 2026 (pharmacy practice research)",
-   "funder": "KNMP",
-   "scope": "National",
-   "funderType": "Society / association",
-   "type": "Prize / stipend",
-   "careerStages": [
-    "PhD"
-   ],
-   "themes": [
-    "Pharmacy practice & clinical pharmacy",
-    "Implementation & health services"
-   ],
-   "diseaseAreas": [],
-   "summary": "Annual PRISMA Thesis Prize for dissertations defended in the previous 2 years at a Dutch or Belgian university, on new insights from pharmaceutical practice research implemented in community or hospital pharmacy. Evaluated on degree of implementation, translatability to pharmacist care, and scientific quality. Awarded at the PRISMA symposium (12 May 2026, Breukelen). Submit via prisma@knmp.nl.",
-   "budget": {
-    "min": 1000,
-    "max": 2500,
-    "currency": "EUR"
-   },
-   "status": "Upcoming",
-   "opens": null,
-   "deadline": "2027-03-15",
-   "deadlineConfirmed": true,
-   "deadlineStage": "Application",
-   "phases": "1-phase",
-   "partnersRequired": false,
-   "partnersNote": "",
-   "recurrence": "Annual",
-   "url": "https://www.knmp.nl/beroepsontwikkeling/onderzoek/prisma",
-   "added": "2026-04-17",
-   "lastVerified": null
-  },
-  {
    "id": 164,
    "name": "ICPE Annual Meeting Scholarships (student travel award)",
    "funder": "ISPE",
@@ -2998,6 +2966,77 @@
    "url": "https://www.zonmw.nl/en/subsidy/off-road-2026",
    "added": "2026-10-09",
    "lastVerified": "2026-10-09"
+  },
+  {
+   "id": 288,
+   "name": "Swaantje Mondt Fund – PhD research stay abroad (epidemiology/law/biology/earth sciences round, spring 2027, expected)",
+   "funder": "Utrechts Universiteitsfonds",
+   "scope": "Local",
+   "funderType": "University (internal)",
+   "type": "Travel / mobility",
+   "careerStages": [
+    "PhD"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [],
+   "summary": "Named fund of the Utrecht University Fund that lets UU PhD candidates carry out part of their research abroad to broaden knowledge and network. Epidemiology is one of the eligible fields (with law, biology and earth sciences), applied for in rounds 2 (March) and 5 (September) of the UU Fund grant portal; the complex-systems strand (via CCSS, max €2,500) runs in round 3. Applicants submit CV, motivation, supervisor and host recommendations and a budget; no fixed amount is stated for the epidemiology strand. 2027 dates not yet published; deadline estimated from the 2026 round 2 (27 March 2026).",
+   "budget": {
+    "min": null,
+    "max": null,
+    "currency": "EUR"
+   },
+   "status": "Upcoming",
+   "opens": null,
+   "deadline": "2027-03-27",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "Host supervisor abroad must provide a recommendation",
+   "recurrence": "Several rounds per year",
+   "url": "https://www.uu.nl/en/organisation/donate/donate/named-funds/overview-funds/swaantje-mondt-fund",
+   "added": "2026-10-17",
+   "lastVerified": "2026-10-17"
+  },
+  {
+   "id": 289,
+   "name": "Genmab Jan van de Winkel Scholarship Fund (UU, spring 2027 round, expected)",
+   "funder": "Utrechts Universiteitsfonds",
+   "scope": "Local",
+   "funderType": "University (internal)",
+   "type": "Prize / stipend",
+   "careerStages": [
+    "Master",
+    "PhD"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Clinical trials & drug development"
+   ],
+   "diseaseAreas": [
+    "Oncology"
+   ],
+   "summary": "Scholarship fund (est. 2024) supporting UU master's students and PhD candidates working on cancer research and treatment, particularly antibodies and antibody-based therapies or oncology more broadly. Applicants must show financial need that could hinder their studies and describe their academic focus; students apply via the Student Support application and PhD candidates via the Research & Education application in the UU Fund portal. Two rounds a year (2026: 2–27 March and 14 Sep–9 Oct); amount not stated. Next deadline estimated from the 2026 spring round.",
+   "budget": {
+    "min": null,
+    "max": null,
+    "currency": "EUR"
+   },
+   "status": "Upcoming",
+   "opens": null,
+   "deadline": "2027-03-27",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Several rounds per year",
+   "url": "https://www.uu.nl/en/organisation/donate/donate/named-funds/overview-funds/genmab-jan-van-de-winkel-scholarship-fund/application-and-criteria",
+   "added": "2026-10-17",
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 248,
@@ -3114,39 +3153,74 @@
    "lastVerified": "2026-10-10"
   },
   {
-   "id": 20,
-   "name": "Trailblazers Fund / Baanbrekersfonds 2027",
-   "funder": "KNAW",
-   "scope": "National",
-   "funderType": "Public research funder",
-   "type": "Personal fellowship",
+   "id": 296,
+   "name": "BPS Dunlop Prize 2027 (clinical pharmacology research visit to Australasia)",
+   "funder": "British Pharmacological Society (BPS)",
+   "scope": "International",
+   "funderType": "Society / association",
+   "type": "Travel / mobility",
    "careerStages": [
-    "PhD",
     "Postdoc",
     "Early career"
    ],
    "themes": [
+    "Clinical pharmacology & therapeutics",
+    "Education & training"
+   ],
+   "diseaseAreas": [],
+   "summary": "A prize, given every two years, for early-career clinical BPS members (clinical trainees, consultants up to 3 years after appointment, lecturers, senior lecturers). It pays for a 3-week research visit to Australasia, co-supported by ASCEPT, plus a lecture. The page body says up to GBP 5,000 for travel and subsistence, but its meta text says GBP 500 plus expenses. Applicants need 2 years of BPS membership, must be based outside Australasia, and must arrange a host in advance.",
+   "budget": {
+    "min": null,
+    "max": 5000,
+    "currency": "GBP"
+   },
+   "status": "Open",
+   "opens": null,
+   "deadline": "2027-03-31",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Host institution in Australasia must be agreed before applying; 2 years BPS membership",
+   "recurrence": "Biennial",
+   "url": "https://www.bps.ac.uk/membership-community/prizes-awards-grants-bursaries/prizes-awards-grants/article/dunlop-prize/",
+   "added": "2026-10-17",
+   "lastVerified": "2026-10-17"
+  },
+  {
+   "id": 297,
+   "name": "BPS Pickford Award 2027 (early-career pharmacology research & development funding) (expected)",
+   "funder": "British Pharmacological Society (BPS)",
+   "scope": "International",
+   "funderType": "Society / association",
+   "type": "Project grant",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Clinical pharmacology & therapeutics",
     "Open (any discipline)"
    ],
    "diseaseAreas": [],
-   "summary": "2026 round closed 29 April 2026. Next round expected spring 2027 (deadline TBC). For early-career first-generation academics. €5,000 (PhD) or €10,000 (postdoc/assistant professor) for professional development and network building. ~25% success rate.",
+   "summary": "Up to GBP 10,000 for early-career BPS members to spend on research costs or career development (consumables, equipment, training, travel). Applicants must have 2+ years of membership, be within 6 years of their PhD, have 2+ first-author pharmacology papers and be on an untenured academic track with at least 6 months left on their contract. The page names no UK location requirement. The 2026 deadline was 31 Mar 2026 and winners are listed every year, so a 2027 round is expected around the same date.",
    "budget": {
-    "min": 5000,
+    "min": null,
     "max": 10000,
-    "currency": "EUR"
+    "currency": "GBP"
    },
    "status": "Upcoming",
    "opens": null,
-   "deadline": "2027-04-01",
+   "deadline": "2027-03-31",
    "deadlineConfirmed": false,
    "deadlineStage": "Application",
    "phases": "1-phase",
    "partnersRequired": false,
-   "partnersNote": "",
+   "partnersNote": "BPS membership of at least 2 years",
    "recurrence": "Annual",
-   "url": "https://www.knaw.nl/fondsen-en-prijzen/knaw-baanbrekersfonds-eerstegeneratiewetenschappers",
-   "added": "2026-01-01",
-   "lastVerified": null
+   "url": "https://www.bps.ac.uk/membership-community/prizes-awards-grants-bursaries/prizes-awards-grants/article/pickford-award/",
+   "added": "2026-10-17",
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 157,
@@ -3175,7 +3249,7 @@
    "status": "Upcoming",
    "opens": null,
    "deadline": "2027-04-01",
-   "deadlineConfirmed": true,
+   "deadlineConfirmed": false,
    "deadlineStage": "Application",
    "phases": "1-phase",
    "partnersRequired": false,
@@ -3184,6 +3258,43 @@
    "url": "https://www.knmp.nl/actueel/nieuws/proefschriften-over-antibioticabeleid-maken-kans-op-jan-prins-proefschriftprijs-2026",
    "added": "2026-04-17",
    "lastVerified": null
+  },
+  {
+   "id": 291,
+   "name": "EQUATOR-2027 – Equitable Cancer Care Theme Call (expected)",
+   "funder": "KWF (Dutch Cancer Society)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Implementation & health services",
+    "Medication adherence & self-management"
+   ],
+   "diseaseAreas": [
+    "Oncology"
+   ],
+   "summary": "Planned KWF theme call under the EQUATOR programme on equitable cancer care, with two themes: lifestyle as part of treatment, and communication, information provision and shared decision-making. KWF wants impact-oriented projects built with researchers, professionals, policymakers and patient representatives. Budget and formal eligibility are not yet published. KWF's funding overview (marked subject to change) lists opening 19 January 2027, pre-proposals due 6 April 2027 and full proposals due 24 August 2027.",
+   "budget": {
+    "min": null,
+    "max": null,
+    "currency": "EUR"
+   },
+   "status": "Upcoming",
+   "opens": "2027-01-19",
+   "deadline": "2027-04-06",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Multi-stakeholder project teams expected (researchers, care professionals, policymakers, patient representatives); formal requirements not yet published.",
+   "recurrence": "New programme",
+   "url": "https://www.kwf.nl/events/equator",
+   "added": "2026-10-17",
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 237,
@@ -3408,48 +3519,47 @@
    "lastVerified": "2026-10-09"
   },
   {
-   "id": 106,
-   "name": "FIP World Congress 2027 – Travel Scholarships (expected)",
-   "funder": "FIP",
-   "scope": "International",
-   "funderType": "Society / association",
-   "type": "Travel / mobility",
+   "id": 20,
+   "name": "Trailblazers Fund / Baanbrekersfonds 2027",
+   "funder": "KNAW",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Personal fellowship",
    "careerStages": [
     "PhD",
     "Postdoc",
-    "Mid career"
+    "Early career"
    ],
    "themes": [
-    "Pharmacy practice & clinical pharmacy",
-    "Pharmaceutical policy & access"
+    "Open (any discipline)"
    ],
    "diseaseAreas": [],
-   "summary": "Congress travel scholarships (typically six) for the next FIP World Congress of Pharmacy and Pharmaceutical Sciences (2027). The 2026 Montreal round has closed. The 2027 congress grants/scholarships page is not yet live; deadline expected spring 2027 (TBC). Includes a Leadership Development Workshop.",
+   "summary": "KNAW grant for early-career first-generation academics (neither parent holds a university degree, or a refugee background) working at a university or research institute in the Kingdom of the Netherlands, in any discipline. PhD candidates in the final two years can receive EUR 3,000-5,000 (up to four grants a year). Postdocs (at most three years in post) and assistant professors without a permanent position can receive EUR 5,000-10,000 (up to three a year). The money is for activities that advance their careers. KNAW aims for an award rate of about 25% and may use a lottery. The 2027 call opens 12 February 2027; the closing date is not yet published.",
    "budget": {
-    "min": 1000,
-    "max": 3000,
+    "min": 3000,
+    "max": 10000,
     "currency": "EUR"
    },
    "status": "Upcoming",
-   "opens": null,
-   "deadline": "2027-05-01",
+   "opens": "2027-02-12",
+   "deadline": "2027-04-29",
    "deadlineConfirmed": false,
    "deadlineStage": "Application",
    "phases": "1-phase",
    "partnersRequired": false,
    "partnersNote": "",
    "recurrence": "Annual",
-   "url": "https://www.fip.org/",
-   "added": "2026-04-09",
-   "lastVerified": null
+   "url": "https://www.knaw.nl/en/science-funds/knaw-trailblazers-fund",
+   "added": "2026-01-01",
+   "lastVerified": "2026-10-17"
   },
   {
-   "id": 168,
-   "name": "ISPOR 2027 Conference Travel Grants (Student, Member, Patient)",
-   "funder": "ISPOR",
+   "id": 295,
+   "name": "ACCP 2027 Annual Meeting – Student & Trainee / Early-stage Professional Abstract Awards and Travel Grants (expected)",
+   "funder": "American College of Clinical Pharmacology (ACCP)",
    "scope": "International",
    "funderType": "Society / association",
-   "type": "Travel / mobility",
+   "type": "Prize / stipend",
    "careerStages": [
     "Master",
     "PhD",
@@ -3457,29 +3567,29 @@
     "Early career"
    ],
    "themes": [
-    "HTA & health economics",
-    "Drug utilisation & appropriate use",
-    "Pharmacoepidemiology & real-world evidence"
+    "Clinical pharmacology & therapeutics",
+    "Precision medicine & pharmacogenetics",
+    "Clinical trials & drug development"
    ],
    "diseaseAreas": [],
-   "summary": "ISPOR 2027 travel grants: Student, Member, and Patient Representative Travel Grants; includes complimentary registration and travel reimbursement. The 2026 round has closed. 2027 applications expected to open early 2027 (deadline TBC). Directly relevant for pharmacoepi, HTA and health-economics researchers.",
+   "summary": "Abstract-based awards for the American College of Clinical Pharmacology Annual Meeting (19-21 Sep 2027, Bellevue WA). The top student/trainee abstracts (open to students worldwide) and the top two early-stage professional abstracts win USD 1,000, free registration and up to USD 500 in travel. Further travel grants of up to USD 500 go to the next-best student abstracts, and there are a Wayne A. Colburn award and an ACCP/ISoP SIG student award. In 2026 abstracts were accepted 14 Jan-29 Apr; the 2027 dates are not yet published.",
    "budget": {
     "min": 500,
-    "max": 3000,
+    "max": 1500,
     "currency": "USD"
    },
    "status": "Upcoming",
-   "opens": null,
-   "deadline": "2027-05-01",
+   "opens": "2027-01-14",
+   "deadline": "2027-04-29",
    "deadlineConfirmed": false,
    "deadlineStage": "Application",
    "phases": "1-phase",
    "partnersRequired": false,
-   "partnersNote": "ISPOR membership required",
+   "partnersNote": "First author must present the poster at the meeting",
    "recurrence": "Annual",
-   "url": "https://www.ispor.org/about/awards-grants/ispor-conference-grants",
-   "added": "2026-04-18",
-   "lastVerified": null
+   "url": "https://accp1.org/ACCP1/3Annual_Meeting/Abstract_Awards.aspx",
+   "added": "2026-10-17",
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 235,
@@ -3661,6 +3771,114 @@
    "lastVerified": "2026-10-10"
   },
   {
+   "id": 101,
+   "name": "ERC Synergy Grant 2027",
+   "funder": "ERC",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics"
+   ],
+   "diseaseAreas": [],
+   "summary": "ERC Synergy Grants fund 2-4 PIs, one of them the corresponding PI, who work together on an ambitious problem in any research field. The grant is up to EUR 10 million over six years, plus up to EUR 4 million more for start-up costs, major equipment or large facilities. The 2027 call opens 17 February 2027 and closes 11 May 2027. The 2027 Work Programme also limits how many proposals a researcher may submit. A good fit for cross-disciplinary pharmacoepi, HTA and data science collaborations.",
+   "budget": {
+    "min": null,
+    "max": 10000000,
+    "currency": "EUR"
+   },
+   "status": "Upcoming",
+   "opens": "2027-02-17",
+   "deadline": "2027-05-11",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "2-4 PIs from different research groups, complementary expertise required",
+   "recurrence": "Annual",
+   "url": "https://erc.europa.eu/apply-grant/synergy-grant",
+   "added": "2026-04-02",
+   "lastVerified": "2026-10-17"
+  },
+  {
+   "id": 165,
+   "name": "Joint EPHAR-EACPT Young Investigator Awards in Translational Pharmacology 2027 (expected)",
+   "funder": "EACPT / EPHAR",
+   "scope": "European",
+   "funderType": "Society / association",
+   "type": "Prize / stipend",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Clinical pharmacology & therapeutics"
+   ],
+   "diseaseAreas": [],
+   "summary": "Two awards of EUR 1,000 each for researchers under 35 who are first author of an outstanding original pharmacology paper from the previous two years, from a study done in an EACPT or EPHAR member country. Applicants must belong to an EPHAR or EACPT member society. Apply by emailing one PDF with the paper, a statement of your contribution, a supporting letter and proof of age and membership. The 2025 round closed 12 May 2025 and the awards were presented at the Helsinki congress. The next EACPT Congress is in Lille, 26-29 June 2027, and the 2027 call has not been published.",
+   "budget": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "EUR"
+   },
+   "status": "Upcoming",
+   "opens": null,
+   "deadline": "2027-05-12",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "Under 35; member of an EPHAR or EACPT member society",
+   "recurrence": "Biennial",
+   "url": "https://eacpt.org/2025/04/23/%F0%9F%8E%AF-calling-all-young-researchers-in-pharmacology/",
+   "added": "2026-04-17",
+   "lastVerified": "2026-10-17"
+  },
+  {
+   "id": 292,
+   "name": "Zorgevaluatie en Gepast Gebruik (ZE&GG) – Impactvolle kennisvragen uit de MSZ – Ronde 3",
+   "funder": "ZonMw",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Clinical trials & drug development",
+    "HTA & health economics",
+    "Drug utilisation & appropriate use",
+    "Implementation & health services"
+   ],
+   "diseaseAreas": [],
+   "summary": "ZonMw round in the Zorgevaluatie en Gepast Gebruik programme that funds evaluation research addressing high-impact knowledge questions from Dutch medical specialist care (MSZ). The ZonMw open-calls overview lists it as open with a deadline of 13 May 2027. The call page itself could not be read, so eligibility, budget and stages are not verified; check the call page before applying.",
+   "budget": {
+    "min": null,
+    "max": null,
+    "currency": "EUR"
+   },
+   "status": "Open",
+   "opens": null,
+   "deadline": "2027-05-13",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "Unknown",
+   "partnersRequired": false,
+   "partnersNote": "Could not verify: call page blocked.",
+   "recurrence": "Periodic",
+   "url": "https://www.zonmw.nl/nl/subsidie/zorgevaluatie-en-gepast-gebruik-impactvolle-kennisvragen-uit-de-msz-ronde-3",
+   "added": "2026-10-17",
+   "lastVerified": "2026-10-17"
+  },
+  {
    "id": 271,
    "name": "ZonMw GGG Implementatie Ronde 4 (expected)",
    "funder": "ZonMw",
@@ -3698,95 +3916,26 @@
    "lastVerified": "2026-10-10"
   },
   {
-   "id": 101,
-   "name": "ERC Synergy Grant 2027",
-   "funder": "ERC",
-   "scope": "European",
-   "funderType": "EU programme",
-   "type": "Consortium / network",
-   "careerStages": [
-    "Mid career",
-    "Senior/PI"
-   ],
-   "themes": [
-    "Open (any discipline)",
-    "Pharmacoepidemiology & real-world evidence",
-    "Clinical pharmacology & therapeutics"
-   ],
-   "diseaseAreas": [],
-   "summary": "For groups of 2-4 PIs with complementary skills to tackle ambitious research problems. Up to €10M for 6 years (+€4M for relocation/equipment). 2026 round received record 957 proposals. 2027 round RESCHEDULED: opening moved to February 2027, deadline May 2027 (confirmed by ERC). Bottom-up: any research topic. Stricter resubmission restrictions in 2027. Excellent fit for cross-disciplinary pharmacoepi/HTA/data science collaborations.",
-   "budget": {
-    "min": 6000000,
-    "max": 10000000,
-    "currency": "EUR"
-   },
-   "status": "Upcoming",
-   "opens": null,
-   "deadline": "2027-05-15",
-   "deadlineConfirmed": false,
-   "deadlineStage": "Application",
-   "phases": "1-phase",
-   "partnersRequired": true,
-   "partnersNote": "2-4 PIs from different research groups, complementary expertise required",
-   "recurrence": "Annual",
-   "url": "https://erc.europa.eu/apply-grant/synergy-grant",
-   "added": "2026-04-02",
-   "lastVerified": null
-  },
-  {
-   "id": 165,
-   "name": "Joint EPHAR–EACPT Young Investigator Awards in Translational Pharmacology",
-   "funder": "EACPT / EPHAR",
-   "scope": "European",
-   "funderType": "Society / association",
-   "type": "Prize / stipend",
-   "careerStages": [
-    "PhD",
-    "Postdoc",
-    "Early career"
-   ],
-   "themes": [
-    "Clinical pharmacology & therapeutics"
-   ],
-   "diseaseAreas": [],
-   "summary": "Two awards of €1,000 each for young scientists with an outstanding translational pharmacology publication in the preceding two years. Awarded at the EACPT Congress; 2025 awards presented in Helsinki. Next EACPT Congress cycle expected 2027. Fits clinical pharmacology PhDs and early-career postdocs.",
-   "budget": {
-    "min": 1000,
-    "max": 1000,
-    "currency": "EUR"
-   },
-   "status": "Upcoming",
-   "opens": null,
-   "deadline": "2027-05-15",
-   "deadlineConfirmed": false,
-   "deadlineStage": "Application",
-   "phases": "1-phase",
-   "partnersRequired": false,
-   "partnersNote": "EACPT or EPHAR affiliation",
-   "recurrence": "Biennial",
-   "url": "https://eacpt.org/",
-   "added": "2026-04-17",
-   "lastVerified": null
-  },
-  {
    "id": 166,
-   "name": "FIP / IPSF Early-Career Congress Grant (FIP 2027)",
+   "name": "Mike How Travel Award (FIP 2027 Kuala Lumpur, ECPG/IPSF industrial pharmacy)",
    "funder": "FIP",
    "scope": "International",
    "funderType": "Society / association",
-   "type": "Prize / stipend",
+   "type": "Travel / mobility",
    "careerStages": [
     "Master",
     "PhD",
     "Early career"
    ],
    "themes": [
+    "Clinical trials & drug development",
+    "Regulatory science",
     "Education & training"
    ],
    "diseaseAreas": [],
-   "summary": "Up to €1,500 per awardee toward transport, accommodation and registration for the FIP World Congress of Pharmacy and Pharmaceutical Sciences. Targeted at ECPG / IPSF members. The 2026 Montreal round has closed; the 2027 congress-grant page is not yet live, deadline expected spring 2027 (TBC).",
+   "summary": "The Mike How Travel Award is run by FIP's Industrial Pharmacy Section with ECPG and IPSF. It gives up to EUR 1,500 toward transport, accommodation and registration for the annual FIP World Congress. It also includes free attendance at the IPS pre-satellite workshop and an invitation to the IPS dinner. It is for young pharmacists and pharmacy students who are ECPG or IPSF members and work in pharmaceutical development, manufacturing or regulatory affairs. The 2026 (Montreal) deadline was 15 May 2026; the 2027 congress is in Kuala Lumpur and its call has not been published.",
    "budget": {
-    "min": 500,
+    "min": null,
     "max": 1500,
     "currency": "EUR"
    },
@@ -3799,9 +3948,9 @@
    "partnersRequired": false,
    "partnersNote": "ECPG or IPSF membership",
    "recurrence": "Annual",
-   "url": "https://www.fip.org/",
+   "url": "https://www.fip.org/grants-and-scholarships-for-ecpg-members",
    "added": "2026-04-17",
-   "lastVerified": null
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 239,
@@ -4755,6 +4904,44 @@
    "lastVerified": "2026-10-10"
   },
   {
+   "id": 294,
+   "name": "ISPOR Europe 2027 Conference Travel Grants (Student, Member, Patient Representative) (expected)",
+   "funder": "ISPOR",
+   "scope": "International",
+   "funderType": "Society / association",
+   "type": "Travel / mobility",
+   "careerStages": [
+    "Master",
+    "PhD",
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "HTA & health economics",
+    "Pharmacoepidemiology & real-world evidence",
+    "Pharmaceutical policy & access"
+   ],
+   "diseaseAreas": [],
+   "summary": "ISPOR conference travel grants cover free registration plus a fixed travel reimbursement (amount set by ISPOR's reimbursement policy, not stated on the page) for its annual conferences. Student grants go to active student members; member grants only to members living in low/middle-income countries; patient representative grants also exist. Recipients of an ISPOR travel grant in the past 2 years are excluded. For ISPOR Europe 2026 the window ran 22 Jul-4 Sep 2026; the 2027 round is expected on a similar timeline but is not yet announced.",
+   "budget": {
+    "min": null,
+    "max": null,
+    "currency": "USD"
+   },
+   "status": "Upcoming",
+   "opens": "2027-07-22",
+   "deadline": "2027-09-04",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "Active ISPOR membership required",
+   "recurrence": "Annual",
+   "url": "https://www.ispor.org/about/awards-grants/ispor-conference-grants/ispor-student-travel-grant",
+   "added": "2026-10-17",
+   "lastVerified": "2026-10-17"
+  },
+  {
    "id": 227,
    "name": "MSCA Postdoctoral Fellowships 2027",
    "funder": "European Commission – MSCA",
@@ -5159,6 +5346,40 @@
    "lastVerified": "2026-10-09"
   },
   {
+   "id": 293,
+   "name": "ERC Starting Grant 2028 (ERC-2028-StG, expected)",
+   "funder": "ERC",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Postdoc",
+    "Early career"
+   ],
+   "themes": [
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "ERC Starting Grants fund an excellent early-career principal investigator to build an independent team for a five-year frontier research project hosted in the EU or an associated country (e.g. Utrecht University). The ERC page currently states eligibility as 0-10 years since PhD and funding of up to EUR 1.5 million, with up to EUR 1 million extra for justified costs (up to EUR 2 million for PIs relocating from non-associated third countries). The 2028 call has not been published yet; dates are estimated from the ERC-2027-StG call (opened 22 July 2026, closed 14 October 2026), and eligibility rules may change in the ERC 2028 work programme.",
+   "budget": {
+    "min": null,
+    "max": 1500000,
+    "currency": "EUR"
+   },
+   "status": "Upcoming",
+   "opens": null,
+   "deadline": "2027-10-14",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "Single PI with host institution; no consortium needed.",
+   "recurrence": "Annual",
+   "url": "https://erc.europa.eu/apply-grant/starting-grant",
+   "added": "2026-10-17",
+   "lastVerified": "2026-10-17"
+  },
+  {
    "id": 123,
    "name": "ERA-AD 2028 – European Research Academy on Alzheimer's Disease",
    "funder": "Alzheimer Nederland",
@@ -5196,6 +5417,40 @@
    "lastVerified": "2026-10-10"
   },
   {
+   "id": 156,
+   "name": "PRISMA Proefschrift Prijs 2028 (pharmacy practice research)",
+   "funder": "KNMP",
+   "scope": "National",
+   "funderType": "Society / association",
+   "type": "Prize / stipend",
+   "careerStages": [
+    "PhD"
+   ],
+   "themes": [
+    "Pharmacy practice & clinical pharmacy",
+    "Implementation & health services"
+   ],
+   "diseaseAreas": [],
+   "summary": "PRISMA (KNMP's pharmacy practice research network) gives a thesis prize, every other year, to a dissertation defended in the two preceding years at a Dutch or Belgian university. The thesis must offer new insights from pharmaceutical practice research that can be put into practice in community or hospital pharmacy. The jury looks at how far the work has been implemented, how well it translates to pharmacist care, and its scientific quality and innovation. Under the current regulations the prize is a trophy and a certificate, and theses are submitted to prisma@knmp.nl by the published deadline. The 2026 prize was presented in May 2026, so the next round is expected in 2028.",
+   "budget": {
+    "min": null,
+    "max": null,
+    "currency": "EUR"
+   },
+   "status": "Upcoming",
+   "opens": null,
+   "deadline": "2028-03-15",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Biennial",
+   "url": "https://www.knmp.nl/beroepsontwikkeling/onderzoek/prisma",
+   "added": "2026-04-17",
+   "lastVerified": "2026-10-17"
+  },
+  {
    "id": 32,
    "name": "WHO Consultancy & Research Contracts",
    "funder": "WHO",
@@ -5211,7 +5466,7 @@
     "Global health"
    ],
    "diseaseAreas": [],
-   "summary": "WHO regularly commissions research on access to medicines, pharmaceutical policy, essential medicines lists, and regulatory systems. The division already has WHO CC status. Check WHO procurement portal.",
+   "summary": "WHO buys goods and services, including research and consultancy work on topics such as access to medicines, essential medicines and regulatory systems. Many opportunities are posted on the UN Global Marketplace (UNGM), and new suppliers register through WHO's In Tend e-tendering portal. Regional and country offices can also be contacted about local opportunities. Suppliers must meet WHO's qualification rules and the UN Supplier Code of Conduct. The division already holds WHO Collaborating Centre status.",
    "budget": {
     "min": 10000,
     "max": 200000,
@@ -5228,7 +5483,7 @@
    "recurrence": "Continuous",
    "url": "https://www.who.int/about/accountability/procurement",
    "added": "2026-01-01",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 33,
@@ -5247,7 +5502,7 @@
     "Drug safety & pharmacovigilance"
    ],
    "diseaseAreas": [],
-   "summary": "EMA publishes calls for tenders on the EU Funding & Tenders Portal and in the Official Journal (TED); open procedures are used from about EUR 140,000, smaller contracts via negotiated procedures. The division already has a framework contract with EMA. Monitor the EMA procurement page for new tenders and ex ante notices.",
+   "summary": "EMA publishes calls for tenders and ex ante notices on the EU Funding & Tenders Portal and in the EU Official Journal. Contracts of EUR 140,000 or more go through open procedures, and smaller ones through negotiated procedures with an ex ante notice for contracts from EUR 15,000. As of Oct 2026 no calls for tenders or ex ante notices are open; separate calls for scientific experts stay open until 2030. The division already has a framework contract with EMA.",
    "budget": {
     "min": 50000,
     "max": 1000000,
@@ -5262,9 +5517,9 @@
    "partnersRequired": false,
    "partnersNote": "",
    "recurrence": "Continuous",
-   "url": "https://www.ema.europa.eu/en/about-us/procurement",
+   "url": "https://www.ema.europa.eu/en/about-us/procurement-grants",
    "added": "2026-01-01",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 36,
@@ -5302,7 +5557,7 @@
    "recurrence": "Annual",
    "url": "https://www.pharmacoepi.org/about-ispe/awards/call-for-awards/",
    "added": "2026-01-01",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 37,
@@ -5341,7 +5596,7 @@
    "recurrence": "Annual",
    "url": "https://www.fip.org/fipfoundation",
    "added": "2026-01-01",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 40,
@@ -5362,7 +5617,7 @@
     "Pharmaceutical policy & access"
    ],
    "diseaseAreas": [],
-   "summary": "Various calls for innovative solutions to global health challenges. Relevant for division's work on access to medicines in LMICs and global pharmaceutical policy.",
+   "summary": "Grand Challenges, run by the Gates Foundation, issues calls for innovative solutions to global health and development problems. These calls are relevant to the division's work on access to medicines in LMICs. As of Oct 2026 the Grand Challenges page states there are no open grant opportunities, so sign up for its email alerts and check the wider GrandChallenges.org network for partner calls. Award sizes vary by call.",
    "budget": {
     "min": 100000,
     "max": 2000000,
@@ -5379,7 +5634,7 @@
    "recurrence": "Continuous",
    "url": "https://gcgh.grandchallenges.org/grant-opportunities",
    "added": "2026-01-01",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 60,
@@ -5415,7 +5670,7 @@
    "recurrence": "Continuous",
    "url": "https://www.zorginstituutnederland.nl/wat-wij-doen/werkwijzen-en-procedures/onderzoek/aanbesteding-zorggerelateerde-onderzoeken",
    "added": "2026-04-01",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 61,
@@ -5450,9 +5705,9 @@
    "partnersRequired": false,
    "partnersNote": "",
    "recurrence": "Continuous",
-   "url": "https://www.cbg-meb.nl/onderwerpen/over-ons-ons-werk/over-cbg-wetenschap",
+   "url": "https://www.cbg-meb.nl/onderwerpen/over-cbg-wetenschap",
    "added": "2026-04-01",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 62,
@@ -5494,7 +5749,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://novonordiskfonden.dk/en/grants/",
    "added": "2026-04-01",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 135,
@@ -5530,7 +5785,7 @@
    "recurrence": "Work programme cycle",
    "url": "https://hadea.ec.europa.eu/programmes/eu4health_en",
    "added": "2026-04-12",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 150,
@@ -5565,7 +5820,7 @@
    "recurrence": "Continuous",
    "url": "https://wellcome.org/research-funding/schemes/wellcome-career-development-awards",
    "added": "2026-04-17",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 155,
@@ -5598,7 +5853,7 @@
    "recurrence": "Continuous",
    "url": "https://www.knmp.nl/beroepsontwikkeling/onderzoek/knmp-fondsen-onderzoek-voor-de-apotheker-de-praktijk",
    "added": "2026-04-17",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 169,
@@ -5635,7 +5890,7 @@
    "recurrence": "Periodic",
    "url": "https://escpweb.org/what-we-do/escp-research-grant/",
    "added": "2026-04-18",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 171,
@@ -5668,7 +5923,7 @@
    "recurrence": "Continuous",
    "url": "https://www.lareb.nl/pages/leopold-meijler-fonds",
    "added": "2026-04-20",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 177,
@@ -5704,7 +5959,7 @@
    "recurrence": "Continuous",
    "url": "https://wellcome.org/research-funding/schemes/wellcome-early-career-awards",
    "added": "2026-04-28",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 187,
@@ -5742,7 +5997,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://professionals.hartstichting.nl/samenwerking-en-financiering/financiering/klinische-studie-programma",
    "added": "2026-05-28",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 198,
@@ -5781,7 +6036,7 @@
    "recurrence": "Continuous",
    "url": "https://wellcome.org/research-funding/schemes/wellcome-discovery-awards",
    "added": "2026-09-14",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 217,
@@ -5818,7 +6073,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://professionals.hartstichting.nl/samenwerking-en-financiering/financiering/internationale-financiering/gcrff-multinational-clinical-trials-initiative",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 249,
@@ -5853,44 +6108,7 @@
    "recurrence": "Continuous",
    "url": "https://www.health-holland.com/netwerkactiviteitenregeling",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
-  },
-  {
-   "id": 258,
-   "name": "ERDERA Networking Support Scheme (rare disease networking events)",
-   "funder": "Horizon Europe – ERDERA",
-   "scope": "European",
-   "funderType": "EU programme",
-   "type": "Consortium / network",
-   "careerStages": [
-    "PhD",
-    "Postdoc",
-    "Early career",
-    "Mid career",
-    "Senior/PI"
-   ],
-   "themes": [
-    "Rare diseases & orphan drugs"
-   ],
-   "diseaseAreas": [],
-   "summary": "Funds transnational networking events, in person or hybrid, on rare diseases or rare cancers, bringing together researchers, clinicians and patient organisations. It pays up to €30,000 per event, including participants' travel and accommodation. Groups of 3–10 co-applicants from at least three countries apply, including at least one from an underrepresented country. Rounds are collected every six months while funds last (expected until April 2029), but the page does not give the next collection date.",
-   "budget": {
-    "min": null,
-    "max": 30000,
-    "currency": "EUR"
-   },
-   "status": "Rolling",
-   "opens": null,
-   "deadline": null,
-   "deadlineConfirmed": false,
-   "deadlineStage": "Next cut-off",
-   "phases": "1-phase",
-   "partnersRequired": true,
-   "partnersNote": "3–10 co-applicants from at least 3 ERDERA countries, at least one from an underrepresented country.",
-   "recurrence": "Several rounds per year",
-   "url": "https://erdera.org/nss",
-   "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-17"
   },
   {
    "id": 267,
@@ -5910,10 +6128,10 @@
    "diseaseAreas": [
     "Neurology & dementia"
    ],
-   "summary": "Year-round small grants from Alzheimer Nederland for an international research internship, PhD thesis printing costs, or conference attendance; apply via the AIMS portal at least 4 weeks before needed. Amounts and detailed eligibility are in the portal.",
+   "summary": "Alzheimer Nederland offers three small grants year-round to researchers at Dutch knowledge institutions working on dementia. The first is an international research internship of at least 2 months (up to EUR 750 for master students, EUR 3,000 for PhD candidates and postdocs; apply at least 6 weeks before). The second is attendance at a congress abroad to present new results (EUR 500 in Europe, EUR 750 outside; for PhD candidates and postdocs up to 2 years into their first postdoc). The third is a contribution of up to EUR 400 to dementia thesis printing costs (apply at least 4 weeks before printing). Apply via the Alzheimer Nederland research grant portal; decisions take about 4 weeks.",
    "budget": {
     "min": null,
-    "max": null,
+    "max": 3000,
     "currency": "EUR"
    },
    "status": "Rolling",
@@ -5927,7 +6145,44 @@
    "recurrence": "Continuous",
    "url": "https://grants.alzheimer-nederland.nl/AUUID/4848D73B0",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-10"
+   "lastVerified": "2026-10-17"
+  },
+  {
+   "id": 287,
+   "name": "Open Technology Programme (OTP) 2027",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Valorisation & public-private",
+    "Data science & AI",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "NWO's open, discipline-free programme for applied and technical-scientific research aimed at technology with societal impact; projects up to €950k (up to €1.05M with investments >€150k) and up to 6 years. Main applicants need a tenured or tenure-track position at a Dutch research organisation, and every project needs a user committee of at least four public or private users. Users co-fund at least 25% of costs above €700k. NWO expects the 2027 round to open on 11 January 2027 (call text due around end of November 2026). Applications are taken until a maximum number is reached: the 2026 round closed early on 29 June/4 July 2026, so apply early. Clinical trials and contract research are excluded.",
+   "budget": {
+    "min": null,
+    "max": 950000,
+    "currency": "EUR"
+   },
+   "status": "Rolling",
+   "opens": "2027-01-11",
+   "deadline": null,
+   "deadlineConfirmed": false,
+   "deadlineStage": "No fixed deadline",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "User committee of at least 4 knowledge users (public/private); user co-funding of at least 25% of project costs above €700,000 (cash or in kind).",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/researchprogrammes/open-technology-programme",
+   "added": "2026-10-17",
+   "lastVerified": "2026-10-17"
   }
  ]
 }
