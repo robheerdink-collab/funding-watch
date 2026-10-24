@@ -39,6 +39,162 @@
    "lastVerified": "2026-10-09"
   },
   {
+   "id": 278,
+   "name": "EULAR Health Professionals Research Grant 2026",
+   "funder": "EULAR",
+   "scope": "European",
+   "funderType": "Society / association",
+   "type": "Project grant",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career",
+    "Mid career"
+   ],
+   "themes": [
+    "Pharmacy practice & clinical pharmacy",
+    "Medication adherence & self-management",
+    "Implementation & health services"
+   ],
+   "diseaseAreas": [
+    "Rheumatology & immunology"
+   ],
+   "summary": "One project per year, up to EUR 45,000, led by a health professional in rheumatology (non-MD, e.g. pharmacist/nurse/allied health); less advanced research careers preferred. Project must involve at least three European countries and show measurable impact on health professionals' practice in at least three countries. Call opened 15 September, closes 23 October 2026.",
+   "budget": {
+    "min": null,
+    "max": 45000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": "2026-09-15",
+   "deadline": "2026-10-23",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "Unknown",
+   "partnersRequired": true,
+   "partnersNote": "At least three European countries must be involved.",
+   "recurrence": "Annual",
+   "url": "https://www.eular.org/health-professionals-research-grant",
+   "added": "2026-10-10",
+   "lastVerified": "2026-10-17"
+  },
+  {
+   "id": 259,
+   "name": "Dynamics of Youth – Thriving & Healthy Youth Resilience Grant Call 2026",
+   "funder": "Utrecht University – Dynamics of Youth",
+   "scope": "Local",
+   "funderType": "University (internal)",
+   "type": "Project grant",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Implementation & health services",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [
+    "Mental health"
+   ],
+   "summary": "UU Dynamics of Youth (Thriving & Healthy Youth community) Resilience grant: up to €10,000 per project, two grants available. UU researchers only; project must involve at least one societal partner. PhD candidates/postdocs may use it to extend their position by 1–2 months to engage with societal partners. Values: co-creation, interdisciplinarity, co-ownership. Short Word application form.",
+   "budget": {
+    "min": null,
+    "max": 10000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-10-23",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "At least one societal partner required",
+   "recurrence": "Unknown",
+   "url": "https://www.uu.nl/en/research/dynamics-of-youth/research/thematic-communities/thriving-healthy-youth/funding-opportunities",
+   "added": "2026-10-10",
+   "lastVerified": "2026-10-17"
+  },
+  {
+   "id": 290,
+   "name": "Call for Implementation of Biomarkers 2027",
+   "funder": "KWF (Dutch Cancer Society)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Senior/PI"
+   ],
+   "themes": [
+    "Implementation & health services",
+    "HTA & health economics",
+    "Precision medicine & pharmacogenetics",
+    "Valorisation & public-private"
+   ],
+   "diseaseAreas": [
+    "Oncology"
+   ],
+   "summary": "KWF funds projects that bring an already clinically validated cancer biomarker into routine Dutch practice at national scale, covering phase III studies with a clinical-grade biomarker or implementation at TRL 7-9. Applicants form a multidisciplinary consortium of at least four parties (private partners allowed) with a project manager, a biostatistician, implementation-science and HTA expertise, and structural patient involvement. Awards are EUR 1-4 million for 3-5 years. Pre-proposals close 20 October 2026 (12:00); full proposals open 15 December 2026 and close 23 February 2027.",
+   "budget": {
+    "min": 1000000,
+    "max": 4000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": "2026-08-25",
+   "deadline": "2026-10-20",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Consortium of at least 4 participating parties; HTA, implementation-science and biostatistics expertise required; KWF-GMS registration at least 6 weeks before closing.",
+   "recurrence": "Annual",
+   "url": "https://www.kwf.nl/en/forresearchers/funding/implementation-of-biomarkers-2027",
+   "added": "2026-10-17",
+   "lastVerified": "2026-10-17"
+  },
+  {
+   "id": 204,
+   "name": "Call for Validation of Biomarker Candidates 2027",
+   "funder": "KWF (Dutch Cancer Society)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Precision medicine & pharmacogenetics",
+    "Clinical trials & drug development",
+    "HTA & health economics"
+   ],
+   "diseaseAreas": [
+    "Oncology"
+   ],
+   "summary": "Funds multidisciplinary consortia (at least 4 parties, private partners allowed) to clinically validate known cancer biomarkers towards use in daily practice, EUR 0.8-2M per project over 2-5 years. An (early) HTA, biostatistics expertise, a development plan and patient involvement are mandatory. Pre-proposals close 20 Oct 2026 (12:00); full proposals 15 Dec 2026-23 Feb 2027, decision June 2027.",
+   "budget": {
+    "min": 800000,
+    "max": 2000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": "2026-08-25",
+   "deadline": "2026-10-20",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Multidisciplinary consortium of at least 4 participating parties; AI projects must involve AI4Health consortium",
+   "recurrence": "Annual",
+   "url": "https://www.kwf.nl/en/forresearchers/funding/validation-of-biomarkers-2027",
+   "added": "2026-10-09",
+   "lastVerified": "2026-10-17"
+  },
+  {
    "id": 265,
    "name": "ReumaNederland Thematische Call 2026 – Van onderzoek naar praktijk (remission in inflammatory rheumatic diseases)",
    "funder": "Reumafonds (Dutch Arthritis Foundation)",
