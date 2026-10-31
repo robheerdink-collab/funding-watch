@@ -1,113 +1,6 @@
 {
  "items": [
   {
-   "id": 153,
-   "name": "KNMP Studentenprijs (annual pharmacy student prize)",
-   "funder": "KNMP",
-   "scope": "National",
-   "funderType": "Society / association",
-   "type": "Prize / stipend",
-   "careerStages": [
-    "Master"
-   ],
-   "themes": [
-    "Pharmacy practice & clinical pharmacy",
-    "Open (any discipline)"
-   ],
-   "diseaseAreas": [],
-   "summary": "Annual KNMP prize (certificate plus EUR 1,000) for outstanding master pharmacy students, nominated by their teachers and professors for strong study results and commitment to pharmacy education and the profession. Six winners in 2025, awarded at the KNMP Najaarscongres in late October (the 2026 congress is on 27 October 2026). No public nomination deadline is published, as nominations come from faculty. The date shown is the award ceremony (latest possible), not a published nomination deadline.",
-   "budget": {
-    "min": 1000,
-    "max": 1000,
-    "currency": "EUR"
-   },
-   "status": "Upcoming",
-   "opens": null,
-   "deadline": "2026-10-27",
-   "deadlineConfirmed": false,
-   "deadlineStage": "Nomination",
-   "phases": "1-phase",
-   "partnersRequired": false,
-   "partnersNote": "Nomination by hoogleraar/docent",
-   "recurrence": "Annual",
-   "url": "https://www.knmp.nl/beroepsontwikkeling/onderzoek",
-   "added": "2026-04-17",
-   "lastVerified": "2026-10-17"
-  },
-  {
-   "id": 257,
-   "name": "COST Open Call OC-2026-1 – New COST Actions (research networks)",
-   "funder": "COST Association",
-   "scope": "European",
-   "funderType": "EU programme",
-   "type": "Consortium / network",
-   "careerStages": [
-    "Early career",
-    "Mid career",
-    "Senior/PI"
-   ],
-   "themes": [
-    "Open (any discipline)",
-    "Education & training"
-   ],
-   "diseaseAreas": [],
-   "summary": "Bottom-up call for new COST Actions, European science and technology networks that fund meetings, short-term scientific missions, training schools and dissemination, not the research itself. A proposal needs at least seven COST member countries, at least half of them Inclusiveness Target Countries, and at least 40% young researchers. Up to 80 Actions may be approved. The collection date is 28 October 2026, 12:00 CET.",
-   "budget": {
-    "min": null,
-    "max": null,
-    "currency": "EUR"
-   },
-   "status": "Open",
-   "opens": "2026-07-31",
-   "deadline": "2026-10-28",
-   "deadlineConfirmed": true,
-   "deadlineStage": "Application",
-   "phases": "1-phase",
-   "partnersRequired": true,
-   "partnersNote": "Network of at least 7 COST Full/Cooperating Members, at least 50% from Inclusiveness Target Countries; at least 40% Young Researchers and Innovators.",
-   "recurrence": "Annual",
-   "url": "https://www.cost.eu/uploads/2026/03/2026-1-COST_Open_Call_Announcement.pdf",
-   "added": "2026-10-09",
-   "lastVerified": "2026-10-24"
-  },
-  {
-   "id": 151,
-   "name": "PhRMA Foundation – Value Assessment & Health Outcomes Research Pre- & Postdoctoral Fellowships 2027",
-   "funder": "PhRMA Foundation",
-   "scope": "International",
-   "funderType": "Charity / foundation",
-   "type": "Personal fellowship",
-   "careerStages": [
-    "PhD",
-    "Postdoc"
-   ],
-   "themes": [
-    "HTA & health economics",
-    "Pharmacoepidemiology & real-world evidence",
-    "Pharmaceutical policy & access",
-    "Drug utilisation & appropriate use"
-   ],
-   "diseaseAreas": [],
-   "summary": "PhRMA Foundation fellowships in value assessment and health outcomes research: postdoctoral USD 60,000/yr and predoctoral USD 30,000/yr stipend, for 12-24 months. Both the postdoctoral and predoctoral cycles opened 31 August 2026 and close 30 October 2026 (noon ET); awards are announced March 2027, with funding starting between April and December 2027. Postdocs need a doctorate conferred on or after 1 January 2024 and at least two first-author papers. Applicants must be at an accredited US university, so this is mainly relevant for US-based collaborators.",
-   "budget": {
-    "min": 30000,
-    "max": 60000,
-    "currency": "USD"
-   },
-   "status": "Open",
-   "opens": "2026-08-31",
-   "deadline": "2026-10-30",
-   "deadlineConfirmed": true,
-   "deadlineStage": "Application",
-   "phases": "1-phase",
-   "partnersRequired": false,
-   "partnersNote": "Applicant must be based at an accredited US university (US and non-US citizens eligible)",
-   "recurrence": "Annual",
-   "url": "https://www.phrmafoundation.org/grants-fellowships/postdoctoral-fellowships/value-assessment-health-outcomes-research/",
-   "added": "2026-04-17",
-   "lastVerified": "2026-10-24"
-  },
-  {
    "id": 201,
    "name": "Sustainability Education Community Fund (UU)",
    "funder": "Utrecht University – Pathways to Sustainability",
@@ -144,7 +37,7 @@
    "recurrence": "Periodic",
    "url": "https://www.uu.nl/en/research/sustainability/sustainability-education-and-engagement/funding",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 5,
@@ -179,7 +72,7 @@
    "recurrence": "Annual",
    "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-vidi-science-2026",
    "added": "2026-01-01",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 10,
@@ -402,7 +295,7 @@
    "recurrence": "Annual",
    "url": "https://www.nwo.nl/en/calls/kic-demand-driven-research-by-consortia-xl",
    "added": "2025-12-01",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 284,
@@ -436,7 +329,7 @@
    "recurrence": "Annual",
    "url": "https://eahp.eu/about-us/students/eahp-epsa-student-science-award/selection-procedure",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 272,
@@ -457,10 +350,10 @@
     "Open (any discipline)"
    ],
    "diseaseAreas": [],
-   "summary": "New SSH Open Competition instrument (merges former M and L) for curiosity-driven research with a primary social-science/humanities question; interdisciplinary proposals allowed. Total €40M; projects 1–6 years. Main applicant: PhD + permanent/tenure-track position at a Dutch research institution. Pre-proposal 17 Nov 2026 14:00; full proposal 10 Jun 2027.",
+   "summary": "New SSH Open Competition instrument (merging the former M and L) for curiosity-driven research with a primary social-science or humanities question; interdisciplinary proposals are allowed. Requests range from €350,000 to €800,000 for projects of up to six years, from a total budget of €40M. The main applicant needs a PhD and a permanent or tenure-track position at a Dutch research institution. Pre-proposals are due 17 Nov 2026 (14:00 CET) and full proposals 10 Jun 2027 (14:00 CEST).",
    "budget": {
-    "min": null,
-    "max": null,
+    "min": 350000,
+    "max": 800000,
     "currency": "EUR"
    },
    "status": "Open",
@@ -474,7 +367,7 @@
    "recurrence": "Annual",
    "url": "https://www.nwo.nl/en/calls/ssh-open-competition-expand-2026",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 186,
@@ -548,7 +441,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://www.uu.nl/en/research/applied-data-science/research/research-grants",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 176,
@@ -654,7 +547,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://www.uu.nl/en/organisation/donate/apply-for-subsidies/funding-for-researchers",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 242,
@@ -688,7 +581,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://www.uu.nl/en/organisation/donate/apply-for-subsidies/grants-for-students",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 264,
@@ -725,7 +618,7 @@
    "recurrence": "Annual",
    "url": "https://www.uu.nl/en/organisation/donate/rosanna-fund-application-and-criteria",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 245,
@@ -762,7 +655,7 @@
    "recurrence": "Annual",
    "url": "https://www.knmp.nl/zorginnovatieprijs",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 266,
@@ -922,24 +815,24 @@
     "Open (any discipline)"
    ],
    "diseaseAreas": [],
-   "summary": "ZonMw's Clinical Fellows scheme is a personal grant aimed at clinicians who want to combine patient care with an independent research line. The ZonMw subsidy listing shows the 2026 round opened 22 September 2026 with a deadline of 1 December 2026, 14:00. The call page itself could not be fetched today, so amount, eligibility (e.g. specialist registration/PhD requirements) and conditions must be checked on the ZonMw page.",
+   "summary": "ZonMw's Clinical Fellows scheme lets medical specialists with a PhD, early in their research career, set up their first own research line alongside patient care. Up to €200,000 per fellow for 36–60 months from a €2M round budget; the institution must contribute at least 25% (cash or in kind), and applications are in English with a candidate profile and an embedding guarantee. Project ideas are due 1 December 2026 (14:00) via Mijn ZonMw; invited full applications are due 11 May 2027 (14:00).",
    "budget": {
     "min": null,
-    "max": null,
+    "max": 200000,
     "currency": "EUR"
    },
    "status": "Open",
    "opens": "2026-09-22",
    "deadline": "2026-12-01",
    "deadlineConfirmed": true,
-   "deadlineStage": "Application",
-   "phases": "Unknown",
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
    "partnersRequired": false,
    "partnersNote": "",
    "recurrence": "Annual",
    "url": "https://www.zonmw.nl/nl/subsidie/klinische-fellows-2026",
    "added": "2026-10-24",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 280,
@@ -1015,7 +908,7 @@
    "recurrence": "Unknown",
    "url": "https://www.zonmw.nl/nl/subsidie/alledaagse-aandoeningen-de-huisartsenpraktijk",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 213,
@@ -1034,7 +927,7 @@
     "Clinical trials & drug development"
    ],
    "diseaseAreas": [],
-   "summary": "Dutch prize (gold medal) for a promising early-career researcher without an ordinary chair whose pharmacological research programme at a Dutch institution clearly exceeds PhD level; self-nomination needs a third-party recommendation. The 2027 cycle has not been announced; in the most recent published rules registration closed 13 Dec 2024 with dossiers due 7 Mar 2025, so the date shown is a projection and not confirmed.",
+   "summary": "Dutch prize (gold medal) for a promising early-career researcher without an ordinary chair whose pharmacological research programme at a Dutch institution is of fundamental importance and clearly exceeds PhD level; teams may be nominated if the team leader qualifies, and a dossier with CV, motivation and recommendations is required. The next cycle has not been announced. The site's registration page still shows the previous cycle's registration deadline of 15 December 2025 (the published rules give registration by 13 Dec 2024 and dossiers by 7 Mar 2025), so the date shown is a projection and not confirmed.",
    "budget": {
     "min": null,
     "max": null,
@@ -1042,7 +935,7 @@
    },
    "status": "Upcoming",
    "opens": null,
-   "deadline": "2026-12-13",
+   "deadline": "2026-12-15",
    "deadlineConfirmed": false,
    "deadlineStage": "Registration",
    "phases": "2-phase",
@@ -1051,7 +944,7 @@
    "recurrence": "Annual",
    "url": "https://www.prixgalien.nl/research-award/reglement/",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 308,
@@ -1128,6 +1021,81 @@
    "lastVerified": "2026-10-24"
   },
   {
+   "id": 314,
+   "name": "ISPOR HEOR Excellence Award – Methodology 2027",
+   "funder": "ISPOR",
+   "scope": "International",
+   "funderType": "Society / association",
+   "type": "Prize / stipend",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "HTA & health economics",
+    "Pharmacoepidemiology & real-world evidence",
+    "Data science & AI"
+   ],
+   "diseaseAreas": [],
+   "summary": "ISPOR award, running since 1997, for an outstanding paper that advances health economics and outcomes research methodology and is expected to be widely adopted. The paper must have been published in a peer-reviewed journal (print or Medline e-publication) in the preceding calendar year; other outputs such as books and reports are also considered. Self-nominations are accepted, but a candidate can be nominated for only one major ISPOR award per year. The winner receives free ISPOR Conference registration plus travel and accommodation, and is honoured at the awards ceremony. No cash amount is stated. Applications are open 25 September to 15 December 2026.",
+   "budget": {
+    "min": null,
+    "max": null,
+    "currency": "USD"
+   },
+   "status": "Open",
+   "opens": "2026-09-25",
+   "deadline": "2026-12-15",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Nomination",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.ispor.org/about/awards-grants/scientific-achievement-and-leadership-awards/health-economics-and-outcomes-research--methodology-award",
+   "added": "2026-10-31",
+   "lastVerified": "2026-10-31"
+  },
+  {
+   "id": 315,
+   "name": "ISPOR Impact Award 2027",
+   "funder": "ISPOR",
+   "scope": "International",
+   "funderType": "Society / association",
+   "type": "Prize / stipend",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "HTA & health economics",
+    "Pharmaceutical policy & access",
+    "Regulatory science"
+   ],
+   "diseaseAreas": [],
+   "summary": "ISPOR award for health economics and outcomes research with demonstrable real-world impact, for example on regulatory, reimbursement or coverage decisions, or on health policy. Entries must link the work to a clearly quantifiable outcome. Individuals or project teams anywhere in the world can be nominated, and ISPOR membership is not required for nominees. The nominator must be an ISPOR member and must submit a letter of support; self-nominations are allowed. The prize is an unrestricted USD 10,000 grant, conference registration and travel for one representative, and a feature in an ISPOR publication. Applications are open 25 September to 15 December 2026.",
+   "budget": {
+    "min": 10000,
+    "max": 10000,
+    "currency": "USD"
+   },
+   "status": "Open",
+   "opens": "2026-09-25",
+   "deadline": "2026-12-15",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Nomination",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.ispor.org/about/awards-grants/scientific-achievement-and-leadership-awards/ispor-impact-award",
+   "added": "2026-10-31",
+   "lastVerified": "2026-10-31"
+  },
+  {
    "id": 197,
    "name": "Geneesmiddelen VIMP 2026-1 (Dissemination & Implementation Impulse)",
    "funder": "ZonMw",
@@ -1163,7 +1131,7 @@
    "recurrence": "Periodic",
    "url": "https://www.zonmw.nl/nl/subsidie/geneesmiddelen-vimp-2026-1",
    "added": "2026-08-31",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 299,
@@ -1231,7 +1199,7 @@
    "recurrence": "Continuous",
    "url": "https://www.knmp.nl/beroepsontwikkeling/onderzoek/stipendiafonds",
    "added": "2026-04-17",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 124,
@@ -1379,7 +1347,7 @@
    "recurrence": "Annual",
    "url": "https://erc.europa.eu/apply-grant/consolidator-grant",
    "added": "2026-04-01",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 212,
@@ -1416,7 +1384,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://www.nwo.nl/en/calls/open-competition-domain-science-xs-2026",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 231,
@@ -1778,7 +1746,7 @@
    "recurrence": "Annual",
    "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-veni-health-research-and-development-zonmw-2026",
    "added": "2026-05-18",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 258,
@@ -1858,6 +1826,42 @@
    "lastVerified": "2026-10-24"
   },
   {
+   "id": 230,
+   "name": "ERDERA Joint Transnational Call 2027 – Recently Identified Rare Diseases",
+   "funder": "Horizon Europe – ERDERA",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Rare diseases & orphan drugs",
+    "Clinical trials & drug development",
+    "Precision medicine & pharmacogenetics"
+   ],
+   "diseaseAreas": [],
+   "summary": "ERDERA, the European Rare Diseases Research Alliance, runs a yearly two-stage joint transnational call for multinational rare-disease research consortia. The 2027 JTC targets recently identified rare diseases (first reported in 2010 or later and registered in Orphanet), covering natural history/registries, biomarkers, disease models and pathophysiology; diagnostic test development is out of scope. According to the pre-announcement the call opens on 1 December 2026, with pre-proposals due 1 February 2027 and full proposals by 24 June 2027, plus an information webinar on 14 December 2026; these dates are indicative. Budget and participating countries are not yet published.",
+   "budget": {
+    "min": null,
+    "max": null,
+    "currency": "EUR"
+   },
+   "status": "Upcoming",
+   "opens": "2026-12-01",
+   "deadline": "2027-02-01",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Multinational consortium (several countries); check 2027 call text",
+   "recurrence": "Annual",
+   "url": "https://erdera.org/funding/",
+   "added": "2026-10-09",
+   "lastVerified": "2026-10-31"
+  },
+  {
    "id": 15,
    "name": "Dekker Grants 2027 (Postdoc, Senior Scientist, Clinical Scientist)",
    "funder": "Hartstichting (Dutch Heart Foundation)",
@@ -1910,14 +1914,14 @@
     "Open (any discipline)"
    ],
    "diseaseAreas": [],
-   "summary": "KNAW Early Career Partnerships: EUR 10,000 to organise an interdisciplinary science meeting, for researchers 3-7 years post-PhD at a university or research institute in the Kingdom of the Netherlands (KNAW extension rules apply). Up to ten partnerships are awarded each year. The next round opens on 1 November 2026, but KNAW has not yet published a closing date. The deadline shown is an estimate: the 2026 round closed on 2 February 2026.",
+   "summary": "KNAW Early Career Partnerships: EUR 10,000 to organise an interdisciplinary science meeting, for researchers who obtained their PhD three to seven years before 2027 and work at a university or research institute in the Kingdom of the Netherlands (KNAW extension rules apply). Up to ten partnerships are awarded each year. The 2027 round opens on 2 November 2026, but KNAW has not yet published a closing date; the deadline shown is an estimate based on the 2026 round (closed 2 February 2026).",
    "budget": {
     "min": 10000,
     "max": 10000,
     "currency": "EUR"
    },
    "status": "Upcoming",
-   "opens": "2026-11-01",
+   "opens": "2026-11-02",
    "deadline": "2027-02-02",
    "deadlineConfirmed": false,
    "deadlineStage": "Application",
@@ -1927,7 +1931,7 @@
    "recurrence": "Annual",
    "url": "https://www.knaw.nl/en/science-funds/knaw-early-career-partnerships",
    "added": "2026-05-28",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 195,
@@ -2035,7 +2039,7 @@
    "recurrence": "Annual",
    "url": "https://www.eular.org/eular-research-funding",
    "added": "2026-10-10",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 234,
@@ -2146,42 +2150,6 @@
    "lastVerified": "2026-10-24"
   },
   {
-   "id": 230,
-   "name": "ERDERA Joint Transnational Call 2027 – Recently Identified Rare Diseases",
-   "funder": "Horizon Europe – ERDERA",
-   "scope": "European",
-   "funderType": "EU programme",
-   "type": "Consortium / network",
-   "careerStages": [
-    "Mid career",
-    "Senior/PI"
-   ],
-   "themes": [
-    "Rare diseases & orphan drugs",
-    "Clinical trials & drug development",
-    "Precision medicine & pharmacogenetics"
-   ],
-   "diseaseAreas": [],
-   "summary": "ERDERA, the European Rare Diseases Research Alliance, runs a yearly two-stage joint transnational call for multinational rare-disease research consortia. On 22 October 2026 ERDERA pre-announced the 2027 JTC on recently identified rare diseases, expected to open on 1 December 2026, with an online information webinar on 14 December 2026. Deadlines, budget and eligibility have not been published yet. The pre-proposal deadline shown is an estimate based on the 2026 JTC (pre-proposals due 12 February 2026).",
-   "budget": {
-    "min": null,
-    "max": null,
-    "currency": "EUR"
-   },
-   "status": "Upcoming",
-   "opens": "2026-12-01",
-   "deadline": "2027-02-12",
-   "deadlineConfirmed": false,
-   "deadlineStage": "Pre-proposal",
-   "phases": "2-phase",
-   "partnersRequired": true,
-   "partnersNote": "Multinational consortium (several countries); check 2027 call text",
-   "recurrence": "Annual",
-   "url": "https://erdera.org/funding/",
-   "added": "2026-10-09",
-   "lastVerified": "2026-10-24"
-  },
-  {
    "id": 302,
    "name": "Migration and Societal Change Seed Money – Spring 2027 (expected)",
    "funder": "Utrecht University – Focus Area Migration and Societal Change",
@@ -2237,16 +2205,16 @@
     "Drug utilisation & appropriate use"
    ],
    "diseaseAreas": [],
-   "summary": "HORIZON-HLTH-2027-01-CARE-02 (RIA, single stage): personalised approaches to reduce adverse drug reactions in patients taking three or more medicines, especially with comorbidities. Proposals should combine pharmacogenomics and other biomarkers for stratification with EHRs, AI and clinical decision support, assess clinical utility and cost-effectiveness, and feed results into EMA and national (de)prescribing guidance. EUR 38M for about 4 projects of EUR 8-10M. Highly relevant for PECP. The call opens 29 October 2026 and closes 17 February 2027 (17:00 Brussels); this earlier deadline (moved from April 2027 in the amended 2026-2027 work programme) is now reported consistently by national contact points and portal mirrors, but was not read on the EC portal itself.",
+   "summary": "HORIZON-HLTH-2027-01-CARE-02 (RIA, single stage): personalised approaches to reduce adverse drug reactions in patients taking three or more medicines, especially with comorbidities. Proposals should combine pharmacogenomics and other biomarkers for stratification with EHRs, AI and clinical decision support, assess clinical utility and cost-effectiveness, and feed results into EMA and national (de)prescribing guidance. EUR 38M for about 4 projects of EUR 8-10M; highly relevant for PECP. The call opened on 29 October 2026 and closes on 17 February 2027 at 17:00 Brussels time, as confirmed by HaDEA's announcement of the published 2027 Health calls.",
    "budget": {
     "min": 8000000,
     "max": 10000000,
     "currency": "EUR"
    },
-   "status": "Upcoming",
+   "status": "Open",
    "opens": "2026-10-29",
    "deadline": "2027-02-17",
-   "deadlineConfirmed": false,
+   "deadlineConfirmed": true,
    "deadlineStage": "Application",
    "phases": "1-phase",
    "partnersRequired": true,
@@ -2254,7 +2222,7 @@
    "recurrence": "Work programme cycle",
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-care-02",
    "added": "2026-02-01",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 46,
@@ -2274,13 +2242,13 @@
     "Pharmacoepidemiology & real-world evidence"
    ],
    "diseaseAreas": [],
-   "summary": "Horizon Europe two-stage RIA HORIZON-HLTH-2027-02-TOOL-01-two-stage: developing predictive biomarkers of disease progression and treatment response with AI methods for chronic non-communicable diseases. EUR 44.2M for about 6 projects of EUR 6-8M. Opens 29 October 2026; first-stage deadline 17 February 2027, second-stage deadline 16 September 2027. Highly relevant for the division's AI/data science and pharmacoepi work.",
+   "summary": "Horizon Europe two-stage RIA HORIZON-HLTH-2027-02-TOOL-01-two-stage: developing predictive biomarkers of disease progression and treatment response with AI methods for chronic non-communicable diseases. EUR 44.2M for about 6 projects of EUR 6-8M. Highly relevant for the division's AI/data science and pharmacoepi work. The call opened on 29 October 2026; the first-stage deadline is 17 February 2027 (17:00 Brussels) and the second-stage deadline 16 September 2027, as confirmed by HaDEA.",
    "budget": {
     "min": 6000000,
     "max": 8000000,
     "currency": "EUR"
    },
-   "status": "Upcoming",
+   "status": "Open",
    "opens": "2026-10-29",
    "deadline": "2027-02-17",
    "deadlineConfirmed": true,
@@ -2291,7 +2259,7 @@
    "recurrence": "Work programme cycle",
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-02-tool-01-two-stage",
    "added": "2026-04-01",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 132,
@@ -2314,16 +2282,16 @@
    "diseaseAreas": [
     "Infectious disease"
    ],
-   "summary": "Horizon Europe RIA HORIZON-HLTH-2027-01-DISEASE-08 for innovative antimicrobials against resistant pathogens; each proposal targets one of CRAB, CRE/third-generation cephalosporin-resistant Enterobacterales, carbapenem-resistant P. aeruginosa, MRSA, drug-resistant Aspergillus fumigatus or drug-resistant Candida. Phage therapies are out of scope. EUR 44.2M for about 5 projects of EUR 8-10M. The call opens 29 October 2026 and closes 17 February 2027 (17:00 Brussels); this earlier deadline (moved from April 2027 in the amended 2026-2027 work programme) is now reported consistently by national contact points and portal mirrors, but was not read on the EC portal itself.",
+   "summary": "Horizon Europe RIA HORIZON-HLTH-2027-01-DISEASE-08 for innovative antimicrobials against resistant pathogens; each proposal targets one of CRAB, CRE/third-generation cephalosporin-resistant Enterobacterales, carbapenem-resistant P. aeruginosa, MRSA, drug-resistant Aspergillus fumigatus or drug-resistant Candida (phage therapies out of scope). EUR 44.2M for about 5 projects of EUR 8-10M. The call opened on 29 October 2026 and closes on 17 February 2027 at 17:00 Brussels time, as confirmed by HaDEA's announcement of the published 2027 Health calls.",
    "budget": {
     "min": 8000000,
     "max": 10000000,
     "currency": "EUR"
    },
-   "status": "Upcoming",
+   "status": "Open",
    "opens": "2026-10-29",
    "deadline": "2027-02-17",
-   "deadlineConfirmed": false,
+   "deadlineConfirmed": true,
    "deadlineStage": "Application",
    "phases": "1-phase",
    "partnersRequired": true,
@@ -2331,7 +2299,7 @@
    "recurrence": "Work programme cycle",
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-08",
    "added": "2026-04-12",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 142,
@@ -2350,16 +2318,16 @@
     "Data science & AI"
    ],
    "diseaseAreas": [],
-   "summary": "Horizon Europe RIA (call HORIZON-HLTH-2027-01, single stage) on integrating climate-related exposures such as heat, air pollution and drought into large human exposome studies and modelling how the exposome shifts under climate change. Projects should use AI and real-world data, address social and demographic vulnerability, include social sciences and humanities, and share outputs via IHEN platforms and the European Climate and Health Observatory. EUR 45M for about 4 projects of EUR 10-11M. The call opens 29 October 2026 and closes 17 February 2027 (17:00 Brussels); this earlier deadline (moved from April 2027 in the amended 2026-2027 work programme) is now reported consistently by national contact points and portal mirrors, but was not read on the EC portal itself.",
+   "summary": "Horizon Europe RIA (call HORIZON-HLTH-2027-01, single stage) on integrating climate-related exposures such as heat, air pollution and drought into large human exposome studies and modelling how the exposome shifts under climate change. Projects should use AI and real-world data, address social and demographic vulnerability, include social sciences and humanities, and share outputs via IHEN platforms and the European Climate and Health Observatory. EUR 45M for about 4 projects of EUR 10-11M. The call opened on 29 October 2026 and closes on 17 February 2027 at 17:00 Brussels time, as confirmed by HaDEA's announcement of the published 2027 Health calls.",
    "budget": {
     "min": 10000000,
     "max": 11000000,
     "currency": "EUR"
    },
-   "status": "Upcoming",
+   "status": "Open",
    "opens": "2026-10-29",
    "deadline": "2027-02-17",
-   "deadlineConfirmed": false,
+   "deadlineConfirmed": true,
    "deadlineStage": "Application",
    "phases": "1-phase",
    "partnersRequired": true,
@@ -2367,7 +2335,7 @@
    "recurrence": "Work programme cycle",
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-envhlth-02",
    "added": "2026-04-14",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 143,
@@ -2389,16 +2357,16 @@
    "diseaseAreas": [
     "Infectious disease"
    ],
-   "summary": "Three single-stage RIA topics in call HORIZON-HLTH-2027-01: DISEASE-05 novel small-molecule antivirals for pathogens with epidemic potential (EUR 44.2M, ~5 projects of EUR 9-11M; one of six named virus groups, antibodies excluded), DISEASE-06 monoclonal antibodies against flaviviruses and DISEASE-07 monoclonal antibodies against filo-, nairo-, phenui-, picorna- and togaviruses (each EUR 37.3M, ~4 projects of EUR 9-10M). Work runs from discovery to GMP batches and first-in-human safety studies. Relevant mainly as a partner for clinical pharmacology and safety work packages. The call opens 29 October 2026 and closes 17 February 2027 (17:00 Brussels); this earlier deadline (moved from April 2027 in the amended 2026-2027 work programme) is now reported consistently by national contact points and portal mirrors, but was not read on the EC portal itself.",
+   "summary": "Three single-stage RIA topics in call HORIZON-HLTH-2027-01: DISEASE-05 novel small-molecule antivirals for pathogens with epidemic potential (EUR 44.2M, ~5 projects of EUR 9-11M), DISEASE-06 monoclonal antibodies against flaviviruses and DISEASE-07 monoclonal antibodies against filo-, nairo-, phenui-, picorna- and togaviruses (each EUR 37.3M, ~4 projects of EUR 9-10M). Work runs from discovery to GMP batches and first-in-human safety studies; relevant mainly as a partner for clinical pharmacology and safety work packages. The call opened on 29 October 2026 and closes on 17 February 2027 at 17:00 Brussels time, as confirmed by HaDEA's announcement of the published 2027 Health calls.",
    "budget": {
     "min": 9000000,
     "max": 11000000,
     "currency": "EUR"
    },
-   "status": "Upcoming",
+   "status": "Open",
    "opens": "2026-10-29",
    "deadline": "2027-02-17",
-   "deadlineConfirmed": false,
+   "deadlineConfirmed": true,
    "deadlineStage": "Application",
    "phases": "1-phase",
    "partnersRequired": true,
@@ -2406,7 +2374,7 @@
    "recurrence": "Work programme cycle",
    "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2027-01-disease-05",
    "added": "2026-04-14",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 250,
@@ -2431,24 +2399,24 @@
     "Respiratory",
     "Renal"
    ],
-   "summary": "Research and Innovation Action funding early-stage (phase 1/2 for drugs) clinical trials of new or refined pharmacological or non-pharmacological interventions for cardiovascular disease, diabetes, chronic respiratory disease or chronic kidney disease. Applicants need prior proof-of-concept and a draft protocol, plus a health-economic assessment and real-world data analysis; comparative-effectiveness studies are out of scope. Expected EU contribution is €7–8 million per project (about 8 projects). The call opens 29 October 2026, with the first stage due 17 February 2027 and the second stage due 16 September 2027. These dates are now reported consistently by national contact points but were not yet read on the EC portal.",
+   "summary": "Research and Innovation Action (HORIZON-HLTH-2027-02-DISEASE-01-two-stage) funding early-stage (phase 1/2 for drugs) clinical trials of new or refined pharmacological or non-pharmacological interventions for cardiovascular disease, diabetes, chronic respiratory disease or chronic kidney disease. Applicants need prior proof-of-concept and a draft protocol, plus a health-economic assessment and real-world data analysis; comparative-effectiveness studies are out of scope. EUR 63.8M in total, about EUR 7-8M per project. The call opened on 29 October 2026; the first-stage deadline is 17 February 2027 (17:00 Brussels) and the second-stage deadline 16 September 2027, as confirmed by HaDEA.",
    "budget": {
     "min": 7000000,
     "max": 8000000,
     "currency": "EUR"
    },
-   "status": "Upcoming",
+   "status": "Open",
    "opens": "2026-10-29",
    "deadline": "2027-02-17",
-   "deadlineConfirmed": false,
+   "deadlineConfirmed": true,
    "deadlineStage": "Pre-proposal",
    "phases": "2-phase",
    "partnersRequired": true,
    "partnersNote": "Standard Horizon Europe consortium (at least 3 independent entities from 3 EU/associated countries); SSH expertise required.",
    "recurrence": "Work programme cycle",
-   "url": "https://cordis.europa.eu/programme/id/HORIZON_HORIZON-HLTH-2027-02-DISEASE-01-two-stage",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-02-DISEASE-01-two-stage",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 251,
@@ -2469,24 +2437,24 @@
     "Mental health",
     "Diabetes & metabolic"
    ],
-   "summary": "Implementation research on preventing, screening, diagnosing and managing chronic non-communicable diseases in people aged 1–24 in low- and middle-income countries and/or underserved high-income populations, aligned with the 12th Global Alliance for Chronic Diseases call. Projects must use hybrid effectiveness-implementation designs and equitable HIC–LMIC leadership; pharmacological trials and aetiological cohorts are excluded. Expected EU contribution is €3–4 million per project (about 3 projects). The single-stage call opens 29 October 2026 and closes 17 February 2027. These dates are now reported consistently by national contact points but were not yet read on the EC portal.",
+   "summary": "Implementation research (HORIZON-HLTH-2027-01-DISEASE-10, GACD) on preventing, screening, diagnosing and managing chronic non-communicable diseases in people aged 1-24 in low- and middle-income countries and/or underserved high-income populations. Projects must use hybrid effectiveness-implementation designs and equitable HIC-LMIC leadership; pharmacological trials and aetiological cohorts are excluded. Expected EU contribution is EUR 3-4M per project (about 3 projects). The call opened on 29 October 2026 and closes on 17 February 2027 at 17:00 Brussels time, as confirmed by HaDEA's announcement of the published 2027 Health calls.",
    "budget": {
     "min": 3000000,
     "max": 4000000,
     "currency": "EUR"
    },
-   "status": "Upcoming",
+   "status": "Open",
    "opens": "2026-10-29",
    "deadline": "2027-02-17",
-   "deadlineConfirmed": false,
+   "deadlineConfirmed": true,
    "deadlineStage": "Full proposal",
    "phases": "1-phase",
    "partnersRequired": true,
    "partnersNote": "Equitable partnership and shared leadership between HIC and LMIC (and/or Indigenous) members; at least one early-career co-investigator.",
    "recurrence": "Work programme cycle",
-   "url": "https://cordis.europa.eu/programme/id/HORIZON_HORIZON-HLTH-2027-01-DISEASE-10",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-01-DISEASE-10",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 252,
@@ -2506,24 +2474,24 @@
    "diseaseAreas": [
     "Neurology & dementia"
    ],
-   "summary": "Research and Innovation Action for clinical trials that advance innovative interventions for neurodegenerative diseases. Expected EU contribution is around €10 million per project (about 4 projects). The call opens 29 October 2026, with the first stage due 17 February 2027 and the second stage due 16 September 2027. The detailed topic scope was not read, so check the work programme. These dates are now reported consistently by national contact points but were not yet read on the EC portal.",
+   "summary": "Research and Innovation Action (HORIZON-HLTH-2027-02-DISEASE-14-two-stage) for clinical trials that advance innovative interventions for neurodegenerative diseases. Expected EU contribution is around EUR 10M per project (about 4 projects); check the topic page for the detailed scope. The call opened on 29 October 2026; the first-stage deadline is 17 February 2027 (17:00 Brussels) and the second-stage deadline 16 September 2027, as confirmed by HaDEA.",
    "budget": {
     "min": null,
     "max": 10000000,
     "currency": "EUR"
    },
-   "status": "Upcoming",
+   "status": "Open",
    "opens": "2026-10-29",
    "deadline": "2027-02-17",
-   "deadlineConfirmed": false,
+   "deadlineConfirmed": true,
    "deadlineStage": "Pre-proposal",
    "phases": "2-phase",
    "partnersRequired": true,
    "partnersNote": "Standard Horizon Europe consortium (at least 3 entities from 3 EU/associated countries).",
    "recurrence": "Work programme cycle",
-   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/wp-call/2026-2027/wp-4-health_horizon-2026-2027_en.pdf",
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-02-DISEASE-14-two-stage",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 263,
@@ -2595,7 +2563,7 @@
    "recurrence": "Annual",
    "url": "https://novonordiskfonden.dk/grant/new-exploratory-research-and-discovery-nerd-programme-2026/",
    "added": "2026-10-24",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 141,
@@ -2797,7 +2765,7 @@
     "Regulatory science"
    ],
    "diseaseAreas": [],
-   "summary": "Global Health EDCTP3 funds clinical research and capacity building on infectious diseases and health challenges in sub-Saharan Africa. Its 2026 work programme (about EUR 147M) covered TB, lower respiratory tract infections, HIV co-morbidities, climate and health, and CSAs on ethics/regulatory/pharmacovigilance training networks and digital/AI; all 2026 deadlines have passed (RIA full proposals 17 September 2026). The 2027 work programme is not yet published; the deadline shown is a placeholder based on the 2026 first-stage date (4 March 2026).",
+   "summary": "Global Health EDCTP3 funds clinical research and capacity building on infectious diseases and health challenges in sub-Saharan Africa. Its 2026 work programme (about EUR 147M) covered TB, lower respiratory tract infections, HIV co-morbidities, climate and health, and CSAs on ethics/regulatory/pharmacovigilance training networks and digital/AI; the 2026 RIA full proposals (deadline 17 September 2026) are under evaluation, with results by January 2027. No 2027 work programme or call dates are published yet; a partner-networking platform for the 2027 calls opens in December 2026. The deadline shown is a placeholder based on the 2026 first-stage date (4 March 2026).",
    "budget": {
     "min": 3000000,
     "max": 8000000,
@@ -2814,7 +2782,7 @@
    "recurrence": "Annual",
    "url": "https://www.global-health-edctp3.europa.eu/funding/calls-proposals_en",
    "added": "2026-04-01",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 206,
@@ -2832,7 +2800,7 @@
     "Open (any discipline)"
    ],
    "diseaseAreas": [],
-   "summary": "NWO Talent Programme grant of up to EUR 1.5M for senior researchers (PhD within 15 years of the benchmark date) to build a research group. The 2027 round has not been published; the pre-proposal deadline shown is projected from the 2026 round (pre-proposal 10 Mar 2026, full proposal 8 Sep 2026) and is not confirmed.",
+   "summary": "NWO Talent Programme grant of up to EUR 1.5M for senior researchers (PhD within 15 years of the benchmark date) to build a research group. NWO has posted the Vici Science (ENW) 2027 call as 'in preparation': pre-proposals are due 9 March 2027, 14:00, and full proposals 7 September 2027, 14:00. The call text is not yet approved, so details may still change.",
    "budget": {
     "min": null,
     "max": 1500000,
@@ -2840,16 +2808,16 @@
    },
    "status": "Upcoming",
    "opens": null,
-   "deadline": "2027-03-10",
-   "deadlineConfirmed": false,
+   "deadline": "2027-03-09",
+   "deadlineConfirmed": true,
    "deadlineStage": "Pre-proposal",
    "phases": "2-phase",
    "partnersRequired": false,
    "partnersNote": "",
    "recurrence": "Annual",
-   "url": "https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme",
+   "url": "https://www.nwo.nl/en/calls/nwo-talentprogramma-vici-enw-2027",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 207,
@@ -2868,7 +2836,7 @@
     "Open (any discipline)"
    ],
    "diseaseAreas": [],
-   "summary": "Vici grant via the ZonMw (health research) domain: up to EUR 1.5M for senior researchers with PhD within 15 years. The 2027 round has not been published; the pre-proposal deadline shown is projected from the 2026 round (10 Mar 2026 pre-proposal, 8 Sep 2026 full proposal) and is not confirmed. Applicants choose one domain only.",
+   "summary": "Vici grant via the ZonMw (health research) domain: up to EUR 1.5M for senior researchers with PhD within 15 years. No ZonMw Vici 2027 call is published yet. NWO's Vici 2027 calls in other domains (ENW, TTW) list 9 March 2027 for pre-proposals and 7 September 2027 for full proposals, so the date shown is an estimate that follows those calls. Applicants choose one domain only.",
    "budget": {
     "min": null,
     "max": 1500000,
@@ -2876,7 +2844,7 @@
    },
    "status": "Upcoming",
    "opens": null,
-   "deadline": "2027-03-10",
+   "deadline": "2027-03-09",
    "deadlineConfirmed": false,
    "deadlineStage": "Pre-proposal",
    "phases": "2-phase",
@@ -2885,7 +2853,7 @@
    "recurrence": "Annual",
    "url": "https://www.nwo.nl/en/researchprogrammes/nwo-talent-programme",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 219,
@@ -2961,7 +2929,7 @@
    "recurrence": "Annual",
    "url": "https://www.nwo.nl/en/researchprogrammes/open-mind",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 225,
@@ -2997,7 +2965,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://erc.europa.eu/apply-grant/proof-concept",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 148,
@@ -3033,7 +3001,7 @@
    "recurrence": "Annual",
    "url": "https://www.pharmacoepi.org/meetings/annual-conference/",
    "added": "2026-04-17",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 164,
@@ -3069,7 +3037,7 @@
    "recurrence": "Annual",
    "url": "https://www.pharmacoepi.org/meetings/annual-conference/",
    "added": "2026-04-17",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 223,
@@ -3105,7 +3073,7 @@
    "recurrence": "Annual",
    "url": "https://www.zonmw.nl/en/subsidy/off-road-2026",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 288,
@@ -3214,7 +3182,7 @@
    "recurrence": "Unknown",
    "url": "https://www.zonmw.nl/en/subsidy/nam-collaboration-grant-2026",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-09"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 240,
@@ -3621,6 +3589,43 @@
    "url": "https://www.ihi.europa.eu/apply-funding/future-opportunities",
    "added": "2026-10-09",
    "lastVerified": "2026-10-09"
+  },
+  {
+   "id": 313,
+   "name": "IHI Call 15 (two-stage; compassionate use & surrogate endpoints, expected)",
+   "funder": "Innovative Health Initiative (IHI)",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Regulatory science",
+    "HTA & health economics",
+    "Pharmaceutical policy & access",
+    "Clinical trials & drug development"
+   ],
+   "diseaseAreas": [],
+   "summary": "IHI published draft topics for a two-stage Call 15 on 15 October 2026, with launch expected in early 2027. It is one of the last calls under the current programme. The two draft topics are an EU framework for equitable patient access to compassionate use, and better decision-making on surrogate endpoint evidence. Indicatively, the compassionate-use topic has EUR 6.5-8 million from IHI plus EUR 6-7 million in industry contributions over about 60 months. No deadline has been published yet. The date shown is an estimate based on the spring pattern of earlier IHI calls, and the draft texts may still change.",
+   "budget": {
+    "min": 6500000,
+    "max": 8000000,
+    "currency": "EUR"
+   },
+   "status": "Upcoming",
+   "opens": null,
+   "deadline": "2027-04-21",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Public-private consortium with IHI industry members (in-kind contributions); academic partners from EU/associated countries eligible",
+   "recurrence": "Periodic",
+   "url": "https://www.ihi.europa.eu/apply-funding/future-opportunities",
+   "added": "2026-10-31",
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 238,
@@ -4296,10 +4301,10 @@
     "Drug safety & pharmacovigilance"
    ],
    "diseaseAreas": [],
-   "summary": "ISPE travel scholarships to attend the Asian Conference on Pharmacoepidemiology (ACPE), useful for early-career pharmacoepidemiologists who want to present and network in the Asia-Pacific region. The 18th ACPE takes place 30 Oct–1 Nov 2026 in Melbourne; its scholarship round (deadline 12 Jun 2026) has closed. ISPE has not yet announced a 2027 ACPE host or dates, so the June 2027 deadline is an estimate based on the 2026 cycle.",
+   "summary": "ISPE travel scholarships for the Asian Conference on Pharmacoepidemiology (ACPE). They are not limited to applicants from Asia: they target researchers from developing countries, people in genuine financial need and students who could not otherwise attend, and require an accepted abstract on which the applicant is first and presenting author. Awards cover registration (not the dinner), and some add a modest travel and accommodation contribution, reimbursed in AUD against receipts; no amounts are published. The 2026 Melbourne round closed on 12 June 2026, and no 2027 ACPE host or dates are announced, so the June 2027 deadline is an estimate.",
    "budget": {
-    "min": 500,
-    "max": 2000,
+    "min": null,
+    "max": null,
     "currency": "USD"
    },
    "status": "Upcoming",
@@ -4313,7 +4318,7 @@
    "recurrence": "Annual",
    "url": "https://www.asianpharmacoepi.org/scholarships/",
    "added": "2026-04-17",
-   "lastVerified": null
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 19,
@@ -5598,6 +5603,47 @@
    "lastVerified": "2026-10-09"
   },
   {
+   "id": 312,
+   "name": "Triple I Impulse Fund 2027 (Utrecht Life Sciences, expected)",
+   "funder": "Utrecht Life Sciences (UU / UMC Utrecht)",
+   "scope": "Local",
+   "funderType": "University (internal)",
+   "type": "Project grant",
+   "careerStages": [
+    "Postdoc",
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Antimicrobial resistance & One Health",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [
+    "Infectious disease",
+    "Rheumatology & immunology",
+    "Oncology"
+   ],
+   "summary": "Small grants from the Triple I (Infection biology, Immunology, Immuno-oncology) community of Utrecht Life Sciences to start new interdisciplinary collaborations: pilot data, proposal preparation, workshops, educational or citizen-science projects. In the 2026 call grants were EUR 10,000-15,000 for up to 12 months, open to postdocs and (assistant/associate/full) professors at Utrecht Science Park organisations (UU faculties incl. Science, UMC Utrecht, RIVM, Hubrecht, Máxima, HU, etc.). Calls ran in 2025 and 2026 (2026 deadline 30 Sep 2026); the 2027 date is estimated from that and not yet announced. Link is the 2026 call news item.",
+   "budget": {
+    "min": 10000,
+    "max": 15000,
+    "currency": "EUR"
+   },
+   "status": "Upcoming",
+   "opens": null,
+   "deadline": "2027-09-30",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "At least two groups from different faculties or organisations.",
+   "recurrence": "Annual",
+   "url": "https://www.uu.nl/en/news/triple-i-impulse-fund-2026-call-for-proposals",
+   "added": "2026-10-31",
+   "lastVerified": "2026-10-31"
+  },
+  {
    "id": 203,
    "name": "Young Investigator Grant (YIG) Call 2028",
    "funder": "KWF (Dutch Cancer Society)",
@@ -5708,6 +5754,41 @@
    "url": "https://www.kwf.nl/en/forresearchers/funding/development",
    "added": "2026-10-24",
    "lastVerified": "2026-10-24"
+  },
+  {
+   "id": 316,
+   "name": "Challenge Programme 2028 (expected; open to European host institutions with a Danish partner)",
+   "funder": "Novo Nordisk Foundation",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Antimicrobial resistance & One Health",
+    "Global health"
+   ],
+   "diseaseAreas": [],
+   "summary": "The Novo Nordisk Foundation's Challenge Programme funds consortia of 2-4 research groups on four set themes each year with DKK 30-75 million over up to six years. Since the 2026 edition the main applicant can be based at a host institution in the EU, Schengen area or UK, but at least one applicant must work at a Danish university, hospital or non-profit research organisation. The 2027 themes included next-generation AMR diagnostics for lower respiratory tract infections and heat and hypertension. Their stage 1 deadline was 7 October 2026, and full proposals by invitation are due 10 February 2027. The 2028 themes and dates are not yet announced. The deadline shown is an estimate based on the early-October pattern, so check whether the new themes fit the division.",
+   "budget": {
+    "min": 30000000,
+    "max": 75000000,
+    "currency": "DKK"
+   },
+   "status": "Upcoming",
+   "opens": null,
+   "deadline": "2027-10-06",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Expression of interest",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Consortium of 2-4 groups; main applicant at EU/Schengen/UK host; at least one applicant employed at a Danish institution",
+   "recurrence": "Annual",
+   "url": "https://novonordiskfonden.dk/en/grant/",
+   "added": "2026-10-31",
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 293,
@@ -6437,7 +6518,7 @@
    "recurrence": "Several rounds per year",
    "url": "https://professionals.hartstichting.nl/samenwerking-en-financiering/financiering/internationale-financiering/gcrff-multinational-clinical-trials-initiative",
    "added": "2026-10-09",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   },
   {
    "id": 249,
@@ -6546,7 +6627,7 @@
    "recurrence": "Annual",
    "url": "https://www.nwo.nl/en/researchprogrammes/open-technology-programme",
    "added": "2026-10-17",
-   "lastVerified": "2026-10-24"
+   "lastVerified": "2026-10-31"
   }
  ]
 }

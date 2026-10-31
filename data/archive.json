@@ -39,6 +39,113 @@
    "lastVerified": "2026-10-09"
   },
   {
+   "id": 151,
+   "name": "PhRMA Foundation – Value Assessment & Health Outcomes Research Pre- & Postdoctoral Fellowships 2027",
+   "funder": "PhRMA Foundation",
+   "scope": "International",
+   "funderType": "Charity / foundation",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "PhD",
+    "Postdoc"
+   ],
+   "themes": [
+    "HTA & health economics",
+    "Pharmacoepidemiology & real-world evidence",
+    "Pharmaceutical policy & access",
+    "Drug utilisation & appropriate use"
+   ],
+   "diseaseAreas": [],
+   "summary": "PhRMA Foundation fellowships in value assessment and health outcomes research: postdoctoral USD 60,000/yr and predoctoral USD 30,000/yr stipend, for 12-24 months. Both the postdoctoral and predoctoral cycles opened 31 August 2026 and close 30 October 2026 (noon ET); awards are announced March 2027, with funding starting between April and December 2027. Postdocs need a doctorate conferred on or after 1 January 2024 and at least two first-author papers. Applicants must be at an accredited US university, so this is mainly relevant for US-based collaborators.",
+   "budget": {
+    "min": 30000,
+    "max": 60000,
+    "currency": "USD"
+   },
+   "status": "Closed",
+   "opens": "2026-08-31",
+   "deadline": "2026-10-30",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "Applicant must be based at an accredited US university (US and non-US citizens eligible)",
+   "recurrence": "Annual",
+   "url": "https://www.phrmafoundation.org/grants-fellowships/postdoctoral-fellowships/value-assessment-health-outcomes-research/",
+   "added": "2026-04-17",
+   "lastVerified": "2026-10-24"
+  },
+  {
+   "id": 257,
+   "name": "COST Open Call OC-2026-1 – New COST Actions (research networks)",
+   "funder": "COST Association",
+   "scope": "European",
+   "funderType": "EU programme",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Education & training"
+   ],
+   "diseaseAreas": [],
+   "summary": "Bottom-up call for new COST Actions, European science and technology networks that fund meetings, short-term scientific missions, training schools and dissemination, not the research itself. A proposal needs at least seven COST member countries, at least half of them Inclusiveness Target Countries, and at least 40% young researchers. Up to 80 Actions may be approved. The collection date is 28 October 2026, 12:00 CET.",
+   "budget": {
+    "min": null,
+    "max": null,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": "2026-07-31",
+   "deadline": "2026-10-28",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": true,
+   "partnersNote": "Network of at least 7 COST Full/Cooperating Members, at least 50% from Inclusiveness Target Countries; at least 40% Young Researchers and Innovators.",
+   "recurrence": "Annual",
+   "url": "https://www.cost.eu/uploads/2026/03/2026-1-COST_Open_Call_Announcement.pdf",
+   "added": "2026-10-09",
+   "lastVerified": "2026-10-24"
+  },
+  {
+   "id": 153,
+   "name": "KNMP Studentenprijs (annual pharmacy student prize)",
+   "funder": "KNMP",
+   "scope": "National",
+   "funderType": "Society / association",
+   "type": "Prize / stipend",
+   "careerStages": [
+    "Master"
+   ],
+   "themes": [
+    "Pharmacy practice & clinical pharmacy",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "Annual KNMP prize (certificate plus EUR 1,000) for outstanding master pharmacy students, nominated by their teachers and professors for strong study results and commitment to pharmacy education and the profession. Six winners in 2025, awarded at the KNMP Najaarscongres in late October (the 2026 congress is on 27 October 2026). No public nomination deadline is published, as nominations come from faculty. The date shown is the award ceremony (latest possible), not a published nomination deadline.",
+   "budget": {
+    "min": 1000,
+    "max": 1000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-10-27",
+   "deadlineConfirmed": false,
+   "deadlineStage": "Nomination",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "Nomination by hoogleraar/docent",
+   "recurrence": "Annual",
+   "url": "https://www.knmp.nl/beroepsontwikkeling/onderzoek",
+   "added": "2026-04-17",
+   "lastVerified": "2026-10-17"
+  },
+  {
    "id": 278,
    "name": "EULAR Health Professionals Research Grant 2026",
    "funder": "EULAR",

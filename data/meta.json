@@ -1,19 +1,19 @@
 {
- "lastBuild": "2026-10-24T03:36:02.245Z",
- "activeCount": 179,
- "archiveCount": 126,
+ "lastBuild": "2026-10-31T04:32:40.425Z",
+ "activeCount": 181,
+ "archiveCount": 129,
  "byStatus": {
-  "Upcoming": 124,
-  "Open": 32,
+  "Open": 40,
+  "Upcoming": 118,
   "Rolling": 23
  },
  "byScope": {
-  "National": 79,
+  "Local": 15,
+  "National": 78,
   "European": 44,
-  "International": 42,
-  "Local": 14
+  "International": 44
  },
- "maxId": 311,
- "lastRun": "2026-10-24T05:36:02+02:00",
- "runSummary": "14 new, 23 updated, 4 archived"
+ "maxId": 316,
+ "lastRun": "2026-10-31T05:32:40+01:00",
+ "runSummary": "5 new, 17 updated, 3 archived"
 }

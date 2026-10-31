@@ -6,48 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Funding Watch deadlines
 X-WR-TIMEZONE:Europe/Amsterdam
 BEGIN:VEVENT
-UID:funding-watch-257-20261028@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-SUMMARY:Application deadline: COST Open Call OC-2026-1 – New COST Action
- s (research networks)
-DESCRIPTION:COST Association. Bottom-up call for new COST Actions\, Europe
- an science and technology networks that fund meetings\, short-term scient
- ific missions\, training schools and dissemination\, not the research its
- elf. A proposal needs at least seven COST member countries\, at least hal
- f of them Inclusiveness Target Countries\, and at least 40% young researc
- hers. Up to 80 Actions may be approved. The collection date is 28 October
-  2026\, 12:00 CET.\n\nhttps://www.cost.eu/uploads/2026/03/2026-1-COST_Ope
- n_Call_Announcement.pdf
-URL:https://www.cost.eu/uploads/2026/03/2026-1-COST_Open_Call_Announcement
- .pdf
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:funding-watch-151-20261030@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:Application deadline: PhRMA Foundation – Value Assessment & Heal
- th Outcomes Research Pre- & Postdoctoral Fellowships 2027
-DESCRIPTION:PhRMA Foundation. PhRMA Foundation fellowships in value assess
- ment and health outcomes research: postdoctoral USD 60\,000/yr and predoc
- toral USD 30\,000/yr stipend\, for 12-24 months. Both the postdoctoral an
- d predoctoral cycles opened 31 August 2026 and close 30 October 2026 (noo
- n ET)\; awards are announced March 2027\, with funding starting between A
- pril and December 2027. Postdocs need a doctorate conferred on or after 1
-  January 2024 and at least two first-author papers. Applicants must be at
-  an accredited US university\, so this is mainly relevant for US-based co
- llaborators.\n\nhttps://www.phrmafoundation.org/grants-fellowships/postdo
- ctoral-fellowships/value-assessment-health-outcomes-research/
-URL:https://www.phrmafoundation.org/grants-fellowships/postdoctoral-fellow
- ships/value-assessment-health-outcomes-research/
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:funding-watch-201-20261101@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Application deadline: Sustainability Education Community Fund (UU)
@@ -64,7 +24,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-5-20261103@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Pre-proposal deadline: Vidi – Science Domain 2026
@@ -80,7 +40,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-10-20261103@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Pre-proposal deadline: Exploration Call 2027-1
@@ -98,7 +58,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-97-20261103@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Next cut-off deadline: Scientific Meetings and Consultations 2026
@@ -120,7 +80,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-98-20261103@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Full proposal deadline: International Joint Initiative 2026 – Di
@@ -141,7 +101,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-220-20261103@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Pre-proposal deadline: Vidi – ZonMw Health Research and Medical 
@@ -160,7 +120,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-260-20261105@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Application deadline: Dynamics of Youth – Early Childhood Commun
@@ -179,7 +139,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-7-20261112@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Full proposal deadline: KIC Demand-driven Research by Consortia 
@@ -196,23 +156,24 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-272-20261117@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Pre-proposal deadline: NWO SSH Open Competition – Expand 2026
-DESCRIPTION:NWO. New SSH Open Competition instrument (merges former M and 
- L) for curiosity-driven research with a primary social-science/humanities
-  question\; interdisciplinary proposals allowed. Total €40M\; projects 
- 1–6 years. Main applicant: PhD + permanent/tenure-track position at a D
- utch research institution. Pre-proposal 17 Nov 2026 14:00\; full proposal
-  10 Jun 2027.\n\nhttps://www.nwo.nl/en/calls/ssh-open-competition-expand-
- 2026
+DESCRIPTION:NWO. New SSH Open Competition instrument (merging the former M
+  and L) for curiosity-driven research with a primary social-science or hu
+ manities question\; interdisciplinary proposals are allowed. Requests ran
+ ge from €350\,000 to €800\,000 for projects of up to six years\, from
+  a total budget of €40M. The main applicant needs a PhD and a permanent
+  or tenure-track position at a Dutch research institution. Pre-proposals 
+ are due 17 Nov 2026 (14:00 CET) and full proposals 10 Jun 2027 (14:00 CES
+ T).\n\nhttps://www.nwo.nl/en/calls/ssh-open-competition-expand-2026
 URL:https://www.nwo.nl/en/calls/ssh-open-competition-expand-2026
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-186-20261120@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Full proposal deadline: SME Call 2027 (MKB Call)
@@ -229,7 +190,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-176-20261123@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Expression of interest deadline: CARB-X 2026 Funding Round 2 – A
@@ -249,7 +210,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-38-20261124@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Application deadline: MSCA Doctoral Networks 2026
@@ -267,7 +228,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-200-20261127@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Application deadline: Utrechts Universiteitsfonds – Funding for 
@@ -284,7 +245,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-242-20261127@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Application deadline: Utrechts Universiteitsfonds – Student supp
@@ -303,7 +264,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-266-20261130@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Application deadline: Alzheimer Nederland Impuls Grant 2026 – Ro
@@ -325,7 +286,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-247-20261201@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Application deadline: Rubicon 2026-3 (postdoc research abroad)
@@ -341,7 +302,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-281-20261201@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Application deadline: Fulbright Grants for Dutch PhD Candidates 20
@@ -360,7 +321,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-282-20261201@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Application deadline: Fulbright Grants for Dutch Scholars 2027-202
@@ -376,23 +337,25 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-307-20261201@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-SUMMARY:Application deadline: Klinische Fellows 2026
-DESCRIPTION:ZonMw. ZonMw's Clinical Fellows scheme is a personal grant aim
- ed at clinicians who want to combine patient care with an independent res
- earch line. The ZonMw subsidy listing shows the 2026 round opened 22 Sept
- ember 2026 with a deadline of 1 December 2026\, 14:00. The call page itse
- lf could not be fetched today\, so amount\, eligibility (e.g. specialist 
- registration/PhD requirements) and conditions must be checked on the ZonM
- w page.\n\nhttps://www.zonmw.nl/nl/subsidie/klinische-fellows-2026
+SUMMARY:Pre-proposal deadline: Klinische Fellows 2026
+DESCRIPTION:ZonMw. ZonMw's Clinical Fellows scheme lets medical specialist
+ s with a PhD\, early in their research career\, set up their first own re
+ search line alongside patient care. Up to €200\,000 per fellow for 36
+ –60 months from a €2M round budget\; the institution must contribute 
+ at least 25% (cash or in kind)\, and applications are in English with a c
+ andidate profile and an embedding guarantee. Project ideas are due 1 Dece
+ mber 2026 (14:00) via Mijn ZonMw\; invited full applications are due 11 M
+ ay 2027 (14:00).\n\nhttps://www.zonmw.nl/nl/subsidie/klinische-fellows-20
+ 26
 URL:https://www.zonmw.nl/nl/subsidie/klinische-fellows-2026
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-280-20261204@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Application deadline: HTAi 2027 Annual Meeting (Brussels) – Part
@@ -410,7 +373,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-246-20261207@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Pre-proposal deadline: GGG – Alledaagse Aandoeningen in de huisa
@@ -431,7 +394,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-308-20261215@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Nomination deadline: ISPOR Bernie J. O'Brien New Investigator Awar
@@ -452,7 +415,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-309-20261215@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Nomination deadline: ISPOR HEOR Excellence Award – Application 2
@@ -473,8 +436,53 @@ URL:https://www.ispor.org/about/awards-grants/scientific-achievement-and-l
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:funding-watch-314-20261215@robheerdink-collab.github.io
+DTSTAMP:20261031T043240Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Nomination deadline: ISPOR HEOR Excellence Award – Methodology 2
+ 027
+DESCRIPTION:ISPOR. ISPOR award\, running since 1997\, for an outstanding p
+ aper that advances health economics and outcomes research methodology and
+  is expected to be widely adopted. The paper must have been published in 
+ a peer-reviewed journal (print or Medline e-publication) in the preceding
+  calendar year\; other outputs such as books and reports are also conside
+ red. Self-nominations are accepted\, but a candidate can be nominated for
+  only one major ISPOR award per year. The winner receives free ISPOR Conf
+ erence registration plus travel and accommodation\, and is honoured at th
+ e awards ceremony. No cash amount is stated. Applications are open 25 Sep
+ tember to 15 December 2026.\n\nhttps://www.ispor.org/about/awards-grants/
+ scientific-achievement-and-leadership-awards/health-economics-and-outcome
+ s-research--methodology-award
+URL:https://www.ispor.org/about/awards-grants/scientific-achievement-and-l
+ eadership-awards/health-economics-and-outcomes-research--methodology-awar
+ d
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-315-20261215@robheerdink-collab.github.io
+DTSTAMP:20261031T043240Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:Nomination deadline: ISPOR Impact Award 2027
+DESCRIPTION:ISPOR. ISPOR award for health economics and outcomes research 
+ with demonstrable real-world impact\, for example on regulatory\, reimbur
+ sement or coverage decisions\, or on health policy. Entries must link the
+  work to a clearly quantifiable outcome. Individuals or project teams any
+ where in the world can be nominated\, and ISPOR membership is not require
+ d for nominees. The nominator must be an ISPOR member and must submit a l
+ etter of support\; self-nominations are allowed. The prize is an unrestri
+ cted USD 10\,000 grant\, conference registration and travel for one repre
+ sentative\, and a feature in an ISPOR publication. Applications are open 
+ 25 September to 15 December 2026.\n\nhttps://www.ispor.org/about/awards-g
+ rants/scientific-achievement-and-leadership-awards/ispor-impact-award
+URL:https://www.ispor.org/about/awards-grants/scientific-achievement-and-l
+ eadership-awards/ispor-impact-award
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:funding-watch-197-20261222@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Full proposal deadline: Geneesmiddelen VIMP 2026-1 (Dissemination 
@@ -493,7 +501,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-299-20261224@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Pre-proposal deadline: USO Education Innovation 2027 (Utrechts Sti
@@ -515,7 +523,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-154-20270101@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Next cut-off deadline: KNMP Stipendiafonds (international study tr
@@ -534,7 +542,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-182-20270111@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 SUMMARY:Pre-proposal deadline: Kolff+ Programme 2027 – Call 2
@@ -554,7 +562,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-77-20270112@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Application deadline: ERC Consolidator Grant 2027
@@ -568,7 +576,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-275-20270115@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Nomination deadline: KNAW Faces of Science 2027 (PhD candidates\, 
@@ -587,7 +595,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-211-20270119@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Application deadline: SSH Open Competition Explore 2027 – Round 
@@ -607,7 +615,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-311-20270119@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Pre-proposal deadline: ERA4Health NanoDiagNCD 2027 – Nano and Ad
@@ -631,7 +639,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-256-20270121@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Pre-proposal deadline: THCS Joint Transnational Call 2027 – Tran
@@ -653,7 +661,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-283-20270121@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Application deadline: Fulbright Grants for Dutch Graduate Students
@@ -669,7 +677,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-136-20270125@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270125
 DTEND;VALUE=DATE:20270126
 SUMMARY:Application deadline: NNF Start Package Grants for Faculty Recruit
@@ -690,7 +698,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-183-20270126@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:Full proposal deadline: Veni – ZonMw Health Research Domain 2026
@@ -709,7 +717,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-258-20270128@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Next cut-off deadline: ERDERA Networking Support Scheme (rare dise
@@ -730,8 +738,31 @@ URL:https://erdera.org/call/networking-support-scheme-nss/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:funding-watch-22-20270217@robheerdink-collab.github.io
+DTSTAMP:20261031T043240Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:Application deadline: HORIZON-HLTH-2027 Adverse Drug Reactions –
+  Personalised Approaches
+DESCRIPTION:Horizon Europe. HORIZON-HLTH-2027-01-CARE-02 (RIA\, single sta
+ ge): personalised approaches to reduce adverse drug reactions in patients
+  taking three or more medicines\, especially with comorbidities. Proposal
+ s should combine pharmacogenomics and other biomarkers for stratification
+  with EHRs\, AI and clinical decision support\, assess clinical utility a
+ nd cost-effectiveness\, and feed results into EMA and national (de)prescr
+ ibing guidance. EUR 38M for about 4 projects of EUR 8-10M\; highly releva
+ nt for PECP. The call opened on 29 October 2026 and closes on 17 February
+  2027 at 17:00 Brussels time\, as confirmed by HaDEA's announcement of th
+ e published 2027 Health calls.\n\nhttps://ec.europa.eu/info/funding-tende
+ rs/opportunities/portal/screen/opportunities/topic-details/horizon-hlth-2
+ 027-01-care-02
+URL:https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/
+ opportunities/topic-details/horizon-hlth-2027-01-care-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:funding-watch-46-20270217@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Pre-proposal deadline: HORIZON-HLTH-2027-02-TOOL-01-two-stage – 
@@ -739,19 +770,168 @@ SUMMARY:Pre-proposal deadline: HORIZON-HLTH-2027-02-TOOL-01-two-stage –
 DESCRIPTION:Horizon Europe. Horizon Europe two-stage RIA HORIZON-HLTH-2027
  -02-TOOL-01-two-stage: developing predictive biomarkers of disease progre
  ssion and treatment response with AI methods for chronic non-communicable
-  diseases. EUR 44.2M for about 6 projects of EUR 6-8M. Opens 29 October 2
- 026\; first-stage deadline 17 February 2027\, second-stage deadline 16 Se
- ptember 2027. Highly relevant for the division's AI/data science and phar
- macoepi work.\n\nhttps://ec.europa.eu/info/funding-tenders/opportunities/
- portal/screen/opportunities/topic-details/horizon-hlth-2027-02-tool-01-tw
- o-stage
+  diseases. EUR 44.2M for about 6 projects of EUR 6-8M. Highly relevant fo
+ r the division's AI/data science and pharmacoepi work. The call opened on
+  29 October 2026\; the first-stage deadline is 17 February 2027 (17:00 Br
+ ussels) and the second-stage deadline 16 September 2027\, as confirmed by
+  HaDEA.\n\nhttps://ec.europa.eu/info/funding-tenders/opportunities/portal
+ /screen/opportunities/topic-details/horizon-hlth-2027-02-tool-01-two-stag
+ e
 URL:https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/
  opportunities/topic-details/horizon-hlth-2027-02-tool-01-two-stage
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:funding-watch-132-20270217@robheerdink-collab.github.io
+DTSTAMP:20261031T043240Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:Application deadline: HORIZON-HLTH-2027-01-DISEASE-08 – New Anti
+ bacterial & Antifungal Therapies
+DESCRIPTION:Horizon Europe. Horizon Europe RIA HORIZON-HLTH-2027-01-DISEAS
+ E-08 for innovative antimicrobials against resistant pathogens\; each pro
+ posal targets one of CRAB\, CRE/third-generation cephalosporin-resistant 
+ Enterobacterales\, carbapenem-resistant P. aeruginosa\, MRSA\, drug-resis
+ tant Aspergillus fumigatus or drug-resistant Candida (phage therapies out
+  of scope). EUR 44.2M for about 5 projects of EUR 8-10M. The call opened 
+ on 29 October 2026 and closes on 17 February 2027 at 17:00 Brussels time\
+ , as confirmed by HaDEA's announcement of the published 2027 Health calls
+ .\n\nhttps://ec.europa.eu/info/funding-tenders/opportunities/portal/scree
+ n/opportunities/topic-details/horizon-hlth-2027-01-disease-08
+URL:https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/
+ opportunities/topic-details/horizon-hlth-2027-01-disease-08
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-142-20270217@robheerdink-collab.github.io
+DTSTAMP:20261031T043240Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:Application deadline: HORIZON-HLTH-2027-01-ENVHLTH-02 – Climate-
+ related Exposures in the Human Exposome
+DESCRIPTION:Horizon Europe. Horizon Europe RIA (call HORIZON-HLTH-2027-01\
+ , single stage) on integrating climate-related exposures such as heat\, a
+ ir pollution and drought into large human exposome studies and modelling 
+ how the exposome shifts under climate change. Projects should use AI and 
+ real-world data\, address social and demographic vulnerability\, include 
+ social sciences and humanities\, and share outputs via IHEN platforms and
+  the European Climate and Health Observatory. EUR 45M for about 4 project
+ s of EUR 10-11M. The call opened on 29 October 2026 and closes on 17 Febr
+ uary 2027 at 17:00 Brussels time\, as confirmed by HaDEA's announcement o
+ f the published 2027 Health calls.\n\nhttps://ec.europa.eu/info/funding-t
+ enders/opportunities/portal/screen/opportunities/topic-details/horizon-hl
+ th-2027-01-envhlth-02
+URL:https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/
+ opportunities/topic-details/horizon-hlth-2027-01-envhlth-02
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-143-20270217@robheerdink-collab.github.io
+DTSTAMP:20261031T043240Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:Application deadline: HORIZON-HLTH-2027-01-DISEASE-05/06/07 – An
+ tivirals & Monoclonal Antibodies
+DESCRIPTION:Horizon Europe. Three single-stage RIA topics in call HORIZON-
+ HLTH-2027-01: DISEASE-05 novel small-molecule antivirals for pathogens wi
+ th epidemic potential (EUR 44.2M\, ~5 projects of EUR 9-11M)\, DISEASE-06
+  monoclonal antibodies against flaviviruses and DISEASE-07 monoclonal ant
+ ibodies against filo-\, nairo-\, phenui-\, picorna- and togaviruses (each
+  EUR 37.3M\, ~4 projects of EUR 9-10M). Work runs from discovery to GMP b
+ atches and first-in-human safety studies\; relevant mainly as a partner f
+ or clinical pharmacology and safety work packages. The call opened on 29 
+ October 2026 and closes on 17 February 2027 at 17:00 Brussels time\, as c
+ onfirmed by HaDEA's announcement of the published 2027 Health calls.\n\nh
+ ttps://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/oppo
+ rtunities/topic-details/horizon-hlth-2027-01-disease-05
+URL:https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/
+ opportunities/topic-details/horizon-hlth-2027-01-disease-05
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-250-20270217@robheerdink-collab.github.io
+DTSTAMP:20261031T043240Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:Pre-proposal deadline: HORIZON-HLTH-2027-02-DISEASE-01 – Innovat
+ ive Healthcare Interventions for Non-Communicable Diseases (two-stage)
+DESCRIPTION:Horizon Europe. Research and Innovation Action (HORIZON-HLTH-2
+ 027-02-DISEASE-01-two-stage) funding early-stage (phase 1/2 for drugs) cl
+ inical trials of new or refined pharmacological or non-pharmacological in
+ terventions for cardiovascular disease\, diabetes\, chronic respiratory d
+ isease or chronic kidney disease. Applicants need prior proof-of-concept 
+ and a draft protocol\, plus a health-economic assessment and real-world d
+ ata analysis\; comparative-effectiveness studies are out of scope. EUR 63
+ .8M in total\, about EUR 7-8M per project. The call opened on 29 October 
+ 2026\; the first-stage deadline is 17 February 2027 (17:00 Brussels) and 
+ the second-stage deadline 16 September 2027\, as confirmed by HaDEA.\n\nh
+ ttps://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/oppo
+ rtunities/topic-details/HORIZON-HLTH-2027-02-DISEASE-01-two-stage
+URL:https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/
+ opportunities/topic-details/HORIZON-HLTH-2027-02-DISEASE-01-two-stage
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-251-20270217@robheerdink-collab.github.io
+DTSTAMP:20261031T043240Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:Full proposal deadline: HORIZON-HLTH-2027-01-DISEASE-10 – Chroni
+ c NCDs in Children and Young People (GACD implementation research)
+DESCRIPTION:Horizon Europe. Implementation research (HORIZON-HLTH-2027-01-
+ DISEASE-10\, GACD) on preventing\, screening\, diagnosing and managing ch
+ ronic non-communicable diseases in people aged 1-24 in low- and middle-in
+ come countries and/or underserved high-income populations. Projects must 
+ use hybrid effectiveness-implementation designs and equitable HIC-LMIC le
+ adership\; pharmacological trials and aetiological cohorts are excluded. 
+ Expected EU contribution is EUR 3-4M per project (about 3 projects). The 
+ call opened on 29 October 2026 and closes on 17 February 2027 at 17:00 Br
+ ussels time\, as confirmed by HaDEA's announcement of the published 2027 
+ Health calls.\n\nhttps://ec.europa.eu/info/funding-tenders/opportunities/
+ portal/screen/opportunities/topic-details/HORIZON-HLTH-2027-01-DISEASE-10
+URL:https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/
+ opportunities/topic-details/HORIZON-HLTH-2027-01-DISEASE-10
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-252-20270217@robheerdink-collab.github.io
+DTSTAMP:20261031T043240Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:Pre-proposal deadline: HORIZON-HLTH-2027-02-DISEASE-14 – Clinica
+ l Trials for Neurodegenerative Diseases (two-stage)
+DESCRIPTION:Horizon Europe. Research and Innovation Action (HORIZON-HLTH-2
+ 027-02-DISEASE-14-two-stage) for clinical trials that advance innovative 
+ interventions for neurodegenerative diseases. Expected EU contribution is
+  around EUR 10M per project (about 4 projects)\; check the topic page for
+  the detailed scope. The call opened on 29 October 2026\; the first-stage
+  deadline is 17 February 2027 (17:00 Brussels) and the second-stage deadl
+ ine 16 September 2027\, as confirmed by HaDEA.\n\nhttps://ec.europa.eu/in
+ fo/funding-tenders/opportunities/portal/screen/opportunities/topic-detail
+ s/HORIZON-HLTH-2027-02-DISEASE-14-two-stage
+URL:https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/
+ opportunities/topic-details/HORIZON-HLTH-2027-02-DISEASE-14-two-stage
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-206-20270309@robheerdink-collab.github.io
+DTSTAMP:20261031T043240Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:Pre-proposal deadline: Vici – Science Domain 2027
+DESCRIPTION:NWO. NWO Talent Programme grant of up to EUR 1.5M for senior r
+ esearchers (PhD within 15 years of the benchmark date) to build a researc
+ h group. NWO has posted the Vici Science (ENW) 2027 call as 'in preparati
+ on': pre-proposals are due 9 March 2027\, 14:00\, and full proposals 7 Se
+ ptember 2027\, 14:00. The call text is not yet approved\, so details may 
+ still change.\n\nhttps://www.nwo.nl/en/calls/nwo-talentprogramma-vici-enw
+ -2027
+URL:https://www.nwo.nl/en/calls/nwo-talentprogramma-vici-enw-2027
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:funding-watch-225-20270310@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
 SUMMARY:Next cut-off deadline: ERC Proof of Concept 2027 (cut-offs Mar & S
@@ -767,7 +947,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-248-20270330@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270330
 DTEND;VALUE=DATE:20270331
 SUMMARY:Application deadline: NAM Collaboration Grant 2026 (animal-free me
@@ -784,7 +964,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-296-20270331@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Application deadline: BPS Dunlop Prize 2027 (clinical pharmacology
@@ -805,7 +985,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-101-20270511@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270511
 DTEND;VALUE=DATE:20270512
 SUMMARY:Application deadline: ERC Synergy Grant 2027
@@ -822,7 +1002,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-292-20270513@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270513
 DTEND;VALUE=DATE:20270514
 SUMMARY:Application deadline: Zorgevaluatie en Gepast Gebruik (ZE&GG) – 
@@ -841,7 +1021,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-196-20270826@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270826
 DTEND;VALUE=DATE:20270827
 SUMMARY:Application deadline: ERC Advanced Grant 2027
@@ -857,7 +1037,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-226-20270901@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270901
 DTEND;VALUE=DATE:20270902
 SUMMARY:Application deadline: ERC Plus Grant 2027
@@ -872,7 +1052,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-253-20270916@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270916
 DTEND;VALUE=DATE:20270917
 SUMMARY:Full proposal deadline: HORIZON-HLTH-2027-03-TOOL-04 – Virtual H
@@ -891,7 +1071,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-254-20270916@robheerdink-collab.github.io
-DTSTAMP:20261024T033602Z
+DTSTAMP:20261031T043240Z
 DTSTART;VALUE=DATE:20270916
 DTEND;VALUE=DATE:20270917
 SUMMARY:Full proposal deadline: HORIZON-HLTH-2027-03-TOOL-08 – Next Gene
