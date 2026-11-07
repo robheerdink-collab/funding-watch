@@ -39,6 +39,267 @@
    "lastVerified": "2026-10-09"
   },
   {
+   "id": 260,
+   "name": "Dynamics of Youth – Early Childhood Community Grants (Nov 2026 round)",
+   "funder": "Utrecht University – Dynamics of Youth",
+   "scope": "Local",
+   "funderType": "University (internal)",
+   "type": "Project grant",
+   "careerStages": [
+    "Master",
+    "PhD",
+    "Postdoc",
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Open (any discipline)",
+    "Implementation & health services"
+   ],
+   "diseaseAreas": [],
+   "summary": "UU Dynamics of Youth Early Childhood community grants: tiers of max €20,000 (one-time, societal-impact projects), €10,000 (one-time), €5,000 and €2,000. Open to UU/UMC Utrecht bachelor, master and PhD students and staff; initiative must fit the community's aims; PI/supervisor permission needed. Early-career researchers explicitly encouraged.",
+   "budget": {
+    "min": 2000,
+    "max": 20000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-11-05",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Periodic",
+   "url": "https://www.uu.nl/en/research/dynamics-of-youth/research/thematic-communities/early-childhood/funding-opportunities",
+   "added": "2026-10-10",
+   "lastVerified": "2026-10-24"
+  },
+  {
+   "id": 220,
+   "name": "Vidi – ZonMw Health Research and Medical Sciences Domain 2026",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Mid career"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Drug safety & pharmacovigilance",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "2026 Vidi round for the ZonMw Health Research and Medical Sciences domain, aimed at researchers moving into a leadership role who obtained their PhD within eight years of 1 October 2026. Up to €850,000 for a project of up to five years. Two-stage: pre-proposals due 3 November 2026 (14:00 CET); invited applicants submit full proposals by 6 April 2027 (14:00 CEST). Applications go through Mijn ZonMw and need a dean-signed embedding guarantee.",
+   "budget": {
+    "min": null,
+    "max": 850000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-11-03",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-vidi-health-research-and-medical-sciences-zonmw-2026",
+   "added": "2026-10-09",
+   "lastVerified": "2026-10-24"
+  },
+  {
+   "id": 98,
+   "name": "International Joint Initiative 2026 – Disruptive Technologies for Global Challenges",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Data science & AI",
+    "Global health",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "International call (NWO with NFRF and other funders) for interdisciplinary consortia of at least three PIs funded by different participating agencies, using disruptive technologies to address the SDGs. NWO funding is limited to projects on SDG 2, 6, 7 or 11 and is max EUR 760,000 per project; the NWO budget was raised to EUR 6.84M in August 2026. LOIs were due 9 June 2026; only invited applicants can now submit full proposals by 3 November 2026 (NFRF portal), with NWO's ISAAC part due 4 November 2026, 14:00 CET.",
+   "budget": {
+    "min": 200000,
+    "max": 760000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-11-03",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "International consortium required (min. 2 countries from participating funders: NWO, NFRF-Canada, NordForsk, Research Ireland, UKRI, etc.)",
+   "recurrence": "Periodic",
+   "url": "https://www.nwo.nl/en/calls/2026-international-joint-initiative-for-research-harnessing-disruptive-technologies-to-address-global-challenges",
+   "added": "2026-04-02",
+   "lastVerified": "2026-10-24"
+  },
+  {
+   "id": 97,
+   "name": "Scientific Meetings and Consultations 2026",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Travel / mobility",
+   "careerStages": [
+    "PhD",
+    "Postdoc",
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "NWO grant for hosting a scientific meeting (up to EUR 15,000, max EUR 60 per participant, with a matching contribution of at least EUR 25 cash per participant) or a consultation (up to EUR 2,400). The 2026 call has fixed submission dates (14:00 CE(S)T) through 3 November 2026; an application may be submitted no earlier than six months before the event, and the instrument closes early if the budget (raised to EUR 760,000 on 29 Sep 2026) runs out. Open to professors, comparable researchers, postdocs and PhD candidates at Dutch universities/UMCs and recognised institutes. The topic must overlap with an NWO Science domain (e.g. life sciences, chemistry, computer science) and may not be primarily patient-focused implementation, diagnostics or health interventions, so frame pharmacoepi meetings around methods or data science.",
+   "budget": {
+    "min": 1000,
+    "max": 15000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-11-03",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Next cut-off",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/scientific-meetings-and-consultations-2026",
+   "added": "2026-04-02",
+   "lastVerified": "2026-10-24"
+  },
+  {
+   "id": 10,
+   "name": "Exploration Call 2027-1",
+   "funder": "KWF (Dutch Cancer Society)",
+   "scope": "National",
+   "funderType": "Charity / foundation",
+   "type": "Project grant",
+   "careerStages": [
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Drug safety & pharmacovigilance",
+    "Pharmacoepidemiology & real-world evidence"
+   ],
+   "diseaseAreas": [
+    "Oncology"
+   ],
+   "summary": "KWF project call for basic and credentialing research into the biological and psychosocial mechanisms behind cancer onset, growth, spread and impact; relevant for mechanistic work on anticancer drugs. Call 2027-1 accepts pre-proposals from 1 September to 3 November 2026 (12:00); invited full proposals run 15 February to 13 April 2027, with interviews in June and decisions in August 2027. KWF describes this as its last project-based basic-research call before switching to research group funding from 2028.",
+   "budget": {
+    "min": null,
+    "max": null,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": "2026-09-01",
+   "deadline": "2026-11-03",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Several rounds per year",
+   "url": "https://www.kwf.nl/en/forresearchers/funding/exploration",
+   "added": "2026-01-01",
+   "lastVerified": "2026-10-24"
+  },
+  {
+   "id": 5,
+   "name": "Vidi – Science Domain 2026",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Personal fellowship",
+   "careerStages": [
+    "Mid career"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Clinical pharmacology & therapeutics",
+    "Open (any discipline)"
+   ],
+   "diseaseAreas": [],
+   "summary": "NWO Vidi for researchers moving into leadership who obtained their PhD within eight years before 1 October 2026 (extensions possible). Up to EUR 850,000 for up to five years to build a research line and group; requires an embedding guarantee from a Dutch host institution. Science-domain pre-proposals are due 3 November 2026, 14:00 CET; invited full proposals are due 6 April 2027, 14:00 CEST.",
+   "budget": {
+    "min": 850000,
+    "max": 850000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-11-03",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Pre-proposal",
+   "phases": "2-phase",
+   "partnersRequired": false,
+   "partnersNote": "",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/nwo-talent-programme-vidi-science-2026",
+   "added": "2026-01-01",
+   "lastVerified": "2026-10-31"
+  },
+  {
+   "id": 201,
+   "name": "Sustainability Education Community Fund (UU)",
+   "funder": "Utrecht University – Pathways to Sustainability",
+   "scope": "Local",
+   "funderType": "University (internal)",
+   "type": "Project grant",
+   "careerStages": [
+    "Master",
+    "PhD",
+    "Postdoc",
+    "Early career",
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Sustainable pharmacy & planetary health",
+    "Education & training"
+   ],
+   "diseaseAreas": [],
+   "summary": "Small grants for bottom-up sustainability-education initiatives at UU such as workshops, seminars and pilots; covers assistance and material costs (incl. travel and events), not teaching-hour reductions. €12,500 available in this round; decisions 6–8 weeks after the deadline.",
+   "budget": {
+    "min": null,
+    "max": 12500,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-11-01",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Application",
+   "phases": "1-phase",
+   "partnersRequired": false,
+   "partnersNote": "Main applicant must be a UU employee or student",
+   "recurrence": "Periodic",
+   "url": "https://www.uu.nl/en/research/sustainability/sustainability-education-and-engagement/funding",
+   "added": "2026-10-09",
+   "lastVerified": "2026-10-31"
+  },
+  {
    "id": 151,
    "name": "PhRMA Foundation – Value Assessment & Health Outcomes Research Pre- & Postdoctoral Fellowships 2027",
    "funder": "PhRMA Foundation",
