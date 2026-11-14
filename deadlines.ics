@@ -6,25 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Funding Watch deadlines
 X-WR-TIMEZONE:Europe/Amsterdam
 BEGIN:VEVENT
-UID:funding-watch-7-20261112@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
-DTSTART;VALUE=DATE:20261112
-DTEND;VALUE=DATE:20261113
-SUMMARY:Full proposal deadline: KIC Demand-driven Research by Consortia 
- – XL
-DESCRIPTION:NWO. NWO KIC call for large public-private consortia tackling 
- societal challenges\, with NWO funding EUR 1.4M-7M per proposal (up to 70
- % of costs) for up to six years and a EUR 14M call ceiling. At least 30% 
- co-funding is required\, part of it private cash. The mandatory pre-propo
- sal deadline was 10 March 2026\; full proposals are due 12 November 2026\
- , 14:00 CET (only for those who submitted a pre-proposal).\n\nhttps://www
- .nwo.nl/en/calls/kic-demand-driven-research-by-consortia-xl
-URL:https://www.nwo.nl/en/calls/kic-demand-driven-research-by-consortia-xl
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:funding-watch-272-20261117@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:Pre-proposal deadline: NWO SSH Open Competition – Expand 2026
@@ -41,7 +24,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-186-20261120@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Full proposal deadline: SME Call 2027 (MKB Call)
@@ -58,7 +41,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-176-20261123@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Expression of interest deadline: CARB-X 2026 Funding Round 2 – A
@@ -77,8 +60,29 @@ URL:https://carb-x.org/apply/application-process/
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:funding-watch-332-20261123@robheerdink-collab.github.io
+DTSTAMP:20261114T043746Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Pre-proposal deadline: PharmaNL Shared Development Infrastructure 
+ 2026
+DESCRIPTION:ZonMw / PharmaNL. ZonMw/PharmaNL round funding the set-up or u
+ pgrade of shared infrastructure for developing\, scaling up and producing
+  (innovative) medicines in the Netherlands\, in line with PharmaNL's May 
+ 2026 SDI investment agenda. Dutch companies and knowledge institutions ca
+ n request up to EUR 5M (round budget EUR 23.3M) with 50% co-financing\; a
+ t least half of the capacity must be opened to start-ups\, scale-ups and 
+ academic groups at market prices. Project ideas are due 23 Nov 2026 (14:0
+ 0)\; invited full applications by 20 Apr 2027. Since a 10 Nov 2026 rectif
+ ication\, projects may run until end of June 2031.\n\nhttps://www.zonmw.n
+ l/nl/subsidie/pharmanl-shared-development-infrastructure-2026
+URL:https://www.zonmw.nl/nl/subsidie/pharmanl-shared-development-infrastru
+ cture-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:funding-watch-38-20261124@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Application deadline: MSCA Doctoral Networks 2026
@@ -96,7 +100,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-200-20261127@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Application deadline: Utrechts Universiteitsfonds – Funding for 
@@ -113,7 +117,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-242-20261127@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Application deadline: Utrechts Universiteitsfonds – Student supp
@@ -132,7 +136,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-264-20261127@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Application deadline: ROSANNA Fund for Women – 2026 application 
@@ -150,7 +154,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-266-20261130@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Application deadline: Alzheimer Nederland Impuls Grant 2026 – Ro
@@ -172,7 +176,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-284-20261130@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:Application deadline: EAHP–EPSA Student Science Award 2027 (31st
@@ -193,7 +197,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-247-20261201@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Application deadline: Rubicon 2026-3 (postdoc research abroad)
@@ -209,7 +213,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-281-20261201@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Application deadline: Fulbright Grants for Dutch PhD Candidates 20
@@ -228,7 +232,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-282-20261201@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Application deadline: Fulbright Grants for Dutch Scholars 2027-202
@@ -244,7 +248,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-307-20261201@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Pre-proposal deadline: Klinische Fellows 2026
@@ -262,7 +266,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-280-20261204@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Application deadline: HTAi 2027 Annual Meeting (Brussels) – Part
@@ -282,7 +286,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-246-20261207@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Pre-proposal deadline: GGG – Alledaagse Aandoeningen in de huisa
@@ -302,8 +306,27 @@ URL:https://www.zonmw.nl/nl/subsidie/alledaagse-aandoeningen-de-huisartsen
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:funding-watch-333-20261207@robheerdink-collab.github.io
+DTSTAMP:20261114T043746Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Next cut-off deadline: Scientific Meetings and Consultations 2026 
+ – 7 December 2026 cut-off
+DESCRIPTION:NWO. NWO grant for organising a scientific meeting or consulta
+ tion in the Netherlands. The NWO calls list (checked 14 Nov 2026) shows t
+ he 2026 call as continuous with an upcoming submission date of 7 Dec 2026
+ \, 14:00. Earlier rounds allowed up to EUR 15\,000 per meeting (consultat
+ ions up to EUR 2\,400). The topic must fit an NWO Science domain\, so fra
+ me pharmacoepi meetings around methods or data science. The instrument cl
+ oses early if its budget runs out. Check the call page for the current co
+ nditions.\n\nhttps://www.nwo.nl/en/calls/scientific-meetings-and-consulta
+ tions-2026
+URL:https://www.nwo.nl/en/calls/scientific-meetings-and-consultations-2026
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:funding-watch-327-20261210@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Application deadline: Venture Challenge Spring 2027 (life sciences
@@ -321,7 +344,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-323-20261211@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Application deadline: Passende Zorg – Doorbreken van systeembele
@@ -340,7 +363,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-308-20261215@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Nomination deadline: ISPOR Bernie J. O'Brien New Investigator Awar
@@ -361,7 +384,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-309-20261215@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Nomination deadline: ISPOR HEOR Excellence Award – Application 2
@@ -383,7 +406,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-314-20261215@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Nomination deadline: ISPOR HEOR Excellence Award – Methodology 2
@@ -407,7 +430,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-315-20261215@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:Nomination deadline: ISPOR Impact Award 2027
@@ -428,7 +451,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-197-20261222@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Full proposal deadline: Geneesmiddelen VIMP 2026-1 (Dissemination 
@@ -447,7 +470,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-299-20261224@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Pre-proposal deadline: USO Education Innovation 2027 (Utrechts Sti
@@ -469,7 +492,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-154-20270101@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270101
 DTEND;VALUE=DATE:20270102
 SUMMARY:Next cut-off deadline: KNMP Stipendiafonds (international study tr
@@ -488,7 +511,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-182-20270111@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270111
 DTEND;VALUE=DATE:20270112
 SUMMARY:Pre-proposal deadline: Kolff+ Programme 2027 – Call 2
@@ -508,7 +531,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-77-20270112@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Application deadline: ERC Consolidator Grant 2027
@@ -522,7 +545,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-231-20270114@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Pre-proposal deadline: ERA4Health IICS4all 2027 (JTC9) – Investi
@@ -545,8 +568,26 @@ URL:https://era4health.eu/calls/iics4all2027.php
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:funding-watch-162-20270115@robheerdink-collab.github.io
+DTSTAMP:20261114T043746Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Application deadline: KHMW Proefschriftprijs Interdisciplinariteit
+  2027
+DESCRIPTION:KHMW. KHMW prize of €10\,000 for one strongly interdisciplin
+ ary PhD thesis bridging the natural\, social and humanities sciences\, re
+ searched at a Dutch institution. The 2027 edition is for PhDs awarded bet
+ ween 1 September 2025 and 31 August 2026. Nominations come from at least 
+ two professors at Dutch universities or other experts and are submitted w
+ ith a CV\, a publication list and the thesis. Registration opens in Novem
+ ber 2026 and the deadline is 15 January 2027.\n\nhttps://khmw.nl/khmw-pro
+ efschriftprijs-interdisciplinariteit/
+URL:https://khmw.nl/khmw-proefschriftprijs-interdisciplinariteit/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:funding-watch-275-20270115@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:Nomination deadline: KNAW Faces of Science 2027 (PhD candidates\, 
@@ -564,8 +605,28 @@ URL:https://www.knaw.nl/en/science-funds/faces-science
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:funding-watch-124-20270118@robheerdink-collab.github.io
+DTSTAMP:20261114T043746Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:Pre-proposal deadline: Longfonds Consortium Grant 2027
+DESCRIPTION:Longfonds. Longfonds funds research consortia working on the p
+ revention\, treatment and cure of chronic lung diseases\, from fundamenta
+ l and (pre)clinical research to public health and prevention. The 2027 ca
+ ll opens on 23 November 2026 and offers two grants of up to EUR 700\,000 
+ each\; the pre-application deadline is 18 January 2027\, 12:00 CET\, and 
+ the full-proposal date is not yet published (2026 round: full proposals 1
+ 8 May). Patients must be involved from the start of proposal writing. Rel
+ evant for consortia on respiratory drug safety\, inhaler adherence and CO
+ PD/asthma pharmacotherapy.\n\nhttps://research.longfonds.nl/grants-and-ot
+ her-support/consortium-grants
+URL:https://research.longfonds.nl/grants-and-other-support/consortium-gran
+ ts
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:funding-watch-211-20270119@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Application deadline: SSH Open Competition Explore 2027 – Round 
@@ -585,7 +646,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-311-20270119@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Pre-proposal deadline: ERA4Health NanoDiagNCD 2027 – Nano and Ad
@@ -609,7 +670,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-322-20270119@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:Pre-proposal deadline: Passende Zorg – Research initiated ronde 
@@ -630,7 +691,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-232-20270120@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:Pre-proposal deadline: EP PerMed Joint Transnational Call 2027 –
@@ -649,7 +710,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-256-20270121@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Pre-proposal deadline: THCS Joint Transnational Call 2027 – Tran
@@ -671,7 +732,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-283-20270121@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
 SUMMARY:Application deadline: Fulbright Grants for Dutch Graduate Students
@@ -687,7 +748,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-136-20270125@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270125
 DTEND;VALUE=DATE:20270126
 SUMMARY:Application deadline: NNF Start Package Grants for Faculty Recruit
@@ -708,7 +769,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-183-20270126@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:Full proposal deadline: Veni – ZonMw Health Research Domain 2026
@@ -727,7 +788,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-258-20270128@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
 SUMMARY:Next cut-off deadline: ERDERA Networking Support Scheme (rare dise
@@ -749,7 +810,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-190-20270201@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Application deadline: KNAW Early Career Partnerships 2026
@@ -765,7 +826,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-195-20270201@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Pre-proposal deadline: EUP OHAMR Joint Transnational Call 2027 –
@@ -786,7 +847,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-328-20270201@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:Application deadline: EFSD and Novo Nordisk A/S Programme for Diab
@@ -808,7 +869,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-329-20270215@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 SUMMARY:Application deadline: EFSD and Lilly Young Investigator Research A
@@ -830,7 +891,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-22-20270217@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Application deadline: HORIZON-HLTH-2027 Adverse Drug Reactions –
@@ -853,7 +914,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-46-20270217@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Pre-proposal deadline: HORIZON-HLTH-2027-02-TOOL-01-two-stage – 
@@ -874,7 +935,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-132-20270217@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Application deadline: HORIZON-HLTH-2027-01-DISEASE-08 – New Anti
@@ -895,7 +956,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-142-20270217@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Application deadline: HORIZON-HLTH-2027-01-ENVHLTH-02 – Climate-
@@ -918,7 +979,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-143-20270217@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Application deadline: HORIZON-HLTH-2027-01-DISEASE-05/06/07 – An
@@ -941,7 +1002,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-250-20270217@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Pre-proposal deadline: HORIZON-HLTH-2027-02-DISEASE-01 – Innovat
@@ -964,7 +1025,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-251-20270217@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Full proposal deadline: HORIZON-HLTH-2027-01-DISEASE-10 – Chroni
@@ -986,7 +1047,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-252-20270217@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:Pre-proposal deadline: HORIZON-HLTH-2027-02-DISEASE-14 – Clinica
@@ -1006,7 +1067,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-244-20270301@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Application deadline: VSBfonds Beurs 2027 (study/research abroad a
@@ -1025,7 +1086,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-320-20270301@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:Next cut-off deadline: Dynamics of Youth Invigoration Grants & Ope
@@ -1046,7 +1107,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-206-20270309@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 SUMMARY:Pre-proposal deadline: Vici – Science Domain 2027
@@ -1062,7 +1123,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-225-20270310@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270311
 SUMMARY:Next cut-off deadline: ERC Proof of Concept 2027 (cut-offs Mar & S
@@ -1077,8 +1138,28 @@ URL:https://erc.europa.eu/apply-grant/proof-concept
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:funding-watch-343-20270324@robheerdink-collab.github.io
+DTSTAMP:20261114T043746Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:Application deadline: PhD Studentship Scheme 2027
+DESCRIPTION:Pharmacy Research UK. Pharmacy Research UK funds a full- or pa
+ rt-time PhD of up to GBP 100\,000 (stipend\, research costs and fees) for
+  UK-registered pharmacists and pharmacy technicians\; pre-registration tr
+ ainees may apply if registered before the award starts. Projects must be 
+ about pharmacy practice\; lab-based research is not funded\, and part-fun
+ ding from another institution is welcome. The 2027 round opens 16 Novembe
+ r 2026 and closes 24 March 2027 (13:00 UK time)\; interviews 7 July 2027\
+ , final outcome 30 July 2027. Relevant to the division mainly as a UK par
+ tner or co-supervisor.\n\nhttps://pharmacyresearchuk.org/for-researchers/
+ personal-awards-2/personal-research-awards/
+URL:https://pharmacyresearchuk.org/for-researchers/personal-awards-2/perso
+ nal-research-awards/
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:funding-watch-248-20270330@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270330
 DTEND;VALUE=DATE:20270331
 SUMMARY:Application deadline: NAM Collaboration Grant 2026 (animal-free me
@@ -1095,7 +1176,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-324-20270330@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270330
 DTEND;VALUE=DATE:20270331
 SUMMARY:Full proposal deadline: Gravitation 2027 – Frontier Research for
@@ -1114,7 +1195,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-296-20270331@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270331
 DTEND;VALUE=DATE:20270401
 SUMMARY:Application deadline: BPS Dunlop Prize 2027 (clinical pharmacology
@@ -1134,8 +1215,25 @@ URL:https://www.bps.ac.uk/membership-community/prizes-awards-grants-bursar
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:funding-watch-113-20270405@robheerdink-collab.github.io
+DTSTAMP:20261114T043746Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:Pre-proposal deadline: Longfonds Junior Investigator Grant 2027
+DESCRIPTION:Longfonds. Longfonds Junior Investigator Grants support resear
+ chers within five years of their PhD with up to EUR 250\,000 over three y
+ ears (2026 amounts\; 2027 amounts not yet re-confirmed). Two-stage proced
+ ure with a pre-application and then a full proposal\; patient involvement
+  is required. The Longfonds grants overview lists the 2027 round as openi
+ ng 8 January 2027 with a pre-application deadline of 5 April 2027\; the f
+ ull-proposal date is not yet published.\n\nhttps://research.longfonds.nl/
+ subsidies/jong-talent
+URL:https://research.longfonds.nl/subsidies/jong-talent
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:funding-watch-101-20270511@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270511
 DTEND;VALUE=DATE:20270512
 SUMMARY:Application deadline: ERC Synergy Grant 2027
@@ -1152,7 +1250,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-292-20270513@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270513
 DTEND;VALUE=DATE:20270514
 SUMMARY:Application deadline: Zorgevaluatie en Gepast Gebruik (ZE&GG) – 
@@ -1170,8 +1268,45 @@ URL:https://www.zonmw.nl/nl/subsidie/zorgevaluatie-en-gepast-gebruik-impac
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:funding-watch-216-20270701@robheerdink-collab.github.io
+DTSTAMP:20261114T043746Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:Application deadline: Longfonds-Swierenga Grant 2027 – Rare Lung
+  Disease Research
+DESCRIPTION:Longfonds. Up to EUR 50\,000 for a one-year project by an earl
+ y-career researcher (PhD or confirmed defence date\; also clinicians\, re
+ sidents or nurses with a research track record) at a Dutch university\, U
+ MC\, KNAW/NKI institute or hospital\, on rare pulmonary diseases only (as
+ thma\, COPD and lung cancer excluded). The grant is offered annually 2025
+ -2029 and each applicant can receive it only once. According to the Longf
+ onds grants overview the 2027 call opens 8 April 2027 with an application
+  deadline of 1 July 2027\, 12:00 CET.\n\nhttps://research.longfonds.nl/gr
+ ants-and-other-support/longfonds-swierenga-grant
+URL:https://research.longfonds.nl/grants-and-other-support/longfonds-swier
+ enga-grant
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-337-20270730@robheerdink-collab.github.io
+DTSTAMP:20261114T043746Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270731
+SUMMARY:Application deadline: Longfonds-ERS Fellowship Grant 2027
+DESCRIPTION:Longfonds. A new fellowship from Longfonds and the European Re
+ spiratory Society\, announced on the Longfonds grants overview as an inte
+ rnational 2027 call with one grant. The call opens 30 May 2027 and applic
+ ations are due 30 Jul 2027 (12:00 CET). The amount\, eligibility and scop
+ e are not yet published\; Longfonds says more information follows in Janu
+ ary 2027. Lung-disease research\, including pharmacotherapy or drug-utili
+ sation questions in asthma or COPD\, could fit\, depending on the final c
+ onditions.\n\nhttps://research.longfonds.nl/grants-and-other-support
+URL:https://research.longfonds.nl/grants-and-other-support
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:funding-watch-196-20270826@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270826
 DTEND;VALUE=DATE:20270827
 SUMMARY:Application deadline: ERC Advanced Grant 2027
@@ -1187,7 +1322,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-226-20270901@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270901
 DTEND;VALUE=DATE:20270902
 SUMMARY:Application deadline: ERC Plus Grant 2027
@@ -1202,7 +1337,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-253-20270916@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270916
 DTEND;VALUE=DATE:20270917
 SUMMARY:Full proposal deadline: HORIZON-HLTH-2027-03-TOOL-04 – Virtual H
@@ -1221,7 +1356,7 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:funding-watch-254-20270916@robheerdink-collab.github.io
-DTSTAMP:20261107T044235Z
+DTSTAMP:20261114T043746Z
 DTSTART;VALUE=DATE:20270916
 DTEND;VALUE=DATE:20270917
 SUMMARY:Full proposal deadline: HORIZON-HLTH-2027-03-TOOL-08 – Next Gene
@@ -1235,6 +1370,31 @@ DESCRIPTION:Horizon Europe. Coordination and Support Action (a single proj
  n.pdf
 URL:https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027
  /horizon/wp-call/2026-2027/wp-4-health_horizon-2026-2027_en.pdf
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:funding-watch-339-20270916@robheerdink-collab.github.io
+DTSTAMP:20261114T043746Z
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+SUMMARY:Application deadline: Mission Cancer 2027 – CANCER-03 Phase 1 an
+ d First-in-Human Trials of Biomarker-Guided or Multi-Modal Treatments for
+  Rare Cancers
+DESCRIPTION:Horizon Europe – Mission Cancer. Research and innovation act
+ ion (lump sum) in the Mission Cancer 2027 call (HORIZON-MISS-2027-02) for
+  multi-centre phase 1/first-in-human trials of biomarker-guided medicines
+  or multi-modal treatments for patients with rare or very rare cancers\, 
+ including completing preclinical validation and considering drug repurpos
+ ing\; innovative designs such as basket\, umbrella or adaptive trials are
+  welcome. Proposals must show proof of regulatory advice on the trial des
+ ign\, involve regional/national health authorities and join the Mission's
+  'Diagnosis and treatment' cluster. EUR 7–9M per project (EUR 24M\, ~3 
+ projects). Opens 10 Feb 2027\, deadline 16 Sep 2027 (official Missions wo
+ rk programme\, decision of 29 Sep 2026).\n\nhttps://ec.europa.eu/info/fun
+ ding-tenders/opportunities/portal/screen/opportunities/topic-details/HORI
+ ZON-MISS-2027-02-CANCER-03
+URL:https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/
+ opportunities/topic-details/HORIZON-MISS-2027-02-CANCER-03
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

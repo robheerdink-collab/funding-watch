@@ -39,6 +39,42 @@
    "lastVerified": "2026-10-09"
   },
   {
+   "id": 7,
+   "name": "KIC Demand-driven Research by Consortia – XL",
+   "funder": "NWO",
+   "scope": "National",
+   "funderType": "Public research funder",
+   "type": "Consortium / network",
+   "careerStages": [
+    "Mid career",
+    "Senior/PI"
+   ],
+   "themes": [
+    "Pharmacoepidemiology & real-world evidence",
+    "Pharmaceutical policy & access",
+    "HTA & health economics"
+   ],
+   "diseaseAreas": [],
+   "summary": "NWO KIC call for large public-private consortia tackling societal challenges, with NWO funding EUR 1.4M-7M per proposal (up to 70% of costs) for up to six years and a EUR 14M call ceiling. At least 30% co-funding is required, part of it private cash. The mandatory pre-proposal deadline was 10 March 2026; full proposals are due 12 November 2026, 14:00 CET (only for those who submitted a pre-proposal).",
+   "budget": {
+    "min": 1400000,
+    "max": 7000000,
+    "currency": "EUR"
+   },
+   "status": "Closed",
+   "opens": null,
+   "deadline": "2026-11-12",
+   "deadlineConfirmed": true,
+   "deadlineStage": "Full proposal",
+   "phases": "2-phase",
+   "partnersRequired": true,
+   "partnersNote": "Consortium required: knowledge institutions + societal/industry partners (co-funding needed)",
+   "recurrence": "Annual",
+   "url": "https://www.nwo.nl/en/calls/kic-demand-driven-research-by-consortia-xl",
+   "added": "2025-12-01",
+   "lastVerified": "2026-11-07"
+  },
+  {
    "id": 260,
    "name": "Dynamics of Youth – Early Childhood Community Grants (Nov 2026 round)",
    "funder": "Utrecht University – Dynamics of Youth",
